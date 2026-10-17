@@ -6,7 +6,7 @@ owner: <owner>
 repo: <repo>
 commit: <sha>
 license: <SPDX | desconhecida>
-language: <linguagem principal>
+language: <linguagem principal | desconhecida>
 status: active
 created: YYYY-MM-DD
 ingested: YYYY-MM-DD
@@ -16,41 +16,43 @@ tags: []
 
 # <owner>/<repo>
 
-> Resumo do repositório em uma frase.
+> Resumo do repositório em uma frase, conforme o README.
 
 ## O que é
 
-O que o projeto faz, para quem, e qual problema concreto resolve.
+Problema que o projeto resolve, para quem, e o que o README promete.
 
-## Arquitetura e componentes
+## Como funciona
 
-Visão geral dos módulos principais e como se conectam. Inclua o fluxo de dados quando for central para entender o projeto.
+Mecanismo, fluxo ou arquitetura descritos no README. Se o README não explicar, diga o que falta.
 
-## Principais conceitos
+## Instalação e uso rápido
 
-- [Conceito](../../../concepts/slug.md) — relação com o repositório.
+Pré-requisitos e comandos publicados no README. Aponte para a documentação oficial em vez de reproduzi-la.
 
-## Uso rápido
+## Exemplos de uso
 
-Instalação mínima e exemplo mais curto que demonstra o valor do projeto. Aponte para a documentação oficial em vez de reproduzi-la.
+Exemplos derivados do README — não são instruções oficiais além do que ele publica.
 
 ## Quando usar (e quando não usar)
 
 - **Use quando:** ...
 - **Evite quando:** ... e qual alternativa é melhor.
 
-## Estado do projeto
+## Limitações e cuidados
 
+O que o README não cobre, riscos ou restrições declarados e o que não foi verificado.
+
+## Estado e adoção
+
+- Versão/releases citadas no README:
+- Atividade e popularidade observadas em YYYY-MM-DD:
 - Licença:
-- Atividade: (último commit/release, observado em YYYY-MM-DD)
-- Releases relevantes:
-- Observações da comunidade:
 
 ## Relações
 
-- Depende de:
-- Inspirado por:
-- Usado por:
+- Mantido por:
+- Conceitos:
 - Alternativas:
 
 ## Perguntas abertas
@@ -59,4 +61,4 @@ Instalação mínima e exemplo mais curto que demonstra o valor do projeto. Apon
 
 ## Fontes
 
-- Repositório: https://<host>/<owner>/<repo> (commit `<sha>`, consultado em YYYY-MM-DD).
+- README: <url-do-readme> (commit `<sha>`, consultado em YYYY-MM-DD). Somente o README foi lido; os demais arquivos do repositório não foram consultados.

@@ -35,4 +35,4 @@ A relevância da entidade nesta wiki é, por ora, inseparável do REA; outros pr
 ## Fontes
 
 - GitHub API: `users/morluto` e `repos/morluto/rea`, consultados em 2026-10-17.
-- [morluto/rea](../repos/github.com/morluto/rea.md) — `README.md` (commit `09de00b4108a5d738ebe56903e0110ef63820aca`).
+- [morluto/rea](../repos/github.com/morluto/rea.md) — `README.md` (commit `9e372c6bc914b15e2f778f969da4fd3e11483d78`).
