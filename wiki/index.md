@@ -5,15 +5,17 @@
 
 ## Repositórios
 
-_Nenhum repositório ingerido ainda._
+- [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
 
 ## Conceitos
 
-_Nenhum conceito documentado ainda._
+- [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
+- [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
+- [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
 
 ## Entidades
 
-_Nenhuma entidade documentada ainda._
+- [morluto](entities/morluto.md) — criador do REA e mantenedor de ferramentas de engenharia reversa para agentes.
 
 ## Análises
 
