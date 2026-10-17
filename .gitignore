@@ -1,0 +1,12 @@
+# Clones de repositórios-fonte: imutáveis e reproduzíveis via URL + commit
+raw/repos/*
+!raw/repos/.gitkeep
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Sistema
+.DS_Store
