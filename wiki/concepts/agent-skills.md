@@ -44,6 +44,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 ## Relações
 
 - **Relacionado a:** [Model Context Protocol](../concepts/model-context-protocol.md) — camada complementar: skills empacotam *instruções*, MCP expõe *ferramentas e dados* em runtime.
+- **Distingue-se de:** [CLAUDE.md](../concepts/claude-md.md) — instruções persistentes do projeto, carregadas em toda sessão; skills são acionadas por tarefa e distribuídas como pacote.
 - **Contrasta com:** prompts avulsos copiados entre sessões e plugins específicos de um único cliente.
 - **Pré-requisito para:** usar skills de catálogo com segurança — revisar fonte, licença, conteúdo e permissões antes da instalação.
 

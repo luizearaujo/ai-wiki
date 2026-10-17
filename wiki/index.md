@@ -6,6 +6,7 @@
 ## Repositórios
 
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
+- [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
 
 ## Skills
 
@@ -15,6 +16,7 @@
 
 - [Agent skills](concepts/agent-skills.md) — instruções empacotadas em `SKILL.md`, distribuídas e instaladas como artefatos versionáveis.
 - [Auditoria de UX](concepts/auditoria-de-ux.md) — avaliação estruturada de um produto contra frameworks explícitos, com lacunas e recomendações.
+- [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
 - [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
@@ -23,6 +25,7 @@
 
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.
 - [morluto](entities/morluto.md) — criador do REA e mantenedor de ferramentas de engenharia reversa para agentes.
+- [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
 
 ## Análises
 
