@@ -45,3 +45,9 @@
 - Atualizados `concepts/agent-skills.md`, `index.md`, `log.md` e `overview.md`.
 - Registrado o redirecionamento de `forrestchang/andrej-karpathy-skills` para `multica-ai/andrej-karpathy-skills`; os comandos de instalação do README ainda usam o owner antigo.
 - Não lidos `CLAUDE.md`, `CURSOR.md` e `.cursor/rules/karpathy-guidelines.mdc`; licença MIT declarada no README, mas não detectada pela API do GitHub.
+
+## [2026-10-18] ingest | msitarzewski/agency-agents
+- Criada `repos/github.com/msitarzewski/agency-agents.md` a partir do README no commit `652b2692f8d8ec2b1f1a38e559073e287dfdc469`, sem clonar o repositório.
+- Criada `entities/msitarzewski.md`.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Não lidos os arquivos de agente individuais (150+), scripts ou demais conteúdos; cobertura de agentes e qualidade de cada especialista são a verificar.

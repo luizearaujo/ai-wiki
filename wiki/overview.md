@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-18
 tags: []
 ---
 
@@ -17,6 +17,7 @@ tags: []
 - **Agent skills como formato de distribuição:** instruções especializadas empacotadas em `SKILL.md`, versionadas em repositórios e instaladas por CLI em vários agentes.
 - **Auditoria de UX assistida por agentes:** frameworks de avaliação de produto operacionalizados como instruções reutilizáveis, com métodos e limitações próprios.
 - **Instruções persistentes para agentes:** arquivos como `CLAUDE.md` fixam convenções, comandos e critérios de comportamento entre sessões, em contraste com skills carregadas por tarefa.
+- **Bibliotecas de personalidades de agente:** coleções de arquivos `.md` que definem especialidade, voz, regras críticas, entregáveis e métricas para agentes de IA, instaláveis em vários clientes; o Agency Agents é o maior exemplo documentado na wiki.
 
 ## Mapa por área
 
@@ -26,6 +27,7 @@ tags: []
 | Protocolos para agentes | — | MCP aparece como infraestrutura transversal; primeira página em [Model Context Protocol](concepts/model-context-protocol.md). |
 | Skills para agentes | — | Primeira página em [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md); formato descrito em [Agent skills](concepts/agent-skills.md). |
 | Instruções e diretrizes para agentes | [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) | Quatro princípios de comportamento em um `CLAUDE.md`; distribuição como arquivo ou plugin; variação para Cursor. Formato descrito em [CLAUDE.md](concepts/claude-md.md). |
+| Personalidades de agente por especialidade | [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) | 150+ arquivos `.md`, cada um com identidade, regras críticas, entregáveis e métricas; organizados em 16 divisões (Engenharia, Segurança, Marketing, GIS etc.); instaláveis via app ou script em Claude Code, Cursor, Codex e mais. |
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
 
 ## Tendências e observações
@@ -38,6 +40,7 @@ tags: []
 - **Skills e MCP são camadas complementares:** skills empacotam instruções e métodos; MCP expõe ferramentas e dados em runtime. Um agente pode usar as duas ao mesmo tempo.
 - Catálogos de skills expõem métricas voláteis (instalações, estrelas) e, às vezes, não publicam a versão da skill; a fonte canônica continua sendo o repositório-fonte.
 - A distribuição de skills por CLI cria uma **superfície de supply chain**: instruções de terceiros passam a fazer parte do comportamento do agente. Guardas contra prompt injection dentro de uma skill são um sinal do risco, não uma garantia.
+- O Agency Agents amplia essa superfície: 150+ arquivos de terceiros que moldam o comportamento do agente, instalados por script ou app nativo. Cada arquivo `.md` é uma instrução de sistema com personalidade e regras críticas; sem verificação de integridade documentada, a fonte importa.
 - **Diretrizes e skills ocupam camadas diferentes:** um `CLAUDE.md` fornece contexto persistente do projeto; uma skill é acionada por tarefa. Os formatos podem coexistir, mas custo de contexto e precedência em conflitos ainda não são claros.
 - A transferência de `andrej-karpathy-skills` de `forrestchang` para `multica-ai` ilustra como **links de instalação podem ficar defasados** mesmo quando o host redireciona o caminho antigo.
 
@@ -61,3 +64,4 @@ tags: []
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — https://claudemarketplaces.com/skills/mastepanoski/claude-skills/ux-audit-rethink (consultada em 2026-10-17).
 - https://github.com/mastepanoski/claude-skills — metadados e árvore via API do GitHub em 2026-10-17 (commit `b6457af10e586d394056aae9555e78d74a372225`).
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — README no commit `2c606141936f1eeef17fa3043a72095b4765b9c2`; metadados da API do GitHub observados em 2026-10-17.
+- [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — README no commit `652b2692f8d8ec2b1f1a38e559073e287dfdc469`; metadados da API do GitHub observados em 2026-10-18.
