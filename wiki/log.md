@@ -46,6 +46,12 @@
 - Registrado o redirecionamento de `forrestchang/andrej-karpathy-skills` para `multica-ai/andrej-karpathy-skills`; os comandos de instalação do README ainda usam o owner antigo.
 - Não lidos `CLAUDE.md`, `CURSOR.md` e `.cursor/rules/karpathy-guidelines.mdc`; licença MIT declarada no README, mas não detectada pela API do GitHub.
 
+## [2026-10-18] ingest | DeusData/codebase-memory-mcp
+- Criada `repos/github.com/deusdata/codebase-memory-mcp.md` a partir do README no commit `354ccecbe612a9fdb624396a6738fa87f2617434`, sem clonar o repositório.
+- Criados `concepts/grafo-de-conhecimento-de-codigo.md` e `entities/deusdata.md`.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Não lidos: `docs/`, código-fonte, SECURITY.md, CONFIGURATION.md, manifestos de release. CBM Lens Beta e estado de suporte Windows por cliente são a verificar.
+
 ## [2026-10-18] ingest | msitarzewski/agency-agents
 - Criada `repos/github.com/msitarzewski/agency-agents.md` a partir do README no commit `652b2692f8d8ec2b1f1a38e559073e287dfdc469`, sem clonar o repositório.
 - Criada `entities/msitarzewski.md`.
