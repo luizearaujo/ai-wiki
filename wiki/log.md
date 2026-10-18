@@ -46,6 +46,12 @@
 - Registrado o redirecionamento de `forrestchang/andrej-karpathy-skills` para `multica-ai/andrej-karpathy-skills`; os comandos de instalação do README ainda usam o owner antigo.
 - Não lidos `CLAUDE.md`, `CURSOR.md` e `.cursor/rules/karpathy-guidelines.mdc`; licença MIT declarada no README, mas não detectada pela API do GitHub.
 
+## [2026-10-18] ingest | littledivy/mimic
+- Criada `repos/github.com/littledivy/mimic.md` a partir do README no commit `8cf998ac0b365806d8e522d34107cc504ecaa345`, sem clonar o repositório.
+- Criada `entities/littledivy.md`.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Não lidos: `docs/pinning.md`, `docs/dpop.md` e código-fonte; detalhes de bypass de certificate pinning e restrições DPoP são a verificar.
+
 ## [2026-10-18] ingest | DeusData/codebase-memory-mcp
 - Criada `repos/github.com/deusdata/codebase-memory-mcp.md` a partir do README no commit `354ccecbe612a9fdb624396a6738fa87f2617434`, sem clonar o repositório.
 - Criados `concepts/grafo-de-conhecimento-de-codigo.md` e `entities/deusdata.md`.
