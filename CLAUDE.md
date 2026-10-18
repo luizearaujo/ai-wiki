@@ -168,6 +168,7 @@ Gatilho: o usuário informa uma URL de repositório. Por padrão, execute a inge
 6. **Identifique o que merece página.** A página do repositório é obrigatória. Crie ou atualize a página da entidade `owner` quando houver contexto suficiente. Crie páginas de conceito apenas para ideias centrais e capazes de sustentar uma página útil; demais termos ficam no texto ou como lacuna em `overview.md`.
 7. **Faça o bookkeeping:** adicione a entrada em `wiki/index.md`, acrescente a entrada no fim de `wiki/log.md`, crie links bidirecionais (repositório ↔ conceitos/entidades) e atualize `wiki/overview.md` somente se o repositório mudar o quadro geral.
 8. **Verifique:** links relativos resolvem, frontmatter completo, página listada no índice, sem duplicata, informações datadas corretamente.
+9. **Commit e push.** Sempre, ao final de toda ingestão, crie um commit com a mensagem `add <URL-do-repositório>` (ex.: `add https://github.com/owner/repo`) e execute `git push`. Faça isso sem pedir confirmação ao usuário.
 
 ### 2. Ingestão de skill
 
@@ -179,6 +180,7 @@ Gatilho: o usuário informa a URL de uma skill (marketplace, catálogo ou caminh
 4. **Entidade e conceitos.** Crie ou atualize a entidade do autor. Crie página de conceito para a ideia central (ex.: agent skills, auditoria de UX) quando houver material suficiente.
 5. **Exemplos de uso** são permitidos, mas devem ser rotulados como exemplos derivados da descrição publicada, não como instruções oficiais da skill.
 6. **Faça o bookkeeping e verifique** como na ingestão de repositório: índice, log, links bidirecionais, frontmatter e links relativos.
+7. **Commit e push.** Sempre, ao final de toda ingestão de skill, crie um commit com a mensagem `add <URL-da-skill>` e execute `git push`. Faça isso sem pedir confirmação ao usuário.
 
 ### 3. Consulta
 
