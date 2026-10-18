@@ -69,3 +69,10 @@
 - Criada `entities/msitarzewski.md`.
 - Atualizados `index.md`, `log.md` e `overview.md`.
 - Não lidos os arquivos de agente individuais (150+), scripts ou demais conteúdos; cobertura de agentes e qualidade de cada especialista são a verificar.
+
+## [2026-10-18] ingest | SynkraAI/aiox-core
+- Criada `repos/github.com/synkraai/aiox-core.md` a partir do README no commit `4ef6530ff03b83aea953e4a426f95e012b8b70c5`, sem clonar o repositório.
+- Criada `entities/synkraai.md`.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Divergência de licença: README/badge indica MIT, API do GitHub retornou `other/NOASSERTION`; `docs/legal/license-clarification.md` não foi lido.
+- Não lidos: `docs/`, código-fonte, arquivos de agente em `.aiox-core/agents/`, `CONTRIBUTING.md`, manifestos de squads.

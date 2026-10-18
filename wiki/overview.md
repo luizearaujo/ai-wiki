@@ -2,7 +2,7 @@
 type: overview
 created: 2026-10-17
 updated: 2026-10-18
-tags: []
+tags: [overview]
 ---
 
 # Panorama do ecossistema de IA
@@ -21,6 +21,7 @@ tags: []
 - **Grafo de conhecimento de código como camada de contexto para agentes:** indexar uma base de código em um grafo persistente permite que o agente responda perguntas estruturais (callers, rotas, dependências) em milissegundos e com ~10–120× menos tokens do que lendo arquivos; o CBM é o primeiro servidor MCP desse tipo documentado na wiki.
 - **Geração de cliente a partir de tráfego capturado:** capturar uma sessão HTTP autenticada uma vez e usar Claude para gerar um cliente Python chamável como biblioteca — sem documentação de API nem código HTTP manual.
 - **Issue trackers com agentes como membros de equipe:** plataformas de gerenciamento de projetos onde agentes de IA ocupam slots de assignee, recebem issues e executam tarefas no mesmo board que as pessoas — misturando fluxo humano e agêntico sem ferramentas separadas.
+- **Orquestração ágil multi-agente:** frameworks que instalam uma equipe completa de agentes especializados em um projeto, com roles análogos a Scrum (analyst, pm, architect, sm, dev, qa, devops) e passagem de contexto via artefatos persistentes (PRDs, histórias, specs) em vez de prompts de sessão — resolvendo inconsistência de planejamento e perda de contexto entre sessões.
 
 ## Mapa por área
 
@@ -34,6 +35,7 @@ tags: []
 | Grafo de conhecimento de código | [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) | Servidor MCP local em C puro; indexa 162 linguagens via tree-sitter + Hybrid LSP; 17 ferramentas MCP; SQLite persistente; CBM Lens Beta para visualização; ~120× menos tokens vs arquivo por arquivo (comparação do projeto); suporta 45 clientes. |
 | Geração de cliente a partir de tráfego | [littledivy/mimic](repos/github.com/littledivy/mimic.md) | Captura tráfego iOS/web (mitmproxy, cURL, HAR), extrai auth estável e usa Claude para gerar um cliente Python chamável; certificate pinning e DPoP/sender-constrained tokens são os dois bloqueadores principais. |
 | Issue tracker com agentes como membros | [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) | Alternativa self-hosted ao Linear/Jira (AGPL-3.0); agentes internos (Mastra) ou externos (`@itsaplan/runner` → Claude Code, Codex etc.) trabalham no mesmo Kanban que as pessoas; REST API + MCP + webhooks. |
+| Orquestração ágil multi-agente | [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) | Framework CLI-first com 12 agentes (planejamento + desenvolvimento + meta); fluxo em duas fases: PRD/Arquitetura → histórias hiperdetalhadas → execução com contexto completo; ADE com 7 epics para desenvolvimento autônomo; Squads extensíveis a qualquer domínio. |
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
 
 ## Tendências e observações
@@ -51,6 +53,8 @@ tags: []
 - **Grafo estático ≠ cobertura completa**: um grafo de código responde apenas ao que o parser indexou; chamadas dinâmicas, dispatch por reflexão e código gerado em runtime não aparecem. O README do CBM documenta explicitamente as lacunas de cobertura e disponibiliza um workspace "Coverage" no Lens.
 - **Diretrizes e skills ocupam camadas diferentes:** um `CLAUDE.md` fornece contexto persistente do projeto; uma skill é acionada por tarefa. Os formatos podem coexistir, mas custo de contexto e precedência em conflitos ainda não são claros.
 - A transferência de `andrej-karpathy-skills` de `forrestchang` para `multica-ai` ilustra como **links de instalação podem ficar defasados** mesmo quando o host redireciona o caminho antigo.
+- **Orquestração via artefatos explícitos vs. via memória de sessão:** o AIOX aposta em documentos PRD + arquivos de histórias como unidade de contexto persistente entre sessões; cada agente lê um arquivo, não um histórico de chat. Essa escolha resolve perda de contexto mas exige disciplina de bookkeeping (gerar e manter os artefatos). O ADE (7 epics) é a tentativa de automatizar esse bookkeeping.
+- **Divergência de licença entre API e README** — o AIOX reporta `other/NOASSERTION` na API do GitHub mas MIT no README. Projetos com módulo premium separado (AIOX Pro) podem ter repositório único com dois regimes de licença; a API do GitHub não distingue módulos. Padrão a observar em outros projetos freemium open-source.
 
 ## Lacunas e próximos passos
 
@@ -76,3 +80,4 @@ tags: []
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — README no commit `354ccecbe612a9fdb624396a6738fa87f2617434`; metadados da API do GitHub observados em 2026-10-18.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — README no commit `8cf998ac0b365806d8e522d34107cc504ecaa345`; metadados da API do GitHub observados em 2026-10-18.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — README no commit `a54d8c3c4e88193777de0f75601d403c3b96bc1a`; metadados da API do GitHub observados em 2026-10-18.
+- [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — README no commit `4ef6530ff03b83aea953e4a426f95e012b8b70c5`; metadados da API do GitHub observados em 2026-10-18.
