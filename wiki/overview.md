@@ -20,6 +20,7 @@ tags: []
 - **Bibliotecas de personalidades de agente:** coleções de arquivos `.md` que definem especialidade, voz, regras críticas, entregáveis e métricas para agentes de IA, instaláveis em vários clientes; o Agency Agents é o maior exemplo documentado na wiki.
 - **Grafo de conhecimento de código como camada de contexto para agentes:** indexar uma base de código em um grafo persistente permite que o agente responda perguntas estruturais (callers, rotas, dependências) em milissegundos e com ~10–120× menos tokens do que lendo arquivos; o CBM é o primeiro servidor MCP desse tipo documentado na wiki.
 - **Geração de cliente a partir de tráfego capturado:** capturar uma sessão HTTP autenticada uma vez e usar Claude para gerar um cliente Python chamável como biblioteca — sem documentação de API nem código HTTP manual.
+- **Issue trackers com agentes como membros de equipe:** plataformas de gerenciamento de projetos onde agentes de IA ocupam slots de assignee, recebem issues e executam tarefas no mesmo board que as pessoas — misturando fluxo humano e agêntico sem ferramentas separadas.
 
 ## Mapa por área
 
@@ -32,6 +33,7 @@ tags: []
 | Personalidades de agente por especialidade | [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) | 150+ arquivos `.md`, cada um com identidade, regras críticas, entregáveis e métricas; organizados em 16 divisões (Engenharia, Segurança, Marketing, GIS etc.); instaláveis via app ou script em Claude Code, Cursor, Codex e mais. |
 | Grafo de conhecimento de código | [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) | Servidor MCP local em C puro; indexa 162 linguagens via tree-sitter + Hybrid LSP; 17 ferramentas MCP; SQLite persistente; CBM Lens Beta para visualização; ~120× menos tokens vs arquivo por arquivo (comparação do projeto); suporta 45 clientes. |
 | Geração de cliente a partir de tráfego | [littledivy/mimic](repos/github.com/littledivy/mimic.md) | Captura tráfego iOS/web (mitmproxy, cURL, HAR), extrai auth estável e usa Claude para gerar um cliente Python chamável; certificate pinning e DPoP/sender-constrained tokens são os dois bloqueadores principais. |
+| Issue tracker com agentes como membros | [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) | Alternativa self-hosted ao Linear/Jira (AGPL-3.0); agentes internos (Mastra) ou externos (`@itsaplan/runner` → Claude Code, Codex etc.) trabalham no mesmo Kanban que as pessoas; REST API + MCP + webhooks. |
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
 
 ## Tendências e observações
@@ -73,3 +75,4 @@ tags: []
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — README no commit `652b2692f8d8ec2b1f1a38e559073e287dfdc469`; metadados da API do GitHub observados em 2026-10-18.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — README no commit `354ccecbe612a9fdb624396a6738fa87f2617434`; metadados da API do GitHub observados em 2026-10-18.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — README no commit `8cf998ac0b365806d8e522d34107cc504ecaa345`; metadados da API do GitHub observados em 2026-10-18.
+- [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — README no commit `a54d8c3c4e88193777de0f75601d403c3b96bc1a`; metadados da API do GitHub observados em 2026-10-18.
