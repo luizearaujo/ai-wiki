@@ -330,3 +330,11 @@
 - A descrição da API do GitHub cita Electron + Rust host core + pi Agent Harness; o README confirma o host core em Rust e o runtime `pi`, mas não nomeia o Electron — registrado como observação datada, não como afirmação do README.
 - Licença LGPL-3.0; produto declarado em Early Preview (linha 0.21.x), o que relativiza estabilidade de API de plugins e formato `.piplug`.
 - Métricas da API do GitHub observadas em 2026-10-19: ~7,0 mil estrelas, 677 forks, 211 issues abertas, criado em 2023-03-22 e último push em 2026-10-19; licença LGPL-3.0, linguagem TypeScript, branch padrão `main`.
+
+## [2026-10-19] ingest | karpathy/llm-wiki (gist)
+- Criada `concepts/wiki-pessoal-com-llms.md` a partir do gist `karpathy/llm-wiki` na revisão `ac46de1ad27f92b28ac95459c782c07f6b8c964a`; conteúdo idêntico à cópia local `llm-wiki-md` (MD5 `7953122eebc7aca33db25cd86a89a19a`).
+- Criada `entities/andrej-karpathy.md`.
+- Atualizados `concepts/claude-md.md` (link de volta para o padrão), `categorias.md` (nova categoria "Conhecimento pessoal e curadoria"), `index.md`, `log.md`, `overview.md` e `README.md`; `CLAUDE.md` passou a registrar a URL do gist como fonte da ideia original.
+- Não lidos: revisões anteriores do gist, comentários e eventuais arquivos além de `llm-wiki.md`. Somente o conteúdo publicado na revisão acima foi consultado.
+- O endpoint de gists da API do GitHub retornou HTTP 502 durante a operação; datas de criação (2026-04-04) e última atualização (2026-10-16) foram extraídas da página HTML do gist. Metadados do autor vieram de `api.github.com/users/karpathy`.
+- O gist é um documento de ideia, não um repositório de código; a página foi registrada como conceito, não como repositório.

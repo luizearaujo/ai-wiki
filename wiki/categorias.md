@@ -328,6 +328,16 @@ tags: [navegacao, categorias, indice-tematico]
 - [blader](entities/blader.md)
 - [hardikpandya](entities/hardikpandya.md)
 
+## Conhecimento pessoal e curadoria
+
+> Padrões para acumular fontes e sínteses de forma persistente — wikis mantidas por LLM, indexação, proveniência e manutenção — em contraste com a recuperação de trechos a cada consulta.
+
+**Conceitos**
+- [Wiki pessoal com LLMs](concepts/wiki-pessoal-com-llms.md)
+
+**Entidades**
+- [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md)
+
 ## Navegação e meta
 
 - [index.md](index.md) — catálogo canônico por tipo de página.

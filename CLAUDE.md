@@ -2,7 +2,7 @@
 
 Wiki pessoal de conhecimento sobre IA, construída a partir de repositórios de código e artefatos para agentes, como skills. Este arquivo é o **schema** da wiki: define estrutura, convenções e workflows que devem ser seguidos em toda operação. Leia-o antes de qualquer ingestão, consulta ou manutenção, e evolua-o junto com a wiki.
 
-A ideia original está em [`llm-wiki-md`](llm-wiki-md).
+A ideia original está em [`llm-wiki-md`](llm-wiki-md), cópia do gist [`karpathy/llm-wiki`](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). O padrão está documentado em [`wiki/concepts/wiki-pessoal-com-llms.md`](wiki/concepts/wiki-pessoal-com-llms.md).
 
 ## Princípios
 

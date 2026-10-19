@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de vastsa/PI-Desktop)
+> Última atualização: 2026-10-19 (ingestão do gist karpathy/llm-wiki)
 
 ## Repositórios
 
@@ -94,11 +94,13 @@
 - [Saída completa de agente](concepts/saida-completa-de-agente.md) — entrega integral sem placeholders, com contagem de escopo e pausa explícita no limite de tokens.
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md) — manter a parte densa residente e ler do disco apenas os experts roteados por token, trocando memória por latência.
 - [TDD para agentes](concepts/tdd-para-agentes.md) — red-green-refactor como contrapressão sobre código gerado, com evidência de falha e proibição de ajustar testes.
+- [Wiki pessoal com LLMs](concepts/wiki-pessoal-com-llms.md) — agente mantém uma wiki persistente e interligada entre as fontes brutas e o usuário, compilando conhecimento em vez de recuperar trechos a cada consulta.
 
 ## Entidades
 
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
+- [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md) — autor do gist `llm-wiki`, que descreve o padrão de wiki pessoal mantida por LLM.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.

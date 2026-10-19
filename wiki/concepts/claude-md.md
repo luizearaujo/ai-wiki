@@ -41,7 +41,7 @@ Os detalhes de carregamento — quando o arquivo é lido, quanto contexto consom
 
 ## Relações
 
-- **Relacionado a:** [Agent skills](agent-skills.md) — skills carregam instruções sob demanda por tarefa; um `CLAUDE.md` tende a valer para toda sessão. Os dois formatos podem coexistir. [Agent harness](agent-harness.md) — harnesses costumam usar o `CLAUDE.md` como ponto de entrada para regras e roteamento.
+- **Relacionado a:** [Agent skills](agent-skills.md) — skills carregam instruções sob demanda por tarefa; um `CLAUDE.md` tende a valer para toda sessão. Os dois formatos podem coexistir. [Agent harness](agent-harness.md) — harnesses costumam usar o `CLAUDE.md` como ponto de entrada para regras e roteamento. [Wiki pessoal com LLMs](wiki-pessoal-com-llms.md) — o `CLAUDE.md` é a camada de schema que instrui o agente a manter a wiki.
 - **Contrasta com:** [Model Context Protocol](model-context-protocol.md) — MCP expõe ferramentas e dados em runtime; `CLAUDE.md` fornece apenas instruções.
 - **Pré-requisito para:** comportamento consistente do agente em tarefas recorrentes do projeto, como estilo, testes e comandos de build.
 
