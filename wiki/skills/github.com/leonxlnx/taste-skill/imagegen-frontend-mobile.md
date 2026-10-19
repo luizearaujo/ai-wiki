@@ -8,7 +8,7 @@ source_path: skills/imagegen-frontend-mobile/SKILL.md
 author: leonxlnx
 version: desconhecida
 license: MIT
-status: active (movida)
+status: active
 created: 2026-10-19
 updated: 2026-10-19
 tags: [design-ui, geracao-de-imagem, mobile, frontend, movida, agent-skills]

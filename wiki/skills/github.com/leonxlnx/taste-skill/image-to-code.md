@@ -8,7 +8,7 @@ source_path: skills/image-to-code-skill/SKILL.md
 author: leonxlnx
 version: desconhecida
 license: MIT
-status: active (movida)
+status: active
 created: 2026-10-19
 updated: 2026-10-19
 tags: [design-ui, image-to-code, geracao-de-imagem, frontend, movida, agent-skills]
