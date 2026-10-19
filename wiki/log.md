@@ -516,3 +516,20 @@
 - Atualizados `index.md`, `categorias.md` (categorias "Skills, instruções e personalidades de agente" e "Cibersegurança e operações de segurança"), `overview.md` e `README.md`.
 - Não lidos: as 78 skills, `install.sh`, `CHANGELOG.md`, `CONTRIBUTING.md` e a licença. MIT pela API e pelo badge do README.
 - Biblioteca explicitamente ofensiva (red team, C2, evasão de EDR, phishing); registrada com foco em uso autorizado e sem controles de escopo embutidos.
+
+## [2026-10-19] query | triagem de 9 itens (lote do usuário)
+- Usuário informou 9 itens: `obra/superpowers`, `upstash/context7`, `excalidraw-diagram-skill`, `vercel-labs/agent-browser`, `thedotmack/claude-mem`, `nextlevelbuilder/ui-ux-pro-max-skill`, `heygen-com/hyperframes`, `anthropics/skills skill creator`, `anthropics/skills frontend design`.
+- `nextlevelbuilder/ui-ux-pro-max-skill` e `heygen-com/hyperframes` já estavam na wiki (repositório e, no primeiro caso, também skill) — não reingeridos.
+- `excalidraw-diagram-skill` não tinha owner explícito; resolvido por busca web para `coleam00/excalidraw-diagram-skill`, confirmado via API do GitHub.
+- `anthropics/skills skill creator` e `anthropics/skills frontend design` identificados como skills dentro do repositório já ingerido `anthropics/skills`, nos caminhos `skills/skill-creator` e `skills/frontend-design`; `SKILL.md` cru de cada uma foi lido no commit já registrado `dbd4588f9e1033efb41dad4bef2f7947c8993d44`.
+
+## [2026-10-19] ingest | obra/superpowers, upstash/context7, vercel-labs/agent-browser, thedotmack/claude-mem, coleam00/excalidraw-diagram-skill, anthropics/skills (skill-creator, frontend-design)
+- Criadas `repos/github.com/obra/superpowers.md` (commit `bb92a77741419a4ab5f06e711a283343f1ada0c3`), `repos/github.com/upstash/context7.md` (commit `c7f80ce5af1ff1403d167579b76784482cf7f3e2`), `repos/github.com/vercel-labs/agent-browser.md` (commit `dac13bb87468fe9d74a040d862720f6cc17a9565`) e `repos/github.com/thedotmack/claude-mem.md` (commit `3fae1eb45ba1a7fbd4818527f48b439991a273da`), todas a partir do README, sem clonar os repositórios.
+- Criada `skills/github.com/coleam00/excalidraw-diagram-skill/excalidraw-diagram.md` a partir da página do repositório no GitHub (repositório de skill única, sem página de repositório própria, seguindo o padrão de `cathrynlavery/diagram-design` e `zarazhangrui/frontend-slides`); `SKILL.md` cru não lido.
+- Criadas `skills/github.com/anthropics/skills/skill-creator.md` e `skills/github.com/anthropics/skills/frontend-design.md`, com `SKILL.md` cru lido via raw.githubusercontent no commit já registrado de `anthropics/skills`.
+- Criadas `entities/obra.md` (Jesse Vincent), `entities/upstash.md`, `entities/thedotmack.md` (Alex Newman) e `entities/coleam00.md` (Cole Medin).
+- Atualizadas `entities/vercel-labs.md` (adicionado `agent-browser`) e `entities/anthropics.md` (adicionadas as skills `skill-creator` e `frontend-design`).
+- Atualizados `concepts/tdd-para-agentes.md`, `concepts/navegacao-web-agentica.md`, `concepts/model-context-protocol.md`, `concepts/memoria-de-agente.md`, `concepts/design-taste-para-agentes.md` e `concepts/artefatos-html-autocontidos.md` com links de entrada (sem reescrever o corpo).
+- Atualizados `index.md`, `categorias.md` (repositórios/skills/entidades adicionados a "Harnesses e orquestração de agentes", "Skills, instruções e personalidades de agente", "Design de interface e direção de arte", "Geração de mídia e artefatos HTML", "Engenharia e interfaces agent-first" e "Protocolos, integrações e confiabilidade") e `README.md` (52 repositórios, 31 skills, 33 conceitos, 58 entidades, 0 análises).
+- Não lidos: código-fonte dos quatro repositórios além do README; `SKILL.md` cru de `excalidraw-diagram-skill`; licença exata de `excalidraw-diagram-skill` (não declarada na página consultada).
+- Commit único cobrindo as sete ingestões, por terem sido processadas em lote a partir de um único pedido do usuário.

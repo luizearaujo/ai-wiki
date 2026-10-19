@@ -48,6 +48,7 @@ A escolha estrutural é **o que o agente enxerga**. HTML bruto custa contexto e 
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — agente de navegação web com `undetected_chromedriver` em modo stealth opcional, busca, leitura, extração e preenchimento de formulários (declarado experimental).
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — `StealthyFetcher` automatiza um browser real (Playwright/Chromium ou Chrome) com bypass de Cloudflare Turnstile/Interstitial; a mesma camada alimenta um servidor MCP para agentes.
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — o comando `interact` faz scrape de uma página e abre sessão de browser viva controlada por linguagem natural ou código, sem gestão manual de sessão.
+- [vercel-labs/agent-browser](../repos/github.com/vercel-labs/agent-browser.md) — CLI Rust nativa sobre CDP, sem Node.js/Playwright, com snapshots de acessibilidade como superfície principal de interação e servidor MCP embutido.
 
 ## Trade-offs
 

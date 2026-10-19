@@ -53,6 +53,7 @@ Questões de projeto que aparecem em todos:
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — hive com memória por agente, mailbox atômica, blackboard e log append-only.
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — DeerMem como backend padrão, com fatos em Markdown, índice FTS5/BM25, gate de escopo/durabilidade e backends opcionais (mem0, Honcho, OpenViking).
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — grafo de conhecimento do código como memória consultável, sem vector store.
+- [thedotmack/claude-mem](../repos/github.com/thedotmack/claude-mem.md) — hooks de ciclo de vida capturam observações de sessão, comprimem com IA e as reinjetam via busca híbrida SQLite FTS5 + Chroma em 3 camadas (índice, timeline, detalhe).
 - [skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — grafo persistente por projeto, com fingerprints e atualização incremental.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — memory log sempre ativo em Markdown: cada decisão é liquidada quando o horizonte vence, com retorno realizado, alfa contra benchmark e reflexão consumida pelo gestor de portfólio.
 

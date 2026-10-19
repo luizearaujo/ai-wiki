@@ -25,7 +25,9 @@ tags: [navegacao, categorias, indice-tematico]
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento, sem depender de nuvem.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
+- [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia design → plano → TDD por subagentes → revisão, imposta como skills que disparam automaticamente em mais de uma dezena de harnesses.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
+- [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
 
 **Conceitos**
@@ -33,13 +35,16 @@ tags: [navegacao, categorias, indice-tematico]
 - [Memória de agente](concepts/memoria-de-agente.md)
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md)
 - [Plugins de agente](concepts/plugins-de-agente.md)
+- [TDD para agentes](concepts/tdd-para-agentes.md)
 
 **Entidades**
 - [affaan-m](entities/affaan-m.md)
+- [Alex Newman (thedotmack)](entities/thedotmack.md)
 - [ByteDance](entities/bytedance.md)
 - [Fosowl](entities/fosowl.md)
 - [garrytan](entities/garrytan.md)
 - [HarnessMD](entities/harnessmd.md)
+- [Jesse Vincent (obra)](entities/obra.md)
 - [SynkraAI](entities/synkraai.md)
 - [vastsa](entities/vastsa.md)
 
@@ -64,12 +69,16 @@ tags: [navegacao, categorias, indice-tematico]
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — também nesta categoria pela biblioteca de 818 skills de domínio.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — quatro princípios de comportamento em um único `CLAUDE.md`.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
+- [obra/superpowers](repos/github.com/obra/superpowers.md) — framework de skills compostas com instruções iniciais que as disparam sem comandos especiais, cobrindo design, plano, TDD e revisão.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — também nesta categoria pelos cookbooks de deploy e fine-tune distribuídos como Agent Skills roteadoras.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — skill de design com comandos e detector de regras.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+
+**Skills**
+- [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
 
 **Conceitos**
 - [Agent skills](concepts/agent-skills.md)
@@ -85,6 +94,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [DietrichGebert](entities/dietrichgebert.md)
 - [Firecrawl](entities/firecrawl.md)
 - [GitHub](entities/github.md)
+- [Jesse Vincent (obra)](entities/obra.md)
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
 - [Matt Pocock (mattpocock)](entities/mattpocock.md)
 - [msitarzewski](entities/msitarzewski.md)
@@ -165,6 +175,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Skills**
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide.
+- [Excalidraw Diagram](skills/github.com/coleam00/excalidraw-diagram-skill/excalidraw-diagram.md) — diagramas Excalidraw a partir de linguagem natural, com validação visual via Playwright.
 - [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — apresentações HTML autocontidas em palco 16:9, com descoberta de estilo e edição inline.
 
 **Conceitos**
@@ -175,6 +186,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [calesthio](entities/calesthio.md)
 - [cathrynlavery](entities/cathrynlavery.md)
+- [Cole Medin (coleam00)](entities/coleam00.md)
 - [HeyGen](entities/heygen.md)
 - [MyShell (myshell-ai)](entities/myshell-ai.md)
 - [Remotion (remotion-dev)](entities/remotion-dev.md)
@@ -208,6 +220,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Stitch Design Taste](skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) — `DESIGN.md` semântico e anti-slop para o Google Stitch.
 - [Taste Skill (alias de design-taste-frontend-v1)](skills/github.com/leonxlnx/taste-skill/taste-skill.md) — entrada de catálogo com slug próprio e conteúdo da v1.
 - [UI/UX Pro Max](skills/github.com/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max.md) — base pesquisável de estilos, paletas, tipografia, UX e 22 stacks.
+- [Frontend Design](skills/github.com/anthropics/skills/frontend-design.md) — direção visual deliberada em duas passagens, com plano de tokens e lista de clichês de design por IA a evitar.
 
 **Conceitos**
 - [Design system com agentes](concepts/design-system-com-agentes.md)
@@ -215,6 +228,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Image-to-code](concepts/image-to-code.md)
 
 **Entidades**
+- [Anthropic (anthropics)](entities/anthropics.md)
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md)
 - [Next Level Builder](entities/nextlevelbuilder.md)
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md)
@@ -321,6 +335,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser com snapshots de acessibilidade, refs estáveis, sessões isoladas e importação de cookies; anti-detecção declarada.
+- [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust nativa que controla o Chrome via CDP sem Node.js/Playwright, com snapshots de acessibilidade estáveis e servidor MCP.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
@@ -347,6 +362,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [jo-inc](entities/jo-inc.md)
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
 - [Matt Pocock (mattpocock)](entities/mattpocock.md)
+- [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 
 ## Protocolos, integrações e confiabilidade
 
@@ -369,6 +385,8 @@ tags: [navegacao, categorias, indice-tematico]
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA.
+- [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI (`ctx7`) com duas ferramentas (`resolve-library-id`, `query-docs`) para documentação atual por biblioteca e versão.
+- [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — servidor MCP (`agent-browser mcp`) com perfis de ferramentas selecionáveis para automação de navegador.
 
 **Entidades**
 - [Cloudflare](entities/cloudflare.md)
@@ -381,6 +399,8 @@ tags: [navegacao, categorias, indice-tematico]
 - [HKUDS](entities/hkuds.md)
 - [morluto](entities/morluto.md)
 - [openbq-org](entities/openbq-org.md)
+- [Upstash (upstash)](entities/upstash.md)
+- [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 
 ## Avaliação de UX e pesquisa
 

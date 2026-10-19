@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de SnailSploit/Claude-Red)
+> Última atualização: 2026-10-19 (ingestão de obra/superpowers, upstash/context7, vercel-labs/agent-browser, thedotmack/claude-mem, coleam00/excalidraw-diagram-skill, skill-creator e frontend-design de anthropics/skills)
 
 ## Repositórios
 
@@ -42,6 +42,7 @@
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz zero-shot e cross-lingual, com controle de estilo; MIT desde a V2.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
+- [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia de desenvolvimento com skills compostas que disparam automaticamente — design, plano, TDD por subagentes e revisão — em mais de uma dezena de harnesses de agente.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform financeira que conecta fontes de dados a Python, Excel, MCP para agentes de IA e REST API; antes publicada como openbb-finance/openbb.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
@@ -50,9 +51,12 @@
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
+- [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: captura, comprime e reinjeta observações de sessão, com busca híbrida SQLite/Chroma em 3 camadas.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
+- [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI que injetam documentação e exemplos de código atuais e específicos de versão no contexto de agentes.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
+- [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 
 ## Skills
@@ -63,6 +67,8 @@
 - [Design Taste Frontend v1](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v1.md) — versão original de regras fixas, preservada para projetos que dependem do comportamento exato.
 - [Design Taste Frontend v2 Experimental](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v2-experimental.md) — segunda geração em arquivo único, com design read, três dials e protocolo de redesign.
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide e contrato de acessibilidade.
+- [Excalidraw Diagram](skills/github.com/coleam00/excalidraw-diagram-skill/excalidraw-diagram.md) — gera diagramas Excalidraw a partir de linguagem natural, com layout que reflete o conceito e validação visual via Playwright.
+- [Frontend Design](skills/github.com/anthropics/skills/frontend-design.md) — direção visual deliberada para UI em duas passagens, com plano de tokens e lista de clichês de design por IA a evitar.
 - [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — apresentações HTML autocontidas em palco 16:9, com descoberta de estilo, prévias, edição inline e exportação.
 - [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — proíbe placeholders e elipses, exige contagem de entregáveis e define pausa e retomada por limite de tokens.
 - [GPT Taste](skills/github.com/leonxlnx/taste-skill/gpt-taste.md) — engenharia de design para GPT/Codex com sorteio determinístico, AIDA, hero de duas linhas e GSAP.
@@ -77,6 +83,7 @@
 - [Ink](skills/github.com/google-labs-code/design.md/ink.md) — referência do `@json-render/ink`: UI de terminal a partir de specs JSON, com data binding, eventos e streaming.
 - [Minimalist UI](skills/github.com/leonxlnx/taste-skill/minimalist-ui.md) — minimalismo utilitário editorial com monofonia quente, serifada de contraste e pastéis dessaturados.
 - [Redesign Existing Projects](skills/github.com/leonxlnx/taste-skill/redesign-existing-projects.md) — auditoria por área e upgrades pontuais em projetos existentes, sem trocar de stack.
+- [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
 - [Stitch Design Taste](skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) — geração de `DESIGN.md` semântico e anti-slop para o Google Stitch.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e nota de 1–10 em cinco dimensões para revisar prosa gerada por IA.
 - [Taste Skill (alias de design-taste-frontend-v1)](skills/github.com/leonxlnx/taste-skill/taste-skill.md) — entrada de catálogo com slug próprio que serve o conteúdo da v1.
@@ -127,6 +134,7 @@
 - [Addy Osmani (addyosmani)](entities/addyosmani.md) — Engenheiro conhecido por performance web e autor do `agent-skills`, coleção de skills de engenharia de produção.
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
+- [Alex Newman (thedotmack)](entities/thedotmack.md) — autor do claude-mem, sistema de memória persistente para Claude Code com busca híbrida em 3 camadas.
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md) — autor do gist `llm-wiki`, que descreve o padrão de wiki pessoal mantida por LLM.
 - [Anthropic (anthropics)](entities/anthropics.md) — empresa de pesquisa em IA e criadora do Claude, mantenedora do repositório oficial de referência para Agent Skills.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
@@ -134,6 +142,7 @@
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
 - [cathrynlavery](entities/cathrynlavery.md) — autora da skill Diagram Design, que gera diagramas editoriais em HTML/SVG com sistema de design consistente.
 - [Cloudflare](entities/cloudflare.md) — empresa de infraestrutura de edge que publica o Agentic Inbox e a plataforma Workers usada por ele.
+- [Cole Medin (coleam00)](entities/coleam00.md) — especialista em IA generativa ligado à Dynamous, autor da skill Excalidraw Diagram.
 - [Composio (ComposioHQ)](entities/composiohq.md) — Organização da plataforma Composio, que conecta agentes a aplicações e mantém a lista `awesome-claude-skills`.
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
 - [D4Vinci](entities/d4vinci.md) — Karim Shoair, especialista em web scraping no Egito, criador do Scrapling.
@@ -152,6 +161,7 @@
 - [HeyGen](entities/heygen.md) — empresa de vídeo com avatares que publica o HyperFrames como motor de renderização open source para agentes.
 - [HKUDS](entities/hkuds.md) — Data Intelligence Lab @ HKU, laboratório que publica Vibe-Trading, OpenSpace, ClawTeam e outros projetos de agentes.
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md) — organização do LNCC que publica o Manacá-1B, LLM aberto para português do Brasil, em cooperação com o NII/LLM-jp.
+- [Jesse Vincent (obra)](entities/obra.md) — autor do superpowers, metodologia de desenvolvimento com skills que disparam automaticamente sobre mais de uma dezena de harnesses de agente.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
@@ -174,6 +184,7 @@
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.
+- [Upstash (upstash)](entities/upstash.md) — Serverless Data Platform, mantenedora do Context7, servidor MCP e CLI de documentação atual para agentes.
 - [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md) — organização experimental da Vercel, mantenedora da coleção oficial de Agent Skills.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.

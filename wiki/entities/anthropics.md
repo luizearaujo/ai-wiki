@@ -18,6 +18,8 @@ anthropics é a organização no GitHub da Anthropic. Nesta wiki, aparece direta
 ## Repositórios e projetos
 
 - [anthropics/skills](../repos/github.com/anthropics/skills.md) — exemplos oficiais de Agent Skills, especificação do formato e skills de documento source-available; licença mista.
+- [Skill Creator](../skills/github.com/anthropics/skills/skill-creator.md) — meta-skill para criar, testar e otimizar skills, com evals e benchmark.
+- [Frontend Design](../skills/github.com/anthropics/skills/frontend-design.md) — direção visual deliberada para UI, com plano de tokens em duas passagens e lista de clichês a evitar.
 
 ## Relevância no ecossistema
 

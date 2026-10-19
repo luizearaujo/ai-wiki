@@ -47,6 +47,7 @@ Quando o projeto separa contrato e lógica, o ciclo se desdobra em duas camadas:
 - [Typed Service Contracts](../skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — combina o ciclo com contratos tipados e separa testes de schema de testes de lógica.
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — trata TDD como parte do processo de engenharia do harness: o workflow exige evidência RED antes da implementação e usa revisão em contexto novo.
 - [Agent DX CLI Scale](../skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — verificação e `--dry-run` aparecem como trilhos de segurança para agentes que operam CLIs.
+- [obra/superpowers](../repos/github.com/obra/superpowers.md) — red-green-refactor como skill obrigatória (`test-driven-development`), incluindo apagar código escrito antes do teste correspondente.
 
 ## Trade-offs
 

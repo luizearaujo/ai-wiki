@@ -43,6 +43,7 @@ Apesar da variedade, as abordagens compartilham um mecanismo:
 - [Design Taste Frontend v1](../skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v1.md) — catálogo de regras fixas, preservado por compatibilidade.
 - [High-End Visual Design](../skills/github.com/leonxlnx/taste-skill/high-end-visual-design.md), [Minimalist UI](../skills/github.com/leonxlnx/taste-skill/minimalist-ui.md), [Industrial Brutalist UI](../skills/github.com/leonxlnx/taste-skill/industrial-brutalist-ui.md), [GPT Taste](../skills/github.com/leonxlnx/taste-skill/gpt-taste.md) — estilos e processos opt-in.
 - [Redesign Existing Projects](../skills/github.com/leonxlnx/taste-skill/redesign-existing-projects.md) — o mesmo critério aplicado a projetos existentes.
+- [Frontend Design](../skills/github.com/anthropics/skills/frontend-design.md) — a versão da Anthropic: processo em duas passagens (plano de tokens, depois construção) e uma lista própria de clichês de design gerado por IA a evitar.
 - [UI/UX Pro Max](../skills/github.com/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max.md) — base de conhecimento pesquisável.
 - [Impeccable](../skills/github.com/pbakaus/impeccable/impeccable.md) — direção em quatro modos e playbook de comandos.
 - [Stitch Design Taste](../skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) e [Brandkit](../skills/github.com/leonxlnx/taste-skill/brandkit.md) — saídas em `DESIGN.md` e em imagem.

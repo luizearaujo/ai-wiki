@@ -45,6 +45,7 @@ Boas práticas observadas:
 - [Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — diagramas em HTML com SVG inline, contrato de acessibilidade e exportação manual.
 - [calesthio/OpenMontage](../repos/github.com/calesthio/openmontage.md) — usa HTML/CSS/GSAP (HyperFrames) e React/Remotion como runtimes de composição, gerando vídeo a partir de artefatos programáticos.
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — gera `graph.html` autocontido para visualizar o grafo.
+- [Excalidraw Diagram](../skills/github.com/coleam00/excalidraw-diagram-skill/excalidraw-diagram.md) — a saída principal é JSON do Excalidraw, não HTML, mas o pipeline de validação visual renderiza cada diagrama via um template HTML local antes da entrega.
 
 ## Trade-offs
 
