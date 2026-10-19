@@ -61,6 +61,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) e [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — em [Geração de mídia e artefatos HTML](#geração-de-mídia-e-artefatos-html).
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — em [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código).
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — em [Avaliação de UX e pesquisa](#avaliação-de-ux-e-pesquisa).
+- [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Ink](skills/github.com/google-labs-code/design.md/ink.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
 
 ## Grafos de conhecimento e contexto de código
 
@@ -155,6 +156,24 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Entidades**
 - [Tauric Research](entities/tauricresearch.md)
+
+## Engenharia e interfaces agent-first
+
+> Desenho de CLIs, contratos de serviço, ciclos de verificação e superfícies de terminal pensados para que agentes operem ferramentas com previsibilidade e segurança.
+
+**Skills**
+- [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — escala de sete eixos para avaliar CLIs; nota de 0–21 e bônus multi-superfície.
+- [Ink](skills/github.com/google-labs-code/design.md/ink.md) — UI de terminal a partir de specs JSON, com catálogo tipado, eventos e streaming.
+- [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) — ciclo de um teste por vez como contrapressão ao código gerado.
+- [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — spec/handler com Zod e Result Pattern, sem exceções na fronteira.
+
+**Conceitos**
+- [CLI agent-first](concepts/cli-agent-first.md)
+- [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md)
+- [TDD para agentes](concepts/tdd-para-agentes.md)
+
+**Entidades**
+- [Google Labs Code](entities/google-labs-code.md)
 
 ## Protocolos, integrações e confiabilidade
 

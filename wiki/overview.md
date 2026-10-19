@@ -35,6 +35,7 @@ tags: [overview]
 - **Cibersegurança como biblioteca de skills:** projetos como o Anthropic Cybersecurity Skills empacotam centenas de procedimentos de segurança em `SKILL.md`, mapeados a frameworks (ATT&CK, NIST CSF, ATLAS, D3FEND, AI RMF, F3) e descobertos por frontmatter antes do carregamento completo.
 - **Edição de prosa como skill:** skills como o Humanizer tratam os maneirismos de texto gerado por IA como um catálogo de padrões auditável, com regras de preservação de conteúdo e de voz; o objetivo é editar estilo, não detectar autoria.
 - **Trading multiagente como firma simulada:** o TradingAgents decompõe a decisão de investimento em analistas, debate bullish/bearish, trader, risco e gestor de portfólio — e trata integridade temporal dos dados, memória de decisões e reprodutibilidade como problemas de primeira ordem.
+- **Interfaces agent-first como disciplina de design:** CLIs, contratos de serviço e superfícies de terminal passam a ser avaliados pelo que um agente consegue parsear, validar e limitar — não apenas pelo que um humano consegue descobrir.
 
 ## Mapa por área
 
@@ -58,6 +59,7 @@ tags: [overview]
 | Cibersegurança e operações de segurança | [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) | Biblioteca de 818 skills em 34 domínios, mapeadas a ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3; projeto da comunidade, sem vínculo com a Anthropic. Síntese em [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md). |
 | Escrita e edição de prosa | — | Skills [Humanizer](skills/github.com/blader/humanizer/humanizer.md) (26 padrões em seis famílias, fluxo de quatro etapas, três modos de saída) e [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) (oito regras, lista de checagens, nota de 1–10 em cinco dimensões); síntese em [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md). |
 | Análise financeira e trading | [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) | LangGraph; quatro analistas em paralelo, debate bullish/bearish, trader, risco e gestor de portfólio; EDGAR ponto no tempo, memory log com liquidação, checkpoints e backtest em grade; Apache-2.0 e finalidade declarada de pesquisa. Síntese em [Análise financeira multiagente](concepts/analise-financeira-multiagente.md). |
+| Engenharia e interfaces agent-first | — | Skills [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) (escala de 0–21 em sete eixos), [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) (spec/handler com Result Pattern), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Ink](skills/github.com/google-labs-code/design.md/ink.md) (UI de terminal por spec JSON). Sínteses em [CLI agent-first](concepts/cli-agent-first.md), [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) e [TDD para agentes](concepts/tdd-para-agentes.md). |
 
 ## Tendências e observações
 
@@ -106,6 +108,12 @@ tags: [overview]
 - **Memória com liquidação fecha o ciclo:** em vez de guardar só a decisão, o TradingAgents espera o horizonte vencer, apura retorno e alfa e gera uma reflexão. É um padrão raro: memória que é avaliada, não apenas acumulada.
 - **Não determinismo é declarado, não escondido:** o README do TradingAgents separa fontes de variação (amostragem do modelo, dados ao vivo, temperatura) e avisa que backtests não batem com cifras publicadas. É o oposto de prometer retorno reproduzível.
 - **Adoção expressiva em domínio regulado:** ~112 mil estrelas em menos de dois anos, mantendo a ressalva de que o framework é scaffold de pesquisa e opera em exchange simulada. Popularidade não equivale a validação de estratégia.
+- **Agent DX vira escala, não adjetivo:** a skill do Google Labs transforma "boa CLI para agentes" em sete eixos pontuados de 0 a 3, com faixas explícitas de human-only a agent-first. O valor está em tornar o critério auditável; o risco é que pesos iguais tratem saída estruturada e hardening como equivalentes.
+- **O mesmo repositório distribui produto e método:** o `design.md` publica a especificação DESIGN.md e sua CLI, mas também quatro skills de engenharia em `.agents/skills/` que o README principal não menciona. Quem lê só a página inicial não descobre o método embutido; quem instala pelo catálogo recebe o método sem o produto.
+- **TDD como contrapressão, não como estilo:** a skill de TDD proíbe escrever vários testes de uma vez e proíbe ajustar um teste para acomodar a implementação. É uma tentativa de corrigir o padrão de "gerar tudo e consertar o teste" observado em agentes de código.
+- **Superfícies de saída declarativas:** o Ink mostra que a UI de terminal pode ser um spec JSON com componentes, eventos e estado, em vez de código imperativo. É o análogo terminal dos artefatos HTML autocontidos: o artefato é inspecionável, mas depende de um renderer e de um catálogo.
+
+## Lacunas e próximos passos
 
 ## Lacunas e próximos passos
 
@@ -142,6 +150,11 @@ tags: [overview]
 - [ ] Ler o paper do TradingAgents (arXiv 2412.20138) e comparar os resultados publicados com a implementação atual.
 - [ ] Verificar, no código do TradingAgents (com autorização), se a integridade temporal cobre todos os provedores ou apenas EDGAR.
 - [ ] Comparar o alfa de backtests do TradingAgents com estratégias determinísticas no mesmo período e universo.
+- [ ] Aplicar a escala Agent DX CLI Scale a CLIs reais (`gh`, `aws`, `kubectl`, `npm`) e registrar notas por eixo.
+- [ ] Ler os `SKILL.md` crus das quatro skills de `google-labs-code/design.md` (com autorização) para conferir o texto e os exemplos completos.
+- [ ] Comparar o ciclo TDD da skill com o `tdd-workflow` do ECC em evidência exigida, custo de execução e aderência do agente.
+- [ ] Avaliar `@json-render/ink` na prática: versão, manutenção, acessibilidade de terminal, streaming com specs inválidos e custo de contexto do catálogo.
+- [ ] Verificar se `google-labs-code` é uma organização oficial do Google e qual é a relação com Jules e Stitch.
 
 ## Fontes
 
@@ -167,3 +180,5 @@ tags: [overview]
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh consultada em 2026-10-19; repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df`.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh consultada em 2026-10-19; repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9`.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df`; metadados da API do GitHub observados em 2026-10-19.
+- [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Ink](skills/github.com/google-labs-code/design.md/ink.md) — páginas do skills.sh consultadas em 2026-10-19; repositório `google-labs-code/design.md` no commit `6e5da5382f41edbba9d73b2c62f33f32e9971f15`.
+- [CLI agent-first](concepts/cli-agent-first.md), [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) e [TDD para agentes](concepts/tdd-para-agentes.md) — sínteses construídas a partir das quatro skills acima (2026-10-19).

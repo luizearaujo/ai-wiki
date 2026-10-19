@@ -187,3 +187,20 @@
 - Atualizados `concepts/orquestracao-multiagente.md`, `concepts/memoria-de-agente.md`, `categorias.md` (nova categoria "Análise financeira e trading"), `index.md`, `log.md` e `overview.md`.
 - Não lidos: código, docs internas, paper, arquivos de configuração e resultados de backtest. Qualidade preditiva, desempenho real e integridade temporal do código são a verificar.
 - Métricas da API do GitHub observadas em 2026-10-19: ~112 mil estrelas, ~21,6 mil forks, criado em 2024-12-28 e último push em 2026-10-16; licença Apache-2.0, Python.
+
+## [2026-10-19] ingest | skills.sh/google-labs-code/design.md — 4 skills
+- Criadas `skills/github.com/google-labs-code/design.md/typed-service-contracts.md`, `tdd-red-green-refactor.md`, `ink.md` e `agent-dx-cli-scale.md` a partir das páginas do skills.sh, consultadas em 2026-10-19.
+- Criada `entities/google-labs-code.md`.
+- Criados `concepts/cli-agent-first.md`, `concepts/contratos-tipados-de-servico.md` e `concepts/tdd-para-agentes.md`.
+- Atualizados `categorias.md` (nova categoria "Engenharia e interfaces agent-first"), `index.md`, `log.md`, `overview.md` e `README.md`.
+- O repositório-fonte não foi clonado e os `SKILL.md` crus não foram lidos; o conteúdo veio do `SKILL.md` renderizado nas páginas do skills.sh. Caminhos observados via árvore da API: `.agents/skills/typed-service-contracts/`, `.agents/skills/tdd/`, `.agents/skills/ink/` e `.agents/skills/agent-dx-cli-scale/`.
+- Métricas publicadas em 2026-10-19: 669, 647, 169 e 166 instalações; primeira aparição em 2026-04-22; auditorias Gen Agent Trust Hub, Socket e Snyk com "Pass". Repositório no commit `6e5da5382f41edbba9d73b2c62f33f32e9971f15`, Apache-2.0, TypeScript, ~28,4 mil estrelas.
+- O README do repositório descreve o formato DESIGN.md e sua CLI, mas não menciona as quatro skills.
+
+## [2026-10-19] lint | lote google-labs-code/design.md
+- Verificados 745 links relativos na wiki e no `README.md`; nenhum quebrado e nenhum âncora inválida.
+- Verificados frontmatter obrigatório e seção `## Fontes` nas 8 páginas novas; todas conformes, sem `TODO`, sem cabeçalho acima de `###` e com cercas de código balanceadas.
+- `index.md` com 65 páginas de conteúdo, sem faltantes, extras ou duplicatas; seções em ordem alfabética.
+- `categorias.md` cobre todas as 65 páginas; as quatro skills aparecem na nova categoria e no índice cruzado da categoria de skills.
+- `README.md` atualizado para 15 repositórios, 10 skills, 18 conceitos e 22 entidades, com entradas em ordem alfabética.
+- `overview.md` atualizado com o novo tema, linha no mapa, quatro observações, cinco lacunas e fontes.

@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (catálogo por categoria; ingestões de cibersegurança, escrita e trading)
+> Última atualização: 2026-10-19 (catálogo por categoria; ingestões de cibersegurança, escrita, trading e engenharia agent-first)
 
 ## Repositórios
 
@@ -24,10 +24,14 @@
 
 ## Skills
 
+- [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — avaliação de CLIs em sete eixos de design agent-first, com nota de 0–21 e faixas de human-only a agent-first.
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide e contrato de acessibilidade.
 - [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — apresentações HTML autocontidas em palco 16:9, com descoberta de estilo, prévias, edição inline e exportação.
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com fluxo de reescrita em quatro etapas e três modos de saída.
+- [Ink](skills/github.com/google-labs-code/design.md/ink.md) — referência do `@json-render/ink`: UI de terminal a partir de specs JSON, com data binding, eventos e streaming.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e nota de 1–10 em cinco dimensões para revisar prosa gerada por IA.
+- [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) — ciclo vermelho-verde-refatorar em TypeScript, um teste por vez, com proibição de escrever testes em lote.
+- [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — arquitetura spec/handler com schemas Zod, erros exaustivos e Result Pattern para fronteiras previsíveis.
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar e validar um grafo de conhecimento de código com dashboard interativo.
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — auditoria ampla de UX com os frameworks de Morville, ISO e interaction design.
 
@@ -40,6 +44,8 @@
 - [Auditoria de UX](concepts/auditoria-de-ux.md) — avaliação estruturada de um produto contra frameworks explícitos, com lacunas e recomendações.
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md) — agentes executando defesa, DFIR, threat hunting e testes ofensivos autorizados com conhecimento estruturado.
 - [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
+- [CLI agent-first](concepts/cli-agent-first.md) — CLI desenhada para agentes: saída estruturada, payload cru, introspecção de schema, contexto disciplinado e defesa contra alucinação.
+- [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
 - [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
 - [Grafo de conhecimento de código](concepts/grafo-de-conhecimento-de-codigo.md) — representação de código como grafo de nós e arestas tipadas, consultável por agentes sem leitura de arquivos.
@@ -48,6 +54,7 @@
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
+- [TDD para agentes](concepts/tdd-para-agentes.md) — red-green-refactor como contrapressão sobre código gerado, com evidência de falha e proibição de ajustar testes.
 
 ## Entidades
 
@@ -60,6 +67,7 @@
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
+- [Google Labs Code](entities/google-labs-code.md) — organização que publica o formato DESIGN.md, as quatro skills de engenharia e bibliotecas de skills para Stitch e Jules.
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
