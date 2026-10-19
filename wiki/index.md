@@ -2,13 +2,14 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de Fincept-Corporation/FinceptTerminal)
+> Última atualização: 2026-10-19 (ingestão de cloudflare/agentic-inbox)
 
 ## Repositórios
 
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
+- [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
@@ -69,6 +70,7 @@
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
 - [Design system com agentes](concepts/design-system-com-agentes.md) — identidade visual como artefato versionado (`DESIGN.md`, `PRODUCT.md`, `MASTER.md`) carregado entre sessões.
 - [Design taste para agentes](concepts/design-taste-para-agentes.md) — métodos que dão critério visual explícito a agentes: direção, regras mensuráveis, referências e verificação.
+- [Email para agentes](concepts/email-para-agentes.md) — caixa de entrada como contexto e superfície de ação, com isolamento por mailbox, confirmação de envio e exposição via MCP.
 - [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
 - [Grafo de conhecimento de código](concepts/grafo-de-conhecimento-de-codigo.md) — representação de código como grafo de nós e arestas tipadas, consultável por agentes sem leitura de arquivos.
@@ -88,6 +90,7 @@
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
 - [cathrynlavery](entities/cathrynlavery.md) — autora da skill Diagram Design, que gera diagramas editoriais em HTML/SVG com sistema de design consistente.
+- [Cloudflare](entities/cloudflare.md) — empresa de infraestrutura de edge que publica o Agentic Inbox e a plataforma Workers usada por ele.
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.

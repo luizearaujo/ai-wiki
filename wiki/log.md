@@ -263,3 +263,11 @@
 - Não lidos: código C++/Python, `docs/`, manifestos, testes e a implementação dos agentes, conectores e paper trading. Somente o README foi consultado; a separação paper/live, os limites de execução e o isolamento do Python embutido são a verificar.
 - Divergência registrada: o README declara AGPL-3.0-or-later, mas a API do GitHub retorna `NOASSERTION`. O README também publica preços conflitantes para o Quantcept (US$ 3/US$ 8 e US$ 14/US$ 24 por 30 dias).
 - Métricas da API do GitHub observadas em 2026-10-19: ~32,7 mil estrelas, ~4,7 mil forks, 9 issues abertas, criado em 2024-08-29 e último push em 2026-10-13; licença reportada `NOASSERTION`, linguagem C++.
+
+## [2026-10-19] ingest | cloudflare/agentic-inbox
+- Criada `repos/github.com/cloudflare/agentic-inbox.md` a partir do README no commit `48039bb6785af34e592c2966f87cde2b255c4c80`, sem clonar o repositório.
+- Criadas `entities/cloudflare.md` e `concepts/email-para-agentes.md`.
+- Atualizados `categorias.md` (nova categoria "Comunicação e caixas de entrada agênticas"), `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: código, `wrangler.jsonc`, testes, frontend e implementação das nove ferramentas. Somente o README foi consultado; a imposição de confirmação de envio e o comportamento do MCP são a verificar.
+- O README declara que não há autorização por mailbox: a política do Cloudflare Access é a única fronteira de confiança, e o MCP em `/mcp` aceita `mailboxId` arbitrário.
+- Métricas da API do GitHub observadas em 2026-10-19: ~8,4 mil estrelas, ~1,1 mil forks, 55 issues abertas, criado em 2026-04-10 e último push em 2026-04-23; licença Apache-2.0, TypeScript.

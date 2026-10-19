@@ -167,6 +167,19 @@ tags: [navegacao, categorias, indice-tematico]
 **Skills documentadas em outras categorias**
 - [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
 
+## Comunicação e caixas de entrada agênticas
+
+> Ferramentas em que o agente lê, organiza e redige comunicação em nome do usuário, com isolamento de dados, confirmação de envio e fronteiras de autorização explícitas.
+
+**Repositórios**
+- [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Workers, com nove ferramentas de e-mail, isolamento por mailbox e servidor MCP.
+
+**Conceitos**
+- [Email para agentes](concepts/email-para-agentes.md)
+
+**Entidades**
+- [Cloudflare](entities/cloudflare.md)
+
 ## Trabalho, projetos e colaboração humano-agente
 
 > Ferramentas em que pessoas e agentes compartilham o mesmo fluxo de trabalho, board ou unidade de tarefa.
@@ -228,6 +241,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md)
 
 **Implementações e integrações documentadas**
+- [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — servidor MCP em `/mcp` com ferramentas de e-mail.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — REST API, MCP e webhooks.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — ferramentas MCP dentro da automação do terminal.
@@ -236,6 +250,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 
 **Entidades**
+- [Cloudflare](entities/cloudflare.md)
 - [croffasia](entities/croffasia.md)
 - [DeusData](entities/deusdata.md)
 - [Fincept Corporation](entities/fincept-corporation.md)
