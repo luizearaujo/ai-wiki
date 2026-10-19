@@ -20,6 +20,7 @@
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, mapeadas a seis frameworks e distribuídas no padrão agentskills.io.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
+- [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 
 ## Skills
 
@@ -34,6 +35,7 @@
 
 - [Agent harness](concepts/agent-harness.md) — camada que define contexto, ferramentas, permissões, memória e supervisão de um agente já existente.
 - [Agent skills](concepts/agent-skills.md) — instruções empacotadas em `SKILL.md`, distribuídas e instaladas como artefatos versionáveis.
+- [Análise financeira multiagente](concepts/analise-financeira-multiagente.md) — papéis de analista, debate, trader e risco para produzir e revisar decisões de investimento com LLMs.
 - [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md) — apresentações e diagramas gerados como um único arquivo HTML com CSS, JS e SVG inline.
 - [Auditoria de UX](concepts/auditoria-de-ux.md) — avaliação estruturada de um produto contra frameworks explícitos, com lacunas e recomendações.
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md) — agentes executando defesa, DFIR, threat hunting e testes ofensivos autorizados com conhecimento estruturado.
@@ -68,6 +70,7 @@
 - [mukul975](entities/mukul975.md) — Mahipal Jangra, autor da biblioteca de skills de cibersegurança para agentes.
 - [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
+- [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
 ## Análises

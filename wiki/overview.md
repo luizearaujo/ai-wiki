@@ -34,6 +34,7 @@ tags: [overview]
 - **Design system como gate de skill:** a skill Diagram Design exige um style guide na primeira execução e trata consistência de tipografia, paleta, espaçamento e acessibilidade como condição de aceitação, não como preferência.
 - **Cibersegurança como biblioteca de skills:** projetos como o Anthropic Cybersecurity Skills empacotam centenas de procedimentos de segurança em `SKILL.md`, mapeados a frameworks (ATT&CK, NIST CSF, ATLAS, D3FEND, AI RMF, F3) e descobertos por frontmatter antes do carregamento completo.
 - **Edição de prosa como skill:** skills como o Humanizer tratam os maneirismos de texto gerado por IA como um catálogo de padrões auditável, com regras de preservação de conteúdo e de voz; o objetivo é editar estilo, não detectar autoria.
+- **Trading multiagente como firma simulada:** o TradingAgents decompõe a decisão de investimento em analistas, debate bullish/bearish, trader, risco e gestor de portfólio — e trata integridade temporal dos dados, memória de decisões e reprodutibilidade como problemas de primeira ordem.
 
 ## Mapa por área
 
@@ -56,6 +57,7 @@ tags: [overview]
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
 | Cibersegurança e operações de segurança | [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) | Biblioteca de 818 skills em 34 domínios, mapeadas a ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3; projeto da comunidade, sem vínculo com a Anthropic. Síntese em [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md). |
 | Escrita e edição de prosa | — | Skills [Humanizer](skills/github.com/blader/humanizer/humanizer.md) (26 padrões em seis famílias, fluxo de quatro etapas, três modos de saída) e [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) (oito regras, lista de checagens, nota de 1–10 em cinco dimensões); síntese em [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md). |
+| Análise financeira e trading | [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) | LangGraph; quatro analistas em paralelo, debate bullish/bearish, trader, risco e gestor de portfólio; EDGAR ponto no tempo, memory log com liquidação, checkpoints e backtest em grade; Apache-2.0 e finalidade declarada de pesquisa. Síntese em [Análise financeira multiagente](concepts/analise-financeira-multiagente.md). |
 
 ## Tendências e observações
 
@@ -100,6 +102,10 @@ tags: [overview]
 - **Estilo também vira artefato distribuído:** o Humanizer mostra que instruções de escrita podem ser versionadas, auditadas e instaladas como qualquer skill de engenharia. O catálogo de padrões é derivado de observação empírica da Wikipédia e evolui junto com os modelos — não é uma norma editorial estável.
 - **Risco de trocar um padrão por outro:** aplicar regras de humanização sem uma amostra de voz pode criar um novo registro uniforme. As próprias skills reconhecem que a amostra do autor deve sobrepor o catálogo.
 - **Humanização ainda não tem forma canônica:** Humanizer e Stop Slop atacam o mesmo problema com soluções diferentes — catálogo granular com força por padrão e modos de saída, contra oito regras com nota final. A coexistência indica que o campo está em experimentação de formato, não em consolidação de método.
+- **Integridade temporal é o diferencial de um agente financeiro:** o TradingAgents data cada figura pelo protocolo (EDGAR) e retém dados que não consegue datar, em vez de preencher com informação futura. Sem isso, um backtest parece bom porque viu o futuro.
+- **Memória com liquidação fecha o ciclo:** em vez de guardar só a decisão, o TradingAgents espera o horizonte vencer, apura retorno e alfa e gera uma reflexão. É um padrão raro: memória que é avaliada, não apenas acumulada.
+- **Não determinismo é declarado, não escondido:** o README do TradingAgents separa fontes de variação (amostragem do modelo, dados ao vivo, temperatura) e avisa que backtests não batem com cifras publicadas. É o oposto de prometer retorno reproduzível.
+- **Adoção expressiva em domínio regulado:** ~112 mil estrelas em menos de dois anos, mantendo a ressalva de que o framework é scaffold de pesquisa e opera em exchange simulada. Popularidade não equivale a validação de estratégia.
 
 ## Lacunas e próximos passos
 
@@ -133,6 +139,9 @@ tags: [overview]
 - [ ] Ler o `SKILL.md` do Humanizer (com autorização) e comparar os 26 padrões com o catálogo da Wikipédia.
 - [ ] Avaliar com revisores cegos se textos reescritos por skills de humanização preservam sentido, voz e precisão factual.
 - [ ] Comparar Humanizer e Stop Slop no mesmo conjunto de textos quanto a agressividade, preservação de voz e tempo de execução.
+- [ ] Ler o paper do TradingAgents (arXiv 2412.20138) e comparar os resultados publicados com a implementação atual.
+- [ ] Verificar, no código do TradingAgents (com autorização), se a integridade temporal cobre todos os provedores ou apenas EDGAR.
+- [ ] Comparar o alfa de backtests do TradingAgents com estratégias determinísticas no mesmo período e universo.
 
 ## Fontes
 
@@ -157,3 +166,4 @@ tags: [overview]
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57`; metadados da API do GitHub observados em 2026-10-19.
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh consultada em 2026-10-19; repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df`.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh consultada em 2026-10-19; repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9`.
+- [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df`; metadados da API do GitHub observados em 2026-10-19.

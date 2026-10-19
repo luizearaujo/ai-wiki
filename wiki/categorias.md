@@ -143,6 +143,19 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [croffasia](entities/croffasia.md)
 
+## Análise financeira e trading
+
+> Decisão de investimento decomposta em papéis de analista, debate, execução e risco, com integridade temporal dos dados e memória de decisões passadas.
+
+**Repositórios**
+- [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — firma de trading simulada em LangGraph, com quatro analistas, debate bullish/bearish, risco, gestor de portfólio, memory log e backtest.
+
+**Conceitos**
+- [Análise financeira multiagente](concepts/analise-financeira-multiagente.md)
+
+**Entidades**
+- [Tauric Research](entities/tauricresearch.md)
+
 ## Protocolos, integrações e confiabilidade
 
 > Camada que conecta agentes a ferramentas e dados, e critérios para que resultados de agentes sejam auditáveis.

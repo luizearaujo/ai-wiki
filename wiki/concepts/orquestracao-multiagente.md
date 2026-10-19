@@ -39,6 +39,7 @@ Os padrões observados na wiki:
 | **Board compartilhado** | Agentes são assignees no mesmo issue tracker que humanos | [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) |
 | **Subagente com contexto isolado** | O líder despacha subtarefas com contexto isolado ou um snapshot do histórico e sintetiza os resultados | DeerFlow: agente líder + `task`, com memória DeerMem compartilhada |
 | **Pipeline declarado com gates** | Etapas em manifesto, skills de direção por etapa e checkpoints resumíveis | OpenMontage: proposta → roteiro → ativos → edição → validação |
+| **Papéis de firma com debate e aprovação** | Analistas em paralelo, debate entre teses opostas, trader e cadeia de risco que aprova ou rejeita | TradingAgents: analistas → pesquisadores bullish/bearish → trader → risco → gestor de portfólio |
 
 O ponto comum é a **externalização do contexto**: em vez de depender do histórico de uma sessão, a coordenação passa por artefatos que outros agentes conseguem ler. Isso reduz perda de contexto, mas cria trabalho de bookkeeping e exige que os artefatos sejam mantidos corretos.
 
@@ -51,6 +52,7 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — orquestrador Michael, hive com memória/mailbox/blackboard/log, committer único para git, PTY por agente e escritório visual.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — equipe de 12 agentes com roles ágeis e PRD/histórias como unidade de contexto.
 - [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — agentes como membros de projeto com assignee, permissões e issues no mesmo Kanban.
+- [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — quatro analistas em paralelo, debate estruturado entre pesquisadores bullish e bearish, trader, time de risco e gestor de portfólio; LangGraph com estado compartilhado, checkpoints opcionais e memory log.
 
 ## Trade-offs
 
@@ -81,3 +83,4 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) e [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — páginas existentes da wiki, usadas como comparação.
+- [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).
