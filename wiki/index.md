@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de HKUDS/Vibe-Trading)
+> Última atualização: 2026-10-19 (ingestão de Fincept-Corporation/FinceptTerminal)
 
 ## Repositórios
 
@@ -11,6 +11,7 @@
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
+- [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
@@ -90,6 +91,7 @@
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
+- [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
 - [Google Labs Code](entities/google-labs-code.md) — organização que publica o formato DESIGN.md, as quatro skills de engenharia e bibliotecas de skills para Stitch e Jules.
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.

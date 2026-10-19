@@ -255,3 +255,11 @@
 - Atualizados `concepts/analise-financeira-multiagente.md`, `categorias.md`, `index.md`, `log.md`, `overview.md` e `README.md`.
 - Não lidos: código, testes, engines de backtest, conectores de corretora, guards de execução e documentação interna. Somente o README foi consultado; a implementação do mandato, da separação paper/live e do modo TAP é a verificar.
 - Métricas da API do GitHub observadas em 2026-10-19: ~35,9 mil estrelas, ~5,8 mil forks, criado em 2026-04-01 e último push em 2026-10-19; release v0.1.16 em 2026-09-29; licença MIT, Python.
+
+## [2026-10-19] ingest | Fincept-Corporation/FinceptTerminal
+- Criada `repos/github.com/fincept-corporation/finceptterminal.md` a partir do README no commit `3d8617cae3f13c93874d4bee4fb0f2846e9c83bc`, sem clonar o repositório.
+- Criada `entities/fincept-corporation.md`.
+- Atualizados `concepts/analise-financeira-multiagente.md`, `categorias.md`, `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: código C++/Python, `docs/`, manifestos, testes e a implementação dos agentes, conectores e paper trading. Somente o README foi consultado; a separação paper/live, os limites de execução e o isolamento do Python embutido são a verificar.
+- Divergência registrada: o README declara AGPL-3.0-or-later, mas a API do GitHub retorna `NOASSERTION`. O README também publica preços conflitantes para o Quantcept (US$ 3/US$ 8 e US$ 14/US$ 24 por 30 dias).
+- Métricas da API do GitHub observadas em 2026-10-19: ~32,7 mil estrelas, ~4,7 mil forks, 9 issues abertas, criado em 2024-08-29 e último push em 2026-10-13; licença reportada `NOASSERTION`, linguagem C++.
