@@ -136,9 +136,9 @@ Atalhos como `/ads meta`, `/ads amazon` e `/ads reddit` vão direto à auditoria
 
 ## Relações
 
-- **Mantido por:** [AgriciDaniel](../../entities/agricidaniel.md).
-- **Conceitos:** [Auditoria de mídia paga](../../concepts/auditoria-de-midia-paga.md) — achado, evidência e cobertura; [Agent skills](../../concepts/agent-skills.md) — skill instalada por plugin e por instalador; [Evidência e proveniência](../../concepts/evidencia-e-proveniencia.md) — quatro estados de controle e cobertura; [CLI agent-first](../../concepts/cli-agent-first.md) — comandos com saída estruturada e validação; [Saída completa de agente](../../concepts/saida-completa-de-agente.md) — execução parcial declarada em vez de relatório incompleto.
-- **Alternativas:** [msitarzewski/agency-agents](../github.com/msitarzewski/agency-agents.md) — inclui personalidades de marketing e um fluxo de takeover de mídia paga, mas sem auditoria executável por plataforma. Ferramentas de mídia paga convencionais não estão documentadas na wiki.
+- **Mantido por:** [AgriciDaniel](../../../entities/agricidaniel.md).
+- **Conceitos:** [Auditoria de mídia paga](../../../concepts/auditoria-de-midia-paga.md) — achado, evidência e cobertura; [Agent skills](../../../concepts/agent-skills.md) — skill instalada por plugin e por instalador; [Evidência e proveniência](../../../concepts/evidencia-e-proveniencia.md) — quatro estados de controle e cobertura; [CLI agent-first](../../../concepts/cli-agent-first.md) — comandos com saída estruturada e validação; [Saída completa de agente](../../../concepts/saida-completa-de-agente.md) — execução parcial declarada em vez de relatório incompleto.
+- **Alternativas:** [msitarzewski/agency-agents](../msitarzewski/agency-agents.md) — inclui personalidades de marketing e um fluxo de takeover de mídia paga, mas sem auditoria executável por plataforma. Ferramentas de mídia paga convencionais não estão documentadas na wiki.
 
 ## Perguntas abertas
 

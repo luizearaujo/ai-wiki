@@ -186,9 +186,9 @@ O agente chama `camofox_import_cookies`; o servidor valida, sanitiza campos e in
 
 ## Relações
 
-- **Mantido por:** [jo-inc](../../entities/jo-inc.md), equipe do agente pessoal jo (askjo.ai); o README credita Pradeep Elankumaran como co-fundador e CTO.
-- **Conceitos:** [Navegação web agêntica](../../concepts/navegacao-web-agentica.md) — browser como ferramenta de agente; [CLI agent-first](../../concepts/cli-agent-first.md) — API desenhada para consumo por agentes, com snapshot estruturado e refs; [Agent skills](../../concepts/agent-skills.md) — plugin OpenClaw com dez ferramentas; [Evidência e proveniência](../../concepts/evidencia-e-proveniencia.md) — traces e snapshots como registro do que o agente viu.
-- **Alternativas:** Playwright e Puppeteer (não documentados na wiki) — automação convencional, com maior risco de fingerprint; [bytedance/deer-flow](../github.com/bytedance/deer-flow.md) usa browser Playwright dentro do harness.
+- **Mantido por:** [jo-inc](../../../entities/jo-inc.md), equipe do agente pessoal jo (askjo.ai); o README credita Pradeep Elankumaran como co-fundador e CTO.
+- **Conceitos:** [Navegação web agêntica](../../../concepts/navegacao-web-agentica.md) — browser como ferramenta de agente; [CLI agent-first](../../../concepts/cli-agent-first.md) — API desenhada para consumo por agentes, com snapshot estruturado e refs; [Agent skills](../../../concepts/agent-skills.md) — plugin OpenClaw com dez ferramentas; [Evidência e proveniência](../../../concepts/evidencia-e-proveniencia.md) — traces e snapshots como registro do que o agente viu.
+- **Alternativas:** Playwright e Puppeteer (não documentados na wiki) — automação convencional, com maior risco de fingerprint; [bytedance/deer-flow](../bytedance/deer-flow.md) usa browser Playwright dentro do harness.
 - **Construído sobre:** Camoufox, OpenClaw, yt-dlp.
 
 ## Perguntas abertas
