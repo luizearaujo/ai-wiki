@@ -271,3 +271,10 @@
 - Não lidos: código, `wrangler.jsonc`, testes, frontend e implementação das nove ferramentas. Somente o README foi consultado; a imposição de confirmação de envio e o comportamento do MCP são a verificar.
 - O README declara que não há autorização por mailbox: a política do Cloudflare Access é a única fronteira de confiança, e o MCP em `/mcp` aceita `mailboxId` arbitrário.
 - Métricas da API do GitHub observadas em 2026-10-19: ~8,4 mil estrelas, ~1,1 mil forks, 55 issues abertas, criado em 2026-04-10 e último push em 2026-04-23; licença Apache-2.0, TypeScript.
+
+## [2026-10-19] ingest | heygen-com/hyperframes
+- Criada `repos/github.com/heygen-com/hyperframes.md` a partir do README no commit `aa63a8c70d8549d55533efdc7ed6d6559331b38c`, sem clonar o repositório.
+- Criada `entities/heygen.md`.
+- Atualizados `concepts/producao-de-video-agentica.md`, `categorias.md`, `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: código, pacotes publicados, as 21 skills, catálogo de blocos, `DESIGN.md`/`frame.md`, testes e `ADOPTERS.md`. Somente o README foi consultado; determinismo entre ambientes, a fronteira entre o framework aberto e os serviços hospedados e a segurança do renderer com HTML de terceiros são a verificar.
+- Métricas da API do GitHub observadas em 2026-10-19: ~67,3 mil estrelas, ~6,1 mil forks, 379 issues abertas, criado em 2026-03-10 e último push em 2026-10-19; licença Apache-2.0, TypeScript.

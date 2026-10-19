@@ -117,6 +117,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica com pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
+- [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — composição em HTML puro com timing por atributos, animação seekable e render determinístico em Chrome headless + FFmpeg; 21 skills para agentes.
 
 **Skills**
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide.
@@ -129,6 +130,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [calesthio](entities/calesthio.md)
 - [cathrynlavery](entities/cathrynlavery.md)
+- [HeyGen](entities/heygen.md)
 - [zarazhangrui](entities/zarazhangrui.md)
 
 ## Design de interface e direção de arte

@@ -46,6 +46,7 @@ O custo e a qualidade dependem de uma decisão central: **gerar** ativos (modelo
 ## Onde aparece
 
 - [calesthio/OpenMontage](../repos/github.com/calesthio/openmontage.md) — sistema agent-first com 10+ pipelines, 100+ ferramentas, 60+ provedores, pesquisa web obrigatória e gates de qualidade; o assistente de código é o orquestrador.
+- [heygen-com/hyperframes](../repos/github.com/heygen-com/hyperframes.md) — a camada de renderização e o método: composição em HTML puro com timing por atributos, animação seekable, preview, lint e render determinístico; 21 skills cobrem planejamento, escrita, mídia, áudio e workflows como vídeo de lançamento, explicador e PR-to-video.
 - [graphify-labs/graphify](../repos/github.com/graphify-labs/graphify.md) — não produz vídeo, mas o mesmo padrão de skill + pipeline determinístico + verificação aparece na indexação de código.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — orquestração por artefatos e etapas, análoga ao encadeamento de um pipeline de produção.
 
@@ -72,3 +73,4 @@ O custo e a qualidade dependem de uma decisão central: **gerar** ativos (modelo
 ## Fontes
 
 - [calesthio/OpenMontage](../repos/github.com/calesthio/openmontage.md) — README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65` (consultado em 2026-10-19).
+- [heygen-com/hyperframes](../repos/github.com/heygen-com/hyperframes.md) — README no commit `aa63a8c70d8549d55533efdc7ed6d6559331b38c` (consultado em 2026-10-19). Somente o README foi lido.
