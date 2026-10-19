@@ -105,3 +105,52 @@
 - Verificado frontmatter obrigatório das páginas de repositório, entidade e conceito; todas as novas páginas têm `## Fontes`.
 - Índice reordenado alfabeticamente por seção e atualizado com as 8 páginas novas e as 3 entidades.
 - `overview.md` atualizado com temas, mapa por área, observações, lacunas e fontes do lote.
+
+## [2026-10-19] ingest | calesthio/OpenMontage
+- Criada `repos/github.com/calesthio/openmontage.md` a partir do README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65`, sem clonar o repositório.
+- Criadas `entities/calesthio.md` e `concepts/producao-de-video-agentica.md`.
+- Atualizados `concepts/agent-harness.md`, `concepts/agent-skills.md`, `concepts/orquestracao-multiagente.md`, `index.md`, `log.md` e `overview.md`.
+- Não lidos: código, `docs/`, `AGENT_GUIDE.md`, `PROJECT_CONTEXT.md`, manifestos de pipeline e skills. Gates humanos, qualidade dos provedores e custo real de produção são a verificar.
+- Divergência: README declara "10+ pipelines"; a descrição da API do GitHub informa 12.
+
+## [2026-10-19] ingest | bytedance/deer-flow
+- Criada `repos/github.com/bytedance/deer-flow.md` a partir do README no commit `fee0cd0c180874325305e995197db99f03fa6a6f`, sem clonar o repositório.
+- Criada `entities/bytedance.md`.
+- Atualizados `concepts/agent-harness.md`, `concepts/agent-skills.md`, `concepts/orquestracao-multiagente.md`, `concepts/model-context-protocol.md`, `index.md`, `log.md` e `overview.md`.
+- Não lidos: `docs/`, código, configurações e exemplos. Desempenho do DeerMem, isolamento real do sandbox e comportamento dos subagentes são a verificar.
+- O README descreve a versão 2.0 como reescrita sem código compartilhado com a 1.x; a branch `main-1.x` preserva o framework anterior. Alerta que admin do Gateway equivale a execução de código.
+
+## [2026-10-19] ingest | Graphify-Labs/graphify
+- Criada `repos/github.com/graphify-labs/graphify.md` a partir do README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8`, sem clonar o repositório.
+- Criada `entities/graphify-labs.md`.
+- Atualizados `concepts/grafo-de-conhecimento-de-codigo.md`, `concepts/agent-skills.md`, `concepts/model-context-protocol.md`, `index.md`, `log.md` e `overview.md`.
+- Não lidos: código, `docs/`, benchmarks, conectores e implementação do passo semântico. Acurácia das arestas `INFERRED`, custo de indexação e fronteira CLI/Graphify Cloud são a verificar.
+- O caminho da wiki usa `graphify-labs` em minúsculas; a URL e o nome canônicos preservam `Graphify-Labs`.
+
+## [2026-10-19] ingest | skills.sh/egonex-ai/understand-anything/understand
+- Criada `skills/github.com/egonex-ai/understand-anything/understand.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criada `entities/egonex-ai.md`.
+- Atualizados `concepts/grafo-de-conhecimento-de-codigo.md`, `concepts/agent-skills.md`, `index.md`, `log.md` e `overview.md`.
+- O repositório-fonte não foi clonado e o `SKILL.md` cru não foi lido; a página, a árvore via API e os metadados do GitHub foram as fontes. Caminho da skill no repositório: `understand-anything-plugin/skills/understand`.
+- Métricas publicadas em 2026-10-19: ~5,0 mil instalações e ~86,9 mil stars no repositório. O README descreve outras skills do plugin que não foram documentadas individualmente.
+
+## [2026-10-19] ingest | skills.sh/zarazhangrui/frontend-slides/frontend-slides
+- Criada `skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criada `entities/zarazhangrui.md`.
+- Criados/atualizados `concepts/artefatos-html-autocontidos.md`, `concepts/agent-skills.md`, `index.md`, `log.md` e `overview.md`.
+- O repositório-fonte não foi clonado e o `SKILL.md` cru não foi lido; `source_path` é `SKILL.md` na raiz. O caminho da wiki usa `zarazhangrui` em minúsculas.
+- Métricas publicadas em 2026-10-19: ~1,1 mil instalações e ~30,9 mil stars; auditoria Snyk indicada como "Warn". A qualidade do deck gerado e a conversão de PPTX são a verificar.
+
+## [2026-10-19] ingest | skills.sh/cathrynlavery/diagram-design/diagram-design
+- Criada `skills/github.com/cathrynlavery/diagram-design/diagram-design.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criada `entities/cathrynlavery.md`.
+- Atualizados `concepts/artefatos-html-autocontidos.md`, `concepts/agent-skills.md`, `index.md`, `log.md` e `overview.md`.
+- O repositório-fonte não foi clonado e o `SKILL.md` cru não foi lido; `source_path` é `skills/diagram-design`. Site e scripts de exportação não foram verificados.
+- Métricas publicadas em 2026-10-19: ~15,5 mil instalações e ~57,4 mil stars. Divergência: a página do skills.sh declara 45 tipos visuais; a descrição da API do GitHub informa 44.
+
+## [2026-10-19] lint | lote OpenMontage, DeerFlow, Graphify e skills
+- Verificados todos os links relativos da wiki; nenhum link quebrado encontrado.
+- Verificado frontmatter obrigatório e seção `## Fontes` em todas as páginas novas e atualizadas.
+- `index.md` reordenado alfabeticamente por seção e atualizado com 3 repositórios, 3 skills, 3 conceitos e 6 entidades.
+- `overview.md` atualizado com temas, mapa por área, observações, lacunas e fontes do lote.
+- Conceitos compartilhados atualizados: `agent-harness`, `agent-skills`, `orquestracao-multiagente`, `model-context-protocol` e `grafo-de-conhecimento-de-codigo`.

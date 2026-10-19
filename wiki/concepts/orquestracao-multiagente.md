@@ -37,12 +37,16 @@ Os padrões observados na wiki:
 | **Paralelismo isolado** | Sessões independentes em worktrees/branches separados | gstack com Conductor; ECC com worktrees |
 | **Coordenação visual** | Agentes viram avatares com mesa, mailbox e board | Munder Difflin |
 | **Board compartilhado** | Agentes são assignees no mesmo issue tracker que humanos | [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) |
+| **Subagente com contexto isolado** | O líder despacha subtarefas com contexto isolado ou um snapshot do histórico e sintetiza os resultados | DeerFlow: agente líder + `task`, com memória DeerMem compartilhada |
+| **Pipeline declarado com gates** | Etapas em manifesto, skills de direção por etapa e checkpoints resumíveis | OpenMontage: proposta → roteiro → ativos → edição → validação |
 
 O ponto comum é a **externalização do contexto**: em vez de depender do histórico de uma sessão, a coordenação passa por artefatos que outros agentes conseguem ler. Isso reduz perda de contexto, mas cria trabalho de bookkeeping e exige que os artefatos sejam mantidos corretos.
 
 ## Onde aparece
 
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — 71 subagentes especializados, revisão em contexto novo, família de orquestradores `orch-*`, worktrees e Memory Vault para handoffs.
+- [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — agente líder que decompõe a tarefa e despacha subagentes com contexto isolado ou snapshot; checkpoints, compactação e memória DeerMem para retomar tarefas longas.
+- [OpenMontage](../repos/github.com/calesthio/openmontage.md) — o assistente de código é o orquestrador de um pipeline de produção de vídeo declarado em YAML, com skills de direção por etapa, gates de revisão e checkpoints com custo e decisões.
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — especialistas por etapa do sprint, `/autoplan`, `/pair-agent` para compartilhar navegador entre agentes de fornecedores diferentes e 10–15 sprints paralelos via Conductor.
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — orquestrador Michael, hive com memória/mailbox/blackboard/log, committer único para git, PTY por agente e escritório visual.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — equipe de 12 agentes com roles ágeis e PRD/histórias como unidade de contexto.
@@ -72,6 +76,8 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 ## Fontes
 
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34` (consultado em 2026-10-19).
+- [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).
+- [OpenMontage](../repos/github.com/calesthio/openmontage.md) — README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65` (consultado em 2026-10-19).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) e [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — páginas existentes da wiki, usadas como comparação.

@@ -34,6 +34,8 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — o Memory Vault expõe opcionalmente `ecc-memory-mcp` com quatro ferramentas (`memory_save`, `memory_search`, `memory_read`, `memory_doctor`), identidade de harness fixa e escopo de usuário protegido por opt-in.
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — `/setup-gbrain` pode registrar o GBrain como servidor MCP (`gbrain serve`) para expor busca, escrita e leitura de conhecimento como tools tipadas.
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — o recurso Capabilities lista MCP servers, skills, plugins e ferramentas que podem ser instalados no harness, com estado de revisão por entrada.
+- [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — o Capability Center cataloga MCP servers e plugins; o README alerta que ser **admin do Gateway equivale a execução de código**, porque servidores MCP stdio rodam comandos no contêiner.
+- [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — instalação opcional do extra `mcp`, ao lado de Neo4j, FalkorDB e Postgres; as tools expostas não são detalhadas no README (**A verificar**).
 
 ## Trade-offs
 
@@ -59,3 +61,5 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34` (consultado em 2026-10-19).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
+- [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).
+- [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).

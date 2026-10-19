@@ -3,7 +3,7 @@ type: concept
 aliases: [code knowledge graph, grafo de código, CBM graph]
 status: draft
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-10-19
 tags: [code-intelligence, grafo, mcp, agentes, tree-sitter]
 ---
 
@@ -21,7 +21,7 @@ A ideia é separar a inteligência (o agente/LLM) do conhecimento estrutural (o 
 
 - **Parser**: análise sintática (tree-sitter, LSP) para extrair símbolos e relacionamentos.
 - **Armazenamento**: SQLite, Neo4j ou estruturas em memória com persistência opcional.
-- **Tipos de aresta**: `CALLS`, `IMPORTS`, `INHERITS`, `HTTP_CALLS`, `SPAWNS`, `CONFIGURES`, `DEPLOYS` etc. A riqueza dos tipos de aresta determina quais perguntas o grafo pode responder.
+- **Tipos de aresta**: `CALLS`, `IMPORTS`, `INHERITS`, `HTTP_CALLS`, `SPAWNS`, `CONFIGURES`, `DEPLOYS` etc. A riqueza dos tipos de aresta determina quais perguntas o grafo pode responder. Alguns projetos distinguem arestas **extraídas** da análise estática das **inferidas** semanticamente, como o Graphify faz com `EXTRACTED` e `INFERRED`.
 - **Interface de consulta**: Cypher-like, BM25 full-text, busca semântica por embeddings, ou ferramentas MCP.
 
 ## Diferença de abordagens relacionadas
@@ -38,6 +38,8 @@ O grafo de conhecimento de código e o LSP são complementares: o grafo persiste
 ## Implementações documentadas na wiki
 
 - [DeusData/codebase-memory-mcp](../repos/github.com/deusdata/codebase-memory-mcp.md) — C puro, 162 linguagens, 17 ferramentas MCP, Hybrid LSP, SQLite, CBM Lens Beta.
+- [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — skill + CLI em Python, tree-sitter para ~40 linguagens e passo semântico opcional para docs e mídia; arestas `EXTRACTED`/`INFERRED`, comunidades de Leiden e **sem vector store**, com consulta, caminhos e explicação.
+- [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases que grava `knowledge-graph.json` e o apresenta em um dashboard interativo, com atualização incremental e validação antes de publicar.
 
 ## Lacunas
 
@@ -48,3 +50,5 @@ O grafo de conhecimento de código e o LSP são complementares: o grafo persiste
 ## Fontes
 
 - [DeusData/codebase-memory-mcp](../repos/github.com/deusdata/codebase-memory-mcp.md) — README no commit `354ccecbe612a9fdb624396a6738fa87f2617434`, consultado em 2026-10-18.
+- [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
+- [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — página do skills.sh (consultada em 2026-10-19).
