@@ -37,6 +37,8 @@ O projeto tem uma edição local open-source e o **Graphify Cloud**, serviço co
 
 O README lista ainda: comentários `# NOTE:`/`# WHY:` e citações a ADR/RFC como nós ligados ao código; exportação para HTML de call-flow via Mermaid; `--wiki` para gerar uma wiki em Markdown; merge de grafos; hook de rebuild em commit/checkout; dashboard de PRs com impacto no grafo; e suporte opcional a MCP, Neo4j, FalkorDB, Postgres e Ollama.
 
+**Exportação para Obsidian (fonte: docs, não o README).** A documentação em docs.graphify.com/guides/exports lista um exportador adicional não mencionado no README: `graphify export obsidian --dir /caminho/do/vault`, descrito como gerador de "notas e links compatíveis com o Obsidian", feito para preservar notas próprias e a configuração `.obsidian` já existentes no vault de destino. A própria documentação recomenda revisar o conteúdo gerado antes de sincronizá-lo com um vault compartilhado. Essa afirmação não foi confirmada no README (`86c57be8204673c2a1b9849a3292a7dd3ab373d8`) e é registrada aqui com a página de docs como fonte separada. Ver uso no contexto de [Workflow Claude Code + Graphify + Obsidian](../../../analyses/claude-code-graphify-obsidian.md).
+
 ### Benchmarks declarados
 
 | Benchmark | Métrica | graphify | Campo |
@@ -129,6 +131,7 @@ Exemplos de uso, derivados do README:
 - Mantido por: [Graphify-Labs](../../../entities/graphify-labs.md)
 - Conceitos: [Grafo de conhecimento de código](../../../concepts/grafo-de-conhecimento-de-codigo.md), [Agent skills](../../../concepts/agent-skills.md), [Model Context Protocol](../../../concepts/model-context-protocol.md)
 - Relacionado: [DeusData/codebase-memory-mcp](../deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código em C, com foco em indexação local e 17 ferramentas; [skill understand](../../../skills/github.com/egonex-ai/understand-anything/understand.md) — outra abordagem de grafo de código via skill; [bytedance/deer-flow](../bytedance/deer-flow.md) — harness que usa skills e ferramentas para tarefas longas.
+- Integra com: [Obsidian](../../../entities/obsidian.md), via o exportador `graphify export obsidian` documentado em docs.graphify.com.
 - Projetos citados: tree-sitter, Leiden/graspologic, faster-whisper, yt-dlp, Neo4j, FalkorDB, Ollama.
 
 ## Perguntas abertas
@@ -142,5 +145,6 @@ Exemplos de uso, derivados do README:
 
 ## Fontes
 
-- README: https://raw.githubusercontent.com/Graphify-Labs/graphify/86c57be8204673c2a1b9849a3292a7dd3ab373d8/README.md (commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8`, consultado em 2026-10-19). Somente o README foi lido; código, `ARCHITECTURE.md`, `BENCHMARKS.md`, docs e skills não foram consultados.
+- README: https://raw.githubusercontent.com/Graphify-Labs/graphify/86c57be8204673c2a1b9849a3292a7dd3ab373d8/README.md (commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8`, consultado em 2026-10-19 e reconfirmado em 2026-10-19 como ainda o HEAD). Somente o README foi lido para o corpo original da página; código, `ARCHITECTURE.md`, `BENCHMARKS.md` e skills não foram consultados.
 - Metadados: API do GitHub (`/repos/Graphify-Labs/graphify`) em 2026-10-19.
+- https://docs.graphify.com/guides/exports (consultado em 2026-10-19) — única fonte da exportação para Obsidian; autorizado pelo usuário como exceção à regra de "somente README", para verificar uma afirmação específica de terceiro antes de publicá-la.

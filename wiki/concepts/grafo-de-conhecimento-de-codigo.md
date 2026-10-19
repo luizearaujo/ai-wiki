@@ -40,6 +40,7 @@ O grafo de conhecimento de código e o LSP são complementares: o grafo persiste
 - [DeusData/codebase-memory-mcp](../repos/github.com/deusdata/codebase-memory-mcp.md) — C puro, 162 linguagens, 17 ferramentas MCP, Hybrid LSP, SQLite, CBM Lens Beta.
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — skill + CLI em Python, tree-sitter para ~40 linguagens e passo semântico opcional para docs e mídia; arestas `EXTRACTED`/`INFERRED`, comunidades de Leiden e **sem vector store**, com consulta, caminhos e explicação.
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases que grava `knowledge-graph.json` e o apresenta em um dashboard interativo, com atualização incremental e validação antes de publicar.
+- [Workflow Claude Code + Graphify + Obsidian](../analyses/claude-code-graphify-obsidian.md) — exporta o grafo do Graphify como notas interligadas em um vault do Obsidian, separando grafo estruturado (`graph.json`) de grafo visual de links (Obsidian).
 
 ## Lacunas
 

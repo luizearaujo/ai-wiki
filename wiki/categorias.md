@@ -122,6 +122,9 @@ tags: [navegacao, categorias, indice-tematico]
 **Skills**
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar e validar um grafo de código com dashboard.
 
+**Análises**
+- [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — separa o que é verificável no exportador Graphify→Obsidian do que é alegação de terceiro sem fonte rastreável.
+
 **Conceitos**
 - [Grafo de conhecimento de código](concepts/grafo-de-conhecimento-de-codigo.md)
 
@@ -129,6 +132,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [DeusData](entities/deusdata.md)
 - [Egonex-AI](entities/egonex-ai.md)
 - [Graphify Labs](entities/graphify-labs.md)
+- [Obsidian](entities/obsidian.md)
 
 ## Engenharia reversa e análise de sistemas
 
@@ -437,11 +441,15 @@ tags: [navegacao, categorias, indice-tematico]
 
 > Padrões para acumular fontes e sínteses de forma persistente — wikis mantidas por LLM, indexação, proveniência e manutenção — em contraste com a recuperação de trechos a cada consulta.
 
+**Análises**
+- [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — grafo de conhecimento exportado para um vault pessoal, com arquitetura de três camadas (fontes, conhecimento gerado, conhecimento curado).
+
 **Conceitos**
 - [Wiki pessoal com LLMs](concepts/wiki-pessoal-com-llms.md)
 
 **Entidades**
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md)
+- [Obsidian](entities/obsidian.md)
 
 ## Navegação e meta
 

@@ -71,6 +71,7 @@ O gist relaciona a ideia ao **Memex** de Vannevar Bush (1945): um acervo pessoal
 - [Evidência e proveniência](evidencia-e-proveniencia.md) — a exigência de rastrear cada afirmação até uma fonte e commit é o que permite auditar a síntese acumulada.
 - [Grafo de conhecimento de código](grafo-de-conhecimento-de-codigo.md) — aplica a mesma lógica de representação persistente a código, em vez de documentos e conceitos.
 - [Andrej Karpathy](../entities/andrej-karpathy.md) — autor do gist que descreve o padrão.
+- [Workflow Claude Code + Graphify + Obsidian](../analyses/claude-code-graphify-obsidian.md) — uma variante de terceiros do mesmo padrão (Obsidian como camada de navegação, um pipeline como gerador de notas), analisada com as mesmas exigências de rastreabilidade desta wiki.
 
 ## Trade-offs
 

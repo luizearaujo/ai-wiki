@@ -30,6 +30,7 @@ O Graphify representa a tese de **grafo em vez de vector store** para memória e
 ## Relações
 
 - Colabora com: ecossistema tree-sitter, LangChain e agentes como Claude Code, Codex, Cursor, Gemini CLI e OpenClaw.
+- Integra com: [Obsidian](obsidian.md), via o exportador `graphify export obsidian` (documentado em docs.graphify.com, não no README) — ver [Workflow Claude Code + Graphify + Obsidian](../analyses/claude-code-graphify-obsidian.md).
 - Associado a: Y Combinator (S26).
 - Concorre com: soluções de RAG sobre código, servidores MCP de code intelligence (como o CBM) e plataformas de memória para agentes.
 

@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de obra/superpowers, upstash/context7, vercel-labs/agent-browser, thedotmack/claude-mem, coleam00/excalidraw-diagram-skill, skill-creator e frontend-design de anthropics/skills)
+> Última atualização: 2026-10-19 (análise "Workflow Claude Code + Graphify + Obsidian" e entidade Obsidian)
 
 ## Repositórios
 
@@ -174,6 +174,7 @@
 - [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
 - [MyShell (myshell-ai)](entities/myshell-ai.md) — organização americana mantenedora do OpenVoice, modelo de clonagem de voz.
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
+- [Obsidian](entities/obsidian.md) — app de notas pessoais em Markdown local, com links bidirecionais e grafo visual; destino da exportação de grafos de conhecimento do Graphify.
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
 - [openbq-org](entities/openbq-org.md) — organização que mantém o OpenBB (Open Data Platform), destino da transferência de `openbb-finance`.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
@@ -191,4 +192,5 @@
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
 ## Análises
-_Nenhuma análise arquivada ainda._
+
+- [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — separa o que é verificável (exportador Graphify→Obsidian, documentado só nos docs, não no README) do que é alegação de terceiro sem fonte rastreável (números de um carrossel de Instagram), e propõe uma arquitetura de três camadas.
