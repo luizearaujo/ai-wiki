@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de The-Swarm-Corporation/AutoHedge)
+> Última atualização: 2026-10-19 (ingestão de HKUDS/Vibe-Trading)
 
 ## Repositórios
 
@@ -14,6 +14,7 @@
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
+- [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 29 fontes de dados, backtest, 81 tools MCP e execução limitada por mandato.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
@@ -94,6 +95,7 @@
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
+- [HKUDS](entities/hkuds.md) — Data Intelligence Lab @ HKU, laboratório que publica Vibe-Trading, OpenSpace, ClawTeam e outros projetos de agentes.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.

@@ -42,6 +42,7 @@ Dentro do conceito, cabe distinguir três posturas observadas na wiki: **anális
 
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — quatro analistas em paralelo, debate bullish/bearish, trader, risco e gestor; LangGraph; EDGAR ponto no tempo; memory log com liquidação; backtest em grade.
 - [The-Swarm-Corporation/AutoHedge](../repos/github.com/the-swarm-corporation/autohedge.md) — variante orientada a execução: pipeline Director → Quant → Risk → Execution com ordens autônomas em Solana. O README não publica backtest nem política de risco verificável, então o projeto ilustra o padrão sem servir como evidência de desempenho.
+- [HKUDS/Vibe-Trading](../repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa com 30 presets de swarm (incluindo comitê de investimento), 90 skills financeiras, backtest cross-market e execução live limitada por mandato. O README explicita separação paper/live, limites por operação e kill switch.
 
 ## Trade-offs
 
@@ -68,4 +69,5 @@ Dentro do conceito, cabe distinguir três posturas observadas na wiki: **anális
 
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19). Somente o README foi lido.
 - [The-Swarm-Corporation/AutoHedge](../repos/github.com/the-swarm-corporation/autohedge.md) — README no commit `c549c7950da112286e76725d49f6a25de8fa99bd` (consultado em 2026-10-19). Somente o README foi lido.
+- [HKUDS/Vibe-Trading](../repos/github.com/hkuds/vibe-trading.md) — README no commit `097b29feab9793e3c302e1a7a4f3c0dac6344904` (consultado em 2026-10-19). Somente o README foi lido.
 - Paper citado pelo projeto: https://arxiv.org/abs/2412.20138 (não consultado diretamente nesta ingestão).

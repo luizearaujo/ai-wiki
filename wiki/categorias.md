@@ -185,6 +185,7 @@ tags: [navegacao, categorias, indice-tematico]
 > Decisão de investimento decomposta em papéis de analista, debate, execução e risco, com integridade temporal dos dados e memória de decisões passadas.
 
 **Repositórios**
+- [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 30 presets de swarm, backtest cross-market e execução live limitada por mandato.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — firma de trading simulada em LangGraph, com quatro analistas, debate bullish/bearish, risco, gestor de portfólio, memory log e backtest.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — pipeline Director → Quant → Risk → Execution com execução autônoma em Solana; README curto, sem backtest publicado.
 
@@ -192,6 +193,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Análise financeira multiagente](concepts/analise-financeira-multiagente.md)
 
 **Entidades**
+- [HKUDS](entities/hkuds.md)
 - [Tauric Research](entities/tauricresearch.md)
 - [The Swarm Corporation](entities/the-swarm-corporation.md)
 
@@ -227,12 +229,14 @@ tags: [navegacao, categorias, indice-tematico]
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — REST API, MCP e webhooks.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
+- [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 
 **Entidades**
 - [croffasia](entities/croffasia.md)
 - [DeusData](entities/deusdata.md)
 - [Graphify Labs](entities/graphify-labs.md)
+- [HKUDS](entities/hkuds.md)
 - [morluto](entities/morluto.md)
 
 ## Avaliação de UX e pesquisa

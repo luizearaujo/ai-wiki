@@ -248,3 +248,10 @@
 - Atualizados `concepts/analise-financeira-multiagente.md`, `categorias.md`, `index.md`, `log.md` e `README.md`.
 - Não lidos: código, configuração, estratégias, testes e documentação interna. Controles de risco, backtest, paper trading e custódia da chave privada são a verificar.
 - Métricas da API do GitHub observadas em 2026-10-19: ~6,4 mil estrelas, ~925 forks, criado em 2024-12-10 e último push em 2026-05-11; licença MIT, Python.
+
+## [2026-10-19] ingest | HKUDS/Vibe-Trading
+- Criada `repos/github.com/hkuds/vibe-trading.md` a partir do README no commit `097b29feab9793e3c302e1a7a4f3c0dac6344904`, sem clonar o repositório.
+- Criada `entities/hkuds.md`.
+- Atualizados `concepts/analise-financeira-multiagente.md`, `categorias.md`, `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: código, testes, engines de backtest, conectores de corretora, guards de execução e documentação interna. Somente o README foi consultado; a implementação do mandato, da separação paper/live e do modo TAP é a verificar.
+- Métricas da API do GitHub observadas em 2026-10-19: ~35,9 mil estrelas, ~5,8 mil forks, criado em 2026-04-01 e último push em 2026-10-19; release v0.1.16 em 2026-09-29; licença MIT, Python.
