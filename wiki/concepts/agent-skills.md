@@ -40,6 +40,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — skills em Markdown com **carregamento progressivo**: só entram no contexto quando a tarefa precisa, podem ser ativadas por `/skill-name` e declarar `allowed-tools`.
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — a skill `/graphify` ensina o agente a construir e consultar um grafo de conhecimento, empacotada junto com o CLI.
 - [OpenMontage](../repos/github.com/calesthio/openmontage.md) — 700+ arquivos de skills e conhecimento em três camadas: capacidades executáveis, convenções de produção e conhecimento técnico profundo de tecnologias externas.
+- [mukul975/Anthropic-Cybersecurity-Skills](../repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, com descoberta progressiva (~30 tokens por frontmatter) e mapeamento a seis frameworks de segurança.
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar um grafo de conhecimento da base de código, distribuído como skill de plugin.
 - [Skill Frontend Slides](../skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — processo de design de apresentações HTML autocontidas, com prévias de estilo e verificação.
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design e contrato de SVG acessível que a skill aplica a 44 tipos visuais.
@@ -72,6 +73,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
 - [OpenMontage](../repos/github.com/calesthio/openmontage.md) — README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65` (consultado em 2026-10-19).
+- [mukul975/Anthropic-Cybersecurity-Skills](../repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57` (consultado em 2026-10-19).
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Frontend Slides](../skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — página do skills.sh (consultada em 2026-10-19).

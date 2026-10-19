@@ -159,3 +159,10 @@
 - Criado `categorias.md` com o agrupamento temático de repositórios, skills, conceitos e entidades.
 - `CLAUDE.md`: adicionado o tipo `category`, a regra de categorização obrigatória e a atualização de `categorias.md` nos workflows de ingestão, consulta e lint.
 - Atualizados `index.md`, `README.md` e `log.md`.
+
+## [2026-10-19] ingest | mukul975/Anthropic-Cybersecurity-Skills
+- Criada `repos/github.com/mukul975/anthropic-cybersecurity-skills.md` a partir do README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57`, sem clonar o repositório.
+- Criados `concepts/ciberseguranca-com-agentes.md` e `entities/mukul975.md`.
+- Atualizados `concepts/agent-skills.md`, `categorias.md`, `index.md`, `log.md` e `overview.md`.
+- Não lidos: código, docs internas, scripts e as 818 skills. Qualidade das skills, atualidade dos mapeamentos de framework e a divergência 817/818 são a verificar.
+- O projeto se declara da comunidade, sem vínculo com a Anthropic, apesar do nome.

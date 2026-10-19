@@ -32,6 +32,7 @@ tags: [overview]
 - **Grafos de código com proveniência de aresta:** além do grafo extraído por parser, projetos como o Graphify inferem relações semanticamente e marcam cada aresta como `EXTRACTED` ou `INFERRED`; a consulta dispensa vector store e o grafo pode ser inspecionado e explicado.
 - **Artefatos HTML autocontidos como formato de entrega:** apresentações e diagramas viram um único arquivo HTML com CSS, JS e SVG inline, versionável e fácil de publicar; as skills Frontend Slides e Diagram Design mostram que o valor está no processo de design, não apenas no template.
 - **Design system como gate de skill:** a skill Diagram Design exige um style guide na primeira execução e trata consistência de tipografia, paleta, espaçamento e acessibilidade como condição de aceitação, não como preferência.
+- **Cibersegurança como biblioteca de skills:** projetos como o Anthropic Cybersecurity Skills empacotam centenas de procedimentos de segurança em `SKILL.md`, mapeados a frameworks (ATT&CK, NIST CSF, ATLAS, D3FEND, AI RMF, F3) e descobertos por frontmatter antes do carregamento completo.
 
 ## Mapa por área
 
@@ -52,6 +53,7 @@ tags: [overview]
 | Produção de vídeo agêntica | [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) | Pipelines YAML + skills de direção; 100+ ferramentas e 60+ provedores; Remotion, HyperFrames e FFmpeg; score de provedores em 7 dimensões; validação pré-composição e pós-render; AGPL-3.0. |
 | Artefatos HTML autocontidos | — | Skills [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) (deck 16:9 de arquivo único) e [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) (SVG acessível com style guide); síntese em [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md). |
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
+| Cibersegurança e operações de segurança | [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) | Biblioteca de 818 skills em 34 domínios, mapeadas a ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3; projeto da comunidade, sem vínculo com a Anthropic. Síntese em [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md). |
 
 ## Tendências e observações
 
@@ -90,6 +92,9 @@ tags: [overview]
 - **Licença forte em ferramenta de produção:** OpenMontage é AGPL-3.0, mais restritiva que MIT/Apache dos demais harnesses; uso comercial e integração em serviço exigem atenção jurídica que os outros projetos não impõem.
 - **Divergências de contagem são comuns:** OpenMontage declara "10+ pipelines" no README e 12 na descrição da API; Diagram Design publica 45 tipos de diagrama na página do skills.sh e 44 na descrição do repositório. Números de vitrine devem ser lidos como afirmações datadas, não como especificação.
 - **Auditoria de skill é publicada, mas heterogênea:** as páginas do skills.sh exibem verificações de terceiros (Gen Agent Trust Hub, Socket, Snyk) com resultados como "Pass", "Warn" ou "Fail". É um sinal de ecossistema, mas os critérios variam e não substituem a leitura do `SKILL.md`.
+- **Domínio especializado escala por catálogo, não por prompt:** o Anthropic Cybersecurity Skills mostra que uma área inteira pode ser coberta por centenas de skills pequenas, descobertas por frontmatter (~30 tokens) e carregadas sob demanda. O ganho é cobertura e consistência de procedimento; o custo é governança — ninguém revisa 818 workflows a cada atualização.
+- **Nome de projeto não implica afiliação:** o repositório usa "Anthropic" no nome e no padrão de skills, mas se declara projeto da comunidade, sem vínculo com a Anthropic. O mesmo padrão de confusão já apareceu em links de instalação defasados; nome, licença e mantenedor precisam ser verificados separadamente.
+- **Divergência de contagem interna:** o README usa 818 skills em uma passagem e 817 em outra, contra 34 domínios. É mais uma evidência de que números de catálogo são afirmações datadas do projeto, não especificação estável.
 
 ## Lacunas e próximos passos
 
@@ -118,6 +123,8 @@ tags: [overview]
 - [ ] Ler os `SKILL.md` de Understand, Frontend Slides e Diagram Design (com autorização) para conferir os métodos publicados nas páginas do skills.sh.
 - [ ] Avaliar na prática os gates e a validação de saída do OpenMontage, incluindo o score de provedores em sete dimensões.
 - [ ] Comparar apresentações e diagramas gerados por skills com reveal.js, Slidev, Mermaid, draw.io e Excalidraw em qualidade, acessibilidade e manutenção.
+- [ ] Auditar uma amostra das 818 skills de cibersegurança quanto a qualidade, atualidade dos mapeamentos de framework e segurança das instruções.
+- [ ] Ler `README.md` e arquivos de catálogo do Anthropic Cybersecurity Skills (além do README raiz) para explicar a divergência entre 817 e 818 skills.
 
 ## Fontes
 
@@ -139,3 +146,4 @@ tags: [overview]
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65`; metadados da API do GitHub observados em 2026-10-19.
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md), [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) e [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — páginas do skills.sh consultadas em 2026-10-19.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md), [Memória de agente](concepts/memoria-de-agente.md) e [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md) — sínteses construídas a partir das fontes acima (2026-10-19).
+- [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57`; metadados da API do GitHub observados em 2026-10-19.

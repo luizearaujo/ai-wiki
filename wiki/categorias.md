@@ -45,6 +45,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — também nesta categoria pelo catálogo de 311 skills e pela migração de comandos para skills.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — 150+ personalidades em Markdown, organizadas em 16 divisões.
+- [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — também nesta categoria pela biblioteca de 818 skills de domínio.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — quatro princípios de comportamento em um único `CLAUDE.md`.
 
 **Conceitos**
@@ -95,6 +96,19 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [littledivy](entities/littledivy.md)
 - [morluto](entities/morluto.md)
+
+## Cibersegurança e operações de segurança
+
+> Conhecimento e ferramentas para agentes atuarem em defesa, resposta a incidentes, threat hunting e testes ofensivos autorizados.
+
+**Repositórios**
+- [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — 818 skills em 34 domínios, mapeadas a MITRE ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3.
+
+**Conceitos**
+- [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md)
+
+**Entidades**
+- [mukul975](entities/mukul975.md)
 
 ## Geração de mídia e artefatos HTML
 
