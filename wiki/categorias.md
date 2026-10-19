@@ -186,12 +186,14 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — firma de trading simulada em LangGraph, com quatro analistas, debate bullish/bearish, risco, gestor de portfólio, memory log e backtest.
+- [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — pipeline Director → Quant → Risk → Execution com execução autônoma em Solana; README curto, sem backtest publicado.
 
 **Conceitos**
 - [Análise financeira multiagente](concepts/analise-financeira-multiagente.md)
 
 **Entidades**
 - [Tauric Research](entities/tauricresearch.md)
+- [The Swarm Corporation](entities/the-swarm-corporation.md)
 
 ## Engenharia e interfaces agent-first
 

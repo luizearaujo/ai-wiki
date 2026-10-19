@@ -36,9 +36,12 @@ Três exigências aparecem como condição de validade:
 
 O resultado é um **scaffold de pesquisa**, não uma estratégia com retorno fixo. O não determinismo dos LLMs e a variação das fontes ao vivo impedem reprodução byte a byte.
 
+Dentro do conceito, cabe distinguir três posturas observadas na wiki: **análise para decisão humana** (TradingAgents produz uma proposta e opera em exchange simulada), **pesquisa com execução limitada por mandato** (Vibe-Trading) e **execução autônoma** (AutoHedge). Quanto mais perto da execução, maior o peso de controles verificáveis — limites, aprovação, kill switch e custódia — e mais grave a ausência deles no README.
+
 ## Onde aparece
 
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — quatro analistas em paralelo, debate bullish/bearish, trader, risco e gestor; LangGraph; EDGAR ponto no tempo; memory log com liquidação; backtest em grade.
+- [The-Swarm-Corporation/AutoHedge](../repos/github.com/the-swarm-corporation/autohedge.md) — variante orientada a execução: pipeline Director → Quant → Risk → Execution com ordens autônomas em Solana. O README não publica backtest nem política de risco verificável, então o projeto ilustra o padrão sem servir como evidência de desempenho.
 
 ## Trade-offs
 
@@ -64,4 +67,5 @@ O resultado é um **scaffold de pesquisa**, não uma estratégia com retorno fix
 ## Fontes
 
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19). Somente o README foi lido.
+- [The-Swarm-Corporation/AutoHedge](../repos/github.com/the-swarm-corporation/autohedge.md) — README no commit `c549c7950da112286e76725d49f6a25de8fa99bd` (consultado em 2026-10-19). Somente o README foi lido.
 - Paper citado pelo projeto: https://arxiv.org/abs/2412.20138 (não consultado diretamente nesta ingestão).

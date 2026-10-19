@@ -241,3 +241,10 @@
 - `README.md` passa a ser atualizado em toda inclusão, alteração ou remoção de página: as contagens e listas da seção "Conteúdo atual" espelham `index.md`.
 - Adicionada a linha `Análises (0)` ao README.
 - `CLAUDE.md` atualizado: árvore de estrutura, camadas, regra inegociável 3, passos de bookkeeping/verificação das ingestões de repositório e skill, arquivamento de consulta, checklist de lint e nova seção "Formato do README".
+
+## [2026-10-19] ingest | The-Swarm-Corporation/AutoHedge
+- Criada `repos/github.com/the-swarm-corporation/autohedge.md` a partir do README no commit `c549c7950da112286e76725d49f6a25de8fa99bd`, sem clonar o repositório.
+- Criada `entities/the-swarm-corporation.md`.
+- Atualizados `concepts/analise-financeira-multiagente.md`, `categorias.md`, `index.md`, `log.md` e `README.md`.
+- Não lidos: código, configuração, estratégias, testes e documentação interna. Controles de risco, backtest, paper trading e custódia da chave privada são a verificar.
+- Métricas da API do GitHub observadas em 2026-10-19: ~6,4 mil estrelas, ~925 forks, criado em 2024-12-10 e último push em 2026-05-11; licença MIT, Python.
