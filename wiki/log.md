@@ -154,3 +154,8 @@
 - `index.md` reordenado alfabeticamente por seção e atualizado com 3 repositórios, 3 skills, 3 conceitos e 6 entidades.
 - `overview.md` atualizado com temas, mapa por área, observações, lacunas e fontes do lote.
 - Conceitos compartilhados atualizados: `agent-harness`, `agent-skills`, `orquestracao-multiagente`, `model-context-protocol` e `grafo-de-conhecimento-de-codigo`.
+
+## [2026-10-19] fix | catálogo por categoria
+- Criado `categorias.md` com o agrupamento temático de repositórios, skills, conceitos e entidades.
+- `CLAUDE.md`: adicionado o tipo `category`, a regra de categorização obrigatória e a atualização de `categorias.md` nos workflows de ingestão, consulta e lint.
+- Atualizados `index.md`, `README.md` e `log.md`.

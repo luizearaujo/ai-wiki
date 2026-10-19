@@ -1,7 +1,8 @@
 # Índice da Wiki
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
-> Última atualização: 2026-10-19 (ingestão de OpenMontage, DeerFlow, Graphify e três skills do skills.sh)
+> Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
+> Última atualização: 2026-10-19 (catálogo por categoria; ingestão de OpenMontage, DeerFlow, Graphify e três skills do skills.sh)
 
 ## Repositórios
 

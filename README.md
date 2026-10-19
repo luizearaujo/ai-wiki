@@ -18,6 +18,7 @@ A ideia central é separar **coleta** de **consulta**: o conhecimento é indexad
 | Skills (4) | [Diagram Design](wiki/skills/github.com/cathrynlavery/diagram-design/diagram-design.md) · [Frontend Slides](wiki/skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) · [Understand](wiki/skills/github.com/egonex-ai/understand-anything/understand.md) · [UX Audit Rethink](wiki/skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) |
 | Conceitos (12) | [Agent harness](wiki/concepts/agent-harness.md) · [Agent skills](wiki/concepts/agent-skills.md) · [Artefatos HTML autocontidos](wiki/concepts/artefatos-html-autocontidos.md) · [Auditoria de UX](wiki/concepts/auditoria-de-ux.md) · [CLAUDE.md](wiki/concepts/claude-md.md) · [Engenharia reversa agêntica](wiki/concepts/engenharia-reversa-agentica.md) · [Evidência e proveniência](wiki/concepts/evidencia-e-proveniencia.md) · [Grafo de conhecimento de código](wiki/concepts/grafo-de-conhecimento-de-codigo.md) · [Memória de agente](wiki/concepts/memoria-de-agente.md) · [MCP](wiki/concepts/model-context-protocol.md) · [Orquestração multiagente](wiki/concepts/orquestracao-multiagente.md) · [Produção de vídeo agêntica](wiki/concepts/producao-de-video-agentica.md) |
 | Entidades (17) | [affaan-m](wiki/entities/affaan-m.md) · [ByteDance](wiki/entities/bytedance.md) · [calesthio](wiki/entities/calesthio.md) · [cathrynlavery](wiki/entities/cathrynlavery.md) · [croffasia](wiki/entities/croffasia.md) · [DeusData](wiki/entities/deusdata.md) · [Egonex-AI](wiki/entities/egonex-ai.md) · [garrytan](wiki/entities/garrytan.md) · [Graphify Labs](wiki/entities/graphify-labs.md) · [HarnessMD](wiki/entities/harnessmd.md) · [littledivy](wiki/entities/littledivy.md) · [mastepanoski](wiki/entities/mastepanoski.md) · [morluto](wiki/entities/morluto.md) · [msitarzewski](wiki/entities/msitarzewski.md) · [multica-ai](wiki/entities/multica-ai.md) · [SynkraAI](wiki/entities/synkraai.md) · [zarazhangrui](wiki/entities/zarazhangrui.md) |
+| Categorias | [categorias.md](wiki/categorias.md) — navegação temática de toda a documentação por área |
 | Panorama | [overview.md](wiki/overview.md) — síntese em evolução do ecossistema |
 
 ## Como funciona
@@ -28,7 +29,7 @@ O agente (Claude Code com o schema em [CLAUDE.md](CLAUDE.md)) opera em três mod
 ```
 https://github.com/owner/repo
 ```
-O agente lê o `README.md` naquele commit, levanta metadados pela API do GitHub, cria a página em `wiki/`, atualiza o índice e o log, e faz commit + push automaticamente.
+O agente lê o `README.md` naquele commit, levanta metadados pela API do GitHub, cria a página em `wiki/`, atualiza o índice, o [catálogo de categorias](wiki/categorias.md) e o log, e faz commit + push automaticamente.
 
 **Consulta** — faça uma pergunta:
 ```
@@ -45,6 +46,7 @@ wiki/
 ├── index.md                          # catálogo de todas as páginas
 ├── log.md                            # histórico append-only de operações
 ├── overview.md                       # síntese do ecossistema
+├── categorias.md                     # catálogo temático por categoria
 ├── repos/<host>/<owner>/<repo>.md
 ├── skills/<host>/<owner>/<repo>/<slug>.md
 ├── concepts/<slug>.md
