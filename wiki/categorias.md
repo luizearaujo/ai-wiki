@@ -131,6 +131,42 @@ tags: [navegacao, categorias, indice-tematico]
 - [cathrynlavery](entities/cathrynlavery.md)
 - [zarazhangrui](entities/zarazhangrui.md)
 
+## Design de interface e direção de arte
+
+> Skills que dão a agentes critério visual — regras anti-slop, direção de arte, redesign, geração de referências visuais e design systems persistentes.
+
+**Skills**
+- [Brandkit](skills/github.com/leonxlnx/taste-skill/brandkit.md) — boards de identidade de marca em uma imagem, com estratégia, logo, paleta e aplicações.
+- [Design Taste Frontend](skills/github.com/leonxlnx/taste-skill/design-taste-frontend.md) — run anti-slop com direção sorteada, ideia do assunto e inspeção por screenshots.
+- [Design Taste Frontend v1](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v1.md) — regras fixas da primeira geração, preservadas por compatibilidade.
+- [Design Taste Frontend v2 Experimental](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v2-experimental.md) — arquivo único com design read, dials e protocolo de redesign.
+- [GPT Taste](skills/github.com/leonxlnx/taste-skill/gpt-taste.md) — sorteio determinístico, AIDA, hero de duas linhas e GSAP para GPT/Codex.
+- [High-End Visual Design](skills/github.com/leonxlnx/taste-skill/high-end-visual-design.md) — estética de agência premium com variância de arquétipos e movimento elaborado.
+- [Image Taste Frontend](skills/github.com/leonxlnx/taste-skill/image-taste-frontend.md) — image-to-code para Codex: gerar, analisar e implementar.
+- [Image to Code](skills/github.com/leonxlnx/taste-skill/image-to-code.md) — entrada movida para `imagegen-skills`, sem conteúdo publicado na origem.
+- [Imagegen Frontend Mobile](skills/github.com/leonxlnx/taste-skill/imagegen-frontend-mobile.md) — variante mobile de referências visuais, movida para `imagegen-skills`.
+- [Imagegen Frontend Web](skills/github.com/leonxlnx/taste-skill/imagegen-frontend-web.md) — uma imagem horizontal por seção, com consistência de marca.
+- [Impeccable](skills/github.com/pbakaus/impeccable/impeccable.md) — quatro modos de superfície, 24 comandos e verificação no navegador.
+- [Industrial Brutalist UI](skills/github.com/leonxlnx/taste-skill/industrial-brutalist-ui.md) — brutalismo industrial com Swiss print ou telemetria CRT.
+- [Minimalist UI](skills/github.com/leonxlnx/taste-skill/minimalist-ui.md) — minimalismo utilitário editorial com monofonia quente e pastéis.
+- [Redesign Existing Projects](skills/github.com/leonxlnx/taste-skill/redesign-existing-projects.md) — auditoria e upgrades pontuais sem trocar de stack.
+- [Stitch Design Taste](skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) — `DESIGN.md` semântico e anti-slop para o Google Stitch.
+- [Taste Skill (alias de design-taste-frontend-v1)](skills/github.com/leonxlnx/taste-skill/taste-skill.md) — entrada de catálogo com slug próprio e conteúdo da v1.
+- [UI/UX Pro Max](skills/github.com/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max.md) — base pesquisável de estilos, paletas, tipografia, UX e 22 stacks.
+
+**Conceitos**
+- [Design system com agentes](concepts/design-system-com-agentes.md)
+- [Design taste para agentes](concepts/design-taste-para-agentes.md)
+- [Image-to-code](concepts/image-to-code.md)
+
+**Entidades**
+- [Leon Lin (leonxlnx)](entities/leonxlnx.md)
+- [Next Level Builder](entities/nextlevelbuilder.md)
+- [Paul Bakaus (pbakaus)](entities/pbakaus.md)
+
+**Skills documentadas em outras categorias**
+- [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
+
 ## Trabalho, projetos e colaboração humano-agente
 
 > Ferramentas em que pessoas e agentes compartilham o mesmo fluxo de trabalho, board ou unidade de tarefa.
@@ -163,6 +199,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Skills**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — escala de sete eixos para avaliar CLIs; nota de 0–21 e bônus multi-superfície.
+- [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — entrega integral, sem placeholders, com pausa explícita no limite de tokens.
 - [Ink](skills/github.com/google-labs-code/design.md/ink.md) — UI de terminal a partir de specs JSON, com catálogo tipado, eventos e streaming.
 - [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) — ciclo de um teste por vez como contrapressão ao código gerado.
 - [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — spec/handler com Zod e Result Pattern, sem exceções na fronteira.
@@ -170,6 +207,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [CLI agent-first](concepts/cli-agent-first.md)
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md)
+- [Saída completa de agente](concepts/saida-completa-de-agente.md)
 - [TDD para agentes](concepts/tdd-para-agentes.md)
 
 **Entidades**

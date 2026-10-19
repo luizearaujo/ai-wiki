@@ -208,3 +208,31 @@
 ## [2026-10-19] fix | cabeçalho duplicado em overview.md
 - Removido o `## Lacunas e próximos passos` repetido introduzido no lote de `google-labs-code/design.md`; o arquivo voltou a ter um único cabeçalho.
 - Verificados todos os arquivos Markdown da wiki: nenhum cabeçalho duplicado e nenhuma âncora quebrada.
+
+## [2026-10-19] ingest | skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max
+- Criada `skills/github.com/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criada `entities/nextlevelbuilder.md`.
+- Criados `concepts/design-taste-para-agentes.md` e `concepts/design-system-com-agentes.md`.
+- O repositório-fonte não foi clonado; o conteúdo veio do `SKILL.md` renderizado. `source_path` observado na árvore: `.claude/skills/ui-ux-pro-max/SKILL.md`.
+- Métricas publicadas em 2026-10-19: 403.620 instalações, primeira aparição em 19 de janeiro de 2026; auditorias Gen Agent Trust Hub, Socket e Snyk com "Pass". Repositório no commit `56ea9cf174ed86786187daa9de0e6247cb0747e4`, MIT, Python, 137.481 estrelas e 14.603 forks.
+
+## [2026-10-19] ingest | skills.sh/pbakaus/impeccable/impeccable
+- Criada `skills/github.com/pbakaus/impeccable/impeccable.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criada `entities/pbakaus.md`.
+- O repositório-fonte não foi clonado; o conteúdo veio do `SKILL.md` renderizado. `source_path` observado na árvore: `.agents/skills/impeccable/SKILL.md`.
+- Métricas publicadas em 2026-10-19: 343.949 instalações, primeira aparição em 8 de abril de 2026; Gen Agent Trust Hub "Pass", Socket "Warn", Snyk "Pass". Repositório no commit `0665bd812ae0908fcab17b96fd4f840defb882d9`, Apache-2.0, Rust, 82.979 estrelas e 5.018 forks.
+
+## [2026-10-19] ingest | skills.sh/leonxlnx/taste-skill — 16 skills
+- Criadas em `skills/github.com/leonxlnx/taste-skill/`: `design-taste-frontend.md`, `design-taste-frontend-v1.md`, `design-taste-frontend-v2-experimental.md`, `taste-skill.md`, `high-end-visual-design.md`, `redesign-existing-projects.md`, `minimalist-ui.md`, `industrial-brutalist-ui.md`, `gpt-taste.md`, `full-output-enforcement.md`, `stitch-design-taste.md`, `brandkit.md`, `image-taste-frontend.md`, `image-to-code.md`, `imagegen-frontend-web.md` e `imagegen-frontend-mobile.md`, a partir das páginas do skills.sh consultadas em 2026-10-19.
+- Criada `entities/leonxlnx.md`.
+- Criados `concepts/image-to-code.md` e `concepts/saida-completa-de-agente.md`.
+- Atualizados `concepts/design-taste-para-agentes.md`, `concepts/design-system-com-agentes.md`, `categorias.md` (nova categoria "Design de interface e direção de arte"), `index.md`, `log.md`, `overview.md` e `README.md`.
+- O repositório-fonte não foi clonado e os `SKILL.md` crus não foram lidos. Caminhos observados na árvore do commit `b9ca2fd8047f4c72d7da90ebc1c1203e57c72cd2`; `full-output-enforcement` e `image-taste-frontend` não têm arquivo localizável na árvore atual e estão marcados como **A verificar**.
+- O catálogo tem 16 entradas, mas `taste-skill` é um alias da v1 (1 instalação, aponta para `--skill design-taste-frontend-v1`); `image-to-code` e `imagegen-frontend-mobile` foram movidas para `Leonxlnx/imagegen-skills` e não publicam corpo renderizado. `image-to-code` tem Socket "Warn".
+- Métricas de adoção observadas em 2026-10-19 variam de 1 a 636.323 instalações; `design-taste-frontend` é a mais instalada (636,7 mil). Repositório MIT, JavaScript, 99.159 estrelas e 6.743 forks.
+
+## [2026-10-19] lint | lote design de interface (18 skills)
+- Verificados links relativos, âncoras, frontmatter obrigatório, seção `## Fontes`, ordenação alfabética do índice e cobertura de categorias nas páginas novas.
+- `index.md` e `README.md` atualizados para 28 skills, 22 conceitos e 25 entidades, com entradas em ordem alfabética.
+- `categorias.md` ganhou a categoria "Design de interface e direção de arte"; `Full-Output Enforcement` e `Saída completa de agente` ficaram em "Engenharia e interfaces agent-first".
+- `overview.md` atualizado com novo tema, linha no mapa, sete observações, cinco lacunas e fontes.

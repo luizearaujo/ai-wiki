@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (catálogo por categoria; ingestões de cibersegurança, escrita, trading e engenharia agent-first)
+> Última atualização: 2026-10-19 (ingestão das skills de design de UI/UX Pro Max, Impeccable e do catálogo leonxlnx/taste-skill)
 
 ## Repositórios
 
@@ -25,13 +25,31 @@
 ## Skills
 
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — avaliação de CLIs em sete eixos de design agent-first, com nota de 0–21 e faixas de human-only a agent-first.
+- [Brandkit](skills/github.com/leonxlnx/taste-skill/brandkit.md) — geração de boards de identidade de marca com estratégia, logo, paleta, tipografia e aplicações em uma imagem.
+- [Design Taste Frontend](skills/github.com/leonxlnx/taste-skill/design-taste-frontend.md) — run anti-slop com direção sorteada, ideia do assunto, regras de casa mensuráveis e inspeção por screenshots.
+- [Design Taste Frontend v1](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v1.md) — versão original de regras fixas, preservada para projetos que dependem do comportamento exato.
+- [Design Taste Frontend v2 Experimental](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v2-experimental.md) — segunda geração em arquivo único, com design read, três dials e protocolo de redesign.
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide e contrato de acessibilidade.
 - [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — apresentações HTML autocontidas em palco 16:9, com descoberta de estilo, prévias, edição inline e exportação.
+- [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — proíbe placeholders e elipses, exige contagem de entregáveis e define pausa e retomada por limite de tokens.
+- [GPT Taste](skills/github.com/leonxlnx/taste-skill/gpt-taste.md) — engenharia de design para GPT/Codex com sorteio determinístico, AIDA, hero de duas linhas e GSAP.
+- [High-End Visual Design](skills/github.com/leonxlnx/taste-skill/high-end-visual-design.md) — estilo opt-in de agência premium, com variância de arquétipos e coreografia de movimento.
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com fluxo de reescrita em quatro etapas e três modos de saída.
+- [Image Taste Frontend](skills/github.com/leonxlnx/taste-skill/image-taste-frontend.md) — fluxo image-to-code para Codex: gerar, analisar em profundidade e só então implementar.
+- [Image to Code](skills/github.com/leonxlnx/taste-skill/image-to-code.md) — entrada de catálogo movida para `imagegen-skills`, sem conteúdo renderizado na origem.
+- [Imagegen Frontend Mobile](skills/github.com/leonxlnx/taste-skill/imagegen-frontend-mobile.md) — variante mobile de geração de referências, movida para `imagegen-skills`.
+- [Imagegen Frontend Web](skills/github.com/leonxlnx/taste-skill/imagegen-frontend-web.md) — uma imagem horizontal por seção, com variedade de composição e consistência de marca.
+- [Impeccable](skills/github.com/pbakaus/impeccable/impeccable.md) — quatro modos de superfície, 24 comandos e contexto `PRODUCT.md`/`DESIGN.md` com verificação no navegador.
+- [Industrial Brutalist UI](skills/github.com/leonxlnx/taste-skill/industrial-brutalist-ui.md) — brutalismo industrial e telemetria tática com Swiss print ou CRT, grid rígido e raio zero.
 - [Ink](skills/github.com/google-labs-code/design.md/ink.md) — referência do `@json-render/ink`: UI de terminal a partir de specs JSON, com data binding, eventos e streaming.
+- [Minimalist UI](skills/github.com/leonxlnx/taste-skill/minimalist-ui.md) — minimalismo utilitário editorial com monofonia quente, serifada de contraste e pastéis dessaturados.
+- [Redesign Existing Projects](skills/github.com/leonxlnx/taste-skill/redesign-existing-projects.md) — auditoria por área e upgrades pontuais em projetos existentes, sem trocar de stack.
+- [Stitch Design Taste](skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) — geração de `DESIGN.md` semântico e anti-slop para o Google Stitch.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e nota de 1–10 em cinco dimensões para revisar prosa gerada por IA.
+- [Taste Skill (alias de design-taste-frontend-v1)](skills/github.com/leonxlnx/taste-skill/taste-skill.md) — entrada de catálogo com slug próprio que serve o conteúdo da v1.
 - [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) — ciclo vermelho-verde-refatorar em TypeScript, um teste por vez, com proibição de escrever testes em lote.
 - [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — arquitetura spec/handler com schemas Zod, erros exaustivos e Result Pattern para fronteiras previsíveis.
+- [UI/UX Pro Max](skills/github.com/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max.md) — base pesquisável de estilos, paletas, tipografia, UX e 22 stacks, com design system persistente.
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar e validar um grafo de conhecimento de código com dashboard interativo.
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — auditoria ampla de UX com os frameworks de Morville, ISO e interaction design.
 
@@ -46,14 +64,18 @@
 - [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
 - [CLI agent-first](concepts/cli-agent-first.md) — CLI desenhada para agentes: saída estruturada, payload cru, introspecção de schema, contexto disciplinado e defesa contra alucinação.
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
+- [Design system com agentes](concepts/design-system-com-agentes.md) — identidade visual como artefato versionado (`DESIGN.md`, `PRODUCT.md`, `MASTER.md`) carregado entre sessões.
+- [Design taste para agentes](concepts/design-taste-para-agentes.md) — métodos que dão critério visual explícito a agentes: direção, regras mensuráveis, referências e verificação.
 - [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
 - [Grafo de conhecimento de código](concepts/grafo-de-conhecimento-de-codigo.md) — representação de código como grafo de nós e arestas tipadas, consultável por agentes sem leitura de arquivos.
 - [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md) — edição de prosa para remover maneirismos de LLM preservando conteúdo e voz do autor.
+- [Image-to-code](concepts/image-to-code.md) — gerar a referência visual, analisá-la em profundidade e só então implementar o frontend.
 - [Memória de agente](concepts/memoria-de-agente.md) — formatos e mecanismos para persistir decisões e handoffs entre sessões, harnesses e agentes.
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
+- [Saída completa de agente](concepts/saida-completa-de-agente.md) — entrega integral sem placeholders, com contagem de escopo e pausa explícita no limite de tokens.
 - [TDD para agentes](concepts/tdd-para-agentes.md) — red-green-refactor como contrapressão sobre código gerado, com evidência de falha e proibição de ajustar testes.
 
 ## Entidades
@@ -71,12 +93,15 @@
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
+- [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.
 - [morluto](entities/morluto.md) — criador do REA e mantenedor de ferramentas de engenharia reversa para agentes.
 - [msitarzewski](entities/msitarzewski.md) — criador do Agency Agents, coleção de personalidades de agente organizadas em divisões especializadas.
 - [mukul975](entities/mukul975.md) — Mahipal Jangra, autor da biblioteca de skills de cibersegurança para agentes.
 - [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
+- [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
+- [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
