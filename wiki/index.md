@@ -2,17 +2,21 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão do gist karpathy/llm-wiki)
+> Última atualização: 2026-10-19 (ingestão de dez repositórios)
 
 ## Repositórios
 
+- [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
+- [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
+- [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
+- [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
@@ -20,16 +24,22 @@
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — framework que renderiza MP4 determinístico a partir de HTML, CSS, mídia e animações seekable, com CLI e 21 skills para agentes.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 29 fontes de dados, backtest, 81 tools MCP e execução limitada por mandato.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
+- [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
+- [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
+- [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, mapeadas a seis frameworks e distribuídas no padrão agentskills.io.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
+- [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
+- [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
+- [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 
 ## Skills
@@ -78,6 +88,7 @@
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
 - [Design system com agentes](concepts/design-system-com-agentes.md) — identidade visual como artefato versionado (`DESIGN.md`, `PRODUCT.md`, `MASTER.md`) carregado entre sessões.
 - [Design taste para agentes](concepts/design-taste-para-agentes.md) — métodos que dão critério visual explícito a agentes: direção, regras mensuráveis, referências e verificação.
+- [Economia de tokens em agentes](concepts/economia-de-tokens-em-agentes.md) — Técnicas que reduzem tokens de entrada e saída — compressão, roteamento de modelo, code mode e cache — preservando payload, segurança e qualidade.
 - [Email para agentes](concepts/email-para-agentes.md) — caixa de entrada como contexto e superfície de ação, com isolamento por mailbox, confirmação de envio e exposição via MCP.
 - [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
@@ -95,9 +106,11 @@
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md) — manter a parte densa residente e ler do disco apenas os experts roteados por token, trocando memória por latência.
 - [TDD para agentes](concepts/tdd-para-agentes.md) — red-green-refactor como contrapressão sobre código gerado, com evidência de falha e proibição de ajustar testes.
 - [Wiki pessoal com LLMs](concepts/wiki-pessoal-com-llms.md) — agente mantém uma wiki persistente e interligada entre as fontes brutas e o usuário, compilando conhecimento em vez de recuperar trechos a cada consulta.
+- [YAGNI para agentes](concepts/yagni-para-agentes.md) — Escada de reuso que obriga o agente a parar na solução mínima antes de escrever código, sem cortar validação, segurança, acessibilidade ou testes.
 
 ## Entidades
 
+- [Addy Osmani (addyosmani)](entities/addyosmani.md) — Engenheiro conhecido por performance web e autor do `agent-skills`, coleção de skills de engenharia de produção.
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md) — autor do gist `llm-wiki`, que descreve o padrão de wiki pessoal mantida por LLM.
@@ -106,8 +119,10 @@
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
 - [cathrynlavery](entities/cathrynlavery.md) — autora da skill Diagram Design, que gera diagramas editoriais em HTML/SVG com sistema de design consistente.
 - [Cloudflare](entities/cloudflare.md) — empresa de infraestrutura de edge que publica o Agentic Inbox e a plataforma Workers usada por ele.
+- [Composio (ComposioHQ)](entities/composiohq.md) — Organização da plataforma Composio, que conecta agentes a aplicações e mantém a lista `awesome-claude-skills`.
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
+- [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
@@ -118,9 +133,11 @@
 - [HeyGen](entities/heygen.md) — empresa de vídeo com avatares que publica o HyperFrames como motor de renderização open source para agentes.
 - [HKUDS](entities/hkuds.md) — Data Intelligence Lab @ HKU, laboratório que publica Vibe-Trading, OpenSpace, ClawTeam e outros projetos de agentes.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
+- [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.
+- [Matt Pocock (mattpocock)](entities/mattpocock.md) — Educador de TypeScript e criador do repositório `skills`, coleção de instruções de engenharia para agentes.
 - [morluto](entities/morluto.md) — criador do REA e mantenedor de ferramentas de engenharia reversa para agentes.
 - [msitarzewski](entities/msitarzewski.md) — criador do Agency Agents, coleção de personalidades de agente organizadas em divisões especializadas.
 - [mukul975](entities/mukul975.md) — Mahipal Jangra, autor da biblioteca de skills de cibersegurança para agentes.
@@ -131,10 +148,10 @@
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
+- [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
 ## Análises
-
 _Nenhuma análise arquivada ainda._

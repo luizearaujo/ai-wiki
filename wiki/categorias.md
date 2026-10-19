@@ -46,26 +46,42 @@ tags: [navegacao, categorias, indice-tematico]
 > Formatos que moldam o comportamento do agente — `SKILL.md`, `CLAUDE.md`, personalidades e diretrizes distribuídas como artefatos versionáveis.
 
 **Repositórios**
+- [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — também nesta categoria pelo catálogo de 311 skills e pela migração de comandos para skills.
+- [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
+- [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
+- [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
+- [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
+- [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
+- [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — 150+ personalidades em Markdown, organizadas em 16 divisões.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — também nesta categoria pela biblioteca de 818 skills de domínio.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — quatro princípios de comportamento em um único `CLAUDE.md`.
+- [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — também nesta categoria pelos cookbooks de deploy e fine-tune distribuídos como Agent Skills roteadoras.
+- [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — skill de design com comandos e detector de regras.
+- [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 
 **Conceitos**
 - [Agent skills](concepts/agent-skills.md)
 - [CLAUDE.md](concepts/claude-md.md)
+- [YAGNI para agentes](concepts/yagni-para-agentes.md)
 
 **Entidades**
+- [Addy Osmani (addyosmani)](entities/addyosmani.md)
 - [affaan-m](entities/affaan-m.md)
+- [Composio (ComposioHQ)](entities/composiohq.md)
+- [DietrichGebert](entities/dietrichgebert.md)
+- [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
+- [Matt Pocock (mattpocock)](entities/mattpocock.md)
 - [msitarzewski](entities/msitarzewski.md)
 - [multica-ai](entities/multica-ai.md)
 
 **Skills documentadas em outras categorias**
+- [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Ink](skills/github.com/google-labs-code/design.md/ink.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) e [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — em [Geração de mídia e artefatos HTML](#geração-de-mídia-e-artefatos-html).
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — em [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código).
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — em [Avaliação de UX e pesquisa](#avaliação-de-ux-e-pesquisa).
-- [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Ink](skills/github.com/google-labs-code/design.md/ink.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
 
 ## Grafos de conhecimento e contexto de código
 
@@ -73,7 +89,9 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro; 162 linguagens, Hybrid LSP e 17 ferramentas.
+- [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que gera grafo com arestas `EXTRACTED`/`INFERRED`, sem vector store.
+- [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
 **Skills**
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar e validar um grafo de código com dashboard.
@@ -91,6 +109,7 @@ tags: [navegacao, categorias, indice-tematico]
 > Investigação de binários, aplicações e tráfego para reconstruir comportamento sem código-fonte, com evidência explícita e limitações declaradas.
 
 **Repositórios**
+- [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego iOS/web e usa Claude para gerar um cliente Python a partir de sessões autenticadas.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para análise estática e em runtime de binários, apps e firmware.
 
@@ -122,6 +141,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica com pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — composição em HTML puro com timing por atributos, animação seekable e render determinístico em Chrome headless + FFmpeg; 21 skills para agentes.
+- [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
 **Skills**
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide.
@@ -135,11 +155,17 @@ tags: [navegacao, categorias, indice-tematico]
 - [calesthio](entities/calesthio.md)
 - [cathrynlavery](entities/cathrynlavery.md)
 - [HeyGen](entities/heygen.md)
+- [tt-a1i](entities/tt-a1i.md)
 - [zarazhangrui](entities/zarazhangrui.md)
 
 ## Design de interface e direção de arte
 
 > Skills que dão a agentes critério visual — regras anti-slop, direção de arte, redesign, geração de referências visuais e design systems persistentes.
+
+**Repositórios**
+- [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
+- [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
+- [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 
 **Skills**
 - [Brandkit](skills/github.com/leonxlnx/taste-skill/brandkit.md) — boards de identidade de marca em uma imagem, com estratégia, logo, paleta e aplicações.
@@ -169,6 +195,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md)
 - [Next Level Builder](entities/nextlevelbuilder.md)
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md)
+- [tt-a1i](entities/tt-a1i.md)
 
 **Skills documentadas em outras categorias**
 - [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
@@ -253,7 +280,12 @@ tags: [navegacao, categorias, indice-tematico]
 > Desenho de CLIs, contratos de serviço, ciclos de verificação e superfícies de terminal pensados para que agentes operem ferramentas com previsibilidade e segurança.
 
 **Repositórios**
+- [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
+- [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser com snapshots de acessibilidade, refs estáveis, sessões isoladas e importação de cookies; anti-detecção declarada.
+- [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
+- [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
+- [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 
 **Skills**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — escala de sete eixos para avaliar CLIs; nota de 0–21 e bônus multi-superfície.
@@ -265,13 +297,18 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [CLI agent-first](concepts/cli-agent-first.md)
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md)
+- [Economia de tokens em agentes](concepts/economia-de-tokens-em-agentes.md)
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md)
 - [Saída completa de agente](concepts/saida-completa-de-agente.md)
 - [TDD para agentes](concepts/tdd-para-agentes.md)
+- [YAGNI para agentes](concepts/yagni-para-agentes.md)
 
 **Entidades**
+- [DietrichGebert](entities/dietrichgebert.md)
 - [Google Labs Code](entities/google-labs-code.md)
 - [jo-inc](entities/jo-inc.md)
+- [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
+- [Matt Pocock (mattpocock)](entities/mattpocock.md)
 
 ## Protocolos, integrações e confiabilidade
 
@@ -303,6 +340,9 @@ tags: [navegacao, categorias, indice-tematico]
 ## Avaliação de UX e pesquisa
 
 > Avaliação estruturada de produtos contra frameworks explícitos, operacionalizada como skill reutilizável.
+
+**Repositórios**
+- [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 
 **Skills**
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — auditoria ampla de UX com os frameworks de Morville, ISO e interaction design.

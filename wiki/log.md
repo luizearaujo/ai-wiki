@@ -338,3 +338,55 @@
 - Não lidos: revisões anteriores do gist, comentários e eventuais arquivos além de `llm-wiki.md`. Somente o conteúdo publicado na revisão acima foi consultado.
 - O endpoint de gists da API do GitHub retornou HTTP 502 durante a operação; datas de criação (2026-04-04) e última atualização (2026-10-16) foram extraídas da página HTML do gist. Metadados do autor vieram de `api.github.com/users/karpathy`.
 - O gist é um documento de ideia, não um repositório de código; a página foi registrada como conceito, não como repositório.
+
+## [2026-10-19] ingest | addyosmani/agent-skills
+- Criada `repos/github.com/addyosmani/agent-skills.md`.
+- Criada `entities/addyosmani.md`.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `aeac41d4d005999432bb7312f7ff06383a91d59d` foi lido.
+
+## [2026-10-19] ingest | ComposioHQ/awesome-claude-skills
+- Criada `repos/github.com/composiohq/awesome-claude-skills.md`.
+- Criada `entities/composiohq.md`. Licença: README declara Apache-2.0; API não detectou arquivo de licença.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `be2a406907dbc61b73e6827ded415c96139d13a2` foi lido.
+
+## [2026-10-19] ingest | dietrichgebert/ponytail
+- Criada `repos/github.com/dietrichgebert/ponytail.md`.
+- Criada `entities/dietrichgebert.md`.
+- Criado `concepts/yagni-para-agentes.md` a partir deste README.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `09c434ab73ca43761c5d8b0c5d341926c2fba710` foi lido.
+
+## [2026-10-19] ingest | Egonex-AI/Understand-Anything
+- Criada `repos/github.com/egonex-ai/understand-anything.md`.
+- A página da skill `understand` já existia e foi vinculada; a página de repositório cobre o produto como um todo.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `f2d0164f72fe678805c34245a6df36acededfebd` foi lido.
+
+## [2026-10-19] ingest | JuliusBrussee/caveman
+- Criada `repos/github.com/juliusbrussee/caveman.md`.
+- Criada `entities/juliusbrussee.md`.
+- Criado `concepts/economia-de-tokens-em-agentes.md` com números e ressalvas de medição do README.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `bad48a0e1df55e05e3f52249afa35ecc1909ee76` foi lido.
+
+## [2026-10-19] ingest | Leonxlnx/taste-skill
+- Criada `repos/github.com/leonxlnx/taste-skill.md`.
+- As 13 páginas de skills do catálogo já existiam e foram vinculadas à nova página de repositório.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `b9ca2fd8047f4c72d7da90ebc1c1203e57c72cd2` foi lido.
+
+## [2026-10-19] ingest | mattpocock/skills
+- Criada `repos/github.com/mattpocock/skills.md`.
+- Criada `entities/mattpocock.md`.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `5beb35b040e3de97e54fa9e386d7e42d15c295c2` foi lido.
+
+## [2026-10-19] ingest | nextlevelbuilder/ui-ux-pro-max-skill
+- Criada `repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md`.
+- A página da skill `ui-ux-pro-max` já existia e foi vinculada à nova página de repositório.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `56ea9cf174ed86786187daa9de0e6247cb0747e4` foi lido.
+
+## [2026-10-19] ingest | pbakaus/impeccable
+- Criada `repos/github.com/pbakaus/impeccable.md`.
+- A página da skill `impeccable` já existia e foi vinculada à nova página de repositório.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `0665bd812ae0908fcab17b96fd4f840defb882d9` foi lido.
+
+## [2026-10-19] ingest | tt-a1i/archify
+- Criada `repos/github.com/tt-a1i/archify.md`.
+- Criada `entities/tt-a1i.md`.
+- Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `25cf37080fc8b1dbe758a4efc3935b55f3327083` foi lido.
