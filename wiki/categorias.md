@@ -227,6 +227,19 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md)
 
+## Inferência local e runtime de modelos
+
+> Execução de modelos de linguagem em hardware próprio, com decisões explícitas sobre onde os pesos residem e como o runtime troca capacidade por latência.
+
+**Repositórios**
+- [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
+
+**Conceitos**
+- [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md)
+
+**Entidades**
+- [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
+
 ## Engenharia e interfaces agent-first
 
 > Desenho de CLIs, contratos de serviço, ciclos de verificação e superfícies de terminal pensados para que agentes operem ferramentas com previsibilidade e segurança.
@@ -267,6 +280,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — ferramentas MCP dentro da automação do terminal.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
+- [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 
 **Entidades**

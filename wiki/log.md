@@ -303,3 +303,12 @@
 - Contradições mantidas e sinalizadas (não apagadas): licença do FinceptTerminal (README `AGPL-3.0-or-later`, API `NOASSERTION`); preços conflitantes do Quantcept no mesmo README; contagens divergentes de skills do Anthropic Cybersecurity Skills (817 vs. 818) e de pipelines do OpenMontage (10+ vs. 12); status "development candidate" do Claude Ads, que ainda assim está publicado.
 - Normalizados dois `status` fora do enum do schema (`active (movida)` → `active`) em `skills/github.com/leonxlnx/taste-skill/image-to-code.md` e `imagegen-frontend-mobile.md`; o aviso de mudança de repositório continua no corpo e nas tags.
 - Nenhuma nova lacuna conceitual identificada além das já registradas em `overview.md`.
+
+## [2026-10-19] ingest | JustVugg/colibri
+- Criada `repos/github.com/justvugg/colibri.md` a partir do README no commit `e0db083cdc9e563e0766cc6fc661ef23c32298e0`, sem clonar o repositório.
+- Criadas `entities/vincenzo-fornaro.md` e `concepts/streaming-de-experts-em-moe.md`.
+- Atualizados `categorias.md` (nova categoria "Inferência local e runtime de modelos"; repositório também listado em "Protocolos, integrações e confiabilidade" pelo `coli mcp`), `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: `docs/`, código C/Python, testes, releases, checkpoints e dashboard. Somente o README foi consultado; benchmarks, a generalização do cache aprendido, o isolamento do servidor e o modo System One são a verificar.
+- O README declara o invariante "posicionamento só decide velocidade" e explicita que ainda não mediu uma GPU discreta no caminho Vulkan; os números vêm em parte da comunidade.
+- Licença do código Apache-2.0; cada checkpoint mantém a licença do autor (GLM-5.2 MIT, Qwen-Image-2.1 apenas não comercial).
+- Métricas da API do GitHub observadas em 2026-10-19: ~42,8 mil estrelas, ~4,8 mil forks, 151 issues abertas, criado em 2026-07-01 e último push em 2026-10-19; licença Apache-2.0, linguagem C, branch padrão `main`.
