@@ -19,6 +19,7 @@ A ideia original está em [`llm-wiki-md`](llm-wiki-md).
 ```
 /
 ├── CLAUDE.md                    # este schema
+├── README.md                    # porta de entrada: contagens e links de todas as páginas
 ├── llm-wiki-md                  # ideia original
 ├── raw/
 │   └── repos/<host>/<owner>/<repo>/   # clones opcionais, só com pedido explícito (não versionados)
@@ -44,6 +45,7 @@ A ideia original está em [`llm-wiki-md`](llm-wiki-md).
 
 - **`raw/`** — fontes imutáveis e opcionais. Clones `--depth 1` em `raw/repos/` só são criados quando o usuário pedir explicitamente. Nunca edite esses arquivos e nunca os versione: a página da wiki registra URL + commit, o que torna a fonte reproduzível.
 - **`wiki/`** — camada gerada e mantida pelo agente. O usuário lê; o agente escreve.
+- **`README.md`** — porta de entrada do repositório: contagens por tipo e links para todas as páginas. Deve espelhar `wiki/index.md` e ser atualizado no mesmo commit de qualquer inclusão, alteração ou remoção de página.
 - **`wiki/categorias.md`** — porta de entrada temática: agrupa as páginas por área e deve acompanhar toda página de conteúdo criada, alterada ou removida.
 - **`CLAUDE.md` + `templates/`** — schema e formato das páginas.
 - **Repositórios** — documentados apenas a partir do `README.md` na referência registrada. Não clone o repositório nem leia `docs/`, código-fonte ou manifestos sem autorização explícita.
@@ -53,7 +55,7 @@ A ideia original está em [`llm-wiki-md`](llm-wiki-md).
 
 1. Não modifique nada em `raw/`.
 2. Toda página em `wiki/` (exceto `index.md` e `log.md`) começa com frontmatter YAML.
-3. Toda ingestão, consulta arquivada ou remoção atualiza `wiki/index.md`, `wiki/log.md` e `wiki/categorias.md`.
+3. Toda ingestão, consulta arquivada ou remoção atualiza `wiki/index.md`, `wiki/log.md`, `wiki/categorias.md` e o `README.md` da raiz.
 4. Links internos usam caminhos relativos em Markdown, não wikilinks do Obsidian — a wiki precisa renderizar no GitHub.
 5. Toda página de repositório registra o commit do `README.md` usado como fonte; toda página de skill registra a URL de origem e o repositório-fonte.
 6. Datas no formato ISO (`YYYY-MM-DD`).
@@ -180,8 +182,8 @@ Gatilho: o usuário informa uma URL de repositório. Por padrão, execute a inge
 4. **Levante metadados pela API** (quando disponível): licença, linguagem principal, status, tópicos, última release e data do último push. Estrelas, forks e issues mudam: registre-os apenas como observação datada, nunca como fato estável.
 5. **Escreva a página** com `templates/repo.md` em `wiki/repos/<host>/<owner>/<repo>.md`. Documente o que o README publica: propósito, como funciona, instalação, uso, exemplos, pré-requisitos, limitações e posicionamento. Marque como **A verificar** tudo o que o README não cobrir e diga explicitamente que somente ele foi lido. Em reingestão, compare o novo SHA com o anterior e registre o que mudou.
 6. **Identifique o que merece página.** A página do repositório é obrigatória. Crie ou atualize a página da entidade `owner` quando houver contexto suficiente. Crie páginas de conceito apenas para ideias centrais e capazes de sustentar uma página útil; demais termos ficam no texto ou como lacuna em `overview.md`.
-7. **Faça o bookkeeping:** adicione a entrada em `wiki/index.md` e à(s) categoria(s) adequada(s) em `wiki/categorias.md`, acrescente a entrada no fim de `wiki/log.md`, crie links bidirecionais (repositório ↔ conceitos/entidades) e atualize `wiki/overview.md` somente se o repositório mudar o quadro geral.
-8. **Verifique:** links relativos resolvem, frontmatter completo, página listada no índice e em pelo menos uma categoria, sem duplicata, informações datadas corretamente.
+7. **Faça o bookkeeping:** adicione a entrada em `wiki/index.md`, à(s) categoria(s) adequada(s) em `wiki/categorias.md` e ao `README.md` (contagem e lista da seção "Conteúdo atual"), acrescente a entrada no fim de `wiki/log.md`, crie links bidirecionais (repositório ↔ conceitos/entidades) e atualize `wiki/overview.md` somente se o repositório mudar o quadro geral.
+8. **Verifique:** links relativos resolvem, frontmatter completo, página listada no índice, em pelo menos uma categoria e no `README.md`, contagens e listas do README iguais às do índice, sem duplicata, informações datadas corretamente.
 9. **Commit e push.** Sempre, ao final de toda ingestão, crie um commit com a mensagem `add <URL-do-repositório>` (ex.: `add https://github.com/owner/repo`) e execute `git push`. Faça isso sem pedir confirmação ao usuário.
 
 ### 2. Ingestão de skill
@@ -193,7 +195,7 @@ Gatilho: o usuário informa a URL de uma skill (marketplace, catálogo ou caminh
 3. **Escreva a página** com o template `templates/skill.md` em `wiki/skills/<host>/<owner>/<repo>/<slug>.md`.
 4. **Entidade e conceitos.** Crie ou atualize a entidade do autor. Crie página de conceito para a ideia central (ex.: agent skills, auditoria de UX) quando houver material suficiente.
 5. **Exemplos de uso** são permitidos, mas devem ser rotulados como exemplos derivados da descrição publicada, não como instruções oficiais da skill.
-6. **Faça o bookkeeping e verifique** como na ingestão de repositório: índice, categorias, log, links bidirecionais, frontmatter e links relativos.
+6. **Faça o bookkeeping e verifique** como na ingestão de repositório: índice, categorias, README (contagens e listas), log, links bidirecionais, frontmatter e links relativos.
 7. **Commit e push.** Sempre, ao final de toda ingestão de skill, crie um commit com a mensagem `add <URL-da-skill>` e execute `git push`. Faça isso sem pedir confirmação ao usuário.
 
 ### 3. Consulta
@@ -201,14 +203,15 @@ Gatilho: o usuário informa a URL de uma skill (marketplace, catálogo ou caminh
 1. Leia `wiki/index.md` (ou `wiki/categorias.md` para navegação por assunto) para localizar páginas relevantes; depois leia as páginas e siga os links necessários.
 2. Responda com citações às páginas da wiki e, quando o dado for sensível à versão, ao commit registrado.
 3. Se a wiki não tiver a informação, diga o que falta e proponha uma fonte a ingerir. Não invente.
-4. **Arquive respostas reutilizáveis.** Comparações, análises e sínteses que o usuário provavelmente reutilizará viram `wiki/analyses/<slug>.md` com o template `templates/analysis.md`. Atualize índice, categorias e log com uma entrada de tipo `query`.
+4. **Arquive respostas reutilizáveis.** Comparações, análises e sínteses que o usuário provavelmente reutilizará viram `wiki/analyses/<slug>.md` com o template `templates/analysis.md`. Atualize índice, categorias, README (contagem e lista de análises) e log com uma entrada de tipo `query`.
 
 ### 4. Lint
 
 Rode quando solicitado ou ao final de um lote de ingestões. Procure e corrija:
 
 - links quebrados ou apontando para páginas renomeadas;
-- páginas ausentes do `index.md` ou de `wiki/categorias.md`, e categorias inadequadas;
+- páginas ausentes do `index.md`, de `wiki/categorias.md` ou do `README.md`, e categorias inadequadas;
+- contagens ou listas do `README.md` divergentes de `wiki/index.md`;
 - frontmatter faltando ou inválido;
 - contradições entre páginas (sinalize com data e fonte, não apague);
 - afirmações que fontes mais novas superaram;
@@ -253,6 +256,15 @@ Registre o resultado em `wiki/log.md` com uma entrada de tipo `lint`.
 ```
 
 Mantenha a ordenação alfabética dentro de cada seção.
+
+## Formato do README
+
+O `README.md` da raiz é a porta de entrada do repositório e deve espelhar `wiki/index.md`:
+
+- A seção "Conteúdo atual" traz uma tabela com uma linha por tipo de página, contagem entre parênteses e links de todas as páginas separados por ` · `, em ordem alfabética.
+- A linha de análises mostra `Análises (n)`; quando não houver nenhuma, use o texto `_Nenhuma análise arquivada ainda._` sem link.
+- As linhas de Categorias e Panorama apontam para `wiki/categorias.md` e `wiki/overview.md`.
+- Sempre que uma página for criada, renomeada, alterada (título ou resumo) ou removida, atualize a contagem e a lista correspondente no mesmo commit. Nunca deixe o README divergir do índice.
 
 ## Formato do catálogo de categorias
 

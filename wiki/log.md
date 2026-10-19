@@ -236,3 +236,8 @@
 - `index.md` e `README.md` atualizados para 28 skills, 22 conceitos e 25 entidades, com entradas em ordem alfabética.
 - `categorias.md` ganhou a categoria "Design de interface e direção de arte"; `Full-Output Enforcement` e `Saída completa de agente` ficaram em "Engenharia e interfaces agent-first".
 - `overview.md` atualizado com novo tema, linha no mapa, sete observações, cinco lacunas e fontes.
+
+## [2026-10-19] fix | README no bookkeeping
+- `README.md` passa a ser atualizado em toda inclusão, alteração ou remoção de página: as contagens e listas da seção "Conteúdo atual" espelham `index.md`.
+- Adicionada a linha `Análises (0)` ao README.
+- `CLAUDE.md` atualizado: árvore de estrutura, camadas, regra inegociável 3, passos de bookkeeping/verificação das ingestões de repositório e skill, arquivamento de consulta, checklist de lint e nova seção "Formato do README".
