@@ -287,3 +287,11 @@
 - O README declara status "development candidate", com os 12 perfis de saúde desativados e a escrita limitada a rascunhos até o gate de mutação passar.
 - Distribuição dupla: release público MIT e espelho comunitário para membros do AI Marketing Hub Pro. Releases têm checksum e SBOM, mas não assinatura.
 - Métricas da API do GitHub observadas em 2026-10-19: ~10,1 mil estrelas, ~1,5 mil forks, 3 issues abertas, criado em 2026-02-11 e último push em 2026-10-17; licença MIT, Python.
+
+## [2026-10-19] ingest | jo-inc/camofox-browser
+- Criada `repos/github.com/jo-inc/camofox-browser.md` a partir do README no commit `39c82094013480b373df6600d44c7f036f58356e`, sem clonar o repositório.
+- Criadas `entities/jo-inc.md` e `concepts/navegacao-web-agentica.md`.
+- Atualizados `categorias.md` (repositório em "Engenharia e interfaces agent-first"), `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: código, testes, plugins (OpenClaw, Claude Code), worker de telemetria, scripts de build e documentação interna. Somente o README foi consultado; o isolamento de sessão, a cifragem de cookies, a coleta de telemetria e a durabilidade da anti-detecção são a verificar.
+- Ferramenta de finalidade controversa (anti-detecção e anti-scraping): a página documenta o mecanismo e registra explicitamente que a wiki não avalia termos de serviço, direitos autorais ou legislação aplicáveis ao uso.
+- Métricas da API do GitHub observadas em 2026-10-19: ~11,7 mil estrelas, ~1,2 mil forks, 240 issues abertas, criado em 2026-01-26 e último push em 2026-10-16; licença MIT, JavaScript, branch padrão `master`.

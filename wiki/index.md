@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de AgriciDaniel/claude-ads)
+> Última atualização: 2026-10-19 (ingestão de jo-inc/camofox-browser)
 
 ## Repositórios
 
@@ -19,6 +19,7 @@
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — framework que renderiza MP4 determinístico a partir de HTML, CSS, mídia e animações seekable, com CLI e 21 skills para agentes.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 29 fontes de dados, backtest, 81 tools MCP e execução limitada por mandato.
+- [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
@@ -81,6 +82,7 @@
 - [Image-to-code](concepts/image-to-code.md) — gerar a referência visual, analisá-la em profundidade e só então implementar o frontend.
 - [Memória de agente](concepts/memoria-de-agente.md) — formatos e mecanismos para persistir decisões e handoffs entre sessões, harnesses e agentes.
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
+- [Navegação web agêntica](concepts/navegacao-web-agentica.md) — browser real controlado pelo agente em um loop de observação, ação e nova observação, com representação estruturada e isolamento de sessão.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
 - [Saída completa de agente](concepts/saida-completa-de-agente.md) — entrega integral sem placeholders, com contagem de escopo e pausa explícita no limite de tokens.
@@ -106,6 +108,7 @@
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
 - [HeyGen](entities/heygen.md) — empresa de vídeo com avatares que publica o HyperFrames como motor de renderização open source para agentes.
 - [HKUDS](entities/hkuds.md) — Data Intelligence Lab @ HKU, laboratório que publica Vibe-Trading, OpenSpace, ClawTeam e outros projetos de agentes.
+- [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.

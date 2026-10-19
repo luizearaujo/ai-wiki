@@ -231,6 +231,9 @@ tags: [navegacao, categorias, indice-tematico]
 
 > Desenho de CLIs, contratos de serviço, ciclos de verificação e superfícies de terminal pensados para que agentes operem ferramentas com previsibilidade e segurança.
 
+**Repositórios**
+- [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser com snapshots de acessibilidade, refs estáveis, sessões isoladas e importação de cookies; anti-detecção declarada.
+
 **Skills**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — escala de sete eixos para avaliar CLIs; nota de 0–21 e bônus multi-superfície.
 - [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — entrega integral, sem placeholders, com pausa explícita no limite de tokens.
@@ -241,11 +244,13 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [CLI agent-first](concepts/cli-agent-first.md)
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md)
+- [Navegação web agêntica](concepts/navegacao-web-agentica.md)
 - [Saída completa de agente](concepts/saida-completa-de-agente.md)
 - [TDD para agentes](concepts/tdd-para-agentes.md)
 
 **Entidades**
 - [Google Labs Code](entities/google-labs-code.md)
+- [jo-inc](entities/jo-inc.md)
 
 ## Protocolos, integrações e confiabilidade
 
