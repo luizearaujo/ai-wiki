@@ -3,7 +3,7 @@ type: concept
 aliases: [CLAUDE.md, Instruções persistentes para agentes, Memória de projeto do Claude Code]
 status: draft
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 tags: [agentes, claude-code, contexto, diretrizes]
 ---
 
@@ -31,6 +31,7 @@ Os detalhes de carregamento — quando o arquivo é lido, quanto contexto consom
 ## Onde aparece
 
 - [multica-ai/andrej-karpathy-skills](../repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento distribuídas como um único `CLAUDE.md` e também como plugin do Claude Code.
+- [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — a instalação pede uma seção "gstack" no `CLAUDE.md` para rotear navegação; `/sync-gbrain` também insere e remove um bloco de orientação de busca.
 - O [`CLAUDE.md`](../../CLAUDE.md) deste repositório — schema da wiki, com estrutura, frontmatter e workflows.
 
 ## Trade-offs
@@ -40,7 +41,7 @@ Os detalhes de carregamento — quando o arquivo é lido, quanto contexto consom
 
 ## Relações
 
-- **Relacionado a:** [Agent skills](agent-skills.md) — skills carregam instruções sob demanda por tarefa; um `CLAUDE.md` tende a valer para toda sessão. Os dois formatos podem coexistir.
+- **Relacionado a:** [Agent skills](agent-skills.md) — skills carregam instruções sob demanda por tarefa; um `CLAUDE.md` tende a valer para toda sessão. Os dois formatos podem coexistir. [Agent harness](agent-harness.md) — harnesses costumam usar o `CLAUDE.md` como ponto de entrada para regras e roteamento.
 - **Contrasta com:** [Model Context Protocol](model-context-protocol.md) — MCP expõe ferramentas e dados em runtime; `CLAUDE.md` fornece apenas instruções.
 - **Pré-requisito para:** comportamento consistente do agente em tarefas recorrentes do projeto, como estilo, testes e comandos de build.
 
@@ -54,4 +55,5 @@ Os detalhes de carregamento — quando o arquivo é lido, quanto contexto consom
 ## Fontes
 
 - README de `multica-ai/andrej-karpathy-skills` no commit `2c606141936f1eeef17fa3043a72095b4765b9c2` (consultado em 2026-10-17).
+- [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - `CLAUDE.md` deste repositório, como exemplo de uso estruturado do formato (consultado em 2026-10-17).

@@ -120,8 +120,8 @@ O README documenta seis cenários de uso coordenado ("montagem de equipe"):
 
 ## Relações
 
-- Mantido por: [msitarzewski](../../entities/msitarzewski.md)
-- Conceitos: [Agent skills](../../concepts/agent-skills.md), [CLAUDE.md](../../concepts/claude-md.md)
+- Mantido por: [msitarzewski](../../../entities/msitarzewski.md)
+- Conceitos: [Agent skills](../../../concepts/agent-skills.md), [CLAUDE.md](../../../concepts/claude-md.md)
 - Relacionado: [multica-ai/andrej-karpathy-skills](../multica-ai/andrej-karpathy-skills.md) — outro repositório de definições de comportamento para agentes, com foco em diretrizes gerais em vez de especialidades.
 
 ## Perguntas abertas

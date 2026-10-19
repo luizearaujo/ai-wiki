@@ -76,3 +76,32 @@
 - Atualizados `index.md`, `log.md` e `overview.md`.
 - Divergência de licença: README/badge indica MIT, API do GitHub retornou `other/NOASSERTION`; `docs/legal/license-clarification.md` não foi lido.
 - Não lidos: `docs/`, código-fonte, arquivos de agente em `.aiox-core/agents/`, `CONTRIBUTING.md`, manifestos de squads.
+
+## [2026-10-19] ingest | affaan-m/ECC
+- Criada `repos/github.com/affaan-m/ecc.md` a partir do README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34`, sem clonar o repositório.
+- Criada `entities/affaan-m.md`.
+- Criado `concepts/agent-harness.md` (compartilhado com as demais ingestões do lote) e atualizado `concepts/agent-skills.md`.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Não lidos: `docs/`, código, guias `the-*-guide.md`, agentes e skills individuais, `CHANGELOG.md`. Qualidade real do catálogo, paridade entre harnesses e fronteira OSS/ECC Pro são a verificar.
+- O owner no GitHub é `affaan-m/ECC`; o caminho da wiki usa minúsculas conforme o schema.
+
+## [2026-10-19] ingest | garrytan/gstack
+- Criada `repos/github.com/garrytan/gstack.md` a partir do README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037`, sem clonar o repositório.
+- Criada `entities/garrytan.md`.
+- Criado `concepts/orquestracao-multiagente.md` (compartilhado com as demais ingestões do lote) e atualizados `concepts/claude-md.md` e `concepts/model-context-protocol.md`.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Não lidos: código, `docs/`, `ARCHITECTURE.md`, `ETHOS.md`, `USING_GBRAIN_WITH_GSTACK.md`. Versão corrente única, cobertura de testes por host e custo de tokens de um sprint são a verificar.
+- O README cita versões v1.91.13.0 e iOS QA v1.43.0.0+ sem um cabeçalho único de release.
+
+## [2026-10-19] ingest | HarnessMD/munder-difflin
+- Criada `repos/github.com/harnessmd/munder-difflin.md` a partir do README no commit `436d65a74a69d347c57641fbace4eb822bf98600`, sem clonar o repositório.
+- Criada `entities/harnessmd.md`.
+- Atualizados `concepts/agent-harness.md`, `concepts/orquestracao-multiagente.md`, `index.md`, `log.md` e `overview.md`.
+- Não lidos: `HIVE.md`, `SPEC.md`, `DESIGN.md`, `docs/ARCHITECTURE.md`, `TELEMETRY.md`, `CONTRIBUTING.md`, código-fonte e assets. Aplicação de gates humanos, desempenho da memória e fronteira grátis/Pro são a verificar.
+- README ainda referencia o owner antigo `chaitanyagiri/munder-difflin` em links, clone e mídias; o repositório canônico observado é `HarnessMD/munder-difflin`. Licença do código é MIT, mas os assets de pixel art têm licença separada da LimeZu.
+
+## [2026-10-19] lint | lote ECC, gstack e Munder Difflin
+- Verificados todos os links relativos da wiki; corrigidos links quebrados em `repos/github.com/msitarzewski/agency-agents.md` (`../../` → `../../../`).
+- Verificado frontmatter obrigatório das páginas de repositório, entidade e conceito; todas as novas páginas têm `## Fontes`.
+- Índice reordenado alfabeticamente por seção e atualizado com as 8 páginas novas e as 3 entidades.
+- `overview.md` atualizado com temas, mapa por área, observações, lacunas e fontes do lote.

@@ -3,7 +3,7 @@ type: concept
 aliases: [MCP, Model Context Protocol]
 status: stable
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 tags: [protocolo, agentes, ferramentas]
 ---
 
@@ -31,6 +31,9 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 
 - [morluto/rea](../repos/github.com/morluto/rea.md) — o REA é um servidor MCP local (`src/main.ts` + `src/server/`) que expõe workflows de engenharia reversa a agentes. A CLI usa a mesma camada de aplicação, e o setup registra o servidor nos clientes com backup e aprovação.
 - O projeto depende de `@modelcontextprotocol/client` e `@modelcontextprotocol/server` (`package.json`) e documenta contratos de tools, resultados e sessões em `docs/mcp-contracts.md`.
+- [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — o Memory Vault expõe opcionalmente `ecc-memory-mcp` com quatro ferramentas (`memory_save`, `memory_search`, `memory_read`, `memory_doctor`), identidade de harness fixa e escopo de usuário protegido por opt-in.
+- [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — `/setup-gbrain` pode registrar o GBrain como servidor MCP (`gbrain serve`) para expor busca, escrita e leitura de conhecimento como tools tipadas.
+- [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — o recurso Capabilities lista MCP servers, skills, plugins e ferramentas que podem ser instalados no harness, com estado de revisão por entrada.
 
 ## Trade-offs
 
@@ -53,3 +56,6 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 ## Fontes
 
 - [morluto/rea](../repos/github.com/morluto/rea.md) — `README.md`, `package.json`, `src/main.ts`, `src/server/`, `docs/mcp-contracts.md`, `docs/installation.md` e `.agents/skills/rea-analysis-optimization/references/kuna-case-study.md` (commit `09de00b4108a5d738ebe56903e0110ef63820aca`, consultado em 2026-10-17).
+- [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34` (consultado em 2026-10-19).
+- [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
+- [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).

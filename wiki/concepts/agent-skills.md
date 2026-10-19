@@ -3,7 +3,7 @@ type: concept
 aliases: [Agent Skills, Skills para agentes, SKILL.md]
 status: draft
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 tags: [agentes, skills, claude-code, distribuicao]
 ---
 
@@ -35,6 +35,8 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 ## Onde aparece
 
 - [UX Audit Rethink](../skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — skill de auditoria de UX instalada pelo CLI `skills`, com `SKILL.md` em `skills/ux-audit-rethink/`.
+- [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — catálogo de 311 skills organizadas por linguagem, framework e domínio; o README trata skills como a superfície primária de workflow e mantém comandos como shims de compatibilidade.
+- [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — skills como slash commands em Markdown, encadeadas por etapa de sprint; o mesmo conteúdo é renderizado para vários agentes por `./setup --host`.
 
 ## Trade-offs
 
@@ -43,7 +45,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 
 ## Relações
 
-- **Relacionado a:** [Model Context Protocol](../concepts/model-context-protocol.md) — camada complementar: skills empacotam *instruções*, MCP expõe *ferramentas e dados* em runtime.
+- **Relacionado a:** [Agent harness](agent-harness.md) — skills são um dos componentes que um harness instala e orquestra; [Model Context Protocol](model-context-protocol.md) — camada complementar: skills empacotam *instruções*, MCP expõe *ferramentas e dados* em runtime.
 - **Distingue-se de:** [CLAUDE.md](../concepts/claude-md.md) — instruções persistentes do projeto, carregadas em toda sessão; skills são acionadas por tarefa e distribuídas como pacote.
 - **Contrasta com:** prompts avulsos copiados entre sessões e plugins específicos de um único cliente.
 - **Pré-requisito para:** usar skills de catálogo com segurança — revisar fonte, licença, conteúdo e permissões antes da instalação.
@@ -59,3 +61,5 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 
 - [UX Audit Rethink](../skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — comandos de instalação e caminho do `SKILL.md` publicados no catálogo (consultado em 2026-10-17).
 - https://github.com/mastepanoski/claude-skills — árvore do repositório com `skills/<slug>/SKILL.md` (consultada em 2026-10-17).
+- [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34` (consultado em 2026-10-19).
+- [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
