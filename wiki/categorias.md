@@ -275,6 +275,16 @@ tags: [navegacao, categorias, indice-tematico]
 - [OpenBMB](entities/openbmb.md)
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
 
+## Modelos abertos e treinamento de LLMs
+
+> Treinamento de modelos do zero, corpus, tokenizador, dinâmica de treino e avaliação — com reprodutibilidade e proveniência como critério de publicação.
+
+**Repositórios**
+- [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus de ~20,1B tokens, tokenizador próprio, pré-treino em Megatron-LM, conversão para HuggingFace e avaliação pareada em quatro benchmarks.
+
+**Entidades**
+- [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md)
+
 ## Engenharia e interfaces agent-first
 
 > Desenho de CLIs, contratos de serviço, ciclos de verificação e superfícies de terminal pensados para que agentes operem ferramentas com previsibilidade e segurança.

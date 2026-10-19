@@ -390,3 +390,13 @@
 - Criada `repos/github.com/tt-a1i/archify.md`.
 - Criada `entities/tt-a1i.md`.
 - Atualizados `index.md`, `categorias.md`, `README.md` e `log.md`. Somente o `README.md` no commit `25cf37080fc8b1dbe758a4efc3935b55f3327083` foi lido.
+
+## [2026-10-19] ingest | Instituto-IA-LNCC/manaca-1b-base
+- Criada `repos/github.com/instituto-ia-lncc/manaca-1b-base.md` a partir do README no commit `408cba1fb765cdc496df2a518fe32f192270e5ee`, sem clonar o repositório.
+- Criada `entities/instituto-ia-lncc.md` (organização do Instituto de IA do LNCC).
+- Atualizados `index.md`, `categorias.md` (nova categoria "Modelos abertos e treinamento de LLMs"), `overview.md`, `README.md` e `log.md`.
+- Não lidos: `paper/`, `docs/`, `corpus/`, `models/`, `scripts/`, `reports/`, `docker/`, os pesos no Hugging Face e o preprint arXiv 2608.30114. Somente o README foi consultado; arquitetura, corpus, dinâmica de treino, hardware e benchmarks são afirmações do projeto.
+- Divergência de licença: README e badge declaram CC BY 4.0; a API do GitHub reporta `NOASSERTION` e o arquivo `LICENSE` não foi lido.
+- O comando de clone do README aponta para `brunoleomenezes/manaca-1b-base`, não para a organização `Instituto-IA-LNCC` onde o repositório está; registrado como link de instalação defasado.
+- Benchmarks (CALAME-PT, ARC-Ch-PT, HellaSwag-PT, LAMBADA-PT) são publicados pelo próprio projeto, com harness comum e testes pareados declarados; não reproduzidos por esta wiki.
+- Métricas da API do GitHub observadas em 2026-10-19: 249 estrelas, 16 forks, 2 issues abertas, criado em 2026-08-31 e último push em 2026-09-23; linguagem Python, branch padrão `main`.
