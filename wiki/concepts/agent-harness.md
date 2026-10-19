@@ -48,6 +48,7 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — harness desktop que orquestra CLIs de terminal como agentes em um escritório, com hive de memória e mensageria.
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — workspace desktop que embarca o runtime `pi` (`pi-ai`, `pi-agent-core`, `pi-coding-agent`) e adiciona sessões persistentes, permissões, plugins e orquestração de Worker Sessions.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — harness/framework CLI-first com agentes especializados e artefatos persistentes.
+- [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento; sem catálogo de skills nem MCP, mas com o mesmo padrão de roteamento sobre um runtime único.
 
 ## Trade-offs
 
@@ -77,3 +78,4 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — README no commit `87a48b953e8bada43a7a63f8922846198b9efb61` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — página existente da wiki, usada como comparação.
+- [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — README no commit `b46bcca482218643236999221720586e7f410e04` (consultado em 2026-10-19).

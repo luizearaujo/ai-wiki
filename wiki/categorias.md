@@ -22,6 +22,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — processo, 71 agentes, 311 skills e memória portátil sobre Claude Code, Codex e outros clientes.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, sandbox e memória DeerMem.
+- [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento, sem depender de nuvem.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
@@ -36,6 +37,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [affaan-m](entities/affaan-m.md)
 - [ByteDance](entities/bytedance.md)
+- [Fosowl](entities/fosowl.md)
 - [garrytan](entities/garrytan.md)
 - [HarnessMD](entities/harnessmd.md)
 - [SynkraAI](entities/synkraai.md)
@@ -136,11 +138,12 @@ tags: [navegacao, categorias, indice-tematico]
 
 ## Geração de mídia e artefatos HTML
 
-> Produção de vídeo, apresentações e diagramas como artefatos reproduzíveis, com pipelines declarados ou arquivos HTML autocontidos.
+> Produção de vídeo, voz, apresentações e diagramas como artefatos reproduzíveis, com pipelines declarados ou arquivos HTML autocontidos.
 
 **Repositórios**
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica com pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — composição em HTML puro com timing por atributos, animação seekable e render determinístico em Chrome headless + FFmpeg; 21 skills para agentes.
+- [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz, zero-shot e cross-lingual, com controle de estilo.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
 **Skills**
@@ -149,12 +152,14 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Conceitos**
 - [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md)
+- [Clonagem de voz](concepts/clonagem-de-voz.md)
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md)
 
 **Entidades**
 - [calesthio](entities/calesthio.md)
 - [cathrynlavery](entities/cathrynlavery.md)
 - [HeyGen](entities/heygen.md)
+- [MyShell (myshell-ai)](entities/myshell-ai.md)
 - [tt-a1i](entities/tt-a1i.md)
 - [zarazhangrui](entities/zarazhangrui.md)
 
@@ -219,12 +224,15 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — issue tracker self-hosted em que agentes de IA são membros de projeto com permissões e issues no mesmo board.
+- [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows definidos como código e skills oficiais para agentes.
 
 **Conceitos**
+- [Agent skills](concepts/agent-skills.md)
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md)
 
 **Entidades**
 - [croffasia](entities/croffasia.md)
+- [twentyhq](entities/twentyhq.md)
 
 ## Análise financeira e trading
 
@@ -233,6 +241,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal desktop nativo com 37 agentes, 100+ conectores, analytics institucional, paper trading e 16 corretoras; edição aberta AGPL e Enterprise proprietária.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 30 presets de swarm, backtest cross-market e execução live limitada por mandato.
+- [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform que conecta fontes financeiras a Python, Excel, MCP e REST para analistas, quants e agentes de IA.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — firma de trading simulada em LangGraph, com quatro analistas, debate bullish/bearish, risco, gestor de portfólio, memory log e backtest.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — pipeline Director → Quant → Risk → Execution com execução autônoma em Solana; README curto, sem backtest publicado.
 
@@ -242,6 +251,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Fincept Corporation](entities/fincept-corporation.md)
 - [HKUDS](entities/hkuds.md)
+- [openbq-org](entities/openbq-org.md)
 - [Tauric Research](entities/tauricresearch.md)
 - [The Swarm Corporation](entities/the-swarm-corporation.md)
 
@@ -331,21 +341,25 @@ tags: [navegacao, categorias, indice-tematico]
 **Implementações e integrações documentadas**
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — servidor MCP em `/mcp` com ferramentas de e-mail.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — REST API, MCP e webhooks.
+- [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — servidor MCP que expõe requisições HTTP, ações de browser, screenshots e respostas de API capturadas em segundo plano.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — ferramentas MCP dentro da automação do terminal.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
+- [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA.
 
 **Entidades**
 - [Cloudflare](entities/cloudflare.md)
 - [croffasia](entities/croffasia.md)
+- [D4Vinci](entities/d4vinci.md)
 - [DeusData](entities/deusdata.md)
 - [Fincept Corporation](entities/fincept-corporation.md)
 - [Graphify Labs](entities/graphify-labs.md)
 - [HKUDS](entities/hkuds.md)
 - [morluto](entities/morluto.md)
+- [openbq-org](entities/openbq-org.md)
 
 ## Avaliação de UX e pesquisa
 

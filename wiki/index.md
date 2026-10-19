@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de Instituto-IA-LNCC/manaca-1b-base)
+> Última atualização: 2026-10-19 (ingestão de Fosowl/agenticSeek, D4Vinci/Scrapling, openbq-org/OpenBB, twentyhq/twenty e myshell-ai/OpenVoice)
 
 ## Repositórios
 
@@ -14,10 +14,12 @@
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
+- [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — Framework Python de web scraping com fetchers stealth, spiders, parsing adaptativo, servidor MCP e Agent Skill para agentes de IA raspar dados.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
+- [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente de IA 100% local que navega na web, escreve e executa código e planeja tarefas, com seleção automática de agente e voz em progresso.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
@@ -34,13 +36,16 @@
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, mapeadas a seis frameworks e distribuídas no padrão agentskills.io.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
+- [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz zero-shot e cross-lingual, com controle de estilo; MIT desde a V2.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
+- [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform financeira que conecta fontes de dados a Python, Excel, MCP para agentes de IA e REST API; antes publicada como openbb-finance/openbb.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
+- [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 
 ## Skills
@@ -86,6 +91,7 @@
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md) — agentes executando defesa, DFIR, threat hunting e testes ofensivos autorizados com conhecimento estruturado.
 - [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
 - [CLI agent-first](concepts/cli-agent-first.md) — CLI desenhada para agentes: saída estruturada, payload cru, introspecção de schema, contexto disciplinado e defesa contra alucinação.
+- [Clonagem de voz](concepts/clonagem-de-voz.md) — TTS zero-shot que reproduz o timbre de um locutor a partir de amostra curta, com controle de estilo e geração cross-lingual.
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
 - [Design system com agentes](concepts/design-system-com-agentes.md) — identidade visual como artefato versionado (`DESIGN.md`, `PRODUCT.md`, `MASTER.md`) carregado entre sessões.
 - [Design taste para agentes](concepts/design-taste-para-agentes.md) — métodos que dão critério visual explícito a agentes: direção, regras mensuráveis, referências e verificação.
@@ -122,10 +128,12 @@
 - [Cloudflare](entities/cloudflare.md) — empresa de infraestrutura de edge que publica o Agentic Inbox e a plataforma Workers usada por ele.
 - [Composio (ComposioHQ)](entities/composiohq.md) — Organização da plataforma Composio, que conecta agentes a aplicações e mantém a lista `awesome-claude-skills`.
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
+- [D4Vinci](entities/d4vinci.md) — Karim Shoair, especialista em web scraping no Egito, criador do Scrapling.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
+- [Fosowl](entities/fosowl.md) — Martin Legrand, engenheiro de ML/AI na França, criador do agenticSeek.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
 - [Google Labs Code](entities/google-labs-code.md) — organização que publica o formato DESIGN.md, as quatro skills de engenharia e bibliotecas de skills para Stitch e Jules.
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
@@ -144,13 +152,16 @@
 - [msitarzewski](entities/msitarzewski.md) — criador do Agency Agents, coleção de personalidades de agente organizadas em divisões especializadas.
 - [mukul975](entities/mukul975.md) — Mahipal Jangra, autor da biblioteca de skills de cibersegurança para agentes.
 - [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
+- [MyShell (myshell-ai)](entities/myshell-ai.md) — organização americana mantenedora do OpenVoice, modelo de clonagem de voz.
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
+- [openbq-org](entities/openbq-org.md) — organização que mantém o OpenBB (Open Data Platform), destino da transferência de `openbb-finance`.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
+- [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.
 - [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.

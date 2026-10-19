@@ -36,6 +36,8 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — o recurso Capabilities lista MCP servers, skills, plugins e ferramentas que podem ser instalados no harness, com estado de revisão por entrada.
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — o Capability Center cataloga MCP servers e plugins; o README alerta que ser **admin do Gateway equivale a execução de código**, porque servidores MCP stdio rodam comandos no contêiner.
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — instalação opcional do extra `mcp`, ao lado de Neo4j, FalkorDB e Postgres; as tools expostas não são detalhadas no README (**A verificar**).
+- [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — servidor MCP (extra `pip install "scrapling[ai]"`) expõe requisições HTTP, ações de browser, screenshots, estado de login salvo e respostas de API capturadas em segundo plano; reduz o conteúdo enviado ao modelo e inclui bloqueio de anúncios e de prompt injection, segundo o README.
+- [openbq-org/OpenBB](../repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA, ao lado de Python, Excel e REST; o README não detalha as tools expostas (**A verificar**).
 
 ## Trade-offs
 
@@ -63,3 +65,5 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
+- [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40` (consultado em 2026-10-19).
+- [openbq-org/OpenBB](../repos/github.com/openbq-org/openbb.md) — README no commit `78020ee4b864ab50b8c1f56373877c2b4e7fb623` (consultado em 2026-10-19).

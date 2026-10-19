@@ -400,3 +400,53 @@
 - O comando de clone do README aponta para `brunoleomenezes/manaca-1b-base`, não para a organização `Instituto-IA-LNCC` onde o repositório está; registrado como link de instalação defasado.
 - Benchmarks (CALAME-PT, ARC-Ch-PT, HellaSwag-PT, LAMBADA-PT) são publicados pelo próprio projeto, com harness comum e testes pareados declarados; não reproduzidos por esta wiki.
 - Métricas da API do GitHub observadas em 2026-10-19: 249 estrelas, 16 forks, 2 issues abertas, criado em 2026-08-31 e último push em 2026-09-23; linguagem Python, branch padrão `main`.
+
+## [2026-10-19] query | triagem de 7 repositórios (lote do usuário)
+- Usuário informou 7 URLs: `fosowl/agenticseek`, `collabsio/coolify`, `d4vinci/scrapling`, `openbb-finance/openbb`, `documenso/documenso`, `twentyhq/twenty`, `myshell-ai/openvoice`.
+- Resumo apresentado ao usuário antes de qualquer alteração na wiki, conforme pedido explícito.
+- `collabsio/coolify` não existe no GitHub; owner correto é `coollabsio/coolify`. `openbb-finance/openbb` redireciona (HTTP 301) para `openbq-org/OpenBB`.
+- Decisão do usuário: não ingerir `coollabsio/coolify` (PaaS genérico, MCP apenas citado) nem `documenso/documenso` (sem nenhuma menção a IA/MCP) — fora do escopo da wiki. Confirmada ingestão dos outros 5.
+
+## [2026-10-19] ingest | Fosowl/agenticSeek
+- Criada `repos/github.com/fosowl/agenticseek.md` a partir do README no commit `b46bcca482218643236999221720586e7f410e04`, sem clonar o repositório.
+- Criada `entities/fosowl.md`.
+- Atualizado `concepts/agent-harness.md` e `concepts/navegacao-web-agentica.md` com o padrão de roteamento entre agentes e a navegação stealth do agenticSeek.
+- Atualizados `index.md`, `categorias.md` (categoria "Harnesses e orquestração de agentes"), `overview.md` e `README.md`.
+- Não lidos: código-fonte, `docs/CONTRIBUTING.md`, scripts de instalação. Taxa real de sucesso do roteamento de agente e do preenchimento de formulários são a verificar.
+- `safe_mode` é descrito pelo próprio README como filtro de comandos "best-effort", não um sandbox; a contenção de rede depende da capability `NET_ADMIN`.
+
+## [2026-10-19] ingest | D4Vinci/Scrapling
+- Criada `repos/github.com/d4vinci/scrapling.md` a partir do README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40`, sem clonar o repositório.
+- Criada `entities/d4vinci.md`.
+- Atualizados `concepts/model-context-protocol.md`, `concepts/agent-skills.md` e `concepts/navegacao-web-agentica.md` com o servidor MCP, a Agent Skill e o `StealthyFetcher` do Scrapling.
+- Atualizados `index.md`, `categorias.md` (categoria "Protocolos, integrações e confiabilidade"), `overview.md` e `README.md`.
+- Não lidos: código-fonte, documentação completa em readthedocs, implementação do servidor MCP e da Agent Skill. Taxa real de bypass de Cloudflare e redução de conteúdo enviado ao modelo são a verificar.
+- README inclui aviso de isenção de responsabilidade sobre leis de scraping e termos de serviço; decisão de uso é do operador.
+
+## [2026-10-19] ingest | openbq-org/OpenBB
+- Criada `repos/github.com/openbq-org/openbb.md` a partir do README no commit `78020ee4b864ab50b8c1f56373877c2b4e7fb623`, sem clonar o repositório.
+- Criada `entities/openbq-org.md`.
+- Atualizado `concepts/model-context-protocol.md` com a menção a servidores MCP da Open Data Platform.
+- Atualizados `index.md`, `categorias.md` (categorias "Análise financeira e trading" e "Protocolos, integrações e confiabilidade"), `overview.md` e `README.md`.
+- Não lidos: código-fonte, `backends-for-openbb`, `agents-for-openbb` e a documentação em docs.openbb.co. Ferramentas exatas de um servidor MCP do ODP são a verificar.
+- A URL historicamente usada, `openbb-finance/openbb`, redireciona (HTTP 301, confirmado via API do GitHub) para o repositório atual na organização `openbq-org`; a página documenta o destino do redirecionamento e registra a mudança como observação datada.
+
+## [2026-10-19] ingest | twentyhq/twenty
+- Criada `repos/github.com/twentyhq/twenty.md` a partir do README e do arquivo `LICENSE` no commit `31d95e98a2217e187d6f7d51f7ab69bb048e22bc`, sem clonar o repositório.
+- Criada `entities/twentyhq.md`.
+- Atualizado `concepts/agent-skills.md` com as skills oficiais `twenty-agent-skills`.
+- Atualizados `index.md`, `categorias.md` (categoria "Trabalho, projetos e colaboração humano-agente"), `overview.md` e `README.md`.
+- Não lidos: `SKILLS.md`, o pacote `twenty-agent-skills`, código-fonte e a documentação completa em docs.twenty.com.
+- Licença mista por arquivo e por pacote (AGPLv3 + módulos Enterprise comerciais + pacotes MIT via `package.json`); a API do GitHub reporta `NOASSERTION` por não conseguir mapear o esquema a um único SPDX — registrado no frontmatter como `desconhecida`.
+
+## [2026-10-19] ingest | myshell-ai/OpenVoice
+- Criada `repos/github.com/myshell-ai/openvoice.md` a partir do README no commit `74a1d147b17a8c3092dd5430504bd83ef6c7eb23`, sem clonar o repositório.
+- Criadas `entities/myshell-ai.md` e `concepts/clonagem-de-voz.md` (novo conceito: primeiro modelo de áudio/TTS desta wiki).
+- Atualizados `index.md`, `categorias.md` (categoria "Geração de mídia e artefatos HTML", cujo escopo passou a citar voz), `overview.md` e `README.md`.
+- Não lidos: `docs/USAGE.md`, `docs/QA.md`, código e pesos; o paper arXiv:2312.01479 citado pelo README não foi lido.
+- Atividade recente baixa: último push observado em 2025-04-19, cerca de um ano e meio antes desta ingestão. README não discute salvaguardas contra uso indevido da clonagem de voz.
+
+## [2026-10-19] lint | lote de 5 ingestões (agenticSeek, Scrapling, OpenBB, Twenty, OpenVoice)
+- Verificados frontmatter, seção `## Fontes`, links relativos e âncoras, cobertura no índice e em `categorias.md`, ordenação alfabética e contagens do `README.md` nas 11 páginas novas/atualizadas deste lote (5 repositórios, 5 entidades, 1 conceito).
+- Resultado: `index.md` e `README.md` com 41 repositórios, 28 skills, 33 conceitos, 48 entidades e 0 análises, contagens e listas coincidentes; nenhum link quebrado encontrado nas páginas novas.
+- Commit único cobrindo as 5 ingestões (em vez de um commit por repositório), por terem sido processadas em lote a partir de um único pedido do usuário com triagem e confirmação prévias.

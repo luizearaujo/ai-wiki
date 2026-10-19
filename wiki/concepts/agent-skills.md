@@ -46,6 +46,8 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design e contrato de SVG acessível que a skill aplica a 44 tipos visuais.
 - [Skill Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com três modos de saída e regra de preservação de afirmações.
 - [Skill Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e pontuação em cinco dimensões para revisar prosa.
+- [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — Agent Skill instalável que ensina a um agente de código a API atual da biblioteca, para que o código gerado corresponda à versão corrente em vez de uma versão adivinhada.
+- [twentyhq/twenty](../repos/github.com/twentyhq/twenty.md) — skills oficiais do produto (`packages/twenty-agent-skills`), instaláveis via CLI `skills` em Claude Code, Codex, Cursor e Pi para desenvolver apps sobre o CRM.
 
 ## Trade-offs
 
@@ -81,3 +83,5 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh e metadados do repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df` (consultados em 2026-10-19).
 - [Skill Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh e metadados do repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9` (consultados em 2026-10-19).
+- [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40` (consultado em 2026-10-19).
+- [twentyhq/twenty](../repos/github.com/twentyhq/twenty.md) — README no commit `31d95e98a2217e187d6f7d51f7ab69bb048e22bc` (consultado em 2026-10-19).
