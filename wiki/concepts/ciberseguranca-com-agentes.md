@@ -30,6 +30,7 @@ Os padrões observados:
 ## Onde aparece
 
 - [mukul975/Anthropic-Cybersecurity-Skills](../repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills em 34 domínios, com mapeamento a seis frameworks e carregamento progressivo.
+- [SnailSploit/Claude-Red](../repos/github.com/snailsploit/claude-red.md) — recorte exclusivamente ofensivo: 78 skills em 23 categorias, carregadas por gatilho conversacional e instaladas como skills do Claude.
 - [morluto/rea](../repos/github.com/morluto/rea.md) — engenharia reversa de binários e análise em runtime com agentes, incluindo evidência estruturada.
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — AgentShield e agentes de segurança que auditam hooks, MCP e permissões da configuração do agente.
 - [littledivy/mimic](../repos/github.com/littledivy/mimic.md) — captura de tráfego autenticado e geração de cliente, com atenção a certificate pinning e DPoP.
@@ -57,5 +58,6 @@ Os padrões observados:
 ## Fontes
 
 - [mukul975/Anthropic-Cybersecurity-Skills](../repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57` (consultado em 2026-10-19).
+- [SnailSploit/Claude-Red](../repos/github.com/snailsploit/claude-red.md) — README no commit `a8de813edc9f66f60d44cfe42d47750e89d9930b` (consultado em 2026-10-19).
 - [morluto/rea](../repos/github.com/morluto/rea.md) e [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — páginas existentes da wiki, usadas como comparação.
 - [littledivy/mimic](../repos/github.com/littledivy/mimic.md) — página existente da wiki, usada como exemplo de captura de tráfego.

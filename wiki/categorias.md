@@ -67,6 +67,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — também nesta categoria pelos cookbooks de deploy e fine-tune distribuídos como Agent Skills roteadoras.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — skill de design com comandos e detector de regras.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
+- [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 
@@ -89,6 +90,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [msitarzewski](entities/msitarzewski.md)
 - [multica-ai](entities/multica-ai.md)
 - [Remotion (remotion-dev)](entities/remotion-dev.md)
+- [SnailSploit (Kai Aizen)](entities/snailsploit.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 
 **Skills documentadas em outras categorias**
@@ -141,12 +143,14 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — 818 skills em 34 domínios, mapeadas a MITRE ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3.
+- [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills exclusivamente ofensivas em 23 categorias, de SQLi a evasão de EDR, carregadas sob demanda.
 
 **Conceitos**
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md)
 
 **Entidades**
 - [mukul975](entities/mukul975.md)
+- [SnailSploit (Kai Aizen)](entities/snailsploit.md)
 
 ## Geração de mídia e artefatos HTML
 

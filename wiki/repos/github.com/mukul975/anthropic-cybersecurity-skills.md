@@ -137,7 +137,7 @@ Exemplos derivados do README, não instruções oficiais:
 
 - Mantido por: [mukul975](../../../entities/mukul975.md) — Mahipal Jangra, também ligado ao Casky.ai e ao GARS-2026.
 - Conceitos: [Agent skills](../../../concepts/agent-skills.md), [Cibersegurança com agentes](../../../concepts/ciberseguranca-com-agentes.md), [Evidência e proveniência](../../../concepts/evidencia-e-proveniencia.md).
-- Relacionado: [morluto/rea](../morluto/rea.md) — engenharia reversa e análise de binários; [affaan-m/ECC](../affaan-m/ecc.md) — outro catálogo grande de skills; [msitarzewski/agency-agents](../msitarzewski/agency-agents.md) — personalidades de agente por especialidade.
+- Relacionado: [morluto/rea](../morluto/rea.md) — engenharia reversa e análise de binários; [affaan-m/ECC](../affaan-m/ecc.md) — outro catálogo grande de skills; [msitarzewski/agency-agents](../msitarzewski/agency-agents.md) — personalidades de agente por especialidade; [SnailSploit/Claude-Red](../snailsploit/claude-red.md) — recorte exclusivamente ofensivo, sem mapeamento de frameworks.
 - Alternativas: playbooks internos de SOC/DFIR, documentação oficial do MITRE/NIST e plataformas de segurança que embutem automação.
 
 ## Perguntas abertas

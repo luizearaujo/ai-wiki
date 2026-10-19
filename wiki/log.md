@@ -507,3 +507,12 @@
 - Verificados frontmatter, seção `## Fontes`, links relativos e âncoras, cobertura no índice e em `categorias.md`, ordenação alfabética e contagens do `README.md` nas 11 páginas novas (6 repositórios, 5 entidades) e nas atualizações de `cloudflare.md` e `calesthio/openmontage.md`.
 - Resultado: `index.md` e `README.md` com 47 repositórios, 28 skills, 33 conceitos, 53 entidades e 0 análises, contagens e listas coincidentes; nenhum link quebrado encontrado.
 - Commit único cobrindo as 6 ingestões (em vez de um commit por repositório), por terem sido processadas em lote a partir de um único pedido do usuário com triagem e confirmação prévias; `mattpocock/skills` não gerou mudança (duplicata exata).
+
+## [2026-10-19] ingest | SnailSploit/Claude-Red
+- Criada `repos/github.com/snailsploit/claude-red.md` a partir do README no commit `a8de813edc9f66f60d44cfe42d47750e89d9930b`, sem clonar o repositório.
+- Criada `entities/snailsploit.md` (Kai Aizen).
+- Atualizado `concepts/ciberseguranca-com-agentes.md` com o recorte exclusivamente ofensivo de 78 skills.
+- Adicionado link bidirecional em `repos/github.com/mukul975/anthropic-cybersecurity-skills.md`.
+- Atualizados `index.md`, `categorias.md` (categorias "Skills, instruções e personalidades de agente" e "Cibersegurança e operações de segurança"), `overview.md` e `README.md`.
+- Não lidos: as 78 skills, `install.sh`, `CHANGELOG.md`, `CONTRIBUTING.md` e a licença. MIT pela API e pelo badge do README.
+- Biblioteca explicitamente ofensiva (red team, C2, evasão de EDR, phishing); registrada com foco em uso autorizado e sem controles de escopo embutidos.
