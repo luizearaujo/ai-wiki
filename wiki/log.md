@@ -204,3 +204,7 @@
 - `categorias.md` cobre todas as 65 páginas; as quatro skills aparecem na nova categoria e no índice cruzado da categoria de skills.
 - `README.md` atualizado para 15 repositórios, 10 skills, 18 conceitos e 22 entidades, com entradas em ordem alfabética.
 - `overview.md` atualizado com o novo tema, linha no mapa, quatro observações, cinco lacunas e fontes.
+
+## [2026-10-19] fix | cabeçalho duplicado em overview.md
+- Removido o `## Lacunas e próximos passos` repetido introduzido no lote de `google-labs-code/design.md`; o arquivo voltou a ter um único cabeçalho.
+- Verificados todos os arquivos Markdown da wiki: nenhum cabeçalho duplicado e nenhuma âncora quebrada.
