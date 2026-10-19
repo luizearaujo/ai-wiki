@@ -47,6 +47,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — 150+ personalidades em Markdown, organizadas em 16 divisões.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — também nesta categoria pela biblioteca de 818 skills de domínio.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — quatro princípios de comportamento em um único `CLAUDE.md`.
+- [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — também nesta categoria pelos cookbooks de deploy e fine-tune distribuídos como Agent Skills roteadoras.
 
 **Conceitos**
 - [Agent skills](concepts/agent-skills.md)
@@ -233,11 +234,15 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
+- [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 
 **Conceitos**
+- [Atenção esparsa para contexto longo](concepts/atencao-esparsa-para-contexto-longo.md)
+- [LLMs compactos on-device](concepts/llms-compactos-on-device.md)
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md)
 
 **Entidades**
+- [OpenBMB](entities/openbmb.md)
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
 
 ## Engenharia e interfaces agent-first

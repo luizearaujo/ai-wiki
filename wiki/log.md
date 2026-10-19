@@ -312,3 +312,12 @@
 - O README declara o invariante "posicionamento só decide velocidade" e explicita que ainda não mediu uma GPU discreta no caminho Vulkan; os números vêm em parte da comunidade.
 - Licença do código Apache-2.0; cada checkpoint mantém a licença do autor (GLM-5.2 MIT, Qwen-Image-2.1 apenas não comercial).
 - Métricas da API do GitHub observadas em 2026-10-19: ~42,8 mil estrelas, ~4,8 mil forks, 151 issues abertas, criado em 2026-07-01 e último push em 2026-10-19; licença Apache-2.0, linguagem C, branch padrão `main`.
+
+## [2026-10-19] ingest | OpenBMB/MiniCPM
+- Criada `repos/github.com/openbmb/minicpm.md` a partir do README no commit `316cfb1cea39f39cfa16b4f5703b77495c2340be`, sem clonar o repositório.
+- Criadas `entities/openbmb.md`, `concepts/llms-compactos-on-device.md` e `concepts/atencao-esparsa-para-contexto-longo.md`.
+- Atualizados `categorias.md` (repositório, conceitos e entidade em "Inferência local e runtime de modelos"; repositório também em "Skills, instruções e personalidades de agente" pelos cookbooks como Agent Skills), `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: `docs/`, `skills/`, código de treino, notebooks, testes, pesos, datasets UltraData e cookbooks. Somente o README foi consultado; a receita de RL + OPD, o parser de tool calls, os benchmarks e as licenças dos datasets são a verificar.
+- Alegações de SOTA são relativas ao conjunto de comparação escolhido pelo projeto (MiniCPM5-2B: média 53,9; maior baseline 51,1); registradas como afirmações datadas, não como ranking independente.
+- Licença Apache-2.0 para o repositório e os modelos, segundo o README e a API; a UI do MiniCPM-Desk-Pet é fork de projeto AGPL-3.0, em repositório separado.
+- Métricas da API do GitHub observadas em 2026-10-19: ~11,6 mil estrelas, 809 forks, 22 issues abertas, criado em 2024-01-29 e último push em 2026-09-21; licença Apache-2.0, linguagem Jupyter Notebook, branch padrão `main`.

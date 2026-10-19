@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de JustVugg/colibri)
+> Última atualização: 2026-10-19 (ingestão de OpenBMB/MiniCPM)
 
 ## Repositórios
 
@@ -26,6 +26,7 @@
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, mapeadas a seis frameworks e distribuídas no padrão agentskills.io.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
+- [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
@@ -67,6 +68,7 @@
 - [Agent skills](concepts/agent-skills.md) — instruções empacotadas em `SKILL.md`, distribuídas e instaladas como artefatos versionáveis.
 - [Análise financeira multiagente](concepts/analise-financeira-multiagente.md) — papéis de analista, debate, trader e risco para produzir e revisar decisões de investimento com LLMs.
 - [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md) — apresentações e diagramas gerados como um único arquivo HTML com CSS, JS e SVG inline.
+- [Atenção esparsa para contexto longo](concepts/atencao-esparsa-para-contexto-longo.md) — esparsidade treinável, atenção linear e posicionamento híbrido para contexto de centenas de milhares a milhões de tokens.
 - [Auditoria de mídia paga](concepts/auditoria-de-midia-paga.md) — achado, evidência e cobertura de dados em contas de anúncios, com `unknown` como resposta legítima e escrita separada por gates.
 - [Auditoria de UX](concepts/auditoria-de-ux.md) — avaliação estruturada de um produto contra frameworks explícitos, com lacunas e recomendações.
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md) — agentes executando defesa, DFIR, threat hunting e testes ofensivos autorizados com conhecimento estruturado.
@@ -81,6 +83,7 @@
 - [Grafo de conhecimento de código](concepts/grafo-de-conhecimento-de-codigo.md) — representação de código como grafo de nós e arestas tipadas, consultável por agentes sem leitura de arquivos.
 - [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md) — edição de prosa para remover maneirismos de LLM preservando conteúdo e voz do autor.
 - [Image-to-code](concepts/image-to-code.md) — gerar a referência visual, analisá-la em profundidade e só então implementar o frontend.
+- [LLMs compactos on-device](concepts/llms-compactos-on-device.md) — modelos pequenos executados no dispositivo, com arquitetura padrão, quantização e runtimes locais em troca de privacidade e latência.
 - [Memória de agente](concepts/memoria-de-agente.md) — formatos e mecanismos para persistir decisões e handoffs entre sessões, harnesses e agentes.
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md) — browser real controlado pelo agente em um loop de observação, ação e nova observação, com representação estruturada e isolamento de sessão.
@@ -119,6 +122,7 @@
 - [mukul975](entities/mukul975.md) — Mahipal Jangra, autor da biblioteca de skills de cibersegurança para agentes.
 - [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
+- [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
