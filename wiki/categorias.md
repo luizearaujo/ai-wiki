@@ -25,11 +25,13 @@ tags: [navegacao, categorias, indice-tematico]
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
+- [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
 
 **Conceitos**
 - [Agent harness](concepts/agent-harness.md)
 - [Memória de agente](concepts/memoria-de-agente.md)
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md)
+- [Plugins de agente](concepts/plugins-de-agente.md)
 
 **Entidades**
 - [affaan-m](entities/affaan-m.md)
@@ -37,6 +39,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [garrytan](entities/garrytan.md)
 - [HarnessMD](entities/harnessmd.md)
 - [SynkraAI](entities/synkraai.md)
+- [vastsa](entities/vastsa.md)
 
 ## Skills, instruções e personalidades de agente
 

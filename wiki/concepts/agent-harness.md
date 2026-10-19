@@ -46,6 +46,7 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — "super agent harness" self-hosted sobre LangGraph, reescrito do zero na versão 2.0, com agente líder, subagentes, skills de carregamento progressivo, MCP, sandbox e memória DeerMem.
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — harness de processo sobre Claude Code e outros hosts, com especialistas por etapa de sprint, QA em navegador e GBrain.
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — harness desktop que orquestra CLIs de terminal como agentes em um escritório, com hive de memória e mensageria.
+- [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — workspace desktop que embarca o runtime `pi` (`pi-ai`, `pi-agent-core`, `pi-coding-agent`) e adiciona sessões persistentes, permissões, plugins e orquestração de Worker Sessions.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — harness/framework CLI-first com agentes especializados e artefatos persistentes.
 
 ## Trade-offs
@@ -74,4 +75,5 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
+- [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — README no commit `87a48b953e8bada43a7a63f8922846198b9efb61` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — página existente da wiki, usada como comparação.

@@ -50,6 +50,7 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [OpenMontage](../repos/github.com/calesthio/openmontage.md) — o assistente de código é o orquestrador de um pipeline de produção de vídeo declarado em YAML, com skills de direção por etapa, gates de revisão e checkpoints com custo e decisões.
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — especialistas por etapa do sprint, `/autoplan`, `/pair-agent` para compartilhar navegador entre agentes de fornecedores diferentes e 10–15 sprints paralelos via Conductor.
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — orquestrador Michael, hive com memória/mailbox/blackboard/log, committer único para git, PTY por agente e escritório visual.
+- [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — subagentes em background com contexto próprio e Session Orchestrator com Worker Sessions completas, inspecionáveis e reutilizáveis; o usuário define a autonomia por sessão.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — equipe de 12 agentes com roles ágeis e PRD/histórias como unidade de contexto.
 - [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — agentes como membros de projeto com assignee, permissões e issues no mesmo Kanban.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — quatro analistas em paralelo, debate estruturado entre pesquisadores bullish e bearish, trader, time de risco e gestor de portfólio; LangGraph com estado compartilhado, checkpoints opcionais e memory log.
@@ -82,5 +83,6 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [OpenMontage](../repos/github.com/calesthio/openmontage.md) — README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65` (consultado em 2026-10-19).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
+- [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — README no commit `87a48b953e8bada43a7a63f8922846198b9efb61` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) e [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — páginas existentes da wiki, usadas como comparação.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).

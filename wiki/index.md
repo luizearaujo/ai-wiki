@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de OpenBMB/MiniCPM)
+> Última atualização: 2026-10-19 (ingestão de vastsa/PI-Desktop)
 
 ## Repositórios
 
@@ -30,6 +30,7 @@
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
+- [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 
 ## Skills
 
@@ -88,6 +89,7 @@
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md) — browser real controlado pelo agente em um loop de observação, ação e nova observação, com representação estruturada e isolamento de sessão.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
+- [Plugins de agente](concepts/plugins-de-agente.md) — unidades de extensão que adicionam ferramentas, UI, serviços e MCP a um agente sem alterar o núcleo.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
 - [Saída completa de agente](concepts/saida-completa-de-agente.md) — entrega integral sem placeholders, com contagem de escopo e pausa explícita no limite de tokens.
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md) — manter a parte densa residente e ler do disco apenas os experts roteados por token, trocando memória por latência.
@@ -127,6 +129,7 @@
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
+- [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 

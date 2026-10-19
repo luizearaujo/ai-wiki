@@ -321,3 +321,12 @@
 - Alegações de SOTA são relativas ao conjunto de comparação escolhido pelo projeto (MiniCPM5-2B: média 53,9; maior baseline 51,1); registradas como afirmações datadas, não como ranking independente.
 - Licença Apache-2.0 para o repositório e os modelos, segundo o README e a API; a UI do MiniCPM-Desk-Pet é fork de projeto AGPL-3.0, em repositório separado.
 - Métricas da API do GitHub observadas em 2026-10-19: ~11,6 mil estrelas, 809 forks, 22 issues abertas, criado em 2024-01-29 e último push em 2026-09-21; licença Apache-2.0, linguagem Jupyter Notebook, branch padrão `main`.
+
+## [2026-10-19] ingest | vastsa/PI-Desktop
+- Criada `repos/github.com/vastsa/pi-desktop.md` a partir do README no commit `87a48b953e8bada43a7a63f8922846198b9efb61`, sem clonar o repositório.
+- Criadas `entities/vastsa.md` e `concepts/plugins-de-agente.md`.
+- Atualizados `concepts/agent-harness.md` e `concepts/orquestracao-multiagente.md` com exemplos do PI-Desktop; `categorias.md` (repositório, conceito e entidade em "Harnesses e orquestração de agentes"), `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: `docs/` (incluindo arquitetura, especificação e guia de plugins), código Electron/TypeScript/Rust, testes, releases, templates e marketplace. Somente o README foi consultado; sandbox de plugins, isolamento de Worker Sessions, enforcement de permissões, curadoria do marketplace e importação de sessões são a verificar.
+- A descrição da API do GitHub cita Electron + Rust host core + pi Agent Harness; o README confirma o host core em Rust e o runtime `pi`, mas não nomeia o Electron — registrado como observação datada, não como afirmação do README.
+- Licença LGPL-3.0; produto declarado em Early Preview (linha 0.21.x), o que relativiza estabilidade de API de plugins e formato `.piplug`.
+- Métricas da API do GitHub observadas em 2026-10-19: ~7,0 mil estrelas, 677 forks, 211 issues abertas, criado em 2023-03-22 e último push em 2026-10-19; licença LGPL-3.0, linguagem TypeScript, branch padrão `main`.
