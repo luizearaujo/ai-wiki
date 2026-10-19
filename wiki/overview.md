@@ -33,6 +33,7 @@ tags: [overview]
 - **Artefatos HTML autocontidos como formato de entrega:** apresentações e diagramas viram um único arquivo HTML com CSS, JS e SVG inline, versionável e fácil de publicar; as skills Frontend Slides e Diagram Design mostram que o valor está no processo de design, não apenas no template.
 - **Design system como gate de skill:** a skill Diagram Design exige um style guide na primeira execução e trata consistência de tipografia, paleta, espaçamento e acessibilidade como condição de aceitação, não como preferência.
 - **Cibersegurança como biblioteca de skills:** projetos como o Anthropic Cybersecurity Skills empacotam centenas de procedimentos de segurança em `SKILL.md`, mapeados a frameworks (ATT&CK, NIST CSF, ATLAS, D3FEND, AI RMF, F3) e descobertos por frontmatter antes do carregamento completo.
+- **Edição de prosa como skill:** skills como o Humanizer tratam os maneirismos de texto gerado por IA como um catálogo de padrões auditável, com regras de preservação de conteúdo e de voz; o objetivo é editar estilo, não detectar autoria.
 
 ## Mapa por área
 
@@ -54,6 +55,7 @@ tags: [overview]
 | Artefatos HTML autocontidos | — | Skills [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) (deck 16:9 de arquivo único) e [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) (SVG acessível com style guide); síntese em [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md). |
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
 | Cibersegurança e operações de segurança | [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) | Biblioteca de 818 skills em 34 domínios, mapeadas a ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3; projeto da comunidade, sem vínculo com a Anthropic. Síntese em [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md). |
+| Escrita e edição de prosa | — | Skill [Humanizer](skills/github.com/blader/humanizer/humanizer.md): 26 padrões de escrita por IA, fluxo de reescrita em quatro etapas e regra de não inventar fatos; síntese em [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md). |
 
 ## Tendências e observações
 
@@ -95,6 +97,8 @@ tags: [overview]
 - **Domínio especializado escala por catálogo, não por prompt:** o Anthropic Cybersecurity Skills mostra que uma área inteira pode ser coberta por centenas de skills pequenas, descobertas por frontmatter (~30 tokens) e carregadas sob demanda. O ganho é cobertura e consistência de procedimento; o custo é governança — ninguém revisa 818 workflows a cada atualização.
 - **Nome de projeto não implica afiliação:** o repositório usa "Anthropic" no nome e no padrão de skills, mas se declara projeto da comunidade, sem vínculo com a Anthropic. O mesmo padrão de confusão já apareceu em links de instalação defasados; nome, licença e mantenedor precisam ser verificados separadamente.
 - **Divergência de contagem interna:** o README usa 818 skills em uma passagem e 817 em outra, contra 34 domínios. É mais uma evidência de que números de catálogo são afirmações datadas do projeto, não especificação estável.
+- **Estilo também vira artefato distribuído:** o Humanizer mostra que instruções de escrita podem ser versionadas, auditadas e instaladas como qualquer skill de engenharia. O catálogo de padrões é derivado de observação empírica da Wikipédia e evolui junto com os modelos — não é uma norma editorial estável.
+- **Risco de trocar um padrão por outro:** aplicar regras de humanização sem uma amostra de voz pode criar um novo registro uniforme. As próprias skills reconhecem que a amostra do autor deve sobrepor o catálogo.
 
 ## Lacunas e próximos passos
 
@@ -125,6 +129,8 @@ tags: [overview]
 - [ ] Comparar apresentações e diagramas gerados por skills com reveal.js, Slidev, Mermaid, draw.io e Excalidraw em qualidade, acessibilidade e manutenção.
 - [ ] Auditar uma amostra das 818 skills de cibersegurança quanto a qualidade, atualidade dos mapeamentos de framework e segurança das instruções.
 - [ ] Ler `README.md` e arquivos de catálogo do Anthropic Cybersecurity Skills (além do README raiz) para explicar a divergência entre 817 e 818 skills.
+- [ ] Ler o `SKILL.md` do Humanizer (com autorização) e comparar os 26 padrões com o catálogo da Wikipédia.
+- [ ] Avaliar com revisores cegos se textos reescritos por skills de humanização preservam sentido, voz e precisão factual.
 
 ## Fontes
 
@@ -147,3 +153,4 @@ tags: [overview]
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md), [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) e [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — páginas do skills.sh consultadas em 2026-10-19.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md), [Memória de agente](concepts/memoria-de-agente.md) e [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md) — sínteses construídas a partir das fontes acima (2026-10-19).
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57`; metadados da API do GitHub observados em 2026-10-19.
+- [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh consultada em 2026-10-19; repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df`.

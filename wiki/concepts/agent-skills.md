@@ -44,6 +44,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar um grafo de conhecimento da base de código, distribuído como skill de plugin.
 - [Skill Frontend Slides](../skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — processo de design de apresentações HTML autocontidas, com prévias de estilo e verificação.
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design e contrato de SVG acessível que a skill aplica a 44 tipos visuais.
+- [Skill Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com três modos de saída e regra de preservação de afirmações.
 
 ## Trade-offs
 
@@ -77,3 +78,4 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Frontend Slides](../skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — página do skills.sh (consultada em 2026-10-19).
+- [Skill Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh e metadados do repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df` (consultados em 2026-10-19).

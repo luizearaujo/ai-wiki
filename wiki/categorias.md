@@ -176,6 +176,19 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [mastepanoski](entities/mastepanoski.md)
 
+## Escrita e comunicação
+
+> Edição de prosa assistida por agentes: remover maneirismos de escrita gerada por IA, preservar a voz do autor e revisar texto factual sem alterar afirmações.
+
+**Skills**
+- [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com fluxo de quatro etapas e três modos de saída.
+
+**Conceitos**
+- [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md)
+
+**Entidades**
+- [blader](entities/blader.md)
+
 ## Navegação e meta
 
 - [index.md](index.md) — catálogo canônico por tipo de página.

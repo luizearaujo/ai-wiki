@@ -166,3 +166,10 @@
 - Atualizados `concepts/agent-skills.md`, `categorias.md`, `index.md`, `log.md` e `overview.md`.
 - Não lidos: código, docs internas, scripts e as 818 skills. Qualidade das skills, atualidade dos mapeamentos de framework e a divergência 817/818 são a verificar.
 - O projeto se declara da comunidade, sem vínculo com a Anthropic, apesar do nome.
+
+## [2026-10-19] ingest | skills.sh/blader/humanizer/humanizer
+- Criada `skills/github.com/blader/humanizer/humanizer.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criados `concepts/humanizacao-de-texto-por-ia.md` e `entities/blader.md`.
+- Atualizados `concepts/agent-skills.md`, `categorias.md` (nova categoria "Escrita e comunicação"), `index.md`, `log.md` e `overview.md`.
+- O repositório-fonte não foi clonado e o `SKILL.md` cru não foi lido; `source_path` é `SKILL.md` na raiz. A página publica o fluxo, o catálogo de 26 padrões e os modos de saída.
+- Métricas publicadas em 2026-10-19: 9,8 mil instalações e 58,1 mil estrelas; auditorias Gen Agent Trust Hub, Socket e Snyk com "Pass". Licença MIT.
