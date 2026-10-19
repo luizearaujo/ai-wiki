@@ -65,6 +65,7 @@ A ideia original está em [`llm-wiki-md`](llm-wiki-md), cópia do gist [`karpath
 10. Antes de criar uma página, procure uma existente sobre o mesmo assunto.
 11. Não clone repositórios para documentação de rotina: leia apenas o `README.md` (repositórios) ou a página de origem (skills). Clones e arquivos internos exigem pedido explícito.
 12. Toda página de conteúdo aparece em pelo menos uma categoria em `wiki/categorias.md`; páginas transversais podem aparecer em mais de uma.
+13. Se o usuário informar mais de um repositório ou skill na mesma mensagem, não crie, edite ou atualize nenhuma página, índice, categoria, README ou log por conta própria. Apresente antes um resumo de uma linha por item — o que é e se já existe na wiki — e só ingira os itens que o usuário confirmar explicitamente. Essa regra vale mesmo que nenhum item seja ambíguo.
 
 ## Frontmatter
 
@@ -176,6 +177,8 @@ tags: [navegacao, categorias]
 
 Gatilho: o usuário informa uma URL de repositório. Por padrão, execute a ingestão de ponta a ponta e apresente o resumo no final. A fonte de conteúdo é **apenas o `README.md`**: não clone o repositório nem leia `docs/`, código-fonte ou manifestos, salvo pedido explícito. Peça confirmação se a URL for ambígua, se o repositório cobrir vários produtos sem relação clara, se o README não existir ou for insuficiente para uma página útil, ou se o conteúdo conflitar com páginas existentes de forma que a decisão de síntese seja do usuário.
 
+**Se o usuário informar mais de um repositório na mesma mensagem**, não ingira nada automaticamente (regra inegociável 13): faça a triagem (resolva nomes ambíguos, confira o que já existe na wiki, confirme que cada repositório existe) e apresente um resumo de uma linha por item antes de criar qualquer página. Ingira só os itens confirmados.
+
 1. **Normalize a URL.** Aceite `https://<host>/<owner>/<repo>`, com ou sem `.git`, e URLs com `/tree/<ref>/<subdir>`. Extraia `host`, `owner`, `repo`; converta `owner` e `repo` para minúsculas nos caminhos, preservando o nome original na URL e no título. Se houver subdiretório, documente o repositório, mas destaque a parte que motivou o pedido.
 2. **Descubra o HEAD sem clonar.** Use `git ls-remote https://<host>/<owner>/<repo> HEAD` (ou a API do host) e registre o SHA. Esse é o commit usado como referência.
 3. **Leia apenas o `README.md`.** Busque o arquivo nessa referência — por exemplo, `https://raw.githubusercontent.com/<owner>/<repo>/<sha>/README.md`. Se o nome não for esse (variações de caixa, `README.rst`), descubra-o pela API do host. Não abra nenhum outro arquivo do repositório.
@@ -189,6 +192,8 @@ Gatilho: o usuário informa uma URL de repositório. Por padrão, execute a inge
 ### 2. Ingestão de skill
 
 Gatilho: o usuário informa a URL de uma skill (marketplace, catálogo ou caminho em um repositório). Documente a skill a partir da página de origem; **não clone o repositório** só para isso, salvo pedido explícito.
+
+**Se o usuário informar mais de uma skill (ou uma mistura de repositórios e skills) na mesma mensagem**, não ingira nada automaticamente (regra inegociável 13): apresente um resumo de uma linha por item antes de criar qualquer página, e ingira só os itens confirmados.
 
 1. **Leia a página de origem.** Extraia nome, autor, repositório-fonte, descrição, categoria, comandos de instalação, metadados (instalações, estrelas, primeira aparição), preço, licença e links.
 2. **Identifique a fonte canônica.** Registre `source_url` e `source_path`. Se o `SKILL.md` estiver acessível e o usuário autorizar, leia o arquivo cru; caso contrário, documente apenas o que a página publica e marque explicitamente o que não foi verificado.

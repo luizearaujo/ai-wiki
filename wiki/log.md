@@ -533,3 +533,8 @@
 - Atualizados `index.md`, `categorias.md` (repositórios/skills/entidades adicionados a "Harnesses e orquestração de agentes", "Skills, instruções e personalidades de agente", "Design de interface e direção de arte", "Geração de mídia e artefatos HTML", "Engenharia e interfaces agent-first" e "Protocolos, integrações e confiabilidade") e `README.md` (52 repositórios, 31 skills, 33 conceitos, 58 entidades, 0 análises).
 - Não lidos: código-fonte dos quatro repositórios além do README; `SKILL.md` cru de `excalidraw-diagram-skill`; licença exata de `excalidraw-diagram-skill` (não declarada na página consultada).
 - Commit único cobrindo as sete ingestões, por terem sido processadas em lote a partir de um único pedido do usuário.
+
+## [2026-10-19] fix | confirmação obrigatória para lotes de ingestão
+- Usuário sinalizou que o lote anterior (9 itens) deveria ter sido apresentado como resumo antes de qualquer página ser criada, para que ele escolhesse o que ingerir.
+- `CLAUDE.md`: adicionada a regra inegociável 13 — ao receber mais de um repositório ou skill na mesma mensagem, o agente não cria, edita ou atualiza nada automaticamente; apresenta um resumo de uma linha por item e só ingere o que o usuário confirmar. Reforçada a mesma regra nos workflows de ingestão de repositório e de skill.
+- Usuário confirmou manter o lote anterior já gerado (obra/superpowers, upstash/context7, coleam00/excalidraw-diagram-skill, vercel-labs/agent-browser, thedotmack/claude-mem, skill-creator e frontend-design de anthropics/skills); nada foi revertido.
