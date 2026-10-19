@@ -32,7 +32,7 @@ O autor não publica, na fonte consultada, credenciais ou histórico que expliqu
 
 - **Associado a:** [Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — skill de remoção de sinais de IA.
 - **Conceitos:** [Agent skills](../concepts/agent-skills.md), [Humanização de texto gerado por IA](../concepts/humanizacao-de-texto-por-ia.md).
-- **Comparável a:** hardikpandya, autor do Stop Slop, skill de propósito próximo.
+- **Comparável a:** [hardikpandya](hardikpandya.md), autor do [Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md), skill de propósito próximo.
 
 ## Fontes
 

@@ -39,9 +39,12 @@ Os catálogos convergem em famílias de problemas:
 
 A noção de **amostra de voz** é central: quando existe texto do próprio autor, ele deve sobrepor as regras gerais. Sem amostra, o risco é trocar um padrão por outro — o "texto humanizado" vira um novo registro uniforme.
 
+As duas skills documentadas mostram variantes do mesmo método: o Humanizer enumera 26 padrões, atribui força a cada um e oferece modos de saída distintos; o Stop Slop reduz tudo a oito regras centrais, uma lista de checagens e uma nota de 1–10 em cinco dimensões, com corte em 35 de 50. A primeira é mais granular e conservadora na decisão de editar; a segunda é mais operacional e agressiva.
+
 ## Onde aparece
 
 - [Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões em seis famílias, fluxo de quatro etapas e três modos de saída; deriva da página "Signs of AI writing" da Wikipédia.
+- [Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e pontuação de 1–10 em cinco dimensões, com corte em 35 de 50.
 
 ## Trade-offs
 
@@ -66,4 +69,5 @@ A noção de **amostra de voz** é central: quando existe texto do próprio auto
 ## Fontes
 
 - [Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh consultada em 2026-10-19 e metadados do repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df`. O `SKILL.md` cru não foi lido.
-- Wikipedia, "Signs of AI writing" — citada pela skill como origem do catálogo de padrões (não consultada diretamente nesta ingestão).
+- [Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh consultada em 2026-10-19 e metadados do repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9`. O `SKILL.md` cru não foi lido.
+- Wikipedia, "Signs of AI writing" — citada pelo Humanizer como origem do catálogo de padrões (não consultada diretamente nesta ingestão).

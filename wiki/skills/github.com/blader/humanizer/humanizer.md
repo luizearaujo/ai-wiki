@@ -109,7 +109,7 @@ A página alerta que "remover os sinais é metade do trabalho": o resultado prec
 - **Autor:** [blader](../../../../entities/blader.md) — Siqi Chen.
 - **Repositório-fonte:** [blader/humanizer](https://github.com/blader/humanizer), com `SKILL.md` na raiz e empacotamento para plugins de Claude e Cursor.
 - **Conceitos:** [Agent skills](../../../../concepts/agent-skills.md) — formato de distribuição; [Humanização de texto gerado por IA](../../../../concepts/humanizacao-de-texto-por-ia.md) — prática que a skill operacionaliza.
-- **Alternativas:** Stop Slop (`hardikpandya/stop-slop`) — abordagem próxima com regras centrais, referências e pontuação de 1–10 por dimensão.
+- **Alternativas:** [Stop Slop](../../hardikpandya/stop-slop/stop-slop.md) — abordagem próxima com oito regras centrais, referências e pontuação de 1–10 por dimensão.
 
 ## Perguntas abertas
 

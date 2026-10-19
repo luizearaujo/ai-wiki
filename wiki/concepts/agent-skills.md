@@ -45,6 +45,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill Frontend Slides](../skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — processo de design de apresentações HTML autocontidas, com prévias de estilo e verificação.
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design e contrato de SVG acessível que a skill aplica a 44 tipos visuais.
 - [Skill Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com três modos de saída e regra de preservação de afirmações.
+- [Skill Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e pontuação em cinco dimensões para revisar prosa.
 
 ## Trade-offs
 
@@ -79,3 +80,4 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill Frontend Slides](../skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — página do skills.sh (consultada em 2026-10-19).
 - [Skill Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh e metadados do repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df` (consultados em 2026-10-19).
+- [Skill Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh e metadados do repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9` (consultados em 2026-10-19).

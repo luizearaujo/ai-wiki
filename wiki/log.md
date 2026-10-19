@@ -173,3 +173,10 @@
 - Atualizados `concepts/agent-skills.md`, `categorias.md` (nova categoria "Escrita e comunicação"), `index.md`, `log.md` e `overview.md`.
 - O repositório-fonte não foi clonado e o `SKILL.md` cru não foi lido; `source_path` é `SKILL.md` na raiz. A página publica o fluxo, o catálogo de 26 padrões e os modos de saída.
 - Métricas publicadas em 2026-10-19: 9,8 mil instalações e 58,1 mil estrelas; auditorias Gen Agent Trust Hub, Socket e Snyk com "Pass". Licença MIT.
+
+## [2026-10-19] ingest | skills.sh/hardikpandya/stop-slop/stop-slop
+- Criada `skills/github.com/hardikpandya/stop-slop/stop-slop.md` a partir da página do skills.sh, consultada em 2026-10-19.
+- Criado `entities/hardikpandya.md`.
+- Atualizados `concepts/humanizacao-de-texto-por-ia.md`, `concepts/agent-skills.md`, `categorias.md`, `index.md`, `log.md` e `overview.md`.
+- O repositório-fonte não foi clonado e o `SKILL.md` cru e as referências (`phrases.md`, `structures.md`, `examples.md`) não foram lidos; `source_path` é `SKILL.md` na raiz.
+- Métricas publicadas em 2026-10-19: 17,5 mil instalações e 18,1 mil estrelas; auditorias Gen Agent Trust Hub, Socket e Snyk com "Pass". Licença MIT; API do GitHub não informa linguagem principal.

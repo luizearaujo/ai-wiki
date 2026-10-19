@@ -55,7 +55,7 @@ tags: [overview]
 | Artefatos HTML autocontidos | — | Skills [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) (deck 16:9 de arquivo único) e [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) (SVG acessível com style guide); síntese em [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md). |
 | Avaliação de UX | — | Primeira síntese em [Auditoria de UX](concepts/auditoria-de-ux.md); aplicação documentada na skill UX Audit Rethink. |
 | Cibersegurança e operações de segurança | [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) | Biblioteca de 818 skills em 34 domínios, mapeadas a ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3; projeto da comunidade, sem vínculo com a Anthropic. Síntese em [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md). |
-| Escrita e edição de prosa | — | Skill [Humanizer](skills/github.com/blader/humanizer/humanizer.md): 26 padrões de escrita por IA, fluxo de reescrita em quatro etapas e regra de não inventar fatos; síntese em [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md). |
+| Escrita e edição de prosa | — | Skills [Humanizer](skills/github.com/blader/humanizer/humanizer.md) (26 padrões em seis famílias, fluxo de quatro etapas, três modos de saída) e [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) (oito regras, lista de checagens, nota de 1–10 em cinco dimensões); síntese em [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md). |
 
 ## Tendências e observações
 
@@ -99,6 +99,7 @@ tags: [overview]
 - **Divergência de contagem interna:** o README usa 818 skills em uma passagem e 817 em outra, contra 34 domínios. É mais uma evidência de que números de catálogo são afirmações datadas do projeto, não especificação estável.
 - **Estilo também vira artefato distribuído:** o Humanizer mostra que instruções de escrita podem ser versionadas, auditadas e instaladas como qualquer skill de engenharia. O catálogo de padrões é derivado de observação empírica da Wikipédia e evolui junto com os modelos — não é uma norma editorial estável.
 - **Risco de trocar um padrão por outro:** aplicar regras de humanização sem uma amostra de voz pode criar um novo registro uniforme. As próprias skills reconhecem que a amostra do autor deve sobrepor o catálogo.
+- **Humanização ainda não tem forma canônica:** Humanizer e Stop Slop atacam o mesmo problema com soluções diferentes — catálogo granular com força por padrão e modos de saída, contra oito regras com nota final. A coexistência indica que o campo está em experimentação de formato, não em consolidação de método.
 
 ## Lacunas e próximos passos
 
@@ -131,6 +132,7 @@ tags: [overview]
 - [ ] Ler `README.md` e arquivos de catálogo do Anthropic Cybersecurity Skills (além do README raiz) para explicar a divergência entre 817 e 818 skills.
 - [ ] Ler o `SKILL.md` do Humanizer (com autorização) e comparar os 26 padrões com o catálogo da Wikipédia.
 - [ ] Avaliar com revisores cegos se textos reescritos por skills de humanização preservam sentido, voz e precisão factual.
+- [ ] Comparar Humanizer e Stop Slop no mesmo conjunto de textos quanto a agressividade, preservação de voz e tempo de execução.
 
 ## Fontes
 
@@ -154,3 +156,4 @@ tags: [overview]
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md), [Memória de agente](concepts/memoria-de-agente.md) e [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md) — sínteses construídas a partir das fontes acima (2026-10-19).
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — README no commit `54a798831d2266a3ca61ce68a7acb80b81160d57`; metadados da API do GitHub observados em 2026-10-19.
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh consultada em 2026-10-19; repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df`.
+- [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh consultada em 2026-10-19; repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9`.
