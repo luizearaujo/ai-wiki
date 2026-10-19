@@ -214,6 +214,19 @@ tags: [navegacao, categorias, indice-tematico]
 - [Tauric Research](entities/tauricresearch.md)
 - [The Swarm Corporation](entities/the-swarm-corporation.md)
 
+## Marketing, mídia paga e conteúdo
+
+> Skills que operam domínios de marketing com controles explícitos: auditoria de contas de anúncios, evidência por achado e escrita gated por capacidade.
+
+**Repositórios**
+- [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — auditoria de mídia paga em 12 plataformas, com conductor + workers, quatro estados de controle, cobertura de evidência e escrita read-only por padrão.
+
+**Conceitos**
+- [Auditoria de mídia paga](concepts/auditoria-de-midia-paga.md)
+
+**Entidades**
+- [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md)
+
 ## Engenharia e interfaces agent-first
 
 > Desenho de CLIs, contratos de serviço, ciclos de verificação e superfícies de terminal pensados para que agentes operem ferramentas com previsibilidade e segurança.

@@ -278,3 +278,12 @@
 - Atualizados `concepts/producao-de-video-agentica.md`, `categorias.md`, `index.md`, `log.md`, `overview.md` e `README.md`.
 - Não lidos: código, pacotes publicados, as 21 skills, catálogo de blocos, `DESIGN.md`/`frame.md`, testes e `ADOPTERS.md`. Somente o README foi consultado; determinismo entre ambientes, a fronteira entre o framework aberto e os serviços hospedados e a segurança do renderer com HTML de terceiros são a verificar.
 - Métricas da API do GitHub observadas em 2026-10-19: ~67,3 mil estrelas, ~6,1 mil forks, 379 issues abertas, criado em 2026-03-10 e último push em 2026-10-19; licença Apache-2.0, TypeScript.
+
+## [2026-10-19] ingest | AgriciDaniel/claude-ads
+- Criada `repos/github.com/agricidaniel/claude-ads.md` a partir do README no commit `fc3908e786c318776df89a3a098333da377364be`, sem clonar o repositório.
+- Criadas `entities/agricidaniel.md` e `concepts/auditoria-de-midia-paga.md`.
+- Atualizados `categorias.md` (nova categoria "Marketing, mídia paga e conteúdo"), `index.md`, `log.md`, `overview.md` e `README.md`.
+- Não lidos: código Python, `ads/`, `skills/`, `agents/`, `control-plane/`, `claude_ads_core/`, testes, evals e Cockpit. Somente o README foi consultado; a imposição dos gates de escrita, a cobertura real de evidência e o estado de release são a verificar.
+- O README declara status "development candidate", com os 12 perfis de saúde desativados e a escrita limitada a rascunhos até o gate de mutação passar.
+- Distribuição dupla: release público MIT e espelho comunitário para membros do AI Marketing Hub Pro. Releases têm checksum e SBOM, mas não assinatura.
+- Métricas da API do GitHub observadas em 2026-10-19: ~10,1 mil estrelas, ~1,5 mil forks, 3 issues abertas, criado em 2026-02-11 e último push em 2026-10-17; licença MIT, Python.

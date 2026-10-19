@@ -2,11 +2,12 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (ingestão de heygen-com/hyperframes)
+> Última atualização: 2026-10-19 (ingestão de AgriciDaniel/claude-ads)
 
 ## Repositórios
 
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
+- [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
@@ -64,6 +65,7 @@
 - [Agent skills](concepts/agent-skills.md) — instruções empacotadas em `SKILL.md`, distribuídas e instaladas como artefatos versionáveis.
 - [Análise financeira multiagente](concepts/analise-financeira-multiagente.md) — papéis de analista, debate, trader e risco para produzir e revisar decisões de investimento com LLMs.
 - [Artefatos HTML autocontidos](concepts/artefatos-html-autocontidos.md) — apresentações e diagramas gerados como um único arquivo HTML com CSS, JS e SVG inline.
+- [Auditoria de mídia paga](concepts/auditoria-de-midia-paga.md) — achado, evidência e cobertura de dados em contas de anúncios, com `unknown` como resposta legítima e escrita separada por gates.
 - [Auditoria de UX](concepts/auditoria-de-ux.md) — avaliação estruturada de um produto contra frameworks explícitos, com lacunas e recomendações.
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md) — agentes executando defesa, DFIR, threat hunting e testes ofensivos autorizados com conhecimento estruturado.
 - [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
@@ -87,6 +89,7 @@
 ## Entidades
 
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
+- [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
