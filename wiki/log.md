@@ -450,3 +450,60 @@
 - Verificados frontmatter, seção `## Fontes`, links relativos e âncoras, cobertura no índice e em `categorias.md`, ordenação alfabética e contagens do `README.md` nas 11 páginas novas/atualizadas deste lote (5 repositórios, 5 entidades, 1 conceito).
 - Resultado: `index.md` e `README.md` com 41 repositórios, 28 skills, 33 conceitos, 48 entidades e 0 análises, contagens e listas coincidentes; nenhum link quebrado encontrado nas páginas novas.
 - Commit único cobrindo as 5 ingestões (em vez de um commit por repositório), por terem sido processadas em lote a partir de um único pedido do usuário com triagem e confirmação prévias.
+
+## [2026-10-19] query | triagem de 7 repositórios (lote 2 do usuário)
+- Usuário informou 7 URLs: `mattpocock/skills`, `anthropics/skills`, `vercel-labs/agent-skills`, `github/awesome-copilot`, `remotion-dev/skills`, `claudflare/skills`, `firecrawl/cli`.
+- `mattpocock/skills` já estava na wiki, idêntico (mesmo commit `5beb35b040e3de97e54fa9e386d7e42d15c295c2` e mesmas métricas) — não reingerido.
+- `claudflare/skills` não existe no GitHub; owner correto é `cloudflare/skills`. Confirmado com o usuário antes de ingerir.
+- Resumo apresentado ao usuário antes de qualquer alteração na wiki; confirmada a ingestão dos 5 repositórios restantes.
+
+## [2026-10-19] ingest | anthropics/skills
+- Criada `repos/github.com/anthropics/skills.md` a partir do README no commit `dbd4588f9e1033efb41dad4bef2f7947c8993d44`, sem clonar o repositório.
+- Criada `entities/anthropics.md`.
+- Atualizado `concepts/agent-skills.md` com a implementação de referência da Anthropic.
+- Atualizados `index.md`, `categorias.md` (categoria "Skills, instruções e personalidades de agente"), `overview.md` e `README.md`.
+- Não lidos: `./spec`, `./template` e as skills individuais (incluindo as de documento). Licença mista (Apache 2.0 + skills de documento source-available); API do GitHub reporta `NOASSERTION`, registrado como `desconhecida`.
+
+## [2026-10-19] ingest | vercel-labs/agent-skills
+- Criada `repos/github.com/vercel-labs/agent-skills.md` a partir do README no commit `063bee94c3f4df8453406c830b0a7df0f2860278`, sem clonar o repositório.
+- Criada `entities/vercel-labs.md`.
+- Atualizado `concepts/agent-skills.md` com a coleção oficial da Vercel.
+- Atualizados `index.md`, `categorias.md` (categoria "Skills, instruções e personalidades de agente"), `overview.md` e `README.md`.
+- Não lidos: os oito `SKILL.md` individuais, scripts e o índice de descoberta publicado em releases. MIT.
+
+## [2026-10-19] ingest | github/awesome-copilot
+- Criada `repos/github.com/github/awesome-copilot.md` a partir do README no commit `cb64ad12e32737ae764becd6885462e9b4c7cb00`, sem clonar o repositório.
+- Criada `entities/github.md`.
+- Atualizado `concepts/agent-skills.md` com o catálogo comunitário do GitHub Copilot.
+- Atualizados `index.md`, `categorias.md` (categoria "Skills, instruções e personalidades de agente"), `overview.md` e `README.md`.
+- Não lidos: `docs/README.agents.md`, `docs/README.instructions.md`, `docs/README.skills.md`, `docs/README.plugins.md`, `cookbook/README.md`, `AGENTS.md`, `SECURITY.md`. MIT. Catálogo comunitário: hospedado pela organização oficial do GitHub, mas conteúdo de terceiros, sem auditoria declarada.
+
+## [2026-10-19] ingest | remotion-dev/skills
+- Criada `repos/github.com/remotion-dev/skills.md` a partir do README no commit `039e8a2fc78b67efc228d5645367838b85818a1c`, sem clonar o repositório.
+- Criada `entities/remotion-dev.md`.
+- Atualizado `concepts/agent-skills.md` com as doze skills oficiais do Remotion.
+- Adicionado link bidirecional em `repos/github.com/calesthio/openmontage.md` (o Remotion já era citado como provedor de renderização).
+- Atualizados `index.md`, `categorias.md` (categorias "Skills, instruções e personalidades de agente" e "Geração de mídia e artefatos HTML"), `overview.md` e `README.md`.
+- Não lidos: os doze `SKILL.md` individuais. Licença não detectada pela API do GitHub, registrada como `desconhecida`. README gerado automaticamente por `packages/skills/scripts/sync-readme.ts`.
+
+## [2026-10-19] ingest | cloudflare/skills
+- Criada `repos/github.com/cloudflare/skills.md` a partir do README no commit `86505e44f87d801aa1864a3c4109e9a8ae5c409f`, sem clonar o repositório.
+- Entidade `entities/cloudflare.md` já existia (de `agentic-inbox`); atualizada com o novo repositório e o link para `Agent skills`.
+- Atualizados `concepts/agent-skills.md` e `concepts/model-context-protocol.md` com as 18 skills e o servidor MCP principal da Cloudflare.
+- Atualizados `index.md`, `categorias.md` (categorias "Skills, instruções e personalidades de agente" e "Protocolos, integrações e confiabilidade"), `overview.md` e `README.md`.
+- Não lidos: os 18 `SKILL.md` individuais e a implementação do servidor MCP. Apache-2.0.
+- URL informada pelo usuário (`claudflare/skills`) corrigida para `cloudflare/skills` após confirmação explícita.
+
+## [2026-10-19] ingest | firecrawl/cli
+- Criada `repos/github.com/firecrawl/cli.md` a partir do README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf`, sem clonar o repositório.
+- Criada `entities/firecrawl.md`.
+- Atualizados `concepts/model-context-protocol.md`, `concepts/agent-skills.md` e `concepts/navegacao-web-agentica.md` com o servidor MCP, as três famílias de skills e o comando `interact`.
+- Atualizados `index.md`, `categorias.md` (categorias "Skills, instruções e personalidades de agente" e "Protocolos, integrações e confiabilidade"), `overview.md` e `README.md`.
+- Não lidos: código-fonte, o catálogo `firecrawl/skills` e a documentação em docs.firecrawl.dev. Licença não detectada pela API do GitHub, registrada como `desconhecida`.
+- `firecrawl setup defaults` desativa fetch/search nativo de agentes suportados, tornando o Firecrawl o provedor web padrão — mudança de comportamento global, não apenas instalação de ferramenta; registrado como observação em `overview.md`.
+- Provedores de dados de terceiros (Alexandria) exigem aceite de termos por um admin da organização e têm custo de crédito próprio por chamada.
+
+## [2026-10-19] lint | lote de 5 ingestões (anthropics, Vercel, GitHub, Remotion, Cloudflare, Firecrawl)
+- Verificados frontmatter, seção `## Fontes`, links relativos e âncoras, cobertura no índice e em `categorias.md`, ordenação alfabética e contagens do `README.md` nas 11 páginas novas (6 repositórios, 5 entidades) e nas atualizações de `cloudflare.md` e `calesthio/openmontage.md`.
+- Resultado: `index.md` e `README.md` com 47 repositórios, 28 skills, 33 conceitos, 53 entidades e 0 análises, contagens e listas coincidentes; nenhum link quebrado encontrado.
+- Commit único cobrindo as 6 ingestões (em vez de um commit por repositório), por terem sido processadas em lote a partir de um único pedido do usuário com triagem e confirmação prévias; `mattpocock/skills` não gerou mudança (duplicata exata).

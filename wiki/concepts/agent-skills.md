@@ -48,6 +48,12 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e pontuação em cinco dimensões para revisar prosa.
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — Agent Skill instalável que ensina a um agente de código a API atual da biblioteca, para que o código gerado corresponda à versão corrente em vez de uma versão adivinhada.
 - [twentyhq/twenty](../repos/github.com/twentyhq/twenty.md) — skills oficiais do produto (`packages/twenty-agent-skills`), instaláveis via CLI `skills` em Claude Code, Codex, Cursor e Pi para desenvolver apps sobre o CRM.
+- [anthropics/skills](../repos/github.com/anthropics/skills.md) — implementação de referência da Anthropic: exemplos criativos/técnicos/enterprise, especificação do formato e skills de documento (docx/pdf/pptx/xlsx) source-available que também alimentam o Claude em produção.
+- [vercel-labs/agent-skills](../repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [github/awesome-copilot](../repos/github.com/github/awesome-copilot.md) — catálogo comunitário (hospedado pelo GitHub, alimentado por terceiros) de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
+- [remotion-dev/skills](../repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
+- [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — 18 skills oficiais da Cloudflare para Workers, Agents SDK, Durable Objects e Sandbox, empacotadas com o servidor MCP principal da plataforma.
+- [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — três famílias de skills (core, build, workflows) distribuídas por um catálogo próprio e instaladas pelo CLI em todos os harnesses detectados.
 
 ## Trade-offs
 
@@ -85,3 +91,9 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [Skill Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh e metadados do repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9` (consultados em 2026-10-19).
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40` (consultado em 2026-10-19).
 - [twentyhq/twenty](../repos/github.com/twentyhq/twenty.md) — README no commit `31d95e98a2217e187d6f7d51f7ab69bb048e22bc` (consultado em 2026-10-19).
+- [anthropics/skills](../repos/github.com/anthropics/skills.md) — README no commit `dbd4588f9e1033efb41dad4bef2f7947c8993d44` (consultado em 2026-10-19).
+- [vercel-labs/agent-skills](../repos/github.com/vercel-labs/agent-skills.md) — README no commit `063bee94c3f4df8453406c830b0a7df0f2860278` (consultado em 2026-10-19).
+- [github/awesome-copilot](../repos/github.com/github/awesome-copilot.md) — README no commit `cb64ad12e32737ae764becd6885462e9b4c7cb00` (consultado em 2026-10-19).
+- [remotion-dev/skills](../repos/github.com/remotion-dev/skills.md) — README no commit `039e8a2fc78b67efc228d5645367838b85818a1c` (consultado em 2026-10-19).
+- [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — README no commit `86505e44f87d801aa1864a3c4109e9a8ae5c409f` (consultado em 2026-10-19).
+- [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).

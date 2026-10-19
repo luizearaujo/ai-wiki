@@ -119,7 +119,7 @@ Exemplos derivados dos prompts publicados no README:
 - Mantido por: [calesthio](../../../entities/calesthio.md)
 - Conceitos: [Produção de vídeo agêntica](../../../concepts/producao-de-video-agentica.md), [Agent skills](../../../concepts/agent-skills.md), [Agent harness](../../../concepts/agent-harness.md)
 - Relacionado: [Graphify-Labs/graphify](../graphify-labs/graphify.md) — outra ferramenta que combina skills com um pipeline determinístico e verificação explícita; [SynkraAI/aiox-core](../synkraai/aiox-core.md) — orquestração por artefatos e agentes especializados.
-- Projetos citados: Remotion, HyperFrames, FFmpeg, Piper, WhisperX, Real-ESRGAN, SadTalker, MuseTalk, Wav2Lip, Kling, Veo, Runway, Seedance, Suno, ElevenLabs.
+- Projetos citados: [Remotion](../remotion-dev/skills.md), HyperFrames, FFmpeg, Piper, WhisperX, Real-ESRGAN, SadTalker, MuseTalk, Wav2Lip, Kling, Veo, Runway, Seedance, Suno, ElevenLabs.
 
 ## Perguntas abertas
 

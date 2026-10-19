@@ -50,9 +50,13 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — também nesta categoria pelo catálogo de 311 skills e pela migração de comandos para skills.
+- [anthropics/skills](repos/github.com/anthropics/skills.md) — Implementação de referência da Anthropic: exemplos criativos/técnicos/enterprise, especificação do formato e skills de documento source-available.
+- [cloudflare/skills](repos/github.com/cloudflare/skills.md) — 18 Agent Skills oficiais para Workers, Agents SDK, Durable Objects e Sandbox, com o servidor MCP principal da Cloudflare incluído.
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
+- [firecrawl/cli](repos/github.com/firecrawl/cli.md) — três famílias de skills (core, build, workflows) para busca, scrape e extração web, distribuídas por catálogo próprio e instaladas em todos os harnesses detectados.
+- [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
@@ -62,7 +66,9 @@ tags: [navegacao, categorias, indice-tematico]
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — também nesta categoria pelos cookbooks de deploy e fine-tune distribuídos como Agent Skills roteadoras.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — skill de design com comandos e detector de regras.
+- [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
+- [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 
 **Conceitos**
 - [Agent skills](concepts/agent-skills.md)
@@ -72,12 +78,18 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Addy Osmani (addyosmani)](entities/addyosmani.md)
 - [affaan-m](entities/affaan-m.md)
+- [Anthropic (anthropics)](entities/anthropics.md)
+- [Cloudflare](entities/cloudflare.md)
 - [Composio (ComposioHQ)](entities/composiohq.md)
 - [DietrichGebert](entities/dietrichgebert.md)
+- [Firecrawl](entities/firecrawl.md)
+- [GitHub](entities/github.md)
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
 - [Matt Pocock (mattpocock)](entities/mattpocock.md)
 - [msitarzewski](entities/msitarzewski.md)
 - [multica-ai](entities/multica-ai.md)
+- [Remotion (remotion-dev)](entities/remotion-dev.md)
+- [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 
 **Skills documentadas em outras categorias**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Ink](skills/github.com/google-labs-code/design.md/ink.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
@@ -144,6 +156,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica com pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — composição em HTML puro com timing por atributos, animação seekable e render determinístico em Chrome headless + FFmpeg; 21 skills para agentes.
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz, zero-shot e cross-lingual, com controle de estilo.
+- [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — skills oficiais do Remotion, framework de vídeo programático em React usado como provedor de renderização pelo OpenMontage.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
 **Skills**
@@ -160,6 +173,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [cathrynlavery](entities/cathrynlavery.md)
 - [HeyGen](entities/heygen.md)
 - [MyShell (myshell-ai)](entities/myshell-ai.md)
+- [Remotion (remotion-dev)](entities/remotion-dev.md)
 - [tt-a1i](entities/tt-a1i.md)
 - [zarazhangrui](entities/zarazhangrui.md)
 
@@ -340,10 +354,12 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Implementações e integrações documentadas**
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — servidor MCP em `/mcp` com ferramentas de e-mail.
+- [cloudflare/skills](repos/github.com/cloudflare/skills.md) — servidor MCP remoto principal da Cloudflare, empacotado com 18 Agent Skills.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — REST API, MCP e webhooks.
 - [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — servidor MCP que expõe requisições HTTP, ações de browser, screenshots e respostas de API capturadas em segundo plano.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — ferramentas MCP dentro da automação do terminal.
+- [firecrawl/cli](repos/github.com/firecrawl/cli.md) — servidor MCP próprio e opção de se tornar o provedor web padrão de agentes suportados.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
@@ -356,6 +372,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [D4Vinci](entities/d4vinci.md)
 - [DeusData](entities/deusdata.md)
 - [Fincept Corporation](entities/fincept-corporation.md)
+- [Firecrawl](entities/firecrawl.md)
 - [Graphify Labs](entities/graphify-labs.md)
 - [HKUDS](entities/hkuds.md)
 - [morluto](entities/morluto.md)

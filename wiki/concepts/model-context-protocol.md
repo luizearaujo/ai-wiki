@@ -38,6 +38,8 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — instalação opcional do extra `mcp`, ao lado de Neo4j, FalkorDB e Postgres; as tools expostas não são detalhadas no README (**A verificar**).
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — servidor MCP (extra `pip install "scrapling[ai]"`) expõe requisições HTTP, ações de browser, screenshots, estado de login salvo e respostas de API capturadas em segundo plano; reduz o conteúdo enviado ao modelo e inclui bloqueio de anúncios e de prompt injection, segundo o README.
 - [openbq-org/OpenBB](../repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA, ao lado de Python, Excel e REST; o README não detalha as tools expostas (**A verificar**).
+- [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — empacota o servidor MCP remoto principal da Cloudflare (acesso à API e à documentação via Code Mode MCP) junto com 18 Agent Skills; servidores específicos por produto ficam fora do pacote.
+- [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — `firecrawl setup mcp` instala o servidor MCP do Firecrawl em Cursor, Claude Code e VS Code; `firecrawl setup defaults` pode tornar o Firecrawl o provedor web padrão, desativando fetch/search nativo onde suportado.
 
 ## Trade-offs
 
@@ -67,3 +69,5 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40` (consultado em 2026-10-19).
 - [openbq-org/OpenBB](../repos/github.com/openbq-org/openbb.md) — README no commit `78020ee4b864ab50b8c1f56373877c2b4e7fb623` (consultado em 2026-10-19).
+- [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — README no commit `86505e44f87d801aa1864a3c4109e9a8ae5c409f` (consultado em 2026-10-19).
+- [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).

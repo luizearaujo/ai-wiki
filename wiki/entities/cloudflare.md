@@ -9,7 +9,7 @@ tags: [organizacao, infraestrutura, edge, workers, email, agentes]
 
 # Cloudflare
 
-> Empresa de infraestrutura de edge network que publica projetos abertos para agentes, incluindo o Agentic Inbox, cliente de e-mail self-hosted em Workers com agente e servidor MCP.
+> Empresa de infraestrutura de edge network que publica projetos abertos para agentes, incluindo o Agentic Inbox (cliente de e-mail self-hosted com agente e servidor MCP) e o pacote oficial de Agent Skills para a Cloudflare Developer Platform.
 
 ## O que é
 
@@ -20,6 +20,7 @@ Nesta wiki, a organização aparece pelo [Agentic Inbox](../repos/github.com/clo
 ## Repositórios e produtos
 
 - [cloudflare/agentic-inbox](../repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted com agente de IA e servidor MCP; Apache-2.0, TypeScript; ~8,4 mil estrelas em 2026-10-19.
+- [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — 18 Agent Skills oficiais para Workers, Agents SDK, Durable Objects, Sandbox e o restante da plataforma, com o servidor MCP principal da Cloudflare incluído; Apache-2.0; ~3,1 mil estrelas em 2026-10-19.
 - **Cloudflare Workers** — runtime serverless usado pelo projeto.
 - **Durable Objects** — estado isolado por mailbox com SQLite.
 - **R2** — armazenamento de anexos.
@@ -36,10 +37,11 @@ A Cloudflare ocupa uma posição diferente dos demais mantenedores da wiki: não
 
 ## Relações
 
-- **Criou:** [Agentic Inbox](../repos/github.com/cloudflare/agentic-inbox.md) e a plataforma Workers usada por ele.
-- **Conceitos:** [Email para agentes](../concepts/email-para-agentes.md), [Model Context Protocol (MCP)](../concepts/model-context-protocol.md), [Memória de agente](../concepts/memoria-de-agente.md).
+- **Criou:** [Agentic Inbox](../repos/github.com/cloudflare/agentic-inbox.md), a plataforma Workers usada por ele, e as [Agent Skills oficiais](../repos/github.com/cloudflare/skills.md) da Developer Platform.
+- **Conceitos:** [Email para agentes](../concepts/email-para-agentes.md), [Model Context Protocol (MCP)](../concepts/model-context-protocol.md), [Memória de agente](../concepts/memoria-de-agente.md), [Agent skills](../concepts/agent-skills.md).
 
 ## Fontes
 
 - https://github.com/cloudflare — perfil da organização via API do GitHub em 2026-10-19 (repositórios públicos, seguidores, criação, localização e blog).
 - https://github.com/cloudflare/agentic-inbox — README no commit `48039bb6785af34e592c2966f87cde2b255c4c80`; metadados da API do GitHub observados em 2026-10-19.
+- [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — README no commit `86505e44f87d801aa1864a3c4109e9a8ae5c409f`; metadados da API do GitHub observados em 2026-10-19.

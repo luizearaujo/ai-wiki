@@ -47,6 +47,7 @@ A escolha estrutural é **o que o agente enxerga**. HTML bruto custa contexto e 
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — o harness inclui um browser agêntico para pesquisa e interação dentro de tarefas longas.
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — agente de navegação web com `undetected_chromedriver` em modo stealth opcional, busca, leitura, extração e preenchimento de formulários (declarado experimental).
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — `StealthyFetcher` automatiza um browser real (Playwright/Chromium ou Chrome) com bypass de Cloudflare Turnstile/Interstitial; a mesma camada alimenta um servidor MCP para agentes.
+- [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — o comando `interact` faz scrape de uma página e abre sessão de browser viva controlada por linguagem natural ou código, sem gestão manual de sessão.
 
 ## Trade-offs
 
@@ -76,3 +77,4 @@ A escolha estrutural é **o que o agente enxerga**. HTML bruto custa contexto e 
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f`; menção ao browser agêntico.
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — README no commit `b46bcca482218643236999221720586e7f410e04` (consultado em 2026-10-19).
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40` (consultado em 2026-10-19).
+- [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).
