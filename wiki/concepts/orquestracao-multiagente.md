@@ -3,7 +3,7 @@ type: concept
 aliases: [Orquestração multiagente, Multi-agent orchestration, Orquestração de agentes]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [agentes, orquestracao, multi-agente, harness]
 ---
 
@@ -40,6 +40,8 @@ Os padrões observados na wiki:
 | **Subagente com contexto isolado** | O líder despacha subtarefas com contexto isolado ou um snapshot do histórico e sintetiza os resultados | DeerFlow: agente líder + `task`, com memória DeerMem compartilhada |
 | **Pipeline declarado com gates** | Etapas em manifesto, skills de direção por etapa e checkpoints resumíveis | OpenMontage: proposta → roteiro → ativos → edição → validação |
 | **Papéis de firma com debate e aprovação** | Analistas em paralelo, debate entre teses opostas, trader e cadeia de risco que aprova ou rejeita | TradingAgents: analistas → pesquisadores bullish/bearish → trader → risco → gestor de portfólio |
+| **Pipeline com revisão paralela e aprovador** | Builder sobre branch própria, quatro revisores em paralelo ("WAIT FOR ALL"), aprovador que mergeia ou escala | zazencodes/zazencodes-season-3 (`software-factory-claude-code`): spec-writer → builder → [security, ux, ui, code] → approver |
+| **Hub-and-spoke por CLI isolado em pasta** | Um agente qualquer na raiz é o hub e delega para sub-agentes rodando um runtime próprio em subpastas, cada um com seu próprio "cérebro" em markdown | zazencodes/zazencodes-season-3 (`pi-agent-fleet`): hub lê `AGENTS.md`, sub-agentes `pi` em `agents/<nome>/` com `brain.md` |
 
 O ponto comum é a **externalização do contexto**: em vez de depender do histórico de uma sessão, a coordenação passa por artefatos que outros agentes conseguem ler. Isso reduz perda de contexto, mas cria trabalho de bookkeeping e exige que os artefatos sejam mantidos corretos.
 
@@ -54,6 +56,7 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — equipe de 12 agentes com roles ágeis e PRD/histórias como unidade de contexto.
 - [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — agentes como membros de projeto com assignee, permissões e issues no mesmo Kanban.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — quatro analistas em paralelo, debate estruturado entre pesquisadores bullish e bearish, trader, time de risco e gestor de portfólio; LangGraph com estado compartilhado, checkpoints opcionais e memory log.
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: `software-factory-claude-code` (sete subagentes do Claude Code, revisão em quatro frentes em paralelo e aprovador, cada job em seu próprio git worktree) e `pi-agent-fleet` (hub-and-spoke: um agente qualquer na raiz delega para sub-agentes `pi` isolados por pasta, cada um com seu `brain.md`); também `minimax-dev-rpg`, que visualiza como jogo um agente MiniMax resolvendo issues reais do GitHub.
 
 ## Trade-offs
 
@@ -86,3 +89,4 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — README no commit `87a48b953e8bada43a7a63f8922846198b9efb61` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) e [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — páginas existentes da wiki, usadas como comparação.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `software-factory-claude-code`, `pi-agent-fleet` e `minimax-dev-rpg` (consultado em 2026-10-21).

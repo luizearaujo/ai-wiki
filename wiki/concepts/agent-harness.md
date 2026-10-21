@@ -3,7 +3,7 @@ type: concept
 aliases: [Agent harness, harness de agente, harness engineering]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [agentes, harness, contexto, ferramentas, seguranca]
 ---
 
@@ -49,6 +49,7 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — workspace desktop que embarca o runtime `pi` (`pi-ai`, `pi-agent-core`, `pi-coding-agent`) e adiciona sessões persistentes, permissões, plugins e orquestração de Worker Sessions.
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — harness/framework CLI-first com agentes especializados e artefatos persistentes.
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento; sem catálogo de skills nem MCP, mas com o mesmo padrão de roteamento sobre um runtime único.
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — não são harnesses em si, mas aplicações construídas sobre um: `neon-meal-helper-agent` e `neon-notes-app` usam o runtime `pi` sobre o backend da Neon (Postgres, Auth, Object Storage, Functions, AI Gateway) como agente sempre ativo; `eve-pocket-research` usa o framework `eve`, da Vercel, ainda sem página própria nesta wiki.
 
 ## Trade-offs
 
@@ -79,3 +80,4 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — README no commit `87a48b953e8bada43a7a63f8922846198b9efb61` (consultado em 2026-10-19).
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — página existente da wiki, usada como comparação.
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — README no commit `b46bcca482218643236999221720586e7f410e04` (consultado em 2026-10-19).
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `neon-meal-helper-agent` e `eve-pocket-research` (consultado em 2026-10-21).

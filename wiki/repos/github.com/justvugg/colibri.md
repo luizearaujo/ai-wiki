@@ -10,7 +10,7 @@ language: C
 status: active
 created: 2026-10-19
 ingested: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [inferencia, moe, modelos, local, cpu, c, streaming, offload, llm, runtime]
 ---
 
@@ -121,7 +121,7 @@ A resposta traz a opção escolhida, uma probabilidade para cada opção permiti
 ## Relações
 
 - **Mantido por:** [Vincenzo Fornaro (JustVugg)](../../../entities/vincenzo-fornaro.md).
-- **Conceitos:** [Streaming de experts em MoE](../../../concepts/streaming-de-experts-em-moe.md) — o mecanismo central; [CLI agent-first](../../../concepts/cli-agent-first.md) — `coli` expõe comandos com saída e planejamento explícitos; [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md) — `coli mcp` expõe detecção de hardware, recomendação, instalação e controle.
+- **Conceitos:** [Streaming de experts em MoE](../../../concepts/streaming-de-experts-em-moe.md) — o mecanismo central; [CLI agent-first](../../../concepts/cli-agent-first.md) — `coli` expõe comandos com saída e planejamento explícitos; [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md) — `coli mcp` expõe detecção de hardware, recomendação, instalação e controle; [Decisão não generativa para agentes (System 1)](../../../concepts/decisao-nao-generativa-para-agentes.md) — o modo System One, compatível com a API do Jev/TypeSafe.
 - **Alternativas:** llama.cpp e vLLM (não documentados na wiki) — o README os cita como referências de sistemas de inferência e offload; kTransformers também aparece como trabalho relacionado. Modelos pequenos em RAM (Qwen3.6-35B-A3B, Qwen3-Coder-30B-A3B) dispensam streaming e são alternativas para hardware modesto.
 - **Relacionado a:** ecossistema de safetensors (container de pesos), tiktoken (tokenizer reimplementado), transformers (oráculo de paridade em CI).
 

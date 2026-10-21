@@ -57,6 +57,7 @@ Questões de projeto que aparecem em todos:
 - [skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — grafo persistente por projeto, com fingerprints e atualização incremental.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — memory log sempre ativo em Markdown: cada decisão é liquidada quando o horizonte vence, com retorno realizado, alfa contra benchmark e reflexão consumida pelo gestor de portfólio.
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — "learnings" como arquivos Markdown em três escopos (pessoal, repositório, equipe), salvos pelo próprio agente a partir das conversas e verificados contra o diff antes de um PR (`trail check`).
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — duas variações: `bookkeeping-agent` guarda dados do usuário (despesas, fatos, recibos) em `memory/` como JSON/markdown, com um `brain/brain.md` para categorias e convenções; `hermes-hostinger-webui-memory` documenta como plugar o Honcho como memória externa em um agente Hermes self-hosted, no lugar da memória nativa em markdown local.
 
 ## Trade-offs
 
@@ -89,3 +90,4 @@ Questões de projeto que aparecem em todos:
 - [skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — página do skills.sh (consultada em 2026-10-19).
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, `bookkeeping-agent/cloud/README.md` e READMEs de `hermes-hostinger-webui-memory` (consultado em 2026-10-21).

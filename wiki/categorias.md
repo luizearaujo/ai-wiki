@@ -30,6 +30,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — também nesta categoria pelos "learnings": decisões e preferências salvas das conversas, versionadas em git em três escopos (pessoal, repositório, equipe).
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: fábrica de software com sete subagentes e revisão em paralelo (`software-factory-claude-code`) e hub-and-spoke com sub-agentes `pi` isolados por pasta (`pi-agent-fleet`), além de harnesses sempre ativos sobre Pi/Neon e eve.
 
 **Conceitos**
 - [Agent harness](concepts/agent-harness.md)
@@ -41,6 +42,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [affaan-m](entities/affaan-m.md)
 - [Alex Newman (thedotmack)](entities/thedotmack.md)
+- [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [ByteDance](entities/bytedance.md)
 - [Fosowl](entities/fosowl.md)
 - [garrytan](entities/garrytan.md)
@@ -78,6 +80,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — a skill `/factory` orquestra sete subagentes; `cross-platform-agent-skills` é uma referência de onde cada agente procura skills; `claude-code-devtool-kanban-board` usa um hook para manter a skill do projeto sincronizada com a skill global do usuário.
 
 **Skills**
 - [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
@@ -90,6 +93,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Addy Osmani (addyosmani)](entities/addyosmani.md)
 - [affaan-m](entities/affaan-m.md)
+- [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [Anthropic (anthropics)](entities/anthropics.md)
 - [Cloudflare](entities/cloudflare.md)
 - [Composio (ComposioHQ)](entities/composiohq.md)
@@ -347,6 +351,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — também nesta categoria pelo demo do Jev (TypeSafe AI): decisão tipada e calibrada em uma única passada, sem geração, para roteamento e guardrails.
 
 **Skills**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — escala de sete eixos para avaliar CLIs; nota de 0–21 e bônus multi-superfície.
@@ -358,6 +363,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [CLI agent-first](concepts/cli-agent-first.md)
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md)
+- [Decisão não generativa para agentes (System 1)](concepts/decisao-nao-generativa-para-agentes.md)
 - [Economia de tokens em agentes](concepts/economia-de-tokens-em-agentes.md)
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md)
 - [Saída completa de agente](concepts/saida-completa-de-agente.md)
@@ -365,6 +371,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [YAGNI para agentes](concepts/yagni-para-agentes.md)
 
 **Entidades**
+- [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [DietrichGebert](entities/dietrichgebert.md)
 - [Google Labs Code](entities/google-labs-code.md)
 - [jo-inc](entities/jo-inc.md)
@@ -397,8 +404,10 @@ tags: [navegacao, categorias, indice-tematico]
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — servidor MCP (`trail mcp`) com seis ferramentas de busca e navegação de código, mais os nomes antigos `graft_*`.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI (`ctx7`) com duas ferramentas (`resolve-library-id`, `query-docs`) para documentação atual por biblioteca e versão.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — servidor MCP (`agent-browser mcp`) com perfis de ferramentas selecionáveis para automação de navegador.
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — três servidores/apps MCP distintos: `skybridge-dataset-visualizer` (MCP app com UI), `agent-identity-introduction` (MCP + identidade delegada via Descope) e `literature-review-consensus-mcp` (skill sobre o Consensus MCP).
 
 **Entidades**
+- [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md)
 - [Cloudflare](entities/cloudflare.md)
 - [croffasia](entities/croffasia.md)

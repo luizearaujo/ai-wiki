@@ -44,6 +44,7 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — `firecrawl setup mcp` instala o servidor MCP do Firecrawl em Cursor, Claude Code e VS Code; `firecrawl setup defaults` pode tornar o Firecrawl o provedor web padrão, desativando fetch/search nativo onde suportado.
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — `trail mcp` expõe seis ferramentas (`trail_find_code`, `trail_file_api`, `trail_trace_calls`, `trail_find_all`, `trail_repo_map`, `trail_check_freshness`); os nomes antigos `graft_*` continuam respondendo.
 - [bilawalsidhu/gods-eye-view](../repos/github.com/bilawalsidhu/gods-eye-view.md) — o próprio aplicativo (um globo 3D ao vivo, não uma ferramenta de desenvolvimento) se expõe como servidor MCP, para abrir dentro de Claude Desktop, Codex ou ChatGPT desktop.
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — três variações: `skybridge-dataset-visualizer` é um "MCP app" com UI (views React renderizadas no cliente, framework Skybridge, deploy na Alpic); `agent-identity-introduction` é um servidor MCP local (FastMCP) que dá acesso ao Google Drive via identidade gerenciada pela Descope, com OAuth por usuário e token de curta duração; `literature-review-consensus-mcp` é uma skill de revisão de literatura sobre o Consensus MCP (sem README próprio, só os artefatos LaTeX/PDF gerados).
 
 ## Trade-offs
 
@@ -77,3 +78,4 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
 - [bilawalsidhu/gods-eye-view](../repos/github.com/bilawalsidhu/gods-eye-view.md) — README no commit `5a1598fd9e5ff707ba73bcb30ba1ae6071a8df68` (consultado em 2026-10-21).
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `skybridge-dataset-visualizer` e `agent-identity-introduction` (consultado em 2026-10-21).

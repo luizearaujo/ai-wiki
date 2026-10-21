@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-21 (trailhq/Trail-Code e bilawalsidhu/gods-eye-view)
+> Última atualização: 2026-10-21 (zazencodes/zazencodes-season-3 e conceito "Decisão não generativa para agentes")
 
 ## Repositórios
 
@@ -60,6 +60,7 @@
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
 
 ## Skills
 
@@ -109,6 +110,7 @@
 - [CLI agent-first](concepts/cli-agent-first.md) — CLI desenhada para agentes: saída estruturada, payload cru, introspecção de schema, contexto disciplinado e defesa contra alucinação.
 - [Clonagem de voz](concepts/clonagem-de-voz.md) — TTS zero-shot que reproduz o timbre de um locutor a partir de amostra curta, com controle de estilo e geração cross-lingual.
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
+- [Decisão não generativa para agentes (System 1)](concepts/decisao-nao-generativa-para-agentes.md) — modelo tipado e calibrado que responde em uma única passada paralela, sem gerar texto, para roteamento e guardrails de baixa latência.
 - [Design system com agentes](concepts/design-system-com-agentes.md) — identidade visual como artefato versionado (`DESIGN.md`, `PRODUCT.md`, `MASTER.md`) carregado entre sessões.
 - [Design taste para agentes](concepts/design-taste-para-agentes.md) — métodos que dão critério visual explícito a agentes: direção, regras mensuráveis, referências e verificação.
 - [Economia de tokens em agentes](concepts/economia-de-tokens-em-agentes.md) — Técnicas que reduzem tokens de entrada e saída — compressão, roteamento de modelo, code mode e cache — preservando payload, segurança e qualidade.
@@ -137,6 +139,7 @@
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
 - [Alex Newman (thedotmack)](entities/thedotmack.md) — autor do claude-mem, sistema de memória persistente para Claude Code com busca híbrida em 3 camadas.
+- [Alexander Galea (zazencodes)](entities/zazencodes.md) — engenheiro de IA e fundador do ZazenCodes, publica o código-fonte dos próprios vídeos sobre agentes e ferramentas de desenvolvimento.
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md) — autor do gist `llm-wiki`, que descreve o padrão de wiki pessoal mantida por LLM.
 - [Anthropic (anthropics)](entities/anthropics.md) — empresa de pesquisa em IA e criadora do Claude, mantenedora do repositório oficial de referência para Agent Skills.
 - [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md) — criador da série "God's Eye View" no YouTube e autor do repositório homônimo; cofundador da Halfpixel.

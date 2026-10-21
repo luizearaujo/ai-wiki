@@ -3,7 +3,7 @@ type: concept
 aliases: [Agent Skills, Skills para agentes, SKILL.md]
 status: draft
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [agentes, skills, claude-code, distribuicao]
 ---
 
@@ -56,6 +56,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [remotion-dev/skills](../repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — 18 skills oficiais da Cloudflare para Workers, Agents SDK, Durable Objects e Sandbox, empacotadas com o servidor MCP principal da plataforma.
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — três famílias de skills (core, build, workflows) distribuídas por um catálogo próprio e instaladas pelo CLI em todos os harnesses detectados.
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — várias pastas sobre o mesmo tema: a skill `/factory` orquestra sete subagentes (`software-factory-claude-code`); `cross-platform-agent-skills` é uma referência de onde cada agente (Claude Code, Codex, Copilot, Cursor, Antigravity) procura skills no sistema e no repositório; `claude-code-devtool-kanban-board` usa um hook `PostToolUse` para manter a skill do projeto sincronizada com a skill global do usuário a cada edição.
 
 ## Trade-offs
 
@@ -99,3 +100,4 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [remotion-dev/skills](../repos/github.com/remotion-dev/skills.md) — README no commit `039e8a2fc78b67efc228d5645367838b85818a1c` (consultado em 2026-10-19).
 - [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — README no commit `86505e44f87d801aa1864a3c4109e9a8ae5c409f` (consultado em 2026-10-19).
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).
+- [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `software-factory-claude-code` e `cross-platform-agent-skills`, mais `.claude/skills/kanban-cli/SKILL.md` e `.claude/settings.json` de `claude-code-devtool-kanban-board` (consultado em 2026-10-21).
