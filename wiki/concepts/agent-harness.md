@@ -40,6 +40,10 @@ Os componentes se repetem entre implementações:
 
 O harness normalmente é instalado como plugin, pacote npm ou clone em um diretório de skills. A instalação grava arquivos que passam a fazer parte do runtime do agente, o que a torna uma decisão de **supply chain**, não apenas de produtividade.
 
+### Otimização automática do harness
+
+Todos os exemplos acima são harnesses **instalados e mantidos manualmente**: uma pessoa escreve ou copia os componentes (skills, subagentes, hooks) e os revisa antes de usar. O [google-research/harness2](../repos/github.com/google-research/harness2.md) propõe um eixo diferente: tratar o próprio harness como objeto de **otimização automática**, mantendo os pesos do modelo fixos. Ele edita os oito componentes (prompt, guardrails, memória, orientação de ferramentas, subagentes, skills, scripts, plugins) por um passo contrastivo — propor edições, testar o efeito na mesma tarefa, compor um harness refinado a partir do contraste comportamental entre execuções, sem gabarito — e acumula o que funcionou em um "harness de melhoria" persistente entre tarefas. É pesquisa (acompanha um paper, arXiv:2610.14224, com três benchmarks profissionais), não um produto para instalar hoje, mas desloca a pergunta de "que harness eu instalo" para "como um harness se refina sozinho a partir de evidência comportamental".
+
 ## Onde aparece
 
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — harness multi-cliente com 71 agentes, 311 skills, hooks, regras, Memory Vault e AgentShield; chama a si mesmo de "agent harness operating system".
@@ -50,6 +54,7 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — harness/framework CLI-first com agentes especializados e artefatos persistentes.
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento; sem catálogo de skills nem MCP, mas com o mesmo padrão de roteamento sobre um runtime único.
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — não são harnesses em si, mas aplicações construídas sobre um: `neon-meal-helper-agent` e `neon-notes-app` usam o runtime `pi` sobre o backend da Neon (Postgres, Auth, Object Storage, Functions, AI Gateway) como agente sempre ativo; `eve-pocket-research` usa o framework `eve`, da Vercel, ainda sem página própria nesta wiki.
+- [google-research/harness2](../repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente os oito componentes do harness por recursão em dois níveis (tarefa e harnessing), com executores OpenCode/Codex e três benchmarks profissionais.
 
 ## Trade-offs
 
@@ -81,3 +86,4 @@ O harness normalmente é instalado como plugin, pacote npm ou clone em um diret�
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) — página existente da wiki, usada como comparação.
 - [Fosowl/agenticSeek](../repos/github.com/fosowl/agenticseek.md) — README no commit `b46bcca482218643236999221720586e7f410e04` (consultado em 2026-10-19).
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `neon-meal-helper-agent` e `eve-pocket-research` (consultado em 2026-10-21).
+- [google-research/harness2](../repos/github.com/google-research/harness2.md) — README no commit `1cfe254e8d25b15f37048c3730134686abe60335` (consultado em 2026-10-21).

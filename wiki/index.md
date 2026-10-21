@@ -2,14 +2,16 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-21 (zazencodes/skills e suas cinco skills)
+> Última atualização: 2026-10-21 (10 repositórios: ai-job-search, i-have-adhd, strix, open-notebook, book-to-skill, open-seo, Open-Generative-AI, no-ai-slop, surfsense, harness2)
 
 ## Repositórios
 
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
+- [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — estúdio self-hosted de geração de imagem/vídeo sobre 600+ modelos via MuAPI, com app desktop e dois motores de inferência local.
 - [anthropics/skills](repos/github.com/anthropics/skills.md) — Repositório oficial da Anthropic com exemplos de Agent Skills, a especificação do formato e as skills de documento que também alimentam o Claude.
+- [ayghri/i-have-adhd](repos/github.com/ayghri/i-have-adhd.md) — skill de dez regras de estilo de saída direto, sem rodeios, para agentes de código.
 - [bilawalsidhu/gods-eye-view](repos/github.com/bilawalsidhu/gods-eye-view.md) — globo 3D ao vivo com aviões, navios, satélites e câmeras públicas, controlado por voz via agente de IA em tempo real com 30 ferramentas; também se expõe como servidor MCP.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
@@ -21,11 +23,13 @@
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
+- [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — CLI de busca, scrape, crawl e extração autônoma por IA, com skills, servidor MCP e opção de virar o provedor web padrão de agentes.
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente de IA 100% local que navega na web, escreve e executa código e planeja tarefas, com seleção automática de agente e voz em progresso.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
+- [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — framework que renderiza MP4 determinístico a partir de HTML, CSS, mídia e animações seekable, com CLI e 21 skills para agentes.
@@ -35,8 +39,11 @@
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
+- [lfnovo/open-notebook](repos/github.com/lfnovo/open-notebook.md) — alternativa self-hosted ao Notebook LM, com mais de 20 provedores de modelo, busca full-text/vetorial e geração de podcast multi-falante.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
+- [MadsLorentzen/ai-job-search](repos/github.com/madslorentzen/ai-job-search.md) — framework de candidatura a emprego sobre Claude Code: avaliação de vaga, redação de CV/carta em LaTeX, revisão drafter-reviewer e preparo de entrevista.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
+- [MODSetter/SurfSense](repos/github.com/modsetter/surfsense.md) — app desktop air-gapped alternativo ao Notebook LM, que pesquisa, transforma e edita documentos do usuário localmente.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, mapeadas a seis frameworks e distribuídas no padrão agentskills.io.
@@ -47,6 +54,7 @@
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform financeira que conecta fontes de dados a Python, Excel, MCP para agentes de IA e REST API; antes publicada como openbb-finance/openbb.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
+- [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de escrita por IA removidos preservando a voz do autor, com comando de detecção e modo satírico.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
@@ -57,9 +65,11 @@
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI que injetam documentação e exemplos de código atuais e específicos de versão no contexto de agentes.
+- [usestrix/strix](repos/github.com/usestrix/strix.md) — agentes autônomos de pentest que exploram o alvo dinamicamente e validam achados com provas de conceito reais, com orquestração multiagente e nove skills.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro ou pasta de documentos em uma Agent Skill com capítulos carregados sob demanda, 24×–51× menos tokens que despejar o livro no contexto.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
 
@@ -148,7 +158,9 @@
 - [Alex Newman (thedotmack)](entities/thedotmack.md) — autor do claude-mem, sistema de memória persistente para Claude Code com busca híbrida em 3 camadas.
 - [Alexander Galea (zazencodes)](entities/zazencodes.md) — engenheiro de IA e fundador do ZazenCodes, publica o código-fonte dos próprios vídeos sobre agentes e ferramentas de desenvolvimento.
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md) — autor do gist `llm-wiki`, que descreve o padrão de wiki pessoal mantida por LLM.
+- [Anil Chandra Naidu Matcha (Anil-matcha)](entities/anil-matcha.md) — autor do Open-Generative-AI, estúdio self-hosted de geração de imagem/vídeo via MuAPI.
 - [Anthropic (anthropics)](entities/anthropics.md) — empresa de pesquisa em IA e criadora do Claude, mantenedora do repositório oficial de referência para Agent Skills.
+- [Ayoub Ghriss (ayghri)](entities/ayghri.md) — pesquisador de ML no grupo CLIMB research, Universidade do Colorado Boulder, autor da skill `i-have-adhd`.
 - [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md) — criador da série "God's Eye View" no YouTube e autor do repositório homônimo; cofundador da Halfpixel.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
@@ -162,12 +174,14 @@
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
+- [Every App (every-app)](entities/every-app.md) — organização mantenedora do OpenSEO, stack de SEO self-hosted com servidor MCP e Agent Skills.
 - [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
 - [Firecrawl](entities/firecrawl.md) — organização mantenedora do Firecrawl CLI, de servidores MCP e de skills para busca, scrape e extração web.
 - [Fosowl](entities/fosowl.md) — Martin Legrand, engenheiro de ML/AI na França, criador do agenticSeek.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
 - [GitHub](entities/github.md) — organização oficial do GitHub, mantenedora do catálogo comunitário Awesome Copilot.
 - [Google Labs Code](entities/google-labs-code.md) — organização que publica o formato DESIGN.md, as quatro skills de engenharia e bibliotecas de skills para Stitch e Jules.
+- [Google Research (google-research)](entities/google-research.md) — organização de pesquisa da Google, mantenedora do Harness², framework de refinamento recursivo de harness de agente.
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
@@ -179,6 +193,8 @@
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
+- [Luis Novo (lfnovo)](entities/lfnovo.md) — autor do Open Notebook, alternativa self-hosted ao Notebook LM, e da biblioteca Esperanto.
+- [Mads Lorentzen (MadsLorentzen)](entities/madslorentzen.md) — geofísico autor do ai-job-search, framework de candidatura a emprego sobre Claude Code.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.
 - [Matt Pocock (mattpocock)](entities/mattpocock.md) — Educador de TypeScript e criador do repositório `skills`, coleção de instruções de engenharia para agentes.
 - [morluto](entities/morluto.md) — criador do REA e mantenedor de ferramentas de engenharia reversa para agentes.
@@ -191,8 +207,11 @@
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
 - [openbq-org](entities/openbq-org.md) — organização que mantém o OpenBB (Open Data Platform), destino da transferência de `openbb-finance`.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
+- [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
+- [Rohan Verma (MODSetter)](entities/modsetter.md) — autor do SurfSense, app desktop air-gapped alternativo ao Notebook LM.
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md) — pesquisador de segurança de IA generativa, autor do `claude-red`, biblioteca de skills ofensivas para agentes.
+- [Strix (usestrix)](entities/usestrix.md) — organização mantenedora do Strix, agentes de pentest autônomos de código aberto.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
@@ -203,6 +222,7 @@
 - [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md) — organização experimental da Vercel, mantenedora da coleção oficial de Agent Skills.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
+- [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md) — SRE autor do book-to-skill, que converte livros e documentos em Agent Skills com capítulos sob demanda.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
 ## Análises

@@ -3,7 +3,7 @@ type: concept
 aliases: [Token reduction, Token efficiency, Compressão de contexto, Caveman-style output, Economia de contexto]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [tokens, contexto, custo, agentes, compressao, eficiencia]
 ---
 
@@ -56,6 +56,7 @@ O README do `caveman` cita três avaliações independentes: Adobe Research (cus
 - [DeusData/codebase-memory-mcp](../repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP que reivindica cerca de 120× menos tokens ao responder perguntas estruturais.
 - [Egonex-AI/Understand-Anything](../repos/github.com/egonex-ai/understand-anything.md) — grafo interativo que substitui leitura repetida de código por consultas.
 - [Ponytail](../repos/github.com/dietrichgebert/ponytail.md) — reduz tokens como efeito colateral de escrever menos código.
+- [virgiliojr94/book-to-skill](../repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro inteiro em uma skill com capítulos carregados sob demanda; só a estruturação inicial paga o custo de reler o livro, não cada consulta — 24×–51× menos tokens que despejar o livro no contexto, medido pelo próprio projeto.
 
 ## Trade-offs
 
@@ -82,3 +83,4 @@ O README do `caveman` cita três avaliações independentes: Adobe Research (cus
 - README de [juliusbrussee/caveman](../repos/github.com/juliusbrussee/caveman.md) no commit `bad48a0e1df55e05e3f52249afa35ecc1909ee76` (consultado em 2026-10-19). Somente o README foi lido.
 - README de [dietrichgebert/ponytail](../repos/github.com/dietrichgebert/ponytail.md) no commit `09c434ab73ca43761c5d8b0c5d341926c2fba710` (consultado em 2026-10-19).
 - Números de Adobe Research, JetBrains e Elastic conforme citados pelo README do `caveman`; não verificados.
+- README de [virgiliojr94/book-to-skill](../repos/github.com/virgiliojr94/book-to-skill.md) no commit `a24e62f4d8caf2ee433f6e48d9073800f56f906e` (consultado em 2026-10-21).

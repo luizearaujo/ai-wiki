@@ -24,6 +24,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, sandbox e memória DeerMem.
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento, sem depender de nuvem.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
+- [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia design → plano → TDD por subagentes → revisão, imposta como skills que disparam automaticamente em mais de uma dezena de harnesses.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
@@ -49,6 +50,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [ByteDance](entities/bytedance.md)
 - [Fosowl](entities/fosowl.md)
 - [garrytan](entities/garrytan.md)
+- [Google Research (google-research)](entities/google-research.md)
 - [HarnessMD](entities/harnessmd.md)
 - [Jesse Vincent (obra)](entities/obra.md)
 - [SynkraAI](entities/synkraai.md)
@@ -63,6 +65,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — também nesta categoria pelo catálogo de 311 skills e pela migração de comandos para skills.
 - [anthropics/skills](repos/github.com/anthropics/skills.md) — Implementação de referência da Anthropic: exemplos criativos/técnicos/enterprise, especificação do formato e skills de documento source-available.
+- [ayghri/i-have-adhd](repos/github.com/ayghri/i-have-adhd.md) — skill de dez regras de estilo de saída direto, sem rodeios, para agentes de código.
 - [cloudflare/skills](repos/github.com/cloudflare/skills.md) — 18 Agent Skills oficiais para Workers, Agents SDK, Durable Objects e Sandbox, com o servidor MCP principal da Cloudflare incluído.
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
@@ -71,6 +74,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
+- [MadsLorentzen/ai-job-search](repos/github.com/madslorentzen/ai-job-search.md) — skills de portal de vaga com contrato padronizado e auto-descoberta, dentro de um framework de candidatura sobre Claude Code.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — 150+ personalidades em Markdown, organizadas em 16 divisões.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — também nesta categoria pela biblioteca de 818 skills de domínio.
@@ -82,7 +86,9 @@ tags: [navegacao, categorias, indice-tematico]
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
+- [usestrix/strix](repos/github.com/usestrix/strix.md) — também nesta categoria pelas nove skills (`npx skills add usestrix/strix`) que dão a qualquer agente a capacidade de rodar pentests e configurar scanning em CI.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro ou pasta de documentos em uma skill unificada com capítulos carregados sob demanda.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT, changesets) de cinco skills de uso diário: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) orquestra sete subagentes; `cross-platform-agent-skills` é uma referência de onde cada agente procura skills; `claude-code-devtool-kanban-board` usa um hook para manter a skill do projeto sincronizada com a skill global do usuário.
 
@@ -104,6 +110,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [affaan-m](entities/affaan-m.md)
 - [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [Anthropic (anthropics)](entities/anthropics.md)
+- [Ayoub Ghriss (ayghri)](entities/ayghri.md)
 - [Cloudflare](entities/cloudflare.md)
 - [Composio (ComposioHQ)](entities/composiohq.md)
 - [DietrichGebert](entities/dietrichgebert.md)
@@ -111,12 +118,15 @@ tags: [navegacao, categorias, indice-tematico]
 - [GitHub](entities/github.md)
 - [Jesse Vincent (obra)](entities/obra.md)
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
+- [Mads Lorentzen (MadsLorentzen)](entities/madslorentzen.md)
 - [Matt Pocock (mattpocock)](entities/mattpocock.md)
 - [msitarzewski](entities/msitarzewski.md)
 - [multica-ai](entities/multica-ai.md)
 - [Remotion (remotion-dev)](entities/remotion-dev.md)
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md)
+- [Strix (usestrix)](entities/usestrix.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
+- [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md)
 
 **Skills documentadas em outras categorias**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Ink](skills/github.com/google-labs-code/design.md/ink.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
@@ -176,6 +186,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — 818 skills em 34 domínios, mapeadas a MITRE ATT&CK, NIST CSF 2.0, ATLAS, D3FEND, AI RMF e F3.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills exclusivamente ofensivas em 23 categorias, de SQLi a evasão de EDR, carregadas sob demanda.
+- [usestrix/strix](repos/github.com/usestrix/strix.md) — agentes autônomos de pentest que exploram o alvo dinamicamente e validam achados com provas de conceito reais, com orquestração multiagente ("Graph of Agents") e nove skills instaláveis em qualquer agente.
 
 **Conceitos**
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md)
@@ -183,12 +194,14 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [mukul975](entities/mukul975.md)
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md)
+- [Strix (usestrix)](entities/usestrix.md)
 
 ## Geração de mídia e artefatos HTML
 
 > Produção de vídeo, voz, apresentações e diagramas como artefatos reproduzíveis, com pipelines declarados ou arquivos HTML autocontidos.
 
 **Repositórios**
+- [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — estúdio self-hosted de geração de imagem/vídeo sobre 600+ modelos (Flux, Midjourney, Kling, Sora, Veo) via MuAPI, com app desktop e dois motores de inferência local.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica com pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — composição em HTML puro com timing por atributos, animação seekable e render determinístico em Chrome headless + FFmpeg; 21 skills para agentes.
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz, zero-shot e cross-lingual, com controle de estilo.
@@ -206,6 +219,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md)
 
 **Entidades**
+- [Anil Chandra Naidu Matcha (Anil-matcha)](entities/anil-matcha.md)
 - [calesthio](entities/calesthio.md)
 - [cathrynlavery](entities/cathrynlavery.md)
 - [Cole Medin (coleam00)](entities/coleam00.md)
@@ -315,18 +329,21 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — auditoria de mídia paga em 12 plataformas, com conductor + workers, quatro estados de controle, cobertura de evidência e escrita read-only por padrão.
+- [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
 
 **Conceitos**
 - [Auditoria de mídia paga](concepts/auditoria-de-midia-paga.md)
 
 **Entidades**
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md)
+- [Every App (every-app)](entities/every-app.md)
 
 ## Inferência local e runtime de modelos
 
 > Execução de modelos de linguagem em hardware próprio, com decisões explícitas sobre onde os pesos residem e como o runtime troca capacidade por latência.
 
 **Repositórios**
+- [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — também nesta categoria pelos dois motores de inferência local do app desktop (sd.cpp bundled; Wan2GP via instalação própria ou servidor MCP remoto) para modelos de imagem/vídeo, em vez de LLMs.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 
@@ -361,6 +378,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
+- [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — também nesta categoria pela economia de tokens: capítulos carregados sob demanda, 24×–51× menos tokens que despejar o livro no contexto.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — também nesta categoria pelo demo do Jev (TypeSafe AI): decisão tipada e calibrada em uma única passada, sem geração, para roteamento e guardrails.
 
 **Skills**
@@ -388,6 +406,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
 - [Matt Pocock (mattpocock)](entities/mattpocock.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
+- [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md)
 
 ## Protocolos, integrações e confiabilidade
 
@@ -404,15 +423,19 @@ tags: [navegacao, categorias, indice-tematico]
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — REST API, MCP e webhooks.
 - [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — servidor MCP que expõe requisições HTTP, ações de browser, screenshots e respostas de API capturadas em segundo plano.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código.
+- [every-app/open-seo](repos/github.com/every-app/open-seo.md) — servidor MCP que expõe dados de SEO como ferramentas para agentes.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — ferramentas MCP dentro da automação do terminal.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — servidor MCP próprio e opção de se tornar o provedor web padrão de agentes suportados.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
+- [lfnovo/open-notebook](repos/github.com/lfnovo/open-notebook.md) — integração MCP do lado cliente, conectando Claude Desktop, VS Code e outros clientes MCP ao Open Notebook.
+- [MODSetter/SurfSense](repos/github.com/modsetter/surfsense.md) — registro de plugins de terceiros via servidor MCP (DeepWiki, Notion, ou qualquer um por URL).
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — servidor MCP (`trail mcp`) com seis ferramentas de busca e navegação de código, mais os nomes antigos `graft_*`.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI (`ctx7`) com duas ferramentas (`resolve-library-id`, `query-docs`) para documentação atual por biblioteca e versão.
+- [usestrix/strix](repos/github.com/usestrix/strix.md) — conecta-se a servidores MCP próprios do usuário durante um scan, e também aceita conexões MCP de entrada.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — servidor MCP (`agent-browser mcp`) com perfis de ferramentas selecionáveis para automação de navegador.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — três servidores/apps MCP distintos: `skybridge-dataset-visualizer` (MCP app com UI), `agent-identity-introduction` (MCP + identidade delegada via Descope) e `literature-review-consensus-mcp` (skill sobre o Consensus MCP).
 
@@ -423,12 +446,16 @@ tags: [navegacao, categorias, indice-tematico]
 - [croffasia](entities/croffasia.md)
 - [D4Vinci](entities/d4vinci.md)
 - [DeusData](entities/deusdata.md)
+- [Every App (every-app)](entities/every-app.md)
 - [Fincept Corporation](entities/fincept-corporation.md)
 - [Firecrawl](entities/firecrawl.md)
 - [Graphify Labs](entities/graphify-labs.md)
 - [HKUDS](entities/hkuds.md)
+- [Luis Novo (lfnovo)](entities/lfnovo.md)
 - [morluto](entities/morluto.md)
 - [openbq-org](entities/openbq-org.md)
+- [Rohan Verma (MODSetter)](entities/modsetter.md)
+- [Strix (usestrix)](entities/usestrix.md)
 - [Trail (trailhq)](entities/trailhq.md)
 - [Upstash (upstash)](entities/upstash.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
@@ -453,6 +480,9 @@ tags: [navegacao, categorias, indice-tematico]
 
 > Edição de prosa assistida por agentes: remover maneirismos de escrita gerada por IA, preservar a voz do autor e revisar texto factual sem alterar afirmações.
 
+**Repositórios**
+- [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de slop, com comando de edição, comando de detecção (só cita, sem veredito de autoria) e modo satírico.
+
 **Skills**
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com fluxo de quatro etapas e três modos de saída.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e nota de 1–10 em cinco dimensões.
@@ -463,6 +493,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [blader](entities/blader.md)
 - [hardikpandya](entities/hardikpandya.md)
+- [Peter Yang (petergyang)](entities/petergyang.md)
 
 ## Conhecimento pessoal e curadoria
 
@@ -477,6 +508,18 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md)
 - [Obsidian](entities/obsidian.md)
+
+## Pesquisa e notas pessoais com IA
+
+> Alternativas self-hosted ou air-gapped ao Notebook LM: organizam documentos do próprio usuário, respondem com citação de fonte e, em alguns casos, editam os arquivos originais — com o índice e os dados sob controle do usuário, não de um provedor fechado.
+
+**Repositórios**
+- [lfnovo/open-notebook](repos/github.com/lfnovo/open-notebook.md) — self-hosted via Docker, com mais de 20 provedores de modelo, busca full-text/vetorial e geração de podcast multi-falante.
+- [MODSetter/SurfSense](repos/github.com/modsetter/surfsense.md) — app desktop air-gapped que não só pesquisa, mas edita os documentos do usuário (PDF, Word, Excel, PowerPoint), sempre em uma cópia nova.
+
+**Entidades**
+- [Luis Novo (lfnovo)](entities/lfnovo.md)
+- [Rohan Verma (MODSetter)](entities/modsetter.md)
 
 ## OSINT geoespacial e agentes de voz
 

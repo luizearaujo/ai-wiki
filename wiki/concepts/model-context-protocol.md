@@ -45,6 +45,9 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — `trail mcp` expõe seis ferramentas (`trail_find_code`, `trail_file_api`, `trail_trace_calls`, `trail_find_all`, `trail_repo_map`, `trail_check_freshness`); os nomes antigos `graft_*` continuam respondendo.
 - [bilawalsidhu/gods-eye-view](../repos/github.com/bilawalsidhu/gods-eye-view.md) — o próprio aplicativo (um globo 3D ao vivo, não uma ferramenta de desenvolvimento) se expõe como servidor MCP, para abrir dentro de Claude Desktop, Codex ou ChatGPT desktop.
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — três variações: `skybridge-dataset-visualizer` é um "MCP app" com UI (views React renderizadas no cliente, framework Skybridge, deploy na Alpic); `agent-identity-introduction` é um servidor MCP local (FastMCP) que dá acesso ao Google Drive via identidade gerenciada pela Descope, com OAuth por usuário e token de curta duração; `literature-review-consensus-mcp` é uma skill de revisão de literatura sobre o Consensus MCP (sem README próprio, só os artefatos LaTeX/PDF gerados).
+- [usestrix/strix](../repos/github.com/usestrix/strix.md) — nas duas direções: conecta-se a servidores MCP próprios do usuário para dar às ferramentas dele acesso ao agente durante um scan (`~/.strix/mcp-servers.json`); também aceita conexões MCP, segundo o `AGENTS.md` citado no README.
+- [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — servidor MCP que expõe dados de SEO (palavra-chave, backlinks, auditoria) como ferramentas, consumido por Agent Skills do próprio produto.
+- [lfnovo/open-notebook](../repos/github.com/lfnovo/open-notebook.md) — integração MCP do lado cliente: conecta Claude Desktop, VS Code e outros clientes MCP ao Open Notebook.
 
 ## Trade-offs
 
@@ -79,3 +82,6 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
 - [bilawalsidhu/gods-eye-view](../repos/github.com/bilawalsidhu/gods-eye-view.md) — README no commit `5a1598fd9e5ff707ba73bcb30ba1ae6071a8df68` (consultado em 2026-10-21).
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `skybridge-dataset-visualizer` e `agent-identity-introduction` (consultado em 2026-10-21).
+- [usestrix/strix](../repos/github.com/usestrix/strix.md) — README no commit `fde37a149fc942dd107666441a1989f187d30c3b` (consultado em 2026-10-21).
+- [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — README no commit `c5f8db19c7ca9e750836b6ed5c8a6491d4f967f4` (consultado em 2026-10-21).
+- [lfnovo/open-notebook](../repos/github.com/lfnovo/open-notebook.md) — README no commit `a0f6f3081ae06328f0a451b3a3ef2959ca25721d` (consultado em 2026-10-21).

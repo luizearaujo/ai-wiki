@@ -3,7 +3,7 @@ type: concept
 aliases: [Cibersegurança com agentes, Agentic cybersecurity, Segurança ofensiva e defensiva com agentes, AI security agents]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [ciberseguranca, agentes, red-team, blue-team, dfir, skills]
 ---
 
@@ -34,6 +34,7 @@ Os padrões observados:
 - [morluto/rea](../repos/github.com/morluto/rea.md) — engenharia reversa de binários e análise em runtime com agentes, incluindo evidência estruturada.
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — AgentShield e agentes de segurança que auditam hooks, MCP e permissões da configuração do agente.
 - [littledivy/mimic](../repos/github.com/littledivy/mimic.md) — captura de tráfego autenticado e geração de cliente, com atenção a certificate pinning e DPoP.
+- [usestrix/strix](../repos/github.com/usestrix/strix.md) — agentes autônomos que exploram o alvo dinamicamente e validam achados com provas de conceito reais, não só heurística; orquestração multiagente ("Graph of Agents") para recon, exploração e pós-exploração em paralelo, com nove skills instaláveis em qualquer agente compatível com SKILL.md.
 
 ## Trade-offs
 
@@ -61,3 +62,4 @@ Os padrões observados:
 - [SnailSploit/Claude-Red](../repos/github.com/snailsploit/claude-red.md) — README no commit `a8de813edc9f66f60d44cfe42d47750e89d9930b` (consultado em 2026-10-19).
 - [morluto/rea](../repos/github.com/morluto/rea.md) e [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — páginas existentes da wiki, usadas como comparação.
 - [littledivy/mimic](../repos/github.com/littledivy/mimic.md) — página existente da wiki, usada como exemplo de captura de tráfego.
+- [usestrix/strix](../repos/github.com/usestrix/strix.md) — README no commit `fde37a149fc942dd107666441a1989f187d30c3b` (consultado em 2026-10-21).

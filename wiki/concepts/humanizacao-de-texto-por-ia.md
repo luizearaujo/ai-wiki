@@ -3,7 +3,7 @@ type: concept
 aliases: [Humanização de texto por IA, Remoção de sinais de IA, AI writing tells, Humanizer]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [escrita, edicao-de-texto, agent-skills, llm, humanizacao]
 ---
 
@@ -39,12 +39,13 @@ Os catálogos convergem em famílias de problemas:
 
 A noção de **amostra de voz** é central: quando existe texto do próprio autor, ele deve sobrepor as regras gerais. Sem amostra, o risco é trocar um padrão por outro — o "texto humanizado" vira um novo registro uniforme.
 
-As duas skills documentadas mostram variantes do mesmo método: o Humanizer enumera 26 padrões, atribui força a cada um e oferece modos de saída distintos; o Stop Slop reduz tudo a oito regras centrais, uma lista de checagens e uma nota de 1–10 em cinco dimensões, com corte em 35 de 50. A primeira é mais granular e conservadora na decisão de editar; a segunda é mais operacional e agressiva.
+As três skills documentadas mostram variantes do mesmo método: o Humanizer enumera 26 padrões, atribui força a cada um e oferece modos de saída distintos; o Stop Slop reduz tudo a oito regras centrais, uma lista de checagens e uma nota de 1–10 em cinco dimensões, com corte em 35 de 50; o No AI Slop soma mais de 20 padrões específicos (contrastes binários, revelações por dois-pontos, finais de falso-profundo) e acrescenta um modo de detecção que só cita os padrões encontrados, sem veredito de autoria, e um modo satírico que gera slop de propósito como piada. O Humanizer é mais granular e conservador na decisão de editar; o Stop Slop é mais operacional e agressivo; o No AI Slop separa explicitamente "editar" de "detectar" como dois comandos distintos.
 
 ## Onde aparece
 
 - [Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões em seis famílias, fluxo de quatro etapas e três modos de saída; deriva da página "Signs of AI writing" da Wikipédia.
 - [Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e pontuação de 1–10 em cinco dimensões, com corte em 35 de 50.
+- [petergyang/no-ai-slop](../repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões, com comando de edição, comando de detecção (só cita, não atribui autoria) e modo satírico; também disponível como plugin do ChatGPT.
 
 ## Trade-offs
 
@@ -70,4 +71,5 @@ As duas skills documentadas mostram variantes do mesmo método: o Humanizer enum
 
 - [Humanizer](../skills/github.com/blader/humanizer/humanizer.md) — página do skills.sh consultada em 2026-10-19 e metadados do repositório `blader/humanizer` no commit `8c307f367c91bd974002f10f2be2965d642c13df`. O `SKILL.md` cru não foi lido.
 - [Stop Slop](../skills/github.com/hardikpandya/stop-slop/stop-slop.md) — página do skills.sh consultada em 2026-10-19 e metadados do repositório `hardikpandya/stop-slop` no commit `8da1f030185bdfe8471220585162991eaeb970e9`. O `SKILL.md` cru não foi lido.
+- [petergyang/no-ai-slop](../repos/github.com/petergyang/no-ai-slop.md) — README no commit `000650b156983f5159695b441477f4e63b25dc85` (consultado em 2026-10-21). `SKILL.md` e `eval.md` não foram lidos.
 - Wikipedia, "Signs of AI writing" — citada pelo Humanizer como origem do catálogo de padrões (não consultada diretamente nesta ingestão).
