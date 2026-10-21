@@ -3,7 +3,7 @@ type: concept
 aliases: [CLAUDE.md, Instruções persistentes para agentes, Memória de projeto do Claude Code]
 status: draft
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [agentes, claude-code, contexto, diretrizes]
 ---
 
@@ -33,6 +33,7 @@ Os detalhes de carregamento — quando o arquivo é lido, quanto contexto consom
 - [multica-ai/andrej-karpathy-skills](../repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento distribuídas como um único `CLAUDE.md` e também como plugin do Claude Code.
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — a instalação pede uma seção "gstack" no `CLAUDE.md` para rotear navegação; `/sync-gbrain` também insere e remove um bloco de orientação de busca.
 - O [`CLAUDE.md`](../../CLAUDE.md) deste repositório — schema da wiki, com estrutura, frontmatter e workflows.
+- [Init AGENTS.md](../skills/github.com/zazencodes/skills/init-agents-md.md) — skill que automatiza a criação: inspeciona o repositório, redige um `AGENTS.md` curto e torna `CLAUDE.md` um symlink para ele, em vez de dois arquivos que podem divergir. Uma versão anterior da mesma skill, em [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md), usa um `CLAUDE.md` espelhado mínimo em vez de symlink — duas soluções diferentes para o mesmo problema de manter os dois arquivos equivalentes.
 
 ## Trade-offs
 
@@ -57,3 +58,4 @@ Os detalhes de carregamento — quando o arquivo é lido, quanto contexto consom
 - README de `multica-ai/andrej-karpathy-skills` no commit `2c606141936f1eeef17fa3043a72095b4765b9c2` (consultado em 2026-10-17).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - `CLAUDE.md` deste repositório, como exemplo de uso estruturado do formato (consultado em 2026-10-17).
+- [Init AGENTS.md](../skills/github.com/zazencodes/skills/init-agents-md.md) — `SKILL.md` de `zazencodes/skills` no commit `9f2d7c8f0e112e03d0e440676afd49fde3c9dff2`, comparado com a versão em `zazencodes/zazencodes-season-3` no commit `555467c365e6750278efba09349369109f62f65f` (clone local, consultado em 2026-10-21).

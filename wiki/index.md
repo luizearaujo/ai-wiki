@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-21 (skill Factory, de zazencodes/zazencodes-season-3)
+> Última atualização: 2026-10-21 (zazencodes/skills e suas cinco skills)
 
 ## Repositórios
 
@@ -60,12 +60,14 @@
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
 
 ## Skills
 
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md) — avaliação de CLIs em sete eixos de design agent-first, com nota de 0–21 e faixas de human-only a agent-first.
 - [Brandkit](skills/github.com/leonxlnx/taste-skill/brandkit.md) — geração de boards de identidade de marca com estratégia, logo, paleta, tipografia e aplicações em uma imagem.
+- [Codex Image Gen](skills/github.com/zazencodes/skills/codex-image-gen.md) — gera e edita imagens via a ferramenta embutida na CLI `codex`, usando o login do ChatGPT em vez de chave de API.
 - [Design Taste Frontend](skills/github.com/leonxlnx/taste-skill/design-taste-frontend.md) — run anti-slop com direção sorteada, ideia do assunto, regras de casa mensuráveis e inspeção por screenshots.
 - [Design Taste Frontend v1](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v1.md) — versão original de regras fixas, preservada para projetos que dependem do comportamento exato.
 - [Design Taste Frontend v2 Experimental](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v2-experimental.md) — segunda geração em arquivo único, com design read, três dials e protocolo de redesign.
@@ -75,6 +77,8 @@
 - [Frontend Design](skills/github.com/anthropics/skills/frontend-design.md) — direção visual deliberada para UI em duas passagens, com plano de tokens e lista de clichês de design por IA a evitar.
 - [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — apresentações HTML autocontidas em palco 16:9, com descoberta de estilo, prévias, edição inline e exportação.
 - [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — proíbe placeholders e elipses, exige contagem de entregáveis e define pausa e retomada por limite de tokens.
+- [Gemini Web Research](skills/github.com/zazencodes/skills/gemini-web-research.md) — delega pesquisa web a sessões do Gemini (`agy`) em painéis de tmux, lidas e sintetizadas pelo agente orquestrador.
+- [Git Commit Conventions](skills/github.com/zazencodes/skills/git-commit-conventions.md) — um commit por lote de intenção, mensagens curtas, sem atribuição de IA, com um método de reconstrução para dividir um working tree misturado.
 - [GPT Taste](skills/github.com/leonxlnx/taste-skill/gpt-taste.md) — engenharia de design para GPT/Codex com sorteio determinístico, AIDA, hero de duas linhas e GSAP.
 - [High-End Visual Design](skills/github.com/leonxlnx/taste-skill/high-end-visual-design.md) — estilo opt-in de agência premium, com variância de arquétipos e coreografia de movimento.
 - [Humanizer](skills/github.com/blader/humanizer/humanizer.md) — catálogo de 26 padrões de escrita por IA em seis famílias, com fluxo de reescrita em quatro etapas e três modos de saída.
@@ -84,8 +88,10 @@
 - [Imagegen Frontend Web](skills/github.com/leonxlnx/taste-skill/imagegen-frontend-web.md) — uma imagem horizontal por seção, com variedade de composição e consistência de marca.
 - [Impeccable](skills/github.com/pbakaus/impeccable/impeccable.md) — quatro modos de superfície, 24 comandos e contexto `PRODUCT.md`/`DESIGN.md` com verificação no navegador.
 - [Industrial Brutalist UI](skills/github.com/leonxlnx/taste-skill/industrial-brutalist-ui.md) — brutalismo industrial e telemetria tática com Swiss print ou CRT, grid rígido e raio zero.
+- [Init AGENTS.md](skills/github.com/zazencodes/skills/init-agents-md.md) — escreve um `AGENTS.md` curto e específico do repositório e sincroniza `CLAUDE.md` com ele via symlink.
 - [Ink](skills/github.com/google-labs-code/design.md/ink.md) — referência do `@json-render/ink`: UI de terminal a partir de specs JSON, com data binding, eventos e streaming.
 - [Minimalist UI](skills/github.com/leonxlnx/taste-skill/minimalist-ui.md) — minimalismo utilitário editorial com monofonia quente, serifada de contraste e pastéis dessaturados.
+- [Random Number Generator](skills/github.com/zazencodes/skills/random-number-generator.md) — inteiros, floats, escolhas ponderadas, embaralhamentos e tokens/inteiros seguros via um script Python da biblioteca padrão.
 - [Redesign Existing Projects](skills/github.com/leonxlnx/taste-skill/redesign-existing-projects.md) — auditoria por área e upgrades pontuais em projetos existentes, sem trocar de stack.
 - [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
 - [Stitch Design Taste](skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) — geração de `DESIGN.md` semântico e anti-slop para o Google Stitch.

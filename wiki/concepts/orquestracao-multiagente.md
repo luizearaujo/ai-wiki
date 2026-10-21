@@ -42,6 +42,7 @@ Os padrões observados na wiki:
 | **Papéis de firma com debate e aprovação** | Analistas em paralelo, debate entre teses opostas, trader e cadeia de risco que aprova ou rejeita | TradingAgents: analistas → pesquisadores bullish/bearish → trader → risco → gestor de portfólio |
 | **Pipeline com revisão paralela e aprovador** | Builder sobre branch própria, quatro revisores em paralelo ("WAIT FOR ALL"), aprovador que mergeia ou escala | skill [Factory](../skills/github.com/zazencodes/zazencodes-season-3/factory.md), em zazencodes/zazencodes-season-3: spec-writer → builder → [security, ux, ui, code] → approver |
 | **Hub-and-spoke por CLI isolado em pasta** | Um agente qualquer na raiz é o hub e delega para sub-agentes rodando um runtime próprio em subpastas, cada um com seu próprio "cérebro" em markdown | zazencodes/zazencodes-season-3 (`pi-agent-fleet`): hub lê `AGENTS.md`, sub-agentes `pi` em `agents/<nome>/` com `brain.md` |
+| **Orquestrador/trabalhador por painel de terminal** | O agente principal só pensa e sintetiza; cada trabalhador roda em uma sessão de CLI isolada em seu próprio painel de tmux, visível ao usuário | skill [Gemini Web Research](../skills/github.com/zazencodes/skills/gemini-web-research.md): sessões `agy` (Google Antigravity) por área de pesquisa, com follow-up na mesma sessão |
 
 O ponto comum é a **externalização do contexto**: em vez de depender do histórico de uma sessão, a coordenação passa por artefatos que outros agentes conseguem ler. Isso reduz perda de contexto, mas cria trabalho de bookkeeping e exige que os artefatos sejam mantidos corretos.
 
@@ -57,6 +58,7 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — agentes como membros de projeto com assignee, permissões e issues no mesmo Kanban.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — quatro analistas em paralelo, debate estruturado entre pesquisadores bullish e bearish, trader, time de risco e gestor de portfólio; LangGraph com estado compartilhado, checkpoints opcionais e memory log.
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: a skill [Factory](../skills/github.com/zazencodes/zazencodes-season-3/factory.md) (sete subagentes do Claude Code, revisão em quatro frentes em paralelo e aprovador, cada job em seu próprio git worktree) e `pi-agent-fleet` (hub-and-spoke: um agente qualquer na raiz delega para sub-agentes `pi` isolados por pasta, cada um com seu `brain.md`); também `minimax-dev-rpg`, que visualiza como jogo um agente MiniMax resolvendo issues reais do GitHub.
+- [Gemini Web Research](../skills/github.com/zazencodes/skills/gemini-web-research.md) — padrão orquestrador/trabalhador em que cada trabalhador é uma sessão `agy` (Google Antigravity) em seu próprio painel de tmux; o orquestrador só lê relatórios, decide o que falta e sintetiza.
 
 ## Trade-offs
 
@@ -90,3 +92,4 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [SynkraAI/aiox-core](../repos/github.com/synkraai/aiox-core.md) e [croffasia/itsaplan](../repos/github.com/croffasia/itsaplan.md) — páginas existentes da wiki, usadas como comparação.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `software-factory-claude-code`, `pi-agent-fleet` e `minimax-dev-rpg` (consultado em 2026-10-21).
+- [Gemini Web Research](../skills/github.com/zazencodes/skills/gemini-web-research.md) — `SKILL.md` de `zazencodes/skills` no commit `9f2d7c8f0e112e03d0e440676afd49fde3c9dff2` (clone local, consultado em 2026-10-21).

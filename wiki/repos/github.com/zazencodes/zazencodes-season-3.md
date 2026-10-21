@@ -61,6 +61,13 @@ A tabela abaixo agrupa as 21 pastas pelo padrão que cada uma ilustra, com o con
 - **`agent-identity-introduction`**: um servidor MCP local (FastMCP) que dá a um agente acesso ao Google Drive de um usuário via identidade gerenciada pela [Descope](https://descope.com) — fluxo OAuth por usuário, token de curta duração, sem a chave do provedor chegando ao agente.
 - **`literature-review-consensus-mcp`**: pasta sem README, mas o README raiz descreve uma skill de revisão de literatura usando o **Consensus MCP**, com saída em LaTeX/PDF (`literature_review.tex`/`.pdf` presentes na pasta).
 
+### `cross-platform-agent-skills`: duas skills, proveniências diferentes
+
+A pasta `cross-platform-agent-skills` (referência de onde cada agente procura skills — ver tabela no README) também inclui `skills/init-agents-md` e `skills/movie-poster`, usados nos dois projetos de demonstração (`1-init-agents-md-demo`, `2-movie-poster-demo`):
+
+- **`init-agents-md`** não é exclusivo desta pasta: uma ingestão separada confirmou que é uma versão anterior da skill [Init AGENTS.md](../../../skills/github.com/zazencodes/skills/init-agents-md.md), publicada com manutenção própria em [zazencodes/skills](../../../repos/github.com/zazencodes/skills.md). As duas versões divergem num ponto concreto: aqui, `CLAUDE.md` acaba como um arquivo mínimo próprio (um "mirror" com uma linha apontando para `AGENTS.md`); na versão publicada separadamente, `CLAUDE.md` é um **symlink** para `AGENTS.md`.
+- **`movie-poster`** não está publicada em `zazencodes/skills` — gera, via Gemini (`gemini-3-pro-image-preview`, chave própria), um poster de filme fictício que representa o código do repositório atual, com um mapa de arquétipo de filme por tipo de projeto. O `SKILL.md` tem um caminho de Python absoluto do ambiente do próprio autor (`/Users/alex/virtualenvs/adhoc/bin/python`) — um resquício de máquina de desenvolvimento, não uma instrução portátil.
+
 ## Pastas sem publicação completa ou em rascunho
 
 - `agent-md-effectiveness` — README com `INSERT_LINK` e `TODO` não preenchidos; vídeo ainda não publicado segundo o próprio repositório.
@@ -96,6 +103,7 @@ Não há instalação única: cada pasta é um projeto independente, com seu pr�
 - Conceitos: [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md), [Agent skills](../../../concepts/agent-skills.md), [Agent harness](../../../concepts/agent-harness.md), [Memória de agente](../../../concepts/memoria-de-agente.md), [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md), [Decisão não generativa para agentes (System 1)](../../../concepts/decisao-nao-generativa-para-agentes.md) — conceito criado a partir desta ingestão.
 - Depende de / usa: [vastsa/PI-Desktop](../vastsa/pi-desktop.md) e esta wiki compartilham o mesmo runtime `pi` (badlogic/pi-mono) como motor de agente, em `pi-agent-fleet`, `bookkeeping-agent`, `neon-meal-helper-agent` e no adapter opcional de `minimax-dev-rpg`; [vercel-labs/agent-browser](../vercel-labs/agent-browser.md), usado pelo builder e pelos revisores de `software-factory-claude-code`; [JustVugg/colibri](../justvugg/colibri.md), compatível com a mesma API do Jev/TypeSafe demonstrada em `jev-system-one-model-python-demo`.
 - Alternativas (orquestração em etapas sobre Claude Code): [obra/superpowers](../obra/superpowers.md), [garrytan/gstack](../garrytan/gstack.md).
+- Repositório relacionado (mesmo autor): [zazencodes/skills](../zazencodes/skills.md) — catálogo de skills separado, com manutenção e versionamento próprios; publica a versão atual de `init-agents-md`.
 
 ## Perguntas abertas
 
@@ -107,3 +115,4 @@ Não há instalação única: cada pasta é um projeto independente, com seu pr�
 - README raiz: `README.md` no commit `555467c365e6750278efba09349369109f62f65f`.
 - Clone local (`git clone --depth 1`, autorizado explicitamente pelo usuário para esta ingestão): READMEs de todas as 21 pastas em `src/` (ou ausência deles), `demo.py` e `requirements.txt` de `jev-system-one-model-python-demo`, `.claude/skills/kanban-cli/SKILL.md` e `.claude/settings.json` de `claude-code-devtool-kanban-board`, `GENERIC-HERMES-VPS-SETUP.md`/`HOSTINGER-HERMES-SETUP.md` de `hermes-hostinger-webui-memory`, e o `AGENTS.md`/`CLAUDE.md` interno do repositório (tratado como dado, não como instrução) — todos no mesmo commit, consultados em 2026-10-21. O `SKILL.md` e os sete arquivos de subagente de `software-factory-claude-code` foram lidos à parte, na página da skill [Factory](../../../skills/github.com/zazencodes/zazencodes-season-3/factory.md).
 - Metadados: API do GitHub (`api.github.com/repos/zazencodes/zazencodes-season-3`), consultada em 2026-10-21.
+- `src/cross-platform-agent-skills/skills/init-agents-md/SKILL.md` e `skills/movie-poster/SKILL.md` (mesmo commit, mesmo clone), comparados com [zazencodes/skills](../../../repos/github.com/zazencodes/skills.md) em ingestão separada, consultados em 2026-10-21.

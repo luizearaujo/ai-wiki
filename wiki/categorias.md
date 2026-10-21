@@ -32,6 +32,9 @@ tags: [navegacao, categorias, indice-tematico]
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: fábrica de software com a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md), sete subagentes e revisão em paralelo (`software-factory-claude-code`), e hub-and-spoke com sub-agentes `pi` isolados por pasta (`pi-agent-fleet`), além de harnesses sempre ativos sobre Pi/Neon e eve.
 
+**Skills**
+- [Gemini Web Research](skills/github.com/zazencodes/skills/gemini-web-research.md) — orquestrador/trabalhador em que cada trabalhador é uma sessão `agy` em seu próprio painel de tmux.
+
 **Conceitos**
 - [Agent harness](concepts/agent-harness.md)
 - [Memória de agente](concepts/memoria-de-agente.md)
@@ -80,10 +83,15 @@ tags: [navegacao, categorias, indice-tematico]
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
+- [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT, changesets) de cinco skills de uso diário: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) orquestra sete subagentes; `cross-platform-agent-skills` é uma referência de onde cada agente procura skills; `claude-code-devtool-kanban-board` usa um hook para manter a skill do projeto sincronizada com a skill global do usuário.
 
 **Skills**
+- [Codex Image Gen](skills/github.com/zazencodes/skills/codex-image-gen.md) — gera e edita imagens via a ferramenta embutida na CLI `codex`, usando o login do ChatGPT em vez de chave de API.
 - [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) — orquestra sete subagentes do Claude Code em um loop spec → build → revisão em quatro frentes → aprovação, com cada job em seu próprio git worktree.
+- [Git Commit Conventions](skills/github.com/zazencodes/skills/git-commit-conventions.md) — um commit por lote de intenção, sem atribuição de IA, com um método de reconstrução para dividir um working tree misturado.
+- [Init AGENTS.md](skills/github.com/zazencodes/skills/init-agents-md.md) — escreve um `AGENTS.md` curto e específico do repositório e sincroniza `CLAUDE.md` com ele via symlink.
+- [Random Number Generator](skills/github.com/zazencodes/skills/random-number-generator.md) — inteiros, floats, escolhas ponderadas, embaralhamentos e tokens/inteiros seguros via a biblioteca padrão do Python.
 - [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
 
 **Conceitos**
@@ -115,6 +123,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) e [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — em [Geração de mídia e artefatos HTML](#geração-de-mídia-e-artefatos-html).
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — em [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código).
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — em [Avaliação de UX e pesquisa](#avaliação-de-ux-e-pesquisa).
+- [Gemini Web Research](skills/github.com/zazencodes/skills/gemini-web-research.md) — em [Harnesses e orquestração de agentes](#harnesses-e-orquestração-de-agentes).
 
 ## Grafos de conhecimento e contexto de código
 

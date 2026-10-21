@@ -19,6 +19,7 @@ Alexander Galea descreve-se no GitHub como "AI Engineer. M.Sc in Physics. Founde
 
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — código-fonte da Temporada 3: 21 pastas cobrindo fábrica de software sobre Claude Code, orquestração hub-and-spoke com o runtime `pi`, harnesses de agente sempre ativos (Pi + Neon, eve da Vercel), skills multiplataforma, MCP com UI e identidade delegada, memória de agente e um demo de decisão não generativa (System 1) com o Jev da TypeSafe AI.
 - [Factory](../skills/github.com/zazencodes/zazencodes-season-3/factory.md) — skill `/factory` que orquestra sete subagentes do Claude Code em um loop spec → build → revisão em quatro frentes → aprovação, cada job isolado em seu próprio git worktree.
+- [zazencodes/skills](../repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT, release `v0.1.1`) de cinco skills de uso diário: [Codex Image Gen](../skills/github.com/zazencodes/skills/codex-image-gen.md), [Gemini Web Research](../skills/github.com/zazencodes/skills/gemini-web-research.md), [Git Commit Conventions](../skills/github.com/zazencodes/skills/git-commit-conventions.md), [Init AGENTS.md](../skills/github.com/zazencodes/skills/init-agents-md.md) e [Random Number Generator](../skills/github.com/zazencodes/skills/random-number-generator.md). Distinto do monorepo de vídeos, mas com uma skill em comum (`Init AGENTS.md`, publicada aqui com uma versão diferente da que aparece no monorepo).
 
 ## Relevância no ecossistema
 
@@ -32,3 +33,4 @@ Produz conteúdo educacional em vídeo sobre o ecossistema prático de agentes d
 
 - Perfil do GitHub: https://api.github.com/users/zazencodes, consultado em 2026-10-21.
 - README e `AGENTS.md`/`CLAUDE.md` internos de zazencodes-season-3 (clone local, commit `555467c365e6750278efba09349369109f62f65f`), consultados em 2026-10-21.
+- README e os cinco `SKILL.md` de zazencodes/skills (clone local, commit `9f2d7c8f0e112e03d0e440676afd49fde3c9dff2`), consultados em 2026-10-21.
