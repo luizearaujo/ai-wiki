@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-21 (zazencodes/zazencodes-season-3 e conceito "Decisão não generativa para agentes")
+> Última atualização: 2026-10-21 (skill Factory, de zazencodes/zazencodes-season-3)
 
 ## Repositórios
 
@@ -71,6 +71,7 @@
 - [Design Taste Frontend v2 Experimental](skills/github.com/leonxlnx/taste-skill/design-taste-frontend-v2-experimental.md) — segunda geração em arquivo único, com design read, três dials e protocolo de redesign.
 - [Diagram Design](skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — sistema de design para diagramas editoriais em HTML/SVG, com gate de style guide e contrato de acessibilidade.
 - [Excalidraw Diagram](skills/github.com/coleam00/excalidraw-diagram-skill/excalidraw-diagram.md) — gera diagramas Excalidraw a partir de linguagem natural, com layout que reflete o conceito e validação visual via Playwright.
+- [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) — orquestra sete subagentes do Claude Code em um loop spec → build → revisão em quatro frentes → aprovação, com cada job em seu próprio git worktree.
 - [Frontend Design](skills/github.com/anthropics/skills/frontend-design.md) — direção visual deliberada para UI em duas passagens, com plano de tokens e lista de clichês de design por IA a evitar.
 - [Frontend Slides](skills/github.com/zarazhangrui/frontend-slides/frontend-slides.md) — apresentações HTML autocontidas em palco 16:9, com descoberta de estilo, prévias, edição inline e exportação.
 - [Full-Output Enforcement](skills/github.com/leonxlnx/taste-skill/full-output-enforcement.md) — proíbe placeholders e elipses, exige contagem de entregáveis e define pausa e retomada por limite de tokens.

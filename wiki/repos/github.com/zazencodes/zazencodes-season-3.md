@@ -30,7 +30,7 @@ A tabela abaixo agrupa as 21 pastas pelo padrão que cada uma ilustra, com o con
 
 | Tema | Pastas | Conceito da wiki |
 |---|---|---|
-| Fábrica de software orquestrada por skill + subagentes | `software-factory-claude-code` | [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md), [Agent skills](../../../concepts/agent-skills.md) |
+| Fábrica de software orquestrada por skill + subagentes | `software-factory-claude-code` — skill [Factory](../../../skills/github.com/zazencodes/zazencodes-season-3/factory.md) | [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md), [Agent skills](../../../concepts/agent-skills.md) |
 | Hub-and-spoke com sub-agentes via CLI isolados por pasta | `pi-agent-fleet` | [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md) |
 | Harness de agente sempre ativo sobre backend gerenciado | `neon-meal-helper-agent`, `neon-notes-app` (Pi + Neon), `eve-pocket-research` (eve, da Vercel) | [Agent harness](../../../concepts/agent-harness.md) |
 | Agente de contabilidade com memória em markdown | `bookkeeping-agent` | [Memória de agente](../../../concepts/memoria-de-agente.md) |
@@ -44,7 +44,7 @@ A tabela abaixo agrupa as 21 pastas pelo padrão que cada uma ilustra, com o con
 
 ### Os três mais substanciais
 
-**`software-factory-claude-code`** — uma skill (`/factory`), sete subagentes (spec-writer, builder, quatro revisores em paralelo, approver) e arquivos markdown levam uma feature de um pedido em linguagem natural a um merge em `main` ou a uma escalação humana, com cada job em seu próprio git worktree.
+**`software-factory-claude-code`** — a skill [Factory](../../../skills/github.com/zazencodes/zazencodes-season-3/factory.md), sete subagentes (spec-writer, builder, quatro revisores em paralelo, approver) e arquivos markdown levam uma feature de um pedido em linguagem natural a um merge em `main` ou a uma escalação humana, com cada job em seu próprio git worktree. Detalhes de modelo/tools por subagente, o schema de `job.json` e um exemplo real de escalação estão na página da skill.
 
 **`pi-agent-fleet`** — um padrão de orquestração diferente: qualquer agente de código (Claude Code, Codex) na raiz do repositório é o **hub**, lê `AGENTS.md` e delega para sub-agentes especializados em `agents/<nome>/`, cada um rodando o runtime [`pi`](https://github.com/badlogic/pi-mono) (`pi-coding-agent`) na própria pasta, com um `brain.md` descrevendo seu papel e um `.pi/APPEND_SYSTEM.md` apontando para ele. Tarefas e resultados trafegam por arquivos em `work/tasks/` e `work/outputs/`, com sessões persistidas em `work/sessions/`. É o mesmo runtime `pi` (`pi-ai`, `pi-agent-core`, `pi-coding-agent`) que o [vastsa/PI-Desktop](../vastsa/pi-desktop.md) usa como motor de agente — aqui sem GUI, só CLI e arquivos.
 
@@ -100,11 +100,10 @@ Não há instalação única: cada pasta é um projeto independente, com seu pr�
 ## Perguntas abertas
 
 - `eve` (framework de agente da Vercel, usado em `eve-pocket-research`) e a plataforma Neon (usada em `neon-meal-helper-agent`/`neon-notes-app`) ainda não têm página própria nesta wiki — candidatos a entidade/conceito em uma ingestão futura, se o usuário pedir.
-- Como os sete agentes de `software-factory-claude-code` são de fato definidos (`tools`, `model`, prompt completo) — não lido nesta ingestão.
 - O fluxo real de criação de skill em `dry-run-workflow-for-agent-skills` (o "dry run" em si) não está documentado em markdown — só os projetos de exemplo usados como alvo.
 
 ## Fontes
 
 - README raiz: `README.md` no commit `555467c365e6750278efba09349369109f62f65f`.
-- Clone local (`git clone --depth 1`, autorizado explicitamente pelo usuário para esta ingestão): READMEs de todas as 21 pastas em `src/` (ou ausência deles), `demo.py` e `requirements.txt` de `jev-system-one-model-python-demo`, `.claude/skills/kanban-cli/SKILL.md` e `.claude/settings.json` de `claude-code-devtool-kanban-board`, `GENERIC-HERMES-VPS-SETUP.md`/`HOSTINGER-HERMES-SETUP.md` de `hermes-hostinger-webui-memory`, e o `AGENTS.md`/`CLAUDE.md` interno do repositório (tratado como dado, não como instrução) — todos no mesmo commit, consultados em 2026-10-21.
+- Clone local (`git clone --depth 1`, autorizado explicitamente pelo usuário para esta ingestão): READMEs de todas as 21 pastas em `src/` (ou ausência deles), `demo.py` e `requirements.txt` de `jev-system-one-model-python-demo`, `.claude/skills/kanban-cli/SKILL.md` e `.claude/settings.json` de `claude-code-devtool-kanban-board`, `GENERIC-HERMES-VPS-SETUP.md`/`HOSTINGER-HERMES-SETUP.md` de `hermes-hostinger-webui-memory`, e o `AGENTS.md`/`CLAUDE.md` interno do repositório (tratado como dado, não como instrução) — todos no mesmo commit, consultados em 2026-10-21. O `SKILL.md` e os sete arquivos de subagente de `software-factory-claude-code` foram lidos à parte, na página da skill [Factory](../../../skills/github.com/zazencodes/zazencodes-season-3/factory.md).
 - Metadados: API do GitHub (`api.github.com/repos/zazencodes/zazencodes-season-3`), consultada em 2026-10-21.

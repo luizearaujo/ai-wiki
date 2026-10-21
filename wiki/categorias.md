@@ -30,7 +30,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — também nesta categoria pelos "learnings": decisões e preferências salvas das conversas, versionadas em git em três escopos (pessoal, repositório, equipe).
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
-- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: fábrica de software com sete subagentes e revisão em paralelo (`software-factory-claude-code`) e hub-and-spoke com sub-agentes `pi` isolados por pasta (`pi-agent-fleet`), além de harnesses sempre ativos sobre Pi/Neon e eve.
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: fábrica de software com a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md), sete subagentes e revisão em paralelo (`software-factory-claude-code`), e hub-and-spoke com sub-agentes `pi` isolados por pasta (`pi-agent-fleet`), além de harnesses sempre ativos sobre Pi/Neon e eve.
 
 **Conceitos**
 - [Agent harness](concepts/agent-harness.md)
@@ -80,9 +80,10 @@ tags: [navegacao, categorias, indice-tematico]
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
-- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — a skill `/factory` orquestra sete subagentes; `cross-platform-agent-skills` é uma referência de onde cada agente procura skills; `claude-code-devtool-kanban-board` usa um hook para manter a skill do projeto sincronizada com a skill global do usuário.
+- [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) orquestra sete subagentes; `cross-platform-agent-skills` é uma referência de onde cada agente procura skills; `claude-code-devtool-kanban-board` usa um hook para manter a skill do projeto sincronizada com a skill global do usuário.
 
 **Skills**
+- [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) — orquestra sete subagentes do Claude Code em um loop spec → build → revisão em quatro frentes → aprovação, com cada job em seu próprio git worktree.
 - [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
 
 **Conceitos**

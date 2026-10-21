@@ -580,3 +580,12 @@
 ## [2026-10-21] fix | referência falsa a página anterior em zazencodes-season-3.md
 - Usuário notou que a página descrevia `software-factory-claude-code` como "já detalhado em ingestão anterior desta wiki", mas essa ingestão (focada só nessa subpasta, como página própria) foi revertida antes, a pedido do usuário — não existe página separada para pedir link.
 - Corrigida a frase em `repos/github.com/zazencodes/zazencodes-season-3.md`, removendo a referência a uma página que não existe; o conteúdo sobre essa subpasta vive só nesta página do repositório.
+
+## [2026-10-21] ingest | skill Factory (software-factory-claude-code)
+- Usuário pediu uma página própria para `software-factory-claude-code`, detalhando o conceito com blocos de instalação e uso — o que a correção anterior deixou sem resposta (não havia link possível por não existir página separada).
+- Usando o clone local já existente (autorizado em ingestão anterior), li o `SKILL.md` do orquestrador e os sete arquivos de subagente em `.claude/agents/` (model, tools e descrição de cada um), além de `decision.md` do job de exemplo `001-blog-reading-time` para um caso real de escalação.
+- Criada `skills/github.com/zazencodes/zazencodes-season-3/factory.md` com o template de skill: mecanismo completo do loop (isolamento por git worktree, portas por job, `MAX_RESUMES = 2`, schema de `job.json`), tabela de subagentes com model/tools, instalação passo a passo, comandos, exemplos derivados dos dois jobs incluídos e saídas esperadas.
+- Atualizada `repos/github.com/zazencodes/zazencodes-season-3.md` para linkar a nova página da skill em vez de só descrever a pasta inline, e removida a pergunta aberta sobre como os subagentes são definidos (agora respondida na página da skill).
+- Atualizados `entities/zazencodes.md`, `concepts/orquestracao-multiagente.md` e `concepts/agent-skills.md` com o link para a skill.
+- Atualizados `index.md`, `categorias.md` (skill adicionada em "Harnesses e orquestração de agentes" e "Skills, instruções e personalidades de agente") e `README.md` (32 skills).
+- Não lidos: `factory/dashboard.html`, `factory/backlog.md` e o conteúdo completo dos outros arquivos do job de exemplo (`spec.md`, `build.md`, `round-1/`) além do `decision.md` citado.

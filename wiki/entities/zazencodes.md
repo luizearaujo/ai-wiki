@@ -18,6 +18,7 @@ Alexander Galea descreve-se no GitHub como "AI Engineer. M.Sc in Physics. Founde
 ## Repositórios e projetos
 
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — código-fonte da Temporada 3: 21 pastas cobrindo fábrica de software sobre Claude Code, orquestração hub-and-spoke com o runtime `pi`, harnesses de agente sempre ativos (Pi + Neon, eve da Vercel), skills multiplataforma, MCP com UI e identidade delegada, memória de agente e um demo de decisão não generativa (System 1) com o Jev da TypeSafe AI.
+- [Factory](../skills/github.com/zazencodes/zazencodes-season-3/factory.md) — skill `/factory` que orquestra sete subagentes do Claude Code em um loop spec → build → revisão em quatro frentes → aprovação, cada job isolado em seu próprio git worktree.
 
 ## Relevância no ecossistema
 
