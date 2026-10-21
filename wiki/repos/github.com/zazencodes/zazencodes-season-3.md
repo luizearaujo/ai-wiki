@@ -44,7 +44,7 @@ A tabela abaixo agrupa as 21 pastas pelo padrão que cada uma ilustra, com o con
 
 ### Os três mais substanciais
 
-**`software-factory-claude-code`** — já detalhado em ingestão anterior desta wiki: uma skill (`/factory`), sete subagentes (spec-writer, builder, quatro revisores em paralelo, approver) e arquivos markdown levam uma feature de um pedido em linguagem natural a um merge em `main` ou a uma escalação humana, com cada job em seu próprio git worktree.
+**`software-factory-claude-code`** — uma skill (`/factory`), sete subagentes (spec-writer, builder, quatro revisores em paralelo, approver) e arquivos markdown levam uma feature de um pedido em linguagem natural a um merge em `main` ou a uma escalação humana, com cada job em seu próprio git worktree.
 
 **`pi-agent-fleet`** — um padrão de orquestração diferente: qualquer agente de código (Claude Code, Codex) na raiz do repositório é o **hub**, lê `AGENTS.md` e delega para sub-agentes especializados em `agents/<nome>/`, cada um rodando o runtime [`pi`](https://github.com/badlogic/pi-mono) (`pi-coding-agent`) na própria pasta, com um `brain.md` descrevendo seu papel e um `.pi/APPEND_SYSTEM.md` apontando para ele. Tarefas e resultados trafegam por arquivos em `work/tasks/` e `work/outputs/`, com sessões persistidas em `work/sessions/`. É o mesmo runtime `pi` (`pi-ai`, `pi-agent-core`, `pi-coding-agent`) que o [vastsa/PI-Desktop](../vastsa/pi-desktop.md) usa como motor de agente — aqui sem GUI, só CLI e arquivos.
 
