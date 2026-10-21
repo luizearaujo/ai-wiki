@@ -1,7 +1,7 @@
 ---
 type: category
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [navegacao, categorias, indice-tematico]
 ---
 
@@ -28,6 +28,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia design → plano → TDD por subagentes → revisão, imposta como skills que disparam automaticamente em mais de uma dezena de harnesses.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
+- [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — também nesta categoria pelos "learnings": decisões e preferências salvas das conversas, versionadas em git em três escopos (pessoal, repositório, equipe).
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
 
 **Conceitos**
@@ -46,6 +47,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [HarnessMD](entities/harnessmd.md)
 - [Jesse Vincent (obra)](entities/obra.md)
 - [SynkraAI](entities/synkraai.md)
+- [Trail (trailhq)](entities/trailhq.md)
 - [vastsa](entities/vastsa.md)
 
 ## Skills, instruções e personalidades de agente
@@ -117,6 +119,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro; 162 linguagens, Hybrid LSP e 17 ferramentas.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que gera grafo com arestas `EXTRACTED`/`INFERRED`, sem vector store.
+- [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — grafo de código via tree-sitter (o "graft map"), sem modelo, com camada opcional de resumos por LLM.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
 **Skills**
@@ -133,6 +136,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Egonex-AI](entities/egonex-ai.md)
 - [Graphify Labs](entities/graphify-labs.md)
 - [Obsidian](entities/obsidian.md)
+- [Trail (trailhq)](entities/trailhq.md)
 
 ## Engenharia reversa e análise de sistemas
 
@@ -377,6 +381,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md)
 
 **Implementações e integrações documentadas**
+- [bilawalsidhu/gods-eye-view](repos/github.com/bilawalsidhu/gods-eye-view.md) — o próprio globo ao vivo se expõe como servidor MCP, para abrir dentro de Claude Desktop, Codex ou ChatGPT desktop.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — servidor MCP em `/mcp` com ferramentas de e-mail.
 - [cloudflare/skills](repos/github.com/cloudflare/skills.md) — servidor MCP remoto principal da Cloudflare, empacotado com 18 Agent Skills.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — REST API, MCP e webhooks.
@@ -389,10 +394,12 @@ tags: [navegacao, categorias, indice-tematico]
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA.
+- [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — servidor MCP (`trail mcp`) com seis ferramentas de busca e navegação de código, mais os nomes antigos `graft_*`.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI (`ctx7`) com duas ferramentas (`resolve-library-id`, `query-docs`) para documentação atual por biblioteca e versão.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — servidor MCP (`agent-browser mcp`) com perfis de ferramentas selecionáveis para automação de navegador.
 
 **Entidades**
+- [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md)
 - [Cloudflare](entities/cloudflare.md)
 - [croffasia](entities/croffasia.md)
 - [D4Vinci](entities/d4vinci.md)
@@ -403,6 +410,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [HKUDS](entities/hkuds.md)
 - [morluto](entities/morluto.md)
 - [openbq-org](entities/openbq-org.md)
+- [Trail (trailhq)](entities/trailhq.md)
 - [Upstash (upstash)](entities/upstash.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 
@@ -450,6 +458,16 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md)
 - [Obsidian](entities/obsidian.md)
+
+## OSINT geoespacial e agentes de voz
+
+> Aplicações que agregam sinais públicos (voo, navios, satélites, câmeras, clima) em uma visualização única, operadas por um agente de voz em tempo real como interface principal.
+
+**Repositórios**
+- [bilawalsidhu/gods-eye-view](repos/github.com/bilawalsidhu/gods-eye-view.md) — globo 3D ao vivo com 20 camadas de dados públicos e agente de voz em tempo real (OpenAI Realtime API) com 30 ferramentas de câmera, anotação, consulta e operação do console.
+
+**Entidades**
+- [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md)
 
 ## Navegação e meta
 

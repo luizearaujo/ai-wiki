@@ -3,7 +3,7 @@ type: concept
 aliases: [MCP, Model Context Protocol]
 status: stable
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [protocolo, agentes, ferramentas]
 ---
 
@@ -42,6 +42,8 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [openbq-org/OpenBB](../repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA, ao lado de Python, Excel e REST; o README não detalha as tools expostas (**A verificar**).
 - [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — empacota o servidor MCP remoto principal da Cloudflare (acesso à API e à documentação via Code Mode MCP) junto com 18 Agent Skills; servidores específicos por produto ficam fora do pacote.
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — `firecrawl setup mcp` instala o servidor MCP do Firecrawl em Cursor, Claude Code e VS Code; `firecrawl setup defaults` pode tornar o Firecrawl o provedor web padrão, desativando fetch/search nativo onde suportado.
+- [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — `trail mcp` expõe seis ferramentas (`trail_find_code`, `trail_file_api`, `trail_trace_calls`, `trail_find_all`, `trail_repo_map`, `trail_check_freshness`); os nomes antigos `graft_*` continuam respondendo.
+- [bilawalsidhu/gods-eye-view](../repos/github.com/bilawalsidhu/gods-eye-view.md) — o próprio aplicativo (um globo 3D ao vivo, não uma ferramenta de desenvolvimento) se expõe como servidor MCP, para abrir dentro de Claude Desktop, Codex ou ChatGPT desktop.
 
 ## Trade-offs
 
@@ -73,3 +75,5 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [openbq-org/OpenBB](../repos/github.com/openbq-org/openbb.md) — README no commit `78020ee4b864ab50b8c1f56373877c2b4e7fb623` (consultado em 2026-10-19).
 - [cloudflare/skills](../repos/github.com/cloudflare/skills.md) — README no commit `86505e44f87d801aa1864a3c4109e9a8ae5c409f` (consultado em 2026-10-19).
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).
+- [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
+- [bilawalsidhu/gods-eye-view](../repos/github.com/bilawalsidhu/gods-eye-view.md) — README no commit `5a1598fd9e5ff707ba73bcb30ba1ae6071a8df68` (consultado em 2026-10-21).

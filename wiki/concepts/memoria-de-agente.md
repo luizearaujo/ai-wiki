@@ -3,7 +3,7 @@ type: concept
 aliases: [Memória de agente, Agent memory, Memória persistente, Long-term memory]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-21
 tags: [agentes, memoria, contexto, handoff, persistencia]
 ---
 
@@ -56,6 +56,7 @@ Questões de projeto que aparecem em todos:
 - [thedotmack/claude-mem](../repos/github.com/thedotmack/claude-mem.md) — hooks de ciclo de vida capturam observações de sessão, comprimem com IA e as reinjetam via busca híbrida SQLite FTS5 + Chroma em 3 camadas (índice, timeline, detalhe).
 - [skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — grafo persistente por projeto, com fingerprints e atualização incremental.
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — memory log sempre ativo em Markdown: cada decisão é liquidada quando o horizonte vence, com retorno realizado, alfa contra benchmark e reflexão consumida pelo gestor de portfólio.
+- [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — "learnings" como arquivos Markdown em três escopos (pessoal, repositório, equipe), salvos pelo próprio agente a partir das conversas e verificados contra o diff antes de um PR (`trail check`).
 
 ## Trade-offs
 
@@ -87,3 +88,4 @@ Questões de projeto que aparecem em todos:
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
 - [skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — página do skills.sh (consultada em 2026-10-19).
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).
+- [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).

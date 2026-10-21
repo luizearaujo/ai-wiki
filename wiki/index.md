@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-19 (análise "Workflow Claude Code + Graphify + Obsidian" e entidade Obsidian)
+> Última atualização: 2026-10-21 (trailhq/Trail-Code e bilawalsidhu/gods-eye-view)
 
 ## Repositórios
 
@@ -10,6 +10,7 @@
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
 - [anthropics/skills](repos/github.com/anthropics/skills.md) — Repositório oficial da Anthropic com exemplos de Agent Skills, a especificação do formato e as skills de documento que também alimentam o Claude.
+- [bilawalsidhu/gods-eye-view](repos/github.com/bilawalsidhu/gods-eye-view.md) — globo 3D ao vivo com aviões, navios, satélites e câmeras públicas, controlado por voz via agente de IA em tempo real com 30 ferramentas; também se expõe como servidor MCP.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
@@ -52,6 +53,7 @@
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: captura, comprime e reinjeta observações de sessão, com busca híbrida SQLite/Chroma em 3 camadas.
+- [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — camada de contexto autoaprendiz para agentes de código: grafo de código via tree-sitter mais "learnings" de decisões e preferências, versionados em git.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI que injetam documentação e exemplos de código atuais e específicos de versão no contexto de agentes.
@@ -137,6 +139,7 @@
 - [Alex Newman (thedotmack)](entities/thedotmack.md) — autor do claude-mem, sistema de memória persistente para Claude Code com busca híbrida em 3 camadas.
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md) — autor do gist `llm-wiki`, que descreve o padrão de wiki pessoal mantida por LLM.
 - [Anthropic (anthropics)](entities/anthropics.md) — empresa de pesquisa em IA e criadora do Claude, mantenedora do repositório oficial de referência para Agent Skills.
+- [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md) — criador da série "God's Eye View" no YouTube e autor do repositório homônimo; cofundador da Halfpixel.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
@@ -183,6 +186,7 @@
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
+- [Trail (trailhq)](entities/trailhq.md) — organização mantenedora do Trail-Code (antes graft), grafo de contexto de código com memória de decisões para agentes.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.
 - [Upstash (upstash)](entities/upstash.md) — Serverless Data Platform, mantenedora do Context7, servidor MCP e CLI de documentação atual para agentes.
