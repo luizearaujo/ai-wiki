@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-22 (6 repositórios: OpenHands/OpenHands, browser-use, langflow, dify, open-webui, crawl4ai)
+> Última atualização: 2026-10-23 (5 repositórios: Duix-Avatar, Wan2.1, VoiceStudio, ComfyUI, Handy)
 
 ## Repositórios
 
@@ -16,13 +16,17 @@
 - [browser-use/browser-use](repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API open source que dá a um agente LLM controle de um navegador real ou em nuvem, com modelo próprio (BU2) e toolset oficial para o SDK da Anthropic.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
+- [cjpais/Handy](repos/github.com/cjpais/handy.md) — app de desktop multiplataforma de transcrição de fala totalmente offline via Whisper/Parakeet, com colagem direta em qualquer campo de texto.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
 - [cloudflare/skills](repos/github.com/cloudflare/skills.md) — 18 Agent Skills oficiais para a Cloudflare Developer Platform, empacotadas com o servidor MCP principal.
+- [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — GUI, API e backend modular de nós para modelos de difusão, com weight streaming assíncrono para hardware de consumo local.
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
 - [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — Framework Python de web scraping com fetchers stealth, spiders, parsing adaptativo, servidor MCP e Agent Skill para agentes de IA raspar dados.
+- [debpalash/VoiceStudio](repos/github.com/debpalash/voicestudio.md) — alternativa open source e local ao ElevenLabs: clonagem/design de voz, dublagem de vídeo, dictation, transcrição e audiobook em 646 idiomas, com API/MCP local.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
+- [duixcom/Duix-Avatar](repos/github.com/duixcom/duix-avatar.md) — ferramenta offline de clonagem de aparência e voz que sintetiza vídeos de um avatar digital com lip-sync, a partir de texto ou fala.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
@@ -76,6 +80,7 @@
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 - [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro ou pasta de documentos em uma Agent Skill com capítulos carregados sob demanda, 24×–51× menos tokens que despejar o livro no contexto.
+- [Wan-Video/Wan2.1](repos/github.com/wan-video/wan2.1.md) — suíte aberta de modelos de geração de vídeo e imagem (texto-para-vídeo, imagem-para-vídeo, edição) da Alibaba, com pesos Apache-2.0.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
 
@@ -141,6 +146,7 @@
 - [Email para agentes](concepts/email-para-agentes.md) — caixa de entrada como contexto e superfície de ação, com isolamento por mailbox, confirmação de envio e exposição via MCP.
 - [Engenharia reversa agêntica](concepts/engenharia-reversa-agentica.md) — agentes com ferramentas que investigam e reconstroem software sem código-fonte.
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md) — resultados de análise como registros canônicos com cobertura, limitações e incertezas.
+- [Geração de imagem e vídeo com modelos de difusão](concepts/geracao-de-imagem-e-video-com-difusao.md) — modelos de base e motores de execução que geram/editam imagem, vídeo e avatares digitais, localmente ou via grafo de nós.
 - [Grafo de conhecimento de código](concepts/grafo-de-conhecimento-de-codigo.md) — representação de código como grafo de nós e arestas tipadas, consultável por agentes sem leitura de arquivos.
 - [Humanização de texto gerado por IA](concepts/humanizacao-de-texto-por-ia.md) — edição de prosa para remover maneirismos de LLM preservando conteúdo e voz do autor.
 - [Image-to-code](concepts/image-to-code.md) — gerar a referência visual, analisá-la em profundidade e só então implementar o frontend.
@@ -175,13 +181,16 @@
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
 - [cathrynlavery](entities/cathrynlavery.md) — autora da skill Diagram Design, que gera diagramas editoriais em HTML/SVG com sistema de design consistente.
+- [CJ Pais (cjpais)](entities/cjpais.md) — criador do Handy, app de speech-to-text offline, e da versão CLI original em Python do mesmo projeto.
 - [Cloudflare](entities/cloudflare.md) — empresa de infraestrutura de edge que publica o Agentic Inbox e a plataforma Workers usada por ele.
 - [Cole Medin (coleam00)](entities/coleam00.md) — especialista em IA generativa ligado à Dynamous, autor da skill Excalidraw Diagram.
+- [Comfy Org](entities/comfy-org.md) — organização que mantém o ComfyUI, GUI/backend de nós para modelos de difusão, após a transferência do repositório do mantenedor original `comfyanonymous`.
 - [Composio (ComposioHQ)](entities/composiohq.md) — Organização da plataforma Composio, que conecta agentes a aplicações e mantém a lista `awesome-claude-skills`.
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
 - [D4Vinci](entities/d4vinci.md) — Karim Shoair, especialista em web scraping no Egito, criador do Scrapling.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
+- [Duix](entities/duixcom.md) — empresa de Singapura especializada em soluções de avatar digital, que abriu o código de sua tecnologia de clonagem e produção de vídeo.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [Every App (every-app)](entities/every-app.md) — organização mantenedora do OpenSEO, stack de SEO self-hosted com servidor MCP e Agent Skills.
 - [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
@@ -219,6 +228,7 @@
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
 - [openbq-org](entities/openbq-org.md) — organização que mantém o OpenBB (Open Data Platform), destino da transferência de `openbb-finance`.
 - [OpenHands](entities/openhands.md) — organização (antes All-Hands-AI) mantenedora do Agent Canvas, control center self-hosted para agentes de codificação sobre múltiplos backends.
+- [Palash Debnath (debpalash)](entities/debpalash.md) — criador do VoiceStudio e CTO da Yupcha, baseado na Índia.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
@@ -237,6 +247,7 @@
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md) — organização experimental da Vercel, mantenedora da coleção oficial de Agent Skills.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
 - [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md) — SRE autor do book-to-skill, que converte livros e documentos em Agent Skills com capítulos sob demanda.
+- [Wan (Wan-Video)](entities/wan-video.md) — organização da Alibaba Cloud responsável pelos modelos generativos de vídeo em larga escala Wan, incluindo o Wan2.1 open source.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
 ## Análises

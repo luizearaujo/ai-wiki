@@ -1,7 +1,7 @@
 ---
 type: category
 created: 2026-10-19
-updated: 2026-10-22
+updated: 2026-10-23
 tags: [navegacao, categorias, indice-tematico]
 ---
 
@@ -249,6 +249,41 @@ tags: [navegacao, categorias, indice-tematico]
 - [tt-a1i](entities/tt-a1i.md)
 - [zarazhangrui](entities/zarazhangrui.md)
 
+## Geração de imagem e vídeo com modelos de difusão
+
+> Modelos de base e motores de execução para gerar e editar imagem, vídeo e humanos digitais a partir de texto, imagem ou voz, localmente ou via nó visual.
+
+**Repositórios**
+- [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — GUI, API e backend modular de nós para modelos de difusão de imagem, vídeo, 3D e áudio, com weight streaming assíncrono para hardware de consumo.
+- [duixcom/Duix-Avatar](repos/github.com/duixcom/duix-avatar.md) — ferramenta offline que combina clonagem de voz e de aparência para gerar vídeos de avatar digital com lip-sync.
+- [Wan-Video/Wan2.1](repos/github.com/wan-video/wan2.1.md) — suíte aberta de modelos de geração de vídeo e imagem (texto-para-vídeo, imagem-para-vídeo, edição), Apache-2.0.
+
+**Conceitos**
+- [Geração de imagem e vídeo com modelos de difusão](concepts/geracao-de-imagem-e-video-com-difusao.md)
+
+**Entidades**
+- [Comfy Org](entities/comfy-org.md)
+- [Duix](entities/duixcom.md)
+- [Wan (Wan-Video)](entities/wan-video.md)
+
+## Síntese, clonagem e transcrição de voz
+
+> Ferramentas que sintetizam, clonam ou transcrevem voz — da clonagem zero-shot à dublagem, dictation e transcrição offline.
+
+**Repositórios**
+- [cjpais/Handy](repos/github.com/cjpais/handy.md) — app de desktop multiplataforma de transcrição de fala totalmente offline, via Whisper ou Parakeet.
+- [debpalash/VoiceStudio](repos/github.com/debpalash/voicestudio.md) — alternativa open source e local ao ElevenLabs: clonagem/design de voz, dublagem de vídeo, dictation, transcrição e audiobook em 646 idiomas, com API/MCP local.
+
+**Conceitos**
+- [Clonagem de voz](concepts/clonagem-de-voz.md)
+
+**Entidades**
+- [CJ Pais (cjpais)](entities/cjpais.md)
+- [Palash Debnath (debpalash)](entities/debpalash.md)
+
+**Repositórios documentados em outras categorias**
+- [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — em [Geração de mídia e artefatos HTML](#geração-de-mídia-e-artefatos-html).
+
 ## Design de interface e direção de arte
 
 > Skills que dão a agentes critério visual — regras anti-slop, direção de arte, redesign, geração de referências visuais e design systems persistentes.
@@ -364,6 +399,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — também nesta categoria pelos dois motores de inferência local do app desktop (sd.cpp bundled; Wan2GP via instalação própria ou servidor MCP remoto) para modelos de imagem/vídeo, em vez de LLMs.
+- [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 
@@ -373,6 +409,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md)
 
 **Entidades**
+- [Comfy Org](entities/comfy-org.md)
 - [OpenBMB](entities/openbmb.md)
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
 
