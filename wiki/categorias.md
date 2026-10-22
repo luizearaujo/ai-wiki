@@ -1,7 +1,7 @@
 ---
 type: category
 created: 2026-10-19
-updated: 2026-10-21
+updated: 2026-10-22
 tags: [navegacao, categorias, indice-tematico]
 ---
 
@@ -27,6 +27,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia design → plano → TDD por subagentes → revisão, imposta como skills que disparam automaticamente em mais de uma dezena de harnesses.
+- [OpenHands/OpenHands](repos/github.com/openhands/openhands.md) — Agent Canvas, control center self-hosted que conecta e automatiza múltiplos backends de agente (OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) via ACP.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — também nesta categoria pelos "learnings": decisões e preferências salvas das conversas, versionadas em git em três escopos (pessoal, repositório, equipe).
@@ -53,9 +54,28 @@ tags: [navegacao, categorias, indice-tematico]
 - [Google Research (google-research)](entities/google-research.md)
 - [HarnessMD](entities/harnessmd.md)
 - [Jesse Vincent (obra)](entities/obra.md)
+- [OpenHands](entities/openhands.md)
 - [SynkraAI](entities/synkraai.md)
 - [Trail (trailhq)](entities/trailhq.md)
 - [vastsa](entities/vastsa.md)
+
+## Plataformas self-hosted de aplicações e interfaces de IA
+
+> Produtos completos e self-hosted que dão a qualquer LLM uma interface de uso, um workflow visual de construção de agentes/RAG, ou ambos — com gestão de provedores de modelo e extensão via ferramentas e MCP.
+
+**Repositórios**
+- [langflow-ai/langflow](repos/github.com/langflow-ai/langflow.md) — builder visual de agentes/workflows de IA, com acesso ao código de cada componente e deploy como API ou servidor MCP.
+- [langgenius/dify](repos/github.com/langgenius/dify.md) — plataforma de apps LLM com workflow, pipeline de RAG, agentes autônomos com sandbox, LLMOps e marketplace de ferramentas.
+- [open-webui/open-webui](repos/github.com/open-webui/open-webui.md) — interface self-hosted e offline-capaz para qualquer modelo (Ollama ou API compatível com OpenAI), com RAG local, plugins, MCP e um ecossistema de apps companheiros.
+
+**Conceitos**
+- [Builder visual de agentes e workflows de IA](concepts/builder-visual-de-agentes.md)
+- [Model Context Protocol (MCP)](concepts/model-context-protocol.md)
+
+**Entidades**
+- [Langflow](entities/langflow-ai.md)
+- [LangGenius](entities/langgenius.md)
+- [Open WebUI](entities/open-webui.md)
 
 ## Skills, instruções e personalidades de agente
 
@@ -375,6 +395,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser com snapshots de acessibilidade, refs estáveis, sessões isoladas e importação de cookies; anti-detecção declarada.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust nativa que controla o Chrome via CDP sem Node.js/Playwright, com snapshots de acessibilidade estáveis e servidor MCP.
+- [browser-use/browser-use](repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API open source com a classe `Agent`, modelo próprio BU2 para automação de navegador, navegador em nuvem com stealth e toolset oficial de 31 ações para o SDK da Anthropic.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
@@ -400,6 +421,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Entidades**
 - [Alexander Galea (zazencodes)](entities/zazencodes.md)
+- [Browser Use](entities/browser-use.md)
 - [DietrichGebert](entities/dietrichgebert.md)
 - [Google Labs Code](entities/google-labs-code.md)
 - [jo-inc](entities/jo-inc.md)
@@ -415,6 +437,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md)
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md)
+- [Raspagem web para agentes e LLMs](concepts/raspagem-web-para-agentes.md)
 
 **Implementações e integrações documentadas**
 - [bilawalsidhu/gods-eye-view](repos/github.com/bilawalsidhu/gods-eye-view.md) — o próprio globo ao vivo se expõe como servidor MCP, para abrir dentro de Claude Desktop, Codex ou ChatGPT desktop.
@@ -434,6 +457,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local de engenharia reversa.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — servidores MCP citados como uma das superfícies de consumo da Open Data Platform para agentes de IA.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — servidor MCP (`trail mcp`) com seis ferramentas de busca e navegação de código, mais os nomes antigos `graft_*`.
+- [unclecode/crawl4ai](repos/github.com/unclecode/crawl4ai.md) — servidor Docker próprio com endpoint MCP, além de MCP hospedado na Crawl4AI Cloud; converte sites em Markdown pronto para LLM/RAG.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI (`ctx7`) com duas ferramentas (`resolve-library-id`, `query-docs`) para documentação atual por biblioteca e versão.
 - [usestrix/strix](repos/github.com/usestrix/strix.md) — conecta-se a servidores MCP próprios do usuário durante um scan, e também aceita conexões MCP de entrada.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — servidor MCP (`agent-browser mcp`) com perfis de ferramentas selecionáveis para automação de navegador.
@@ -457,6 +481,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Rohan Verma (MODSetter)](entities/modsetter.md)
 - [Strix (usestrix)](entities/usestrix.md)
 - [Trail (trailhq)](entities/trailhq.md)
+- [UncleCode](entities/unclecode.md)
 - [Upstash (upstash)](entities/upstash.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 

@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-21 (10 repositórios: ai-job-search, i-have-adhd, strix, open-notebook, book-to-skill, open-seo, Open-Generative-AI, no-ai-slop, surfsense, harness2)
+> Última atualização: 2026-10-22 (6 repositórios: OpenHands/OpenHands, browser-use, langflow, dify, open-webui, crawl4ai)
 
 ## Repositórios
 
@@ -13,6 +13,7 @@
 - [anthropics/skills](repos/github.com/anthropics/skills.md) — Repositório oficial da Anthropic com exemplos de Agent Skills, a especificação do formato e as skills de documento que também alimentam o Claude.
 - [ayghri/i-have-adhd](repos/github.com/ayghri/i-have-adhd.md) — skill de dez regras de estilo de saída direto, sem rodeios, para agentes de código.
 - [bilawalsidhu/gods-eye-view](repos/github.com/bilawalsidhu/gods-eye-view.md) — globo 3D ao vivo com aviões, navios, satélites e câmeras públicas, controlado por voz via agente de IA em tempo real com 30 ferramentas; também se expõe como servidor MCP.
+- [browser-use/browser-use](repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API open source que dá a um agente LLM controle de um navegador real ou em nuvem, com modelo próprio (BU2) e toolset oficial para o SDK da Anthropic.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
@@ -38,6 +39,8 @@
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
+- [langflow-ai/langflow](repos/github.com/langflow-ai/langflow.md) — plataforma visual para construir e implantar agentes e workflows de IA, publicáveis como API ou servidor MCP.
+- [langgenius/dify](repos/github.com/langgenius/dify.md) — plataforma open source de aplicações LLM com workflow, RAG, agentes autônomos com sandbox, LLMOps e marketplace de ferramentas.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
 - [lfnovo/open-notebook](repos/github.com/lfnovo/open-notebook.md) — alternativa self-hosted ao Notebook LM, com mais de 20 provedores de modelo, busca full-text/vetorial e geração de podcast multi-falante.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
@@ -51,8 +54,10 @@
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz zero-shot e cross-lingual, com controle de estilo; MIT desde a V2.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia de desenvolvimento com skills compostas que disparam automaticamente — design, plano, TDD por subagentes e revisão — em mais de uma dezena de harnesses de agente.
+- [open-webui/open-webui](repos/github.com/open-webui/open-webui.md) — plataforma de IA self-hosted, extensível e offline-capaz, com RAG local, MCP, agentes e um ecossistema de apps companheiros.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform financeira que conecta fontes de dados a Python, Excel, MCP para agentes de IA e REST API; antes publicada como openbb-finance/openbb.
+- [OpenHands/OpenHands](repos/github.com/openhands/openhands.md) — centro de controle self-hosted ("Agent Canvas") que roda e automatiza agentes de codificação (OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) sobre múltiplos backends.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de escrita por IA removidos preservando a voz do autor, com comando de detecção e modo satírico.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
@@ -64,6 +69,7 @@
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — camada de contexto autoaprendiz para agentes de código: grafo de código via tree-sitter mais "learnings" de decisões e preferências, versionados em git.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
+- [unclecode/crawl4ai](repos/github.com/unclecode/crawl4ai.md) — crawler/scraper web open source que converte sites em Markdown pronto para LLM/RAG, com biblioteca, servidor Docker/MCP e oferta paga em nuvem.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI que injetam documentação e exemplos de código atuais e específicos de versão no contexto de agentes.
 - [usestrix/strix](repos/github.com/usestrix/strix.md) — agentes autônomos de pentest que exploram o alvo dinamicamente e validam achados com provas de conceito reais, com orquestração multiagente e nove skills.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
@@ -122,6 +128,7 @@
 - [Atenção esparsa para contexto longo](concepts/atencao-esparsa-para-contexto-longo.md) — esparsidade treinável, atenção linear e posicionamento híbrido para contexto de centenas de milhares a milhões de tokens.
 - [Auditoria de mídia paga](concepts/auditoria-de-midia-paga.md) — achado, evidência e cobertura de dados em contas de anúncios, com `unknown` como resposta legítima e escrita separada por gates.
 - [Auditoria de UX](concepts/auditoria-de-ux.md) — avaliação estruturada de um produto contra frameworks explícitos, com lacunas e recomendações.
+- [Builder visual de agentes e workflows de IA](concepts/builder-visual-de-agentes.md) — plataformas que montam agentes/workflows em um canvas de nós e publicam o resultado como API ou servidor MCP.
 - [Cibersegurança com agentes](concepts/ciberseguranca-com-agentes.md) — agentes executando defesa, DFIR, threat hunting e testes ofensivos autorizados com conhecimento estruturado.
 - [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
 - [CLI agent-first](concepts/cli-agent-first.md) — CLI desenhada para agentes: saída estruturada, payload cru, introspecção de schema, contexto disciplinado e defesa contra alucinação.
@@ -144,6 +151,7 @@
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
 - [Plugins de agente](concepts/plugins-de-agente.md) — unidades de extensão que adicionam ferramentas, UI, serviços e MCP a um agente sem alterar o núcleo.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
+- [Raspagem web para agentes e LLMs](concepts/raspagem-web-para-agentes.md) — ferramentas que convertem sites em dados estruturados ou Markdown limpo, pensados para alimentar LLMs, RAG e agentes.
 - [Saída completa de agente](concepts/saida-completa-de-agente.md) — entrega integral sem placeholders, com contagem de escopo e pausa explícita no limite de tokens.
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md) — manter a parte densa residente e ler do disco apenas os experts roteados por token, trocando memória por latência.
 - [TDD para agentes](concepts/tdd-para-agentes.md) — red-green-refactor como contrapressão sobre código gerado, com evidência de falha e proibição de ajustar testes.
@@ -163,6 +171,7 @@
 - [Ayoub Ghriss (ayghri)](entities/ayghri.md) — pesquisador de ML no grupo CLIMB research, Universidade do Colorado Boulder, autor da skill `i-have-adhd`.
 - [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md) — criador da série "God's Eye View" no YouTube e autor do repositório homônimo; cofundador da Halfpixel.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
+- [Browser Use](entities/browser-use.md) — empresa americana mantenedora da biblioteca `browser-use`, do modelo próprio BU2 e de um navegador em nuvem pago para agentes.
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
 - [cathrynlavery](entities/cathrynlavery.md) — autora da skill Diagram Design, que gera diagramas editoriais em HTML/SVG com sistema de design consistente.
@@ -191,6 +200,8 @@
 - [Jesse Vincent (obra)](entities/obra.md) — autor do superpowers, metodologia de desenvolvimento com skills que disparam automaticamente sobre mais de uma dezena de harnesses de agente.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
+- [Langflow](entities/langflow-ai.md) — organização mantenedora do Langflow, builder visual de agentes/workflows publicáveis como API ou MCP.
+- [LangGenius](entities/langgenius.md) — organização mantenedora do Dify, plataforma de apps LLM com workflow, RAG, agentes e LLMOps.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [Luis Novo (lfnovo)](entities/lfnovo.md) — autor do Open Notebook, alternativa self-hosted ao Notebook LM, e da biblioteca Esperanto.
@@ -204,8 +215,10 @@
 - [MyShell (myshell-ai)](entities/myshell-ai.md) — organização americana mantenedora do OpenVoice, modelo de clonagem de voz.
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
 - [Obsidian](entities/obsidian.md) — app de notas pessoais em Markdown local, com links bidirecionais e grafo visual; destino da exportação de grafos de conhecimento do Graphify.
+- [Open WebUI](entities/open-webui.md) — organização mantenedora do Open WebUI e de um ecossistema de apps companheiros em torno de uma interface self-hosted para qualquer modelo de IA.
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
 - [openbq-org](entities/openbq-org.md) — organização que mantém o OpenBB (Open Data Platform), destino da transferência de `openbb-finance`.
+- [OpenHands](entities/openhands.md) — organização (antes All-Hands-AI) mantenedora do Agent Canvas, control center self-hosted para agentes de codificação sobre múltiplos backends.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
@@ -218,6 +231,7 @@
 - [Trail (trailhq)](entities/trailhq.md) — organização mantenedora do Trail-Code (antes graft), grafo de contexto de código com memória de decisões para agentes.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.
+- [UncleCode](entities/unclecode.md) — autor do Crawl4AI, crawler/scraper web para LLMs e agentes de IA, fundador da Kidocode.
 - [Upstash (upstash)](entities/upstash.md) — Serverless Data Platform, mantenedora do Context7, servidor MCP e CLI de documentação atual para agentes.
 - [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md) — organização experimental da Vercel, mantenedora da coleção oficial de Agent Skills.
