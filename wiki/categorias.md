@@ -15,6 +15,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Harnesses e orquestração de agentes](#harnesses-e-orquestração-de-agentes)
 - [Plataformas self-hosted de aplicações e interfaces de IA](#plataformas-self-hosted-de-aplicações-e-interfaces-de-ia)
 - [Skills, instruções e personalidades de agente](#skills-instruções-e-personalidades-de-agente)
+- [Guias, cursos e listas curadas sobre Claude Code](#guias-cursos-e-listas-curadas-sobre-claude-code)
 - [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código)
 - [Engenharia reversa e análise de sistemas](#engenharia-reversa-e-análise-de-sistemas)
 - [Cibersegurança e operações de segurança](#cibersegurança-e-operações-de-segurança)
@@ -122,6 +123,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [ayghri/i-have-adhd](repos/github.com/ayghri/i-have-adhd.md) — skill de dez regras de estilo de saída direto, sem rodeios, para agentes de código.
 - [cloudflare/skills](repos/github.com/cloudflare/skills.md) — 18 Agent Skills oficiais para Workers, Agents SDK, Durable Objects e Sandbox, com o servidor MCP principal da Cloudflare incluído.
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
+- [davila7/claude-code-templates](repos/github.com/davila7/claude-code-templates.md) — CLI e catálogo web de mais de 100 agentes, comandos, MCPs, settings, hooks e skills reempacotados de dezenas de fontes, com analytics, monitor de conversas e dashboard de plugins próprios.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — três famílias de skills (core, build, workflows) para busca, scrape e extração web, distribuídas por catálogo próprio e instaladas em todos os harnesses detectados.
@@ -143,6 +145,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [usestrix/strix](repos/github.com/usestrix/strix.md) — também nesta categoria pelas nove skills (`npx skills add usestrix/strix`) que dão a qualquer agente a capacidade de rodar pentests e configurar scanning em CI.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 - [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro ou pasta de documentos em uma skill unificada com capítulos carregados sob demanda.
+- [VoltAgent/awesome-claude-code-subagents](repos/github.com/voltagent/awesome-claude-code-subagents.md) — coleção curada de 161+ subagentes para Claude Code em 10 categorias, instaláveis individualmente ou como plugin por categoria.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT, changesets) de cinco skills de uso diário: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md) orquestra sete subagentes; `cross-platform-agent-skills` é uma referência de onde cada agente procura skills; `claude-code-devtool-kanban-board` usa um hook para manter a skill do projeto sincronizada com a skill global do usuário.
 
@@ -167,6 +170,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Ayoub Ghriss (ayghri)](entities/ayghri.md)
 - [Cloudflare](entities/cloudflare.md)
 - [Composio (ComposioHQ)](entities/composiohq.md)
+- [Daniel Avila (davila7)](entities/davila7.md)
 - [DietrichGebert](entities/dietrichgebert.md)
 - [Firecrawl](entities/firecrawl.md)
 - [GitHub](entities/github.md)
@@ -181,6 +185,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Strix (usestrix)](entities/usestrix.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 - [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md)
+- [VoltAgent](entities/voltagent.md)
 
 **Skills documentadas em outras categorias**
 - [Agent DX CLI Scale](skills/github.com/google-labs-code/design.md/agent-dx-cli-scale.md), [Ink](skills/github.com/google-labs-code/design.md/ink.md), [TDD Red-Green-Refactor](skills/github.com/google-labs-code/design.md/tdd-red-green-refactor.md) e [Typed Service Contracts](skills/github.com/google-labs-code/design.md/typed-service-contracts.md) — em [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first).
@@ -188,6 +193,24 @@ tags: [navegacao, categorias, indice-tematico]
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — em [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código).
 - [UX Audit Rethink](skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — em [Avaliação de UX e pesquisa](#avaliação-de-ux-e-pesquisa).
 - [Gemini Web Research](skills/github.com/zazencodes/skills/gemini-web-research.md) — em [Harnesses e orquestração de agentes](#harnesses-e-orquestração-de-agentes).
+
+## Guias, cursos e listas curadas sobre Claude Code
+
+> Recursos que explicam, ensinam ou catalogam o ecossistema do Claude Code — guias de referência, cursos de harness engineering e listas "awesome" — em contraste com ferramentas instaláveis para uso direto do agente.
+
+**Repositórios**
+- [FlorianBruniaux/claude-code-ultimate-guide](repos/github.com/florianbruniaux/claude-code-ultimate-guide.md) — guia de referência extenso sobre arquitetura, harness, contexto, segurança e operação do Claude Code, publicado como site e servidor MCP próprio.
+- [hesreallyhim/awesome-claude-code](repos/github.com/hesreallyhim/awesome-claude-code.md) — lista "awesome" canônica do ecossistema, com mais de 270 recursos anotados em 24 categorias.
+- [shareAI-lab/learn-claude-code](repos/github.com/shareai-lab/learn-claude-code.md) — curso de 17 lições que reconstrói mecanismos de agent harness do zero, usando o Claude Code como estudo de caso.
+
+**Conceitos**
+- [Agent harness](concepts/agent-harness.md)
+- [Model Context Protocol (MCP)](concepts/model-context-protocol.md)
+
+**Entidades**
+- [Florian Bruniaux (FlorianBruniaux)](entities/florianbruniaux.md)
+- [hesreallyhim](entities/hesreallyhim.md)
+- [shareAI (shareAI-lab)](entities/shareai-lab.md)
 
 ## Grafos de conhecimento e contexto de código
 

@@ -57,6 +57,7 @@ Todos os exemplos acima são harnesses **instalados e mantidos manualmente**: um
 - [google-research/harness2](../repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente os oito componentes do harness por recursão em dois níveis (tarefa e harnessing), com executores OpenCode/Codex e três benchmarks profissionais.
 - [OpenHands/OpenHands](../repos/github.com/openhands/openhands.md) — variante de control center: em vez de instalar skills/hooks sobre um CLI, o Agent Canvas conecta e alterna entre múltiplos backends de agente (próprio OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) via Agent-Client Protocol, com automações agendadas/por webhook.
 - [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — loop de cinco fases (Discuss, Plan, Execute, Verify, Ship) instalado sobre Claude Code e outros runtimes, com subagentes de contexto limpo a cada fase e artefatos persistentes (`STATE.md`, `CONTEXT.md`) que substituem memória implícita; sucessor do projeto antes mantido como `glittercowboy/get-shit-done`.
+- [shareAI-lab/learn-claude-code](../repos/github.com/shareai-lab/learn-claude-code.md) — não é um harness para instalar, mas um curso de 17 lições que reconstrói cada componente da tabela acima (ferramentas, permissões, hooks, planejamento, subagentes, skills sob demanda, memória, tarefas, equipes, MCP) em Python runnable, com o Claude Code como estudo de caso do que os autores chamam de harness "mais elegante e completo".
 
 ## Trade-offs
 
@@ -91,3 +92,4 @@ Todos os exemplos acima são harnesses **instalados e mantidos manualmente**: um
 - [google-research/harness2](../repos/github.com/google-research/harness2.md) — README no commit `1cfe254e8d25b15f37048c3730134686abe60335` (consultado em 2026-10-21).
 - [OpenHands/OpenHands](../repos/github.com/openhands/openhands.md) — README no commit `c8a20662d5ddaa8b298b81a9ee6be90b5d86b2db` (consultado em 2026-10-22).
 - [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — README no commit `6ddd0cef9cb26673bd8321c5480c0814a92d54cb` (consultado em 2026-10-23).
+- [shareAI-lab/learn-claude-code](../repos/github.com/shareai-lab/learn-claude-code.md) — README no commit `ce8f9f186058939da54c9d6fead78dfb5d0fd6c3` (consultado em 2026-10-23).

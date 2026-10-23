@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-23 (3 repositórios: scroll-world, GSD, codex-plugin-cc)
+> Última atualização: 2026-10-23 (5 repositórios: claude-code-templates, claude-code-ultimate-guide, awesome-claude-code, learn-claude-code, awesome-claude-code-subagents)
 
 ## Repositórios
 
@@ -23,6 +23,7 @@
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
 - [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — Framework Python de web scraping com fetchers stealth, spiders, parsing adaptativo, servidor MCP e Agent Skill para agentes de IA raspar dados.
+- [davila7/claude-code-templates](repos/github.com/davila7/claude-code-templates.md) — CLI e catálogo web de mais de 100 agentes, comandos, MCPs, settings, hooks e skills reempacotados de dezenas de fontes, com analytics, monitor de conversas e dashboard de plugins próprios.
 - [debpalash/VoiceStudio](repos/github.com/debpalash/voicestudio.md) — alternativa open source e local ao ElevenLabs: clonagem/design de voz, dublagem de vídeo, dictation, transcrição e audiobook em 646 idiomas, com API/MCP local.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
@@ -31,12 +32,14 @@
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — CLI de busca, scrape, crawl e extração autônoma por IA, com skills, servidor MCP e opção de virar o provedor web padrão de agentes.
+- [FlorianBruniaux/claude-code-ultimate-guide](repos/github.com/florianbruniaux/claude-code-ultimate-guide.md) — guia de referência extenso sobre arquitetura, harness, contexto, segurança e operação do Claude Code, publicado como site e servidor MCP próprio.
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente de IA 100% local que navega na web, escreve e executa código e planeja tarefas, com seleção automática de agente e voz em progresso.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
+- [hesreallyhim/awesome-claude-code](repos/github.com/hesreallyhim/awesome-claude-code.md) — lista "awesome" canônica do ecossistema Claude Code, com mais de 270 recursos anotados em 24 categorias.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — framework que renderiza MP4 determinístico a partir de HTML, CSS, mídia e animações seekable, com CLI e 21 skills para agentes.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 29 fontes de dados, backtest, 81 tools MCP e execução limitada por mandato.
 - [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus, tokenizador, pré-treino em Megatron-LM e avaliação pareada em pipeline Docker reproduzível.
@@ -68,6 +71,7 @@
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de escrita por IA removidos preservando a voz do autor, com comando de detecção e modo satírico.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
+- [shareAI-lab/learn-claude-code](repos/github.com/shareai-lab/learn-claude-code.md) — curso de 17 lições que reconstrói mecanismos de agent harness do zero em Python runnable, usando o Claude Code como estudo de caso.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
@@ -83,6 +87,7 @@
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 - [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro ou pasta de documentos em uma Agent Skill com capítulos carregados sob demanda, 24×–51× menos tokens que despejar o livro no contexto.
+- [VoltAgent/awesome-claude-code-subagents](repos/github.com/voltagent/awesome-claude-code-subagents.md) — coleção curada de 161+ subagentes para Claude Code em 10 categorias, instaláveis individualmente ou como plugin por categoria.
 - [Wan-Video/Wan2.1](repos/github.com/wan-video/wan2.1.md) — suíte aberta de modelos de geração de vídeo e imagem (texto-para-vídeo, imagem-para-vídeo, edição) da Alibaba, com pesos Apache-2.0.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
@@ -191,6 +196,7 @@
 - [Composio (ComposioHQ)](entities/composiohq.md) — Organização da plataforma Composio, que conecta agentes a aplicações e mantém a lista `awesome-claude-skills`.
 - [croffasia](entities/croffasia.md) — Andrii Poluosmak, autor do It's a Plan, issue tracker self-hosted com agentes de IA como membros de equipe.
 - [D4Vinci](entities/d4vinci.md) — Karim Shoair, especialista em web scraping no Egito, criador do Scrapling.
+- [Daniel Avila (davila7)](entities/davila7.md) — autor do claude-code-templates, catálogo e CLI de instalação de componentes para Claude Code.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
 - [Duix](entities/duixcom.md) — empresa de Singapura especializada em soluções de avatar digital, que abriu o código de sua tecnologia de clonagem e produção de vídeo.
@@ -198,6 +204,7 @@
 - [Every App (every-app)](entities/every-app.md) — organização mantenedora do OpenSEO, stack de SEO self-hosted com servidor MCP e Agent Skills.
 - [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
 - [Firecrawl](entities/firecrawl.md) — organização mantenedora do Firecrawl CLI, de servidores MCP e de skills para busca, scrape e extração web.
+- [Florian Bruniaux (FlorianBruniaux)](entities/florianbruniaux.md) — autor do Claude Code Ultimate Guide, guia de referência sobre Claude Code com servidor MCP próprio.
 - [Fosowl](entities/fosowl.md) — Martin Legrand, engenheiro de ML/AI na França, criador do agenticSeek.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
 - [GitHub](entities/github.md) — organização oficial do GitHub, mantenedora do catálogo comunitário Awesome Copilot.
@@ -206,6 +213,7 @@
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
+- [hesreallyhim](entities/hesreallyhim.md) — mantenedor da lista "awesome" canônica do ecossistema Claude Code.
 - [HeyGen](entities/heygen.md) — empresa de vídeo com avatares que publica o HyperFrames como motor de renderização open source para agentes.
 - [HKUDS](entities/hkuds.md) — Data Intelligence Lab @ HKU, laboratório que publica Vibe-Trading, OpenSpace, ClawTeam e outros projetos de agentes.
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md) — organização do LNCC que publica o Manacá-1B, LLM aberto para português do Brasil, em cooperação com o NII/LLM-jp.
@@ -239,6 +247,7 @@
 - [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
 - [Rohan Verma (MODSetter)](entities/modsetter.md) — autor do SurfSense, app desktop air-gapped alternativo ao Notebook LM.
+- [shareAI (shareAI-lab)](entities/shareai-lab.md) — organização de Singapura mantenedora do curso learn-claude-code e dos projetos irmãos Kode-CLI e claw0.
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md) — pesquisador de segurança de IA generativa, autor do `claude-red`, biblioteca de skills ofensivas para agentes.
 - [Strix (usestrix)](entities/usestrix.md) — organização mantenedora do Strix, agentes de pentest autônomos de código aberto.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
@@ -253,6 +262,7 @@
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md) — organização experimental da Vercel, mantenedora da coleção oficial de Agent Skills.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
 - [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md) — SRE autor do book-to-skill, que converte livros e documentos em Agent Skills com capítulos sob demanda.
+- [VoltAgent](entities/voltagent.md) — organização mantenedora do framework de agentes VoltAgent e da coleção awesome-claude-code-subagents.
 - [Wan (Wan-Video)](entities/wan-video.md) — organização da Alibaba Cloud responsável pelos modelos generativos de vídeo em larga escala Wan, incluindo o Wan2.1 open source.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 

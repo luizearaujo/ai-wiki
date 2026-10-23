@@ -64,6 +64,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — Agent Skills pré-construídas que guiam o agente por um workflow de SEO usando o servidor MCP do próprio produto por baixo.
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — nove skills (`npx skills add usestrix/strix`) que dão a qualquer agente compatível com SKILL.md a capacidade de rodar pentests, corrigir achados e configurar scanning em CI.
 - [oso95/scroll-world](../repos/github.com/oso95/scroll-world.md) — skill compatível com `SKILL.md` que gera uma landing page de voo contínuo por cenas de IA, distribuída como plugin de Claude Code, pela CLI de skills da Vercel ou por cópia manual para o diretório de skills do agente.
+- [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — catálogo que reempacota skills de outras fontes (139 de `K-Dense-AI/claude-scientific-skills`, 21 oficiais de `anthropics/skills`, skills de [obra/superpowers](../repos/github.com/obra/superpowers.md) e outras) ao lado de agentes, comandos, hooks e MCPs, instaláveis por um único CLI (`npx claude-code-templates`).
 
 ## Trade-offs
 
@@ -115,3 +116,4 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — README no commit `c5f8db19c7ca9e750836b6ed5c8a6491d4f967f4` (consultado em 2026-10-21).
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — README no commit `fde37a149fc942dd107666441a1989f187d30c3b` (consultado em 2026-10-21).
 - [oso95/scroll-world](../repos/github.com/oso95/scroll-world.md) — README no commit `71cc36d3bb150248ae36a2c552f9cbf88802a79c` (consultado em 2026-10-23).
+- [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — README no commit `7d85535533914ff0880945570a94fcbec4adc042` (consultado em 2026-10-23).

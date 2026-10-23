@@ -10,7 +10,7 @@ language: JavaScript
 status: active
 created: 2026-10-19
 ingested: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-23
 tags: [agentes, harness, skills, orquestracao, memoria, seguranca, claude-code]
 ---
 
@@ -153,6 +153,7 @@ O resultado esperado não é só código, mas uma trilha: plano, teste que falha
 - Conceitos: [Agent harness](../../../concepts/agent-harness.md), [Agent skills](../../../concepts/agent-skills.md), [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md)
 - Relacionado: [garrytan/gstack](../garrytan/gstack.md) — também transforma o Claude Code em uma equipe com skills e comandos, mas com foco em processo de sprint e browser/QA; [HarnessMD/munder-difflin](../harnessmd/munder-difflin.md) — harness desktop que orquestra CLIs em uma metáfora de escritório; [SynkraAI/aiox-core](../../../repos/github.com/synkraai/aiox-core.md) — orquestração por agentes com artefatos persistentes.
 - Ferramentas citadas: AgentShield (`affaan-m/agentshield`), ECC Pro/GitHub App, Memory Vault.
+- **Mirror sem página própria:** o repositório nasceu com o nome `everything-claude-code` e foi renomeado para `ECC` (a API do GitHub redireciona `affaan-m/everything-claude-code` para este repositório). O repositório [WorldFlowAI/everything-claude-code](https://github.com/WorldFlowAI/everything-claude-code) (~5.300 estrelas em 2026-10-23) publica o README antigo sem editar nenhuma referência a `affaan-m/everything-claude-code` — badges, comandos de clone e o link do star-history continuam apontando para o repositório original. A org `WorldFlowAI` (criada em 2026-01-06) também lista réplicas de projetos de terceiros (`vllm`, `sglang`, `dynamo`), o que torna suas estrelas suspeitas; não tem página própria nesta wiki por não representar conteúdo distinto.
 
 ## Perguntas abertas
 

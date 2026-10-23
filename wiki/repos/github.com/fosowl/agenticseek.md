@@ -4,13 +4,13 @@ url: https://github.com/Fosowl/agenticSeek
 host: github.com
 owner: fosowl
 repo: agenticseek
-commit: b46bcca482218643236999221720586e7f410e04
+commit: 4f5f924c1eb326b4163d3bf942954dcc7dd7875b
 license: GPL-3.0
 language: Python
 status: active
 created: 2026-10-19
-ingested: 2026-10-19
-updated: 2026-10-19
+ingested: 2026-10-23
+updated: 2026-10-23
 tags: [agentes, harness, navegacao-web, codigo, voz, local, llm]
 ---
 
@@ -31,7 +31,7 @@ O README é explícito sobre a origem: "started as a side-project" sem roadmap n
 - **Agente de código:** escreve, depura e executa Python, C, Go, Java e outras linguagens sem supervisão direta.
 - **Planejamento:** decompõe tarefas complexas em passos executados por múltiplos agentes.
 - **Execução:** Docker Compose orquestra SearxNG (busca), Redis (suporte ao SearxNG), frontend e backend; há um modo CLI alternativo (`uv run cli.py`) que roda o backend no host.
-- **Provedores de LLM:** locais (Ollama, LM Studio, servidor OpenAI-compatible como llama.cpp) ou em nuvem (OpenAI, Google, Deepseek, Hugging Face, TogetherAI, OpenRouter, MiniMax), configurados em `config.ini`.
+- **Provedores de LLM:** locais (Ollama, LM Studio, servidor OpenAI-compatible como llama.cpp) ou em nuvem (OpenAI, Google, Deepseek, Hugging Face, TogetherAI, OpenRouter, MiniMax, e desde a reingestão de 2026-10-23 também TrustedRouter), configurados em `config.ini`.
 - **Voz:** texto-para-fala e fala-para-texto, com palavra de ativação (nome do agente); listado como funcionalidade em progresso e só disponível no modo CLI, em inglês.
 - **Importação de sessão do browser:** pode copiar cookies, logins e dados salvos do navegador do próprio usuário para o navegador do agente — o README avisa que isso dá ao agente acesso às mesmas contas autenticadas (e-mail, banco).
 
@@ -89,6 +89,7 @@ O README recomenda pedidos explícitos sobre a ação desejada (ex.: "do a web s
 ## Estado e adoção
 
 - **Atividade observada em 2026-10-19:** ~27,5 mil estrelas, ~3,2 mil forks, 30 issues abertas; criado em 2025-02-19, último push em 2026-10-15.
+- **Reingestão em 2026-10-23:** novo commit `4f5f924c1eb326b4163d3bf942954dcc7dd7875b`. Mudanças no README: adição do provedor TrustedRouter à tabela de provedores de LLM e atualização dos créditos (frontend atribuído a Tanvir Ahamed). Sem mudança de propósito, arquitetura ou modelo de segurança.
 - **Licença:** GPL-3.0, conforme a API do GitHub.
 - **Linguagem principal:** Python.
 - Mantido pelo criador e dois colaboradores da comunidade; sem afiliação a empresa ou startup, segundo o README.
@@ -107,6 +108,6 @@ O README recomenda pedidos explícitos sobre a ação desejada (ex.: "do a web s
 
 ## Fontes
 
-- README: https://github.com/Fosowl/agenticSeek (commit `b46bcca482218643236999221720586e7f410e04`, consultado em 2026-10-19). Somente o README foi lido; código-fonte, `docs/CONTRIBUTING.md` e scripts não foram consultados.
+- README: https://raw.githubusercontent.com/Fosowl/agenticSeek/4f5f924c1eb326b4163d3bf942954dcc7dd7875b/README.md (commit `4f5f924c1eb326b4163d3bf942954dcc7dd7875b`, consultado em 2026-10-23; reingestão do commit anterior `b46bcca482218643236999221720586e7f410e04`, lido em 2026-10-19). Somente o README foi lido; código-fonte, `docs/CONTRIBUTING.md` e scripts não foram consultados.
 - Metadados do repositório: API do GitHub em 2026-10-19 (licença, linguagem, estrelas, forks, issues, datas).
 - Perfil do mantenedor: API do GitHub (`users/Fosowl`) em 2026-10-19.

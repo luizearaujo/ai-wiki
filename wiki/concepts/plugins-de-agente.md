@@ -53,6 +53,7 @@ Uma extensão pode combinar várias capacidades e virar um produto inteiro: um a
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — workspace desktop que mantém o Core pequeno e define o workflow por plugins em três camadas (agente, workspace e plataforma); distribui pacotes `.piplug` e oferece marketplace, templates de desenvolvimento e plugins carregáveis em modo de desenvolvimento.
 - [Agent harness](agent-harness.md) — harnesses costumam ser instalados como plugin, pacote npm ou clone em um diretório de skills; a instalação é tratada como decisão de supply chain.
 - [openai/codex-plugin-cc](../repos/github.com/openai/codex-plugin-cc.md) — plugin do marketplace do Claude Code que adiciona slash commands (`/codex:*`) e um subagente (`codex:codex-rescue`) sem embarcar runtime próprio: chama o binário e o app server do Codex já instalados, reaproveitando a autenticação local — um caso de plugin como ponte entre harnesses de fornecedores diferentes.
+- [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — inclui um "Plugin Dashboard" (`--plugins`) para visualizar marketplaces, plugins instalados e permissões a partir de uma interface própria, além de instalar componentes individuais por `npx` sem passar pelo fluxo nativo de plugin.
 - **Não documentado na wiki:** marketplaces e formatos de plugin de outros hosts. A comparação de contratos, versionamento e isolamento entre produtos ainda é uma lacuna.
 
 ## Trade-offs
@@ -81,3 +82,4 @@ Uma extensão pode combinar várias capacidades e virar um produto inteiro: um a
 - [vastsa/PI-Desktop](../repos/github.com/vastsa/pi-desktop.md) — README no commit `87a48b953e8bada43a7a63f8922846198b9efb61` (consultado em 2026-10-19).
 - [Agent harness](agent-harness.md) — página existente da wiki, usada como contexto sobre instalação e supply chain.
 - [openai/codex-plugin-cc](../repos/github.com/openai/codex-plugin-cc.md) — README no commit `db52e28f4d9ded852ab3942cea316258ae4ef346` (consultado em 2026-10-23).
+- [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — README no commit `7d85535533914ff0880945570a94fcbec4adc042` (consultado em 2026-10-23).

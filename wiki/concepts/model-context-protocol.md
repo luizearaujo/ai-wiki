@@ -3,7 +3,7 @@ type: concept
 aliases: [MCP, Model Context Protocol]
 status: stable
 created: 2026-10-17
-updated: 2026-10-21
+updated: 2026-10-23
 tags: [protocolo, agentes, ferramentas]
 ---
 
@@ -48,6 +48,7 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — nas duas direções: conecta-se a servidores MCP próprios do usuário para dar às ferramentas dele acesso ao agente durante um scan (`~/.strix/mcp-servers.json`); também aceita conexões MCP, segundo o `AGENTS.md` citado no README.
 - [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — servidor MCP que expõe dados de SEO (palavra-chave, backlinks, auditoria) como ferramentas, consumido por Agent Skills do próprio produto.
 - [lfnovo/open-notebook](../repos/github.com/lfnovo/open-notebook.md) — integração MCP do lado cliente: conecta Claude Desktop, VS Code e outros clientes MCP ao Open Notebook.
+- [FlorianBruniaux/claude-code-ultimate-guide](../repos/github.com/florianbruniaux/claude-code-ultimate-guide.md) — variação "documentação como servidor MCP": em vez de expor uma ferramenta de produto, o próprio guia se instala como servidor MCP stdio (17 tools, 6 resources, 1 prompt) para que outro cliente de código consulte seções, exemplos e changelog sem sair do próprio agente.
 
 ## Trade-offs
 
@@ -85,3 +86,4 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — README no commit `fde37a149fc942dd107666441a1989f187d30c3b` (consultado em 2026-10-21).
 - [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — README no commit `c5f8db19c7ca9e750836b6ed5c8a6491d4f967f4` (consultado em 2026-10-21).
 - [lfnovo/open-notebook](../repos/github.com/lfnovo/open-notebook.md) — README no commit `a0f6f3081ae06328f0a451b3a3ef2959ca25721d` (consultado em 2026-10-21).
+- [FlorianBruniaux/claude-code-ultimate-guide](../repos/github.com/florianbruniaux/claude-code-ultimate-guide.md) — README no commit `8c8fb2f4e736933bd0f875c10c3d971e2422329e` (consultado em 2026-10-23).
