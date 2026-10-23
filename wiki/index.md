@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-23 (5 repositórios: Duix-Avatar, Wan2.1, VoiceStudio, ComfyUI, Handy)
+> Última atualização: 2026-10-23 (3 repositórios: scroll-world, GSD, codex-plugin-cc)
 
 ## Repositórios
 
@@ -58,10 +58,13 @@
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz zero-shot e cross-lingual, com controle de estilo; MIT desde a V2.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia de desenvolvimento com skills compostas que disparam automaticamente — design, plano, TDD por subagentes e revisão — em mais de uma dezena de harnesses de agente.
+- [open-gsd/gsd-core](repos/github.com/open-gsd/gsd-core.md) — "Git. Ship. Done": framework de engenharia de contexto e spec-driven development que conduz agentes de código por um loop de cinco fases com subagentes de contexto limpo; sucessor de glittercowboy/get-shit-done.
 - [open-webui/open-webui](repos/github.com/open-webui/open-webui.md) — plataforma de IA self-hosted, extensível e offline-capaz, com RAG local, MCP, agentes e um ecossistema de apps companheiros.
+- [openai/codex-plugin-cc](repos/github.com/openai/codex-plugin-cc.md) — plugin oficial da OpenAI que expõe review de código e delegação de tarefas ao Codex como slash commands dentro do Claude Code.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform financeira que conecta fontes de dados a Python, Excel, MCP para agentes de IA e REST API; antes publicada como openbb-finance/openbb.
 - [OpenHands/OpenHands](repos/github.com/openhands/openhands.md) — centro de controle self-hosted ("Agent Canvas") que roda e automatiza agentes de codificação (OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) sobre múltiplos backends.
+- [oso95/scroll-world](repos/github.com/oso95/scroll-world.md) — agent skill que gera landing pages de voo contínuo por cenas de IA, conduzido por scroll, com pipeline de imagem/vídeo via Monid, Higgsfield ou Codex.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de escrita por IA removidos preservando a voz do autor, com comando de detecção e modo satírico.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
@@ -224,10 +227,13 @@
 - [MyShell (myshell-ai)](entities/myshell-ai.md) — organização americana mantenedora do OpenVoice, modelo de clonagem de voz.
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
 - [Obsidian](entities/obsidian.md) — app de notas pessoais em Markdown local, com links bidirecionais e grafo visual; destino da exportação de grafos de conhecimento do Graphify.
+- [Open GSD (open-gsd)](entities/open-gsd.md) — organização mantenedora do GSD Core, framework de engenharia de contexto e spec-driven development para agentes de código.
 - [Open WebUI](entities/open-webui.md) — organização mantenedora do Open WebUI e de um ecossistema de apps companheiros em torno de uma interface self-hosted para qualquer modelo de IA.
+- [OpenAI (openai)](entities/openai.md) — empresa de pesquisa em IA concorrente da Anthropic, mantenedora do plugin oficial que integra o Codex ao Claude Code.
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.
 - [openbq-org](entities/openbq-org.md) — organização que mantém o OpenBB (Open Data Platform), destino da transferência de `openbb-finance`.
 - [OpenHands](entities/openhands.md) — organização (antes All-Hands-AI) mantenedora do Agent Canvas, control center self-hosted para agentes de codificação sobre múltiplos backends.
+- [oso95 (cyw)](entities/oso95.md) — autor do scroll-world, agent skill que gera landing pages de voo contínuo por cenas geradas por IA.
 - [Palash Debnath (debpalash)](entities/debpalash.md) — criador do VoiceStudio e CTO da Yupcha, baseado na Índia.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.

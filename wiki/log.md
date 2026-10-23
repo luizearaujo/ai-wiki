@@ -636,3 +636,16 @@
 - Atualizados `index.md` (77 repositórios, 83 entidades, 37 conceitos) e `README.md` (mesmas contagens, mais listas).
 - Verificação de integridade de links em toda a wiki ao final: zero links quebrados.
 - Não lidos: código-fonte, `docs/`, imagens Docker e repositórios de serviço de nenhum dos cinco projetos além do README; nenhum clone foi feito nesta ingestão.
+
+## [2026-10-23] ingest | oso95/scroll-world, open-gsd/gsd-core, openai/codex-plugin-cc
+- Mensagem original listava 6 itens (`scroll-world`, `GSD`, `graphify`, `codex-plugin-cc`, `diagram-design`, `impeccable`); seguindo a regra 13, nenhuma página foi criada antes da triagem. `graphify` (Graphify-Labs/graphify), `diagram-design` (cathrynlavery) e `impeccable` (pbakaus) já estavam documentados e não foram reingeridos.
+- Criada `repos/github.com/oso95/scroll-world.md` a partir do README no commit `71cc36d3bb150248ae36a2c552f9cbf88802a79c`, sem clonar o repositório. Criada `entities/oso95.md`.
+- `ChecheChat/scroll-world` é fork direto no GitHub de `oso95/scroll-world` (API: `parent`/`source`), README quase idêntico e sem estrelas/forks próprios; por decisão do usuário, documentado apenas como fork na página de `oso95/scroll-world`, sem página própria.
+- Criada `repos/github.com/open-gsd/gsd-core.md` a partir do README no commit `6ddd0cef9cb26673bd8321c5480c0814a92d54cb`, sem clonar o repositório. Criada `entities/open-gsd.md`.
+- `glittercowboy/get-shit-done` está arquivado (API reporta `full_name` atual `gsd-build/get-shit-done`) e seu README, no commit `bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815`, é só um aviso de redirecionamento para `open-gsd/gsd-core`; por decisão do usuário, a ingestão documentou o repositório ativo (`open-gsd/gsd-core`) em vez do arquivado, registrando a proveniência na página.
+- Criada `repos/github.com/openai/codex-plugin-cc.md` a partir do README no commit `db52e28f4d9ded852ab3942cea316258ae4ef346`, sem clonar o repositório. Criada `entities/openai.md`.
+- Atualizados `concepts/plugins-de-agente.md`, `concepts/agent-harness.md`, `concepts/memoria-de-agente.md`, `concepts/orquestracao-multiagente.md`, `concepts/artefatos-html-autocontidos.md` e `concepts/agent-skills.md` com referências aos três projetos (nenhum conceito novo criado). `concepts/producao-de-video-agentica.md` e `concepts/geracao-de-imagem-e-video-com-difusao.md` não foram alterados: o scroll-world chama APIs de terceiros (Monid, Higgsfield, Codex) em vez de rodar ou orquestrar um pipeline de produção/modelo de base, e já está coberto pelo contraste existente em `producao-de-video-agentica.md`.
+- `categorias.md`: `open-gsd/gsd-core` e `openai/codex-plugin-cc` adicionados a "Harnesses e orquestração de agentes"; `oso95/scroll-world` adicionado a "Geração de mídia e artefatos HTML".
+- Atualizados `index.md` (80 repositórios, 86 entidades) e `README.md` (mesmas contagens, mais listas).
+- Não lidos: código-fonte, `SKILL.md`, `docs/` e demais arquivos internos de nenhum dos três repositórios; apenas o README foi consultado em cada um.
+- Divergências externas registradas (não verificadas no README oficial): contagem de comandos do codex-plugin-cc (seis vs. três) e data de lançamento (30 ou 31 de março de 2026) variam entre fontes de terceiros consultadas durante a triagem.

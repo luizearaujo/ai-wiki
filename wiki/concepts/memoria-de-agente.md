@@ -3,7 +3,7 @@ type: concept
 aliases: [Memória de agente, Agent memory, Memória persistente, Long-term memory]
 status: draft
 created: 2026-10-19
-updated: 2026-10-21
+updated: 2026-10-23
 tags: [agentes, memoria, contexto, handoff, persistencia]
 ---
 
@@ -58,6 +58,7 @@ Questões de projeto que aparecem em todos:
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — memory log sempre ativo em Markdown: cada decisão é liquidada quando o horizonte vence, com retorno realizado, alfa contra benchmark e reflexão consumida pelo gestor de portfólio.
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — "learnings" como arquivos Markdown em três escopos (pessoal, repositório, equipe), salvos pelo próprio agente a partir das conversas e verificados contra o diff antes de um PR (`trail check`).
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — duas variações: `bookkeeping-agent` guarda dados do usuário (despesas, fatos, recibos) em `memory/` como JSON/markdown, com um `brain/brain.md` para categorias e convenções; `hermes-hostinger-webui-memory` documenta como plugar o Honcho como memória externa em um agente Hermes self-hosted, no lugar da memória nativa em markdown local.
+- [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — `STATE.md` e `CONTEXT.md` como artefatos estruturados que sobrevivem às fronteiras de sessão de um loop de cinco fases, substituindo memória implícita por estado explícito versionado.
 
 ## Trade-offs
 
@@ -91,3 +92,4 @@ Questões de projeto que aparecem em todos:
 - [TauricResearch/TradingAgents](../repos/github.com/tauricresearch/tradingagents.md) — README no commit `e8f5503e9b86d5c2710b0c76b1f686703968c9df` (consultado em 2026-10-19).
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, `bookkeeping-agent/cloud/README.md` e READMEs de `hermes-hostinger-webui-memory` (consultado em 2026-10-21).
+- [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — README no commit `6ddd0cef9cb26673bd8321c5480c0814a92d54cb` (consultado em 2026-10-23).

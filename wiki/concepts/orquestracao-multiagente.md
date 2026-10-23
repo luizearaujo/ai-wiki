@@ -3,7 +3,7 @@ type: concept
 aliases: [Orquestração multiagente, Multi-agent orchestration, Orquestração de agentes]
 status: draft
 created: 2026-10-19
-updated: 2026-10-21
+updated: 2026-10-23
 tags: [agentes, orquestracao, multi-agente, harness]
 ---
 
@@ -64,6 +64,7 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [MadsLorentzen/ai-job-search](../repos/github.com/madslorentzen/ai-job-search.md) — drafter-reviewer em `/apply`: um agente redige CV e carta, um segundo agente com contexto novo pesquisa a empresa e critica os rascunhos, o primeiro revisa antes da compilação final.
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — "Graph of Agents": times especializados em recon, exploração e pós-exploração compartilham descobertas, encadeiam vulnerabilidades e rodam em paralelo contra vários alvos.
 - [google-research/harness2](../repos/github.com/google-research/harness2.md) — subagentes como um dos oito componentes editáveis do harness, orquestrando trabalho delegado dentro de um loop que o próprio framework otimiza automaticamente por contraste comportamental (ver [Agent harness](agent-harness.md)).
+- [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — fase Execute do loop de cinco fases: planos rodam em ondas paralelas, cada executor com um contexto novo de 200 mil tokens, antes de a fase Verify consolidar o resultado.
 
 ## Trade-offs
 
@@ -101,3 +102,4 @@ O ponto comum é a **externalização do contexto**: em vez de depender do hist�
 - [MadsLorentzen/ai-job-search](../repos/github.com/madslorentzen/ai-job-search.md) — README no commit `e16acee3abdaae57f8026789338a3c6eebf4608b` (consultado em 2026-10-21).
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — README no commit `fde37a149fc942dd107666441a1989f187d30c3b` (consultado em 2026-10-21).
 - [google-research/harness2](../repos/github.com/google-research/harness2.md) — README no commit `1cfe254e8d25b15f37048c3730134686abe60335` (consultado em 2026-10-21).
+- [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — README no commit `6ddd0cef9cb26673bd8321c5480c0814a92d54cb` (consultado em 2026-10-23).

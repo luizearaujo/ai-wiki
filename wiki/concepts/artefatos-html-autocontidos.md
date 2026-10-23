@@ -3,7 +3,7 @@ type: concept
 aliases: [Artefatos HTML autocontidos, Self-contained HTML, Single-file HTML]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-23
 tags: [agentes, html, design, svg, skills, artefatos]
 ---
 
@@ -46,6 +46,7 @@ Boas práticas observadas:
 - [calesthio/OpenMontage](../repos/github.com/calesthio/openmontage.md) — usa HTML/CSS/GSAP (HyperFrames) e React/Remotion como runtimes de composição, gerando vídeo a partir de artefatos programáticos.
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — gera `graph.html` autocontido para visualizar o grafo.
 - [Excalidraw Diagram](../skills/github.com/coleam00/excalidraw-diagram-skill/excalidraw-diagram.md) — a saída principal é JSON do Excalidraw, não HTML, mas o pipeline de validação visual renderiza cada diagrama via um template HTML local antes da entrega.
+- [oso95/scroll-world](../repos/github.com/oso95/scroll-world.md) — entrega um motor de scroll em JavaScript puro (`scrub-engine.js`) e um `index-template.html` mínimo que reproduzem a landing page gerada em qualquer HTML simples, Next.js, Vue ou página servida por Python, sem assumir stack.
 
 ## Trade-offs
 
@@ -73,3 +74,4 @@ Boas práticas observadas:
 - [Diagram Design](../skills/github.com/cathrynlavery/diagram-design/diagram-design.md) — página do skills.sh (consultada em 2026-10-19).
 - [calesthio/OpenMontage](../repos/github.com/calesthio/openmontage.md) — README no commit `c8066452325cb57c8fc1ba8c2a71b6e8842e6b65` (consultado em 2026-10-19).
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
+- [oso95/scroll-world](../repos/github.com/oso95/scroll-world.md) — README no commit `71cc36d3bb150248ae36a2c552f9cbf88802a79c` (consultado em 2026-10-23).

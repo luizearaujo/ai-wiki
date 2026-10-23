@@ -27,6 +27,8 @@ tags: [navegacao, categorias, indice-tematico]
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia design → plano → TDD por subagentes → revisão, imposta como skills que disparam automaticamente em mais de uma dezena de harnesses.
+- [open-gsd/gsd-core](repos/github.com/open-gsd/gsd-core.md) — loop de cinco fases (Discuss, Plan, Execute, Verify, Ship) com subagentes de contexto limpo e estado persistente em `STATE.md`/`CONTEXT.md`, sobre Claude Code e outros runtimes.
+- [openai/codex-plugin-cc](repos/github.com/openai/codex-plugin-cc.md) — plugin oficial da OpenAI que traz review e delegação de tarefas ao Codex como slash commands dentro do Claude Code.
 - [OpenHands/OpenHands](repos/github.com/openhands/openhands.md) — Agent Canvas, control center self-hosted que conecta e automatiza múltiplos backends de agente (OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) via ACP.
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
@@ -54,6 +56,8 @@ tags: [navegacao, categorias, indice-tematico]
 - [Google Research (google-research)](entities/google-research.md)
 - [HarnessMD](entities/harnessmd.md)
 - [Jesse Vincent (obra)](entities/obra.md)
+- [Open GSD (open-gsd)](entities/open-gsd.md)
+- [OpenAI (openai)](entities/openai.md)
 - [OpenHands](entities/openhands.md)
 - [SynkraAI](entities/synkraai.md)
 - [Trail (trailhq)](entities/trailhq.md)
@@ -225,6 +229,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica com pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — composição em HTML puro com timing por atributos, animação seekable e render determinístico em Chrome headless + FFmpeg; 21 skills para agentes.
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz, zero-shot e cross-lingual, com controle de estilo.
+- [oso95/scroll-world](repos/github.com/oso95/scroll-world.md) — landing page de voo contínuo gerada por IA (imagem + vídeo), conduzida por scroll, com motor de scrub em JS puro e HTML autocontido; fork registrado em ChecheChat/scroll-world.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — skills oficiais do Remotion, framework de vídeo programático em React usado como provedor de renderização pelo OpenMontage.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
@@ -245,6 +250,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Cole Medin (coleam00)](entities/coleam00.md)
 - [HeyGen](entities/heygen.md)
 - [MyShell (myshell-ai)](entities/myshell-ai.md)
+- [oso95](entities/oso95.md)
 - [Remotion (remotion-dev)](entities/remotion-dev.md)
 - [tt-a1i](entities/tt-a1i.md)
 - [zarazhangrui](entities/zarazhangrui.md)

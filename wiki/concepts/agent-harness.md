@@ -3,7 +3,7 @@ type: concept
 aliases: [Agent harness, harness de agente, harness engineering]
 status: draft
 created: 2026-10-19
-updated: 2026-10-22
+updated: 2026-10-23
 tags: [agentes, harness, contexto, ferramentas, seguranca]
 ---
 
@@ -56,6 +56,7 @@ Todos os exemplos acima são harnesses **instalados e mantidos manualmente**: um
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — não são harnesses em si, mas aplicações construídas sobre um: `neon-meal-helper-agent` e `neon-notes-app` usam o runtime `pi` sobre o backend da Neon (Postgres, Auth, Object Storage, Functions, AI Gateway) como agente sempre ativo; `eve-pocket-research` usa o framework `eve`, da Vercel, ainda sem página própria nesta wiki.
 - [google-research/harness2](../repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente os oito componentes do harness por recursão em dois níveis (tarefa e harnessing), com executores OpenCode/Codex e três benchmarks profissionais.
 - [OpenHands/OpenHands](../repos/github.com/openhands/openhands.md) — variante de control center: em vez de instalar skills/hooks sobre um CLI, o Agent Canvas conecta e alterna entre múltiplos backends de agente (próprio OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) via Agent-Client Protocol, com automações agendadas/por webhook.
+- [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — loop de cinco fases (Discuss, Plan, Execute, Verify, Ship) instalado sobre Claude Code e outros runtimes, com subagentes de contexto limpo a cada fase e artefatos persistentes (`STATE.md`, `CONTEXT.md`) que substituem memória implícita; sucessor do projeto antes mantido como `glittercowboy/get-shit-done`.
 
 ## Trade-offs
 
@@ -89,3 +90,4 @@ Todos os exemplos acima são harnesses **instalados e mantidos manualmente**: um
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, READMEs de `neon-meal-helper-agent` e `eve-pocket-research` (consultado em 2026-10-21).
 - [google-research/harness2](../repos/github.com/google-research/harness2.md) — README no commit `1cfe254e8d25b15f37048c3730134686abe60335` (consultado em 2026-10-21).
 - [OpenHands/OpenHands](../repos/github.com/openhands/openhands.md) — README no commit `c8a20662d5ddaa8b298b81a9ee6be90b5d86b2db` (consultado em 2026-10-22).
+- [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — README no commit `6ddd0cef9cb26673bd8321c5480c0814a92d54cb` (consultado em 2026-10-23).
