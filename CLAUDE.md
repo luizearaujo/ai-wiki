@@ -295,6 +295,8 @@ O `README.md` da raiz é a porta de entrada do repositório e deve espelhar `wik
 
 Regras: mantenha as listas em ordem alfabética; uma página pode aparecer em mais de uma categoria; não crie categoria para um único item se houver uma categoria vizinha adequada; categorias novas devem ter título claro e uma frase de escopo.
 
+O arquivo abre com um sumário (`## Sumário`) logo após o resumo em blockquote, listando em ordem de aparição todos os títulos de primeiro nível (`##`) da página como links de âncora. **Passo obrigatório:** toda alteração em `wiki/categorias.md` — categoria criada, renomeada, removida ou reordenada — deve atualizar esse sumário no mesmo commit, para que ele continue espelhando exatamente os títulos `##` da página, na mesma ordem.
+
 ## Formato do log
 
 Append-only, uma entrada por operação, sempre no fim do arquivo:

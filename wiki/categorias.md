@@ -9,6 +9,36 @@ tags: [navegacao, categorias, indice-tematico]
 
 > Catálogo temático da wiki: agrupa repositórios, skills, conceitos e entidades por área, complementando o catálogo por tipo em [`index.md`](index.md).
 
+## Sumário
+
+- [Como ler](#como-ler)
+- [Harnesses e orquestração de agentes](#harnesses-e-orquestração-de-agentes)
+- [Plataformas self-hosted de aplicações e interfaces de IA](#plataformas-self-hosted-de-aplicações-e-interfaces-de-ia)
+- [Skills, instruções e personalidades de agente](#skills-instruções-e-personalidades-de-agente)
+- [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código)
+- [Engenharia reversa e análise de sistemas](#engenharia-reversa-e-análise-de-sistemas)
+- [Cibersegurança e operações de segurança](#cibersegurança-e-operações-de-segurança)
+- [Geração de mídia e artefatos HTML](#geração-de-mídia-e-artefatos-html)
+- [Geração de imagem e vídeo com modelos de difusão](#geração-de-imagem-e-vídeo-com-modelos-de-difusão)
+- [Síntese, clonagem e transcrição de voz](#síntese-clonagem-e-transcrição-de-voz)
+- [Design de interface e direção de arte](#design-de-interface-e-direção-de-arte)
+- [Comunicação e caixas de entrada agênticas](#comunicação-e-caixas-de-entrada-agênticas)
+- [Trabalho, projetos e colaboração humano-agente](#trabalho-projetos-e-colaboração-humano-agente)
+- [Análise financeira e trading](#análise-financeira-e-trading)
+- [Marketing, mídia paga e conteúdo](#marketing-mídia-paga-e-conteúdo)
+- [Inferência local e runtime de modelos](#inferência-local-e-runtime-de-modelos)
+- [Modelos abertos e treinamento de LLMs](#modelos-abertos-e-treinamento-de-llms)
+- [Engenharia e interfaces agent-first](#engenharia-e-interfaces-agent-first)
+- [Protocolos, integrações e confiabilidade](#protocolos-integrações-e-confiabilidade)
+- [Avaliação de UX e pesquisa](#avaliação-de-ux-e-pesquisa)
+- [Escrita e comunicação](#escrita-e-comunicação)
+- [Conhecimento pessoal e curadoria](#conhecimento-pessoal-e-curadoria)
+- [Pesquisa e notas pessoais com IA](#pesquisa-e-notas-pessoais-com-ia)
+- [OSINT geoespacial e agentes de voz](#osint-geoespacial-e-agentes-de-voz)
+- [Navegação e meta](#navegação-e-meta)
+- [Manutenção](#manutenção)
+- [Fontes](#fontes)
+
 ## Como ler
 
 - A mesma página pode aparecer em mais de uma categoria quando cobre mais de uma área.
@@ -611,6 +641,7 @@ tags: [navegacao, categorias, indice-tematico]
 - Páginas transversais podem ser listadas em mais de uma categoria; não crie páginas duplicadas para isso.
 - Se nenhuma categoria servir, crie uma nova com título claro e uma frase de escopo, e registre a mudança em [`log.md`](log.md).
 - Remova a entrada quando a página for removida ou renomeada.
+- **Passo obrigatório:** toda vez que este arquivo sofrer qualquer alteração — categoria criada, renomeada, removida ou reordenada — atualize o [Sumário](#sumário) no topo da página no mesmo commit, para que ele continue listando exatamente os títulos de primeiro nível (`##`) da página, na mesma ordem em que aparecem.
 
 ## Fontes
 

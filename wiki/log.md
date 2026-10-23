@@ -649,3 +649,8 @@
 - Atualizados `index.md` (80 repositórios, 86 entidades) e `README.md` (mesmas contagens, mais listas).
 - Não lidos: código-fonte, `SKILL.md`, `docs/` e demais arquivos internos de nenhum dos três repositórios; apenas o README foi consultado em cada um.
 - Divergências externas registradas (não verificadas no README oficial): contagem de comandos do codex-plugin-cc (seis vs. três) e data de lançamento (30 ou 31 de março de 2026) variam entre fontes de terceiros consultadas durante a triagem.
+
+## [2026-10-23] fix | sumário em categorias.md
+- Adicionado um sumário (`## Sumário`) ao topo de `wiki/categorias.md`, listando em ordem de aparição todos os títulos de primeiro nível (`##`) da página como links de âncora.
+- `CLAUDE.md` atualizado (seção "Formato do catálogo de categorias") com um passo obrigatório: toda alteração em `wiki/categorias.md` deve atualizar esse sumário no mesmo commit.
+- Não afeta contagens nem listas de `index.md` ou `README.md`.
