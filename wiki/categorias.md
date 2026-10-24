@@ -558,7 +558,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — servidor MCP próprio e opção de se tornar o provedor web padrão de agentes suportados.
 - [google/artemis](repos/github.com/google/artemis.md) — servidor MCP nativo que conecta Antigravity, Claude Code, Codex e Windsurf a dispositivos Android reais para teste e reprodução de bugs.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
-- [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
+- [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 82 tools MCP expostas sem ferramentas de ordem.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
 - [lfnovo/open-notebook](repos/github.com/lfnovo/open-notebook.md) — integração MCP do lado cliente, conectando Claude Desktop, VS Code e outros clientes MCP ao Open Notebook.
 - [MODSetter/SurfSense](repos/github.com/modsetter/surfsense.md) — registro de plugins de terceiros via servidor MCP (DeepWiki, Notion, ou qualquer um por URL).

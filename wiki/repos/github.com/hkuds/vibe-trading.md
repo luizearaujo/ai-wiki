@@ -4,13 +4,13 @@ url: https://github.com/HKUDS/Vibe-Trading
 host: github.com
 owner: hkuds
 repo: vibe-trading
-commit: 097b29feab9793e3c302e1a7a4f3c0dac6344904
+commit: 41f333b6c4de9190fb57e5bb02cb570890018570
 license: MIT
 language: Python
 status: active
 created: 2026-10-19
-ingested: 2026-10-19
-updated: 2026-10-19
+ingested: 2026-10-24
+updated: 2026-10-24
 tags: [trading, financas, agentes, multiagente, mcp, backtest, llm, skills]
 ---
 
@@ -43,8 +43,10 @@ O fluxo de pesquisa publicado tem cinco camadas:
 - **29 fontes de dados**, com seleção automática por mercado e cadeias de fallback ordenadas por risco de bloqueio de IP. Inclui fontes gratuitas (Yahoo, OKX, AKShare, Tencent, B3) e opcionais com chave (Tushare, Longbridge, Polygon, QVeris).
 - **19 conectores de corretora**, com perfis de leitura, paper e live limitado por mandato. Paper e live são separados por um guard estrutural do runtime, não por uma flag que o agente possa alternar.
 - **Alpha Zoo com 478 alphas** (Qlib, Alpha101, GTJA191, acadêmicos e fundamentais ponto no tempo), com benchmark de IC e categorização alive/reversed/dead.
-- **112 ferramentas de agente** e **81 ferramentas MCP** expostas a clientes externos.
-- **10 engines de backtest** mais um engine composto cross-market.
+- **113 ferramentas de agente** e **82 ferramentas MCP** expostas a clientes externos (eram 112/81 na ingestão anterior; a nova ferramenta é `paper_trade_step`, de paper trading diário).
+- **11 engines de backtest** mais engine de portfólio de opções e um engine composto cross-market (corrigido nesta reingestão: a versão anterior desta página registrava 10, mas o próprio README já dizia 11 no commit então vigente).
+- **29 ferramentas de dados somente leitura** (fundamentals e fluxo — fund flow, dragon-tiger, northbound/southbound, margin, block trades, SEC filings, opções, dados on-chain de cripto, entre outras), todas expostas via MCP; eram 22 na ingestão anterior.
+- **Quant Library com 309 funções testadas em 25 módulos** (eram 308/24), incluindo o novo módulo `combination` (composição walk-forward IC/ICIR-weighted de múltiplos painéis de fator).
 
 ### Execução e segurança
 
@@ -56,6 +58,8 @@ O README detalha controles incomuns para um projeto desse tipo:
 - **Código de backtest gerado** roda em subprocesso Python com ambiente estreito: sem chaves de LLM, tokens de API, segredos de corretora ou flags de shell.
 - **Shell tools** só são habilitadas na CLI local interativa; API e MCP exigem opt-in explícito.
 - O runner live tem orçamento de decisões e tokens por dia e kill switch ao esgotar o orçamento.
+
+**Novo nesta reingestão: paper trading diário.** Via Web (`/paper-trading`), CLI (`vibe-trading paper`) ou API autenticada (`/api/paper-accounts`), contas de paper salvas liquidam ordens ou uma estratégia contra barras diárias já fechadas, sem nunca alcançar uma corretora real; contas salvas só avançam no tempo. É distinto da ferramenta de agente/MCP `paper_trade_step`, que continua sendo um primitivo de pesquisa sem estado.
 
 ## Instalação e uso rápido
 
@@ -113,21 +117,21 @@ vibe-trading run -p "Analyze my trading behavior, extract my shadow strategy, an
 - **Custo de modelo.** Runs de pesquisa, swarms e loops live consomem chamadas de LLM; o runner live tem orçamento, mas chamadas de modelo são cobradas mesmo sem ordens.
 - **Dados de terceiros.** 29 fontes têm termos, limites, throttling e lacunas próprias; o fallback reduz o risco de indisponibilidade, não o de qualidade.
 - **Superfície de execução.** Apesar dos guards documentados, habilitar live trading exige revisão própria de permissões, limites e kill switch.
-- **MCP não é write-capable por padrão.** Ferramentas de ordem ficam fora do MCP, mas catálogos grandes de 81 tools consomem contexto.
+- **MCP não é write-capable por padrão.** Ferramentas de ordem ficam fora do MCP, mas catálogos grandes de 82 tools consomem contexto.
 - **Licença MIT** não remove responsabilidade por perdas, compliance de dados ou uso de APIs de terceiros.
 
 ## Estado e adoção
 
-- **Versão citada:** v0.1.16, publicada em 2026-09-29.
-- **Atividade e popularidade observadas em 2026-10-19:** ~35,9 mil estrelas, ~5,8 mil forks, 22 issues abertas; criado em 2026-04-01; último push em 2026-10-19.
+- **Versão citada:** v0.1.18, lançada em 2026-10-22 (consolida correções pós-v0.1.17, incluindo a correção da CVE-2026-59951 em `mcp>=1.30` para `--transport http`); há ainda correções registradas como não lançadas no `main` no momento da reingestão.
+- **Atividade e popularidade observadas em 2026-10-24:** ~36,5 mil estrelas, ~5,9 mil forks, 58 issues abertas; criado em 2026-04-01; último push em 2026-10-23.
 - **Licença:** MIT.
 - **Linguagem principal:** Python; frontend em React 19.
-- **Commit de referência:** `097b29feab9793e3c302e1a7a4f3c0dac6344904`.
+- **Commit de referência:** `41f333b6c4de9190fb57e5bb02cb570890018570` (anterior: `097b29feab9793e3c302e1a7a4f3c0dac6344904`, 2026-10-19).
 
 ## Relações
 
 - **Mantido por:** [HKUDS](../../../entities/hkuds.md) — Data Intelligence Lab @ HKU.
-- **Conceitos:** [Análise financeira multiagente](../../../concepts/analise-financeira-multiagente.md) — pesquisa e times de analistas; [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md) — 30 presets de swarm; [Memória de agente](../../../concepts/memoria-de-agente.md) — memória cross-session e search index; [Agent skills](../../../concepts/agent-skills.md) — 90 skills financeiras; [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md) — 81 tools expostas.
+- **Conceitos:** [Análise financeira multiagente](../../../concepts/analise-financeira-multiagente.md) — pesquisa e times de analistas; [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md) — 30 presets de swarm; [Memória de agente](../../../concepts/memoria-de-agente.md) — memória cross-session e search index; [Agent skills](../../../concepts/agent-skills.md) — 90 skills financeiras; [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md) — 82 tools expostas.
 - **Alternativas:** [TauricResearch/TradingAgents](../../github.com/tauricresearch/tradingagents.md) — foco em firma simulada e integridade temporal; [The-Swarm-Corporation/AutoHedge](../../github.com/the-swarm-corporation/autohedge.md) — execução autônoma em Solana; [Fincept-Corporation/FinceptTerminal](../../github.com/fincept-corporation/finceptterminal.md) — terminal desktop nativo.
 - **Tecnologias:** Python, FastAPI, React 19, Docker, MCP, LangChain.
 
@@ -143,5 +147,5 @@ vibe-trading run -p "Analyze my trading behavior, extract my shadow strategy, an
 
 ## Fontes
 
-- README: https://github.com/HKUDS/Vibe-Trading/blob/main/README.md (commit `097b29feab9793e3c302e1a7a4f3c0dac6344904`, consultado em 2026-10-19). Somente o README foi lido; os demais arquivos do repositório não foram consultados.
-- Metadados do repositório e do perfil da organização: API do GitHub em 2026-10-19 (licença, linguagem, estrelas, forks, datas, release e tópicos).
+- README: https://github.com/HKUDS/Vibe-Trading/blob/main/README.md (commit `41f333b6c4de9190fb57e5bb02cb570890018570`, consultado em 2026-10-24; reingestão da versão de 2026-10-19, commit `097b29feab9793e3c302e1a7a4f3c0dac6344904`). Somente o README foi lido; os demais arquivos do repositório não foram consultados.
+- Metadados do repositório e do perfil da organização: API do GitHub em 2026-10-24 (licença, linguagem, estrelas, forks, datas, release e tópicos).
