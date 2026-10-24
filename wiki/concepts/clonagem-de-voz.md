@@ -3,7 +3,7 @@ type: concept
 aliases: [Voice cloning, Clonagem de voz, Zero-shot TTS, Clonagem de timbre]
 status: draft
 created: 2026-10-19
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [audio, tts, voz, modelos]
 ---
 
@@ -39,7 +39,7 @@ O padrão observado no [myshell-ai/OpenVoice](../repos/github.com/myshell-ai/ope
 
 ## Relações
 
-- **Relacionado a:** [LLMs compactos on-device](llms-compactos-on-device.md) — mesmo objetivo de eficiência e implantação ampla, em domínio de modelo diferente (áudio vs. texto); [Geração de imagem e vídeo com modelos de difusão](geracao-de-imagem-e-video-com-difusao.md) — o Duix-Avatar combina os dois domínios; [Model Context Protocol (MCP)](model-context-protocol.md) — VoiceStudio expõe a clonagem via MCP para agentes.
+- **Relacionado a:** [LLMs compactos on-device](llms-compactos-on-device.md) — mesmo objetivo de eficiência e implantação ampla, em domínio de modelo diferente (áudio vs. texto); [Geração de imagem e vídeo com modelos de difusão](geracao-de-imagem-e-video-com-difusao.md) — o Duix-Avatar combina os dois domínios; [Model Context Protocol (MCP)](model-context-protocol.md) — VoiceStudio expõe a clonagem via MCP para agentes. [Open-LLM-VTuber/Open-LLM-VTuber](../repos/github.com/open-llm-vtuber/open-llm-vtuber.md) toca o tema tangencialmente — GPT-SoVITS (um modelo de clonagem) é um dos back-ends de TTS plugáveis, mas o produto é a interação por voz em tempo real com avatar Live2D, não a técnica de clonagem em si; por isso não entra na lista "Onde aparece" acima.
 - **Contrasta com:** TTS tradicional por locutor único, que exige dados de treino daquele locutor específico; dublagem humana; transcrição pura (speech-to-text), como em [cjpais/Handy](../repos/github.com/cjpais/handy.md), que é o problema inverso (voz → texto, não texto → voz).
 - **Distingue-se de:** detecção de deepfake de voz — um problema de verificação, não de geração, e que não é tratado pelas fontes lidas nesta wiki.
 

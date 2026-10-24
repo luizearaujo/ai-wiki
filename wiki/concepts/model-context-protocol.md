@@ -3,7 +3,7 @@ type: concept
 aliases: [MCP, Model Context Protocol]
 status: stable
 created: 2026-10-17
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [protocolo, agentes, ferramentas]
 ---
 
@@ -49,6 +49,7 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 - [every-app/open-seo](../repos/github.com/every-app/open-seo.md) — servidor MCP que expõe dados de SEO (palavra-chave, backlinks, auditoria) como ferramentas, consumido por Agent Skills do próprio produto.
 - [lfnovo/open-notebook](../repos/github.com/lfnovo/open-notebook.md) — integração MCP do lado cliente: conecta Claude Desktop, VS Code e outros clientes MCP ao Open Notebook.
 - [FlorianBruniaux/claude-code-ultimate-guide](../repos/github.com/florianbruniaux/claude-code-ultimate-guide.md) — variação "documentação como servidor MCP": em vez de expor uma ferramenta de produto, o próprio guia se instala como servidor MCP stdio (17 tools, 6 resources, 1 prompt) para que outro cliente de código consulte seções, exemplos e changelog sem sair do próprio agente.
+- [LibreChat-AI/LibreChat](../repos/github.com/librechat-ai/librechat.md) — suporte a MCP como ferramentas dentro de Agentes LibreChat, com OAuth MCP entre as sessões cobertas pela seção de confiabilidade/segurança do README.
 
 ## Trade-offs
 
@@ -72,6 +73,7 @@ Duas consequências práticas: (a) o catálogo de tools consome contexto, e cat�
 
 - [morluto/rea](../repos/github.com/morluto/rea.md) — `README.md`, `package.json`, `src/main.ts`, `src/server/`, `docs/mcp-contracts.md`, `docs/installation.md` e `.agents/skills/rea-analysis-optimization/references/kuna-case-study.md` (commit `09de00b4108a5d738ebe56903e0110ef63820aca`, consultado em 2026-10-17).
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34` (consultado em 2026-10-19).
+- [LibreChat-AI/LibreChat](../repos/github.com/librechat-ai/librechat.md) — README no commit `a378657583567310c841d652b0f6b00c83e2bd6b` (consultado em 2026-10-24).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — README no commit `436d65a74a69d347c57641fbace4eb822bf98600` (consultado em 2026-10-19).
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).

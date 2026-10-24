@@ -3,7 +3,7 @@ type: entity
 kind: org
 url: https://github.com/open-webui
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-10-24
 tags: []
 ---
 
@@ -26,7 +26,7 @@ Open WebUI é, pelas estrelas observadas (156.432 em 2026-10-22), um dos reposit
 ## Relações
 
 - Associado a: Ollama e qualquer API compatível com OpenAI, como provedores de modelo.
-- Concorre com: [LangGenius](langgenius.md) (Dify), [Langflow](langflow-ai.md) — ambos builders de workflow/agente, enquanto Open WebUI é primariamente interface de uso.
+- Concorre com: [LangGenius](langgenius.md) (Dify), [Langflow](langflow-ai.md) — ambos builders de workflow/agente, enquanto Open WebUI é primariamente interface de uso; [LibreChat AI](librechat-ai.md) — mesmo espaço de interface self-hosted unificando múltiplos provedores de LLM com agentes e MCP.
 
 ## Fontes
 

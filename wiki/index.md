@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-24 (5 repositórios: OpenViking, Unsloth, Pizza Bot, ARTEMIS, Bonsai-demo)
+> Última atualização: 2026-10-24 (2 repositórios: LibreChat, Open-LLM-VTuber)
 
 ## Repositórios
 
@@ -51,6 +51,7 @@
 - [langgenius/dify](repos/github.com/langgenius/dify.md) — plataforma open source de aplicações LLM com workflow, RAG, agentes autônomos com sandbox, LLMOps e marketplace de ferramentas.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
 - [lfnovo/open-notebook](repos/github.com/lfnovo/open-notebook.md) — alternativa self-hosted ao Notebook LM, com mais de 20 provedores de modelo, busca full-text/vetorial e geração de podcast multi-falante.
+- [LibreChat-AI/LibreChat](repos/github.com/librechat-ai/librechat.md) — plataforma self-hosted de chat com IA que unifica todos os grandes provedores, com Agentes, MCP, Skills, Code Interpreter e Artifacts; antes `danny-avila/LibreChat`.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
 - [MadsLorentzen/ai-job-search](repos/github.com/madslorentzen/ai-job-search.md) — framework de candidatura a emprego sobre Claude Code: avaliação de vaga, redação de CV/carta em LaTeX, revisão drafter-reviewer e preparo de entrevista.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
@@ -63,6 +64,7 @@
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia de desenvolvimento com skills compostas que disparam automaticamente — design, plano, TDD por subagentes e revisão — em mais de uma dezena de harnesses de agente.
 - [open-gsd/gsd-core](repos/github.com/open-gsd/gsd-core.md) — "Git. Ship. Done": framework de engenharia de contexto e spec-driven development que conduz agentes de código por um loop de cinco fases com subagentes de contexto limpo; sucessor de glittercowboy/get-shit-done.
+- [Open-LLM-VTuber/Open-LLM-VTuber](repos/github.com/open-llm-vtuber/open-llm-vtuber.md) — companheiro de IA por voz com percepção visual e avatar Live2D, offline-capaz; v1 em manutenção enquanto a v2 (reescrita completa) está em planejamento.
 - [open-webui/open-webui](repos/github.com/open-webui/open-webui.md) — plataforma de IA self-hosted, extensível e offline-capaz, com RAG local, MCP, agentes e um ecossistema de apps companheiros.
 - [openai/codex-plugin-cc](repos/github.com/openai/codex-plugin-cc.md) — plugin oficial da OpenAI que expõe review de código e delegação de tarefas ao Codex como slash commands dentro do Claude Code.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos: geração MiniCPM5 densa (1B/2B) com receita RL + OPD, SALA com atenção híbrida para 1M+ tokens e MiniCPM4/4.1 com atenção esparsa treinável.
@@ -229,6 +231,7 @@
 - [Langflow](entities/langflow-ai.md) — organização mantenedora do Langflow, builder visual de agentes/workflows publicáveis como API ou MCP.
 - [LangGenius](entities/langgenius.md) — organização mantenedora do Dify, plataforma de apps LLM com workflow, RAG, agentes e LLMOps.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.
+- [LibreChat AI (LibreChat-AI)](entities/librechat-ai.md) — organização que hoje mantém o LibreChat, antes na conta pessoal de Danny Avila.
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [Luis Novo (lfnovo)](entities/lfnovo.md) — autor do Open Notebook, alternativa self-hosted ao Notebook LM, e da biblioteca Esperanto.
 - [Mads Lorentzen (MadsLorentzen)](entities/madslorentzen.md) — geofísico autor do ai-job-search, framework de candidatura a emprego sobre Claude Code.
@@ -242,6 +245,7 @@
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
 - [Obsidian](entities/obsidian.md) — app de notas pessoais em Markdown local, com links bidirecionais e grafo visual; destino da exportação de grafos de conhecimento do Graphify.
 - [Open GSD (open-gsd)](entities/open-gsd.md) — organização mantenedora do GSD Core, framework de engenharia de contexto e spec-driven development para agentes de código.
+- [Open-LLM-VTuber](entities/open-llm-vtuber.md) — organização mantenedora do companheiro de IA por voz com avatar Live2D, com satélites web/Electron e Unity.
 - [Open WebUI](entities/open-webui.md) — organização mantenedora do Open WebUI e de um ecossistema de apps companheiros em torno de uma interface self-hosted para qualquer modelo de IA.
 - [OpenAI (openai)](entities/openai.md) — empresa de pesquisa em IA concorrente da Anthropic, mantenedora do plugin oficial que integra o Codex ao Claude Code.
 - [OpenBMB](entities/openbmb.md) — organização que publica a família MiniCPM de modelos compactos, datasets UltraData e runtimes de implantação.

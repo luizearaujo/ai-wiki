@@ -103,15 +103,18 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [langflow-ai/langflow](repos/github.com/langflow-ai/langflow.md) — builder visual de agentes/workflows de IA, com acesso ao código de cada componente e deploy como API ou servidor MCP.
 - [langgenius/dify](repos/github.com/langgenius/dify.md) — plataforma de apps LLM com workflow, pipeline de RAG, agentes autônomos com sandbox, LLMOps e marketplace de ferramentas.
+- [LibreChat-AI/LibreChat](repos/github.com/librechat-ai/librechat.md) — interface self-hosted que unifica todos os grandes provedores de LLM, com Agentes, Skills, MCP, Code Interpreter e Artifacts; antes `danny-avila/LibreChat`.
 - [open-webui/open-webui](repos/github.com/open-webui/open-webui.md) — interface self-hosted e offline-capaz para qualquer modelo (Ollama ou API compatível com OpenAI), com RAG local, plugins, MCP e um ecossistema de apps companheiros.
 
 **Conceitos**
+- [Agent skills](concepts/agent-skills.md)
 - [Builder visual de agentes e workflows de IA](concepts/builder-visual-de-agentes.md)
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md)
 
 **Entidades**
 - [Langflow](entities/langflow-ai.md)
 - [LangGenius](entities/langgenius.md)
+- [LibreChat AI (LibreChat-AI)](entities/librechat-ai.md)
 - [Open WebUI](entities/open-webui.md)
 
 ## Skills, instruções e personalidades de agente
@@ -334,12 +337,14 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [cjpais/Handy](repos/github.com/cjpais/handy.md) — app de desktop multiplataforma de transcrição de fala totalmente offline, via Whisper ou Parakeet.
 - [debpalash/VoiceStudio](repos/github.com/debpalash/voicestudio.md) — alternativa open source e local ao ElevenLabs: clonagem/design de voz, dublagem de vídeo, dictation, transcrição e audiobook em 646 idiomas, com API/MCP local.
+- [Open-LLM-VTuber/Open-LLM-VTuber](repos/github.com/open-llm-vtuber/open-llm-vtuber.md) — também nesta categoria por ASR/TTS extensivos (inclui GPT-SoVITS); vai além da voz com percepção visual e avatar Live2D interativo em tempo real.
 
 **Conceitos**
 - [Clonagem de voz](concepts/clonagem-de-voz.md)
 
 **Entidades**
 - [CJ Pais (cjpais)](entities/cjpais.md)
+- [Open-LLM-VTuber](entities/open-llm-vtuber.md)
 - [Palash Debnath (debpalash)](entities/debpalash.md)
 
 **Repositórios documentados em outras categorias**

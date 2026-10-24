@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-10-17
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [overview]
 ---
 
@@ -59,7 +59,7 @@ tags: [overview]
 - **Raspagem web para LLMs converge em "Markdown pronto para contexto":** o Crawl4AI soma-se ao Scrapling no padrão de gerar Markdown filtrado (não HTML bruto) como produto central, com MCP e oferta paga em nuvem para a parte mais difícil (bot walls); diferente do Scrapling, tem uma camada de cloud por créditos desde o início.
 - **Geração de imagem e vídeo com difusão entra como três papéis complementares:** Wan2.1 é o modelo de base aberto (Apache-2.0), ComfyUI é o motor/GUI que executa modelos de terceiros (incluindo o próprio Wan2.1) com weight streaming assíncrono para hardware limitado, e Duix-Avatar é uma aplicação final que combina clonagem de voz e de aparência em um único produto offline — o mesmo padrão modelo→motor→aplicação já visto em texto (MiniCPM→llama.cpp/vLLM→apps) aparece agora em mídia visual.
 - **Clonagem de voz ganha a primeira tentativa de salvaguarda de consentimento:** o VoiceStudio versiona avisos de licença por modelo de voz e recomenda clonar só com permissão — uma resposta parcial à lacuna que esta wiki já havia registrado (nenhum projeto de clonagem discutia salvaguardas); o próprio README é explícito que essa camada não enforça nem certifica a permissão, então a lacuna de fato permanece, apenas com um primeiro gesto de transparência.
-- **Transferência de organização silenciosa é um padrão recorrente, não um caso isolado:** depois de `All-Hands-AI` → `OpenHands`, o `comfyanonymous/ComfyUI` também foi transferido para a organização `Comfy-Org`, com o mesmo sintoma — URL antiga redireciona, mas links e badges do próprio README do projeto continuam apontando para o owner anterior. Vale checar isso em toda ingestão futura via `gh api repos/<owner>/<repo> -q .full_name`, não assumir que o owner da URL fornecida é o canônico.
+- **Transferência de organização silenciosa é um padrão recorrente, não um caso isolado:** depois de `All-Hands-AI` → `OpenHands`, o `comfyanonymous/ComfyUI` também foi transferido para a organização `Comfy-Org`, com o mesmo sintoma — URL antiga redireciona, mas links e badges do próprio README do projeto continuam apontando para o owner anterior. Um quarto caso: `danny-avila/LibreChat` → `LibreChat-AI/LibreChat`, descoberto porque a API do GitHub devolveu "Moved Permanently" em vez do recurso esperado. Vale checar isso em toda ingestão futura via `gh api repos/<owner>/<repo> -q .full_name`, não assumir que o owner da URL fornecida é o canônico.
 
 ## Mapa por área
 

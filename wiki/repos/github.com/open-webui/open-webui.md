@@ -10,7 +10,7 @@ language: Python
 status: active
 created: 2026-10-22
 ingested: 2026-10-22
-updated: 2026-10-22
+updated: 2026-10-24
 tags: [plataforma, interface, mcp, rag]
 ---
 
@@ -70,7 +70,7 @@ O ecossistema ao redor do core inclui Open WebUI Computer (agente de código mob
 
 - Mantido por: [Open WebUI](../../../entities/open-webui.md); criado por Timothy Jaeryang Baek.
 - Conceitos: [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md).
-- Alternativas: [langgenius/dify](../langgenius/dify.md), [langflow-ai/langflow](../langflow-ai/langflow.md) — plataformas vizinhas para construir workflows/agentes, em vez de uma interface de uso sobre modelos existentes.
+- Alternativas: [langgenius/dify](../langgenius/dify.md), [langflow-ai/langflow](../langflow-ai/langflow.md) — plataformas vizinhas para construir workflows/agentes, em vez de uma interface de uso sobre modelos existentes; [LibreChat-AI/LibreChat](../librechat-ai/librechat.md) — mesmo padrão de interface self-hosted unificando múltiplos provedores com agentes e MCP.
 
 ## Perguntas abertas
 

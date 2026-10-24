@@ -3,7 +3,7 @@ type: concept
 aliases: [Agent Skills, Skills para agentes, SKILL.md]
 status: draft
 created: 2026-10-17
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [agentes, skills, claude-code, distribuicao]
 ---
 
@@ -65,6 +65,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 - [usestrix/strix](../repos/github.com/usestrix/strix.md) — nove skills (`npx skills add usestrix/strix`) que dão a qualquer agente compatível com SKILL.md a capacidade de rodar pentests, corrigir achados e configurar scanning em CI.
 - [oso95/scroll-world](../repos/github.com/oso95/scroll-world.md) — skill compatível com `SKILL.md` que gera uma landing page de voo contínuo por cenas de IA, distribuída como plugin de Claude Code, pela CLI de skills da Vercel ou por cópia manual para o diretório de skills do agente.
 - [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — catálogo que reempacota skills de outras fontes (139 de `K-Dense-AI/claude-scientific-skills`, 21 oficiais de `anthropics/skills`, skills de [obra/superpowers](../repos/github.com/obra/superpowers.md) e outras) ao lado de agentes, comandos, hooks e MCPs, instaláveis por um único CLI (`npx claude-code-templates`).
+- [LibreChat-AI/LibreChat](../repos/github.com/librechat-ai/librechat.md) — Skills em `SKILL.md` para workflows manuais, automáticos ou sempre ativos dentro de Agentes; Agent Plugins empacotam skills e servidores MCP juntos para carregamento na inicialização (experimental).
 
 ## Trade-offs
 
@@ -89,6 +90,7 @@ npx -y skills add owner/repo --skill <slug> --agent claude-code
 
 - [UX Audit Rethink](../skills/github.com/mastepanoski/claude-skills/ux-audit-rethink.md) — comandos de instalação e caminho do `SKILL.md` publicados no catálogo (consultado em 2026-10-17).
 - https://github.com/mastepanoski/claude-skills — árvore do repositório com `skills/<slug>/SKILL.md` (consultada em 2026-10-17).
+- [LibreChat-AI/LibreChat](../repos/github.com/librechat-ai/librechat.md) — README no commit `a378657583567310c841d652b0f6b00c83e2bd6b` (consultado em 2026-10-24).
 - [affaan-m/ECC](../repos/github.com/affaan-m/ecc.md) — README no commit `76aaa77df6adc5b889e689007bf99b9a4f74af34` (consultado em 2026-10-19).
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — README no commit `6a4ab69dcdfd67377eaee6bc2d19a2c42038b037` (consultado em 2026-10-19).
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — README no commit `fee0cd0c180874325305e995197db99f03fa6a6f` (consultado em 2026-10-19).
