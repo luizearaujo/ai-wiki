@@ -3,7 +3,7 @@ type: concept
 aliases: [Email para agentes, Email for agents, Agentic email, Caixa de entrada agêntica]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-24
 tags: [email, agentes, mcp, automacao, seguranca]
 ---
 
@@ -38,8 +38,9 @@ Três exigências aparecem como condições de validade:
 ## Onde aparece
 
 - [cloudflare/agentic-inbox](../repos/github.com/cloudflare/agentic-inbox.md) — cliente completo em Cloudflare Workers: Email Routing, Durable Objects com SQLite, R2, agente com nove ferramentas, rascunho automático com confirmação e servidor MCP. O README explicita que a política do Cloudflare Access é a única fronteira de confiança e que não há autorização por mailbox.
+- [pizza-bot-app/pizza-bot](../repos/github.com/pizza-bot-app/pizza-bot.md) — variante local-first e não específica de e-mail: inbox com filas Unread/Action sobre um runtime DeepAgents/LangGraph, checkpoint de execuções, aprovações humanas e skills como subagentes; ao contrário do Agentic Inbox, roda majoritariamente como app desktop/CLI com dados locais, não como serviço cloud multiusuário.
 
-É o único exemplo documentado na wiki até o momento. O conceito também dialoga com [Memória de agente](memoria-de-agente.md), porque threads e preferências podem virar contexto persistente, e com [Model Context Protocol (MCP)](model-context-protocol.md), porque o inbox se torna uma ferramenta consumível por outros agentes.
+O conceito também dialoga com [Memória de agente](memoria-de-agente.md), porque threads e preferências podem virar contexto persistente, e com [Model Context Protocol (MCP)](model-context-protocol.md), porque o inbox se torna uma ferramenta consumível por outros agentes.
 
 ## Trade-offs
 
@@ -67,4 +68,5 @@ Três exigências aparecem como condições de validade:
 ## Fontes
 
 - [cloudflare/agentic-inbox](../repos/github.com/cloudflare/agentic-inbox.md) — README no commit `48039bb6785af34e592c2966f87cde2b255c4c80` (consultado em 2026-10-19). Somente o README foi lido.
+- [pizza-bot-app/pizza-bot](../repos/github.com/pizza-bot-app/pizza-bot.md) — README no commit `bb9ce39a23718e7c9e515b4b52d04f0d03bada93` (consultado em 2026-10-24).
 - Post citado pelo projeto: https://blog.cloudflare.com/email-for-agents/ (não consultado diretamente nesta ingestão).

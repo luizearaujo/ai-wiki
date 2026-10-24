@@ -3,7 +3,7 @@ type: concept
 aliases: [Memória de agente, Agent memory, Memória persistente, Long-term memory]
 status: draft
 created: 2026-10-19
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [agentes, memoria, contexto, handoff, persistencia]
 ---
 
@@ -35,6 +35,7 @@ Formatos observados na wiki:
 | **Base consultável via MCP** | Servidor expõe busca/leitura/escrita como ferramentas | GBrain no gstack |
 | **Repositório compartilhado** | Memória por agente + mailbox + blackboard em git | Hive do Munder Difflin |
 | **Fatos em Markdown + índice** | Fatos por usuário/agente, índice FTS/BM25, gate de escopo | DeerMem no Deer Flow |
+| **Filesystem virtual com camadas de resumo** | Memória, conhecimento e skills unificados sob um esquema de URI navegável (`ls`, `tree`, `read`, `grep`), com resumo L0/overview L1 antes do conteúdo completo L2 | OpenViking |
 | **Log de decisões com liquidação** | Decisões append-only; ao vencer o horizonte, o resultado é apurado e vira reflexão lida em análises futuras | Memory log do TradingAgents |
 
 Questões de projeto que aparecem em todos:
@@ -52,6 +53,7 @@ Questões de projeto que aparecem em todos:
 - [garrytan/gstack](../repos/github.com/garrytan/gstack.md) — GBrain como base de conhecimento persistente consultável por MCP, com níveis de confiança por repositório.
 - [HarnessMD/munder-difflin](../repos/github.com/harnessmd/munder-difflin.md) — hive com memória por agente, mailbox atômica, blackboard e log append-only.
 - [bytedance/deer-flow](../repos/github.com/bytedance/deer-flow.md) — DeerMem como backend padrão, com fatos em Markdown, índice FTS5/BM25, gate de escopo/durabilidade e backends opcionais (mem0, Honcho, OpenViking).
+- [volcengine/OpenViking](../repos/github.com/volcengine/openviking.md) — memória, conhecimento (RAG) e skills unificados num filesystem virtual `viking://`, com três camadas de carregamento (abstract, overview, detalhe), busca restrita a diretório/subárvore e sessões "commitáveis" que extraem memórias em Markdown.
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — grafo de conhecimento do código como memória consultável, sem vector store.
 - [thedotmack/claude-mem](../repos/github.com/thedotmack/claude-mem.md) — hooks de ciclo de vida capturam observações de sessão, comprimem com IA e as reinjetam via busca híbrida SQLite FTS5 + Chroma em 3 camadas (índice, timeline, detalhe).
 - [skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — grafo persistente por projeto, com fingerprints e atualização incremental.
@@ -93,3 +95,4 @@ Questões de projeto que aparecem em todos:
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
 - [zazencodes/zazencodes-season-3](../repos/github.com/zazencodes/zazencodes-season-3.md) — clone local no commit `555467c365e6750278efba09349369109f62f65f`, `bookkeeping-agent/cloud/README.md` e READMEs de `hermes-hostinger-webui-memory` (consultado em 2026-10-21).
 - [open-gsd/gsd-core](../repos/github.com/open-gsd/gsd-core.md) — README no commit `6ddd0cef9cb26673bd8321c5480c0814a92d54cb` (consultado em 2026-10-23).
+- [volcengine/OpenViking](../repos/github.com/volcengine/openviking.md) — README no commit `4ab22a4923452362b60aef2826c2083ce36168d2` (consultado em 2026-10-24).

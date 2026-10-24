@@ -38,7 +38,7 @@ O runtime roda dentro do **Gateway**, com uma interface web (Next.js) e uma TUI.
 | **Tools e MCP** | Catálogo no Capability Center; plugins incluem servidores MCP e integração Lark/Feishu. Skills podem declarar `allowed-tools`, aplicado após ativação explícita. |
 | **Subagentes** | `task` com contexto isolado (padrão) ou snapshot do histórico do pai; o líder verifica e sintetiza resultados. Subagentes são otimização, não resposta padrão a qualquer tarefa complexa. |
 | **Sandbox** | Execução isolada em Docker/AIO, hostPath, E2B ou provisioner; filesystem compartilhado por thread; projeção de skills habilitadas em `/mnt/skills`. |
-| **Memória de longo prazo** | DeerMem é o backend local padrão, com fatos por usuário/agente em Markdown, índice FTS5/BM25 e gate determinístico de escopo/durabilidade. Backends opcionais: mem0, Honcho, OpenViking. |
+| **Memória de longo prazo** | DeerMem é o backend local padrão, com fatos por usuário/agente em Markdown, índice FTS5/BM25 e gate determinístico de escopo/durabilidade. Backends opcionais: mem0, Honcho, [OpenViking](../volcengine/openviking.md). |
 | **Context engineering** | Isolamento de subagentes, sumarização, offload de resultados para arquivos, compactação manual (`/compact`), metas de sessão (`/goal`) e orçamento de saída de ferramentas. |
 | **Browser agêntico** | Grupo opcional com Playwright: navega, lê elementos interativos, clica, digita e envia formulários; cada ação devolve um snapshot com referências estáveis. |
 | **Conhecimento privado** | Providers read-only como RAGFlow, LightRAG e WeKnora, com citações atribuíveis (provedor, documento, trecho). |
@@ -130,7 +130,7 @@ Exemplos derivados do README:
 - Mantido por: [bytedance](../../../entities/bytedance.md)
 - Conceitos: [Agent harness](../../../concepts/agent-harness.md), [Orquestração multiagente](../../../concepts/orquestracao-multiagente.md), [Memória de agente](../../../concepts/memoria-de-agente.md), [Agent skills](../../../concepts/agent-skills.md), [Model Context Protocol](../../../concepts/model-context-protocol.md)
 - Relacionado: [HarnessMD/munder-difflin](../harnessmd/munder-difflin.md) — harness desktop que também orquestra agentes com memória e mensageria; [garrytan/gstack](../garrytan/gstack.md) e [affaan-m/ECC](../affaan-m/ecc.md) — processos e catálogos sobre CLIs existentes; [SynkraAI/aiox-core](../synkraai/aiox-core.md) — orquestração por artefatos.
-- Projetos citados: LangGraph, LangChain, AIO Sandbox, E2B, Playwright, RAGFlow, LightRAG, WeKnora, DeerMem, mem0, Honcho, OpenViking.
+- Projetos citados: LangGraph, LangChain, AIO Sandbox, E2B, Playwright, RAGFlow, LightRAG, WeKnora, DeerMem, mem0, Honcho, [OpenViking](../volcengine/openviking.md).
 
 ## Perguntas abertas
 

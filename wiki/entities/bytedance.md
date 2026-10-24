@@ -3,7 +3,7 @@ type: entity
 kind: org
 url: https://github.com/bytedance
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-24
 tags: [agentes, harness, pesquisa, llm, open-source]
 ---
 
@@ -30,7 +30,7 @@ O DeerFlow mostra uma empresa de grande porte publicando um harness completo e r
 ## Relações
 
 - Colabora com: ecossistema LangChain/LangGraph; projeto irmão LLM Space.
-- Associado a: Volcengine, BytePlus, Doubao, InfoQuest.
+- Associado a: [Volcengine](volcengine.md), BytePlus, Doubao, InfoQuest.
 - Concorre com: outros harnesses de agentes e frameworks de orquestração, incluindo projetos open-source e produtos SaaS.
 
 ## Fontes

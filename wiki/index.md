@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-23 (5 repositórios: claude-code-templates, claude-code-ultimate-guide, awesome-claude-code, learn-claude-code, awesome-claude-code-subagents)
+> Última atualização: 2026-10-24 (3 repositórios: OpenViking, Unsloth, Pizza Bot)
 
 ## Repositórios
 
@@ -70,6 +70,7 @@
 - [oso95/scroll-world](repos/github.com/oso95/scroll-world.md) — agent skill que gera landing pages de voo contínuo por cenas de IA, conduzido por scroll, com pipeline de imagem/vídeo via Monid, Higgsfield ou Codex.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de escrita por IA removidos preservando a voz do autor, com comando de detecção e modo satírico.
+- [pizza-bot-app/pizza-bot](repos/github.com/pizza-bot-app/pizza-bot.md) — inbox local-first para trabalho de agentes de longa duração sobre DeepAgents/LangGraph, com filas Unread/Action, checkpoint, aprovações humanas e skills como subagentes; desenvolvido na Amazon.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [shareAI-lab/learn-claude-code](repos/github.com/shareai-lab/learn-claude-code.md) — curso de 17 lições que reconstrói mecanismos de agent harness do zero em Python runnable, usando o Claude Code como estudo de caso.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
@@ -81,12 +82,14 @@
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
 - [unclecode/crawl4ai](repos/github.com/unclecode/crawl4ai.md) — crawler/scraper web open source que converte sites em Markdown pronto para LLM/RAG, com biblioteca, servidor Docker/MCP e oferta paga em nuvem.
+- [unslothai/unsloth](repos/github.com/unslothai/unsloth.md) — app desktop, UI web e biblioteca para treinar e rodar LLMs, diffusion, embedding e áudio localmente, com fine-tuning 2× mais rápido e 70% menos VRAM alegados pelo projeto.
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI que injetam documentação e exemplos de código atuais e específicos de versão no contexto de agentes.
 - [usestrix/strix](repos/github.com/usestrix/strix.md) — agentes autônomos de pentest que exploram o alvo dinamicamente e validam achados com provas de conceito reais, com orquestração multiagente e nove skills.
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop local-first para agentes, sobre o runtime `pi`, com sessões persistentes, subagentes e Worker Sessions, permissões e plugins `.piplug`.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust de automação de navegador para agentes, com daemon sobre CDP, snapshots de acessibilidade e servidor MCP.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
 - [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — converte um livro ou pasta de documentos em uma Agent Skill com capítulos carregados sob demanda, 24×–51× menos tokens que despejar o livro no contexto.
+- [volcengine/OpenViking](repos/github.com/volcengine/openviking.md) — banco de contexto open-source que unifica memória, conhecimento e skills de agente num filesystem virtual `viking://`, da Volcano Engine (ByteDance).
 - [VoltAgent/awesome-claude-code-subagents](repos/github.com/voltagent/awesome-claude-code-subagents.md) — coleção curada de 161+ subagentes para Claude Code em 10 categorias, instaláveis individualmente ou como plugin por categoria.
 - [Wan-Video/Wan2.1](repos/github.com/wan-video/wan2.1.md) — suíte aberta de modelos de geração de vídeo e imagem (texto-para-vídeo, imagem-para-vídeo, edição) da Alibaba, com pesos Apache-2.0.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
@@ -245,6 +248,7 @@
 - [Palash Debnath (debpalash)](entities/debpalash.md) — criador do VoiceStudio e CTO da Yupcha, baseado na Índia.
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.
+- [Pizza Bot (pizza-bot-app)](entities/pizza-bot-app.md) — organização que publica o Pizza Bot, inbox local-first para trabalho de agentes de IA, desenvolvido na Amazon.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
 - [Rohan Verma (MODSetter)](entities/modsetter.md) — autor do SurfSense, app desktop air-gapped alternativo ao Notebook LM.
 - [shareAI (shareAI-lab)](entities/shareai-lab.md) — organização de Singapura mantenedora do curso learn-claude-code e dos projetos irmãos Kode-CLI e claw0.
@@ -257,11 +261,13 @@
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.
 - [UncleCode](entities/unclecode.md) — autor do Crawl4AI, crawler/scraper web para LLMs e agentes de IA, fundador da Kidocode.
+- [Unsloth AI (unslothai)](entities/unslothai.md) — equipe de Daniel Han e Michael Han, criadora do Unsloth, app e biblioteca para treinar e rodar modelos localmente.
 - [Upstash (upstash)](entities/upstash.md) — Serverless Data Platform, mantenedora do Context7, servidor MCP e CLI de documentação atual para agentes.
 - [vastsa](entities/vastsa.md) — Lan, autor do PI-Desktop, workspace desktop local-first e extensível por plugins para agentes.
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md) — organização experimental da Vercel, mantenedora da coleção oficial de Agent Skills.
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md) — autor do colibri, motor de inferência em C que roda MoE de centenas de bilhões de parâmetros em hardware doméstico.
 - [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md) — SRE autor do book-to-skill, que converte livros e documentos em Agent Skills com capítulos sob demanda.
+- [Volcengine](entities/volcengine.md) — braço de cloud e IA da ByteDance, mantenedor do OpenViking, banco de contexto open-source para agentes.
 - [VoltAgent](entities/voltagent.md) — organização mantenedora do framework de agentes VoltAgent e da coleção awesome-claude-code-subagents.
 - [Wan (Wan-Video)](entities/wan-video.md) — organização da Alibaba Cloud responsável pelos modelos generativos de vídeo em larga escala Wan, incluindo o Wan2.1 open source.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.

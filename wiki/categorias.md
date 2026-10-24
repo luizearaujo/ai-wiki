@@ -1,7 +1,7 @@
 ---
 type: category
 created: 2026-10-19
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [navegacao, categorias, indice-tematico]
 ---
 
@@ -65,6 +65,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — também nesta categoria pelos "learnings": decisões e preferências salvas das conversas, versionadas em git em três escopos (pessoal, repositório, equipe).
 - [vastsa/PI-Desktop](repos/github.com/vastsa/pi-desktop.md) — workspace desktop sobre o runtime `pi`, com sessões persistentes, subagentes, Worker Sessions, permissões e plugins `.piplug`.
+- [volcengine/OpenViking](repos/github.com/volcengine/openviking.md) — também nesta categoria pelo VikingBot, framework de agente embutido no banco de contexto; detalhe em [Memória de agente](concepts/memoria-de-agente.md).
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — duas pastas com padrões distintos: fábrica de software com a skill [Factory](skills/github.com/zazencodes/zazencodes-season-3/factory.md), sete subagentes e revisão em paralelo (`software-factory-claude-code`), e hub-and-spoke com sub-agentes `pi` isolados por pasta (`pi-agent-fleet`), além de harnesses sempre ativos sobre Pi/Neon e eve.
 
 **Skills**
@@ -93,6 +94,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [SynkraAI](entities/synkraai.md)
 - [Trail (trailhq)](entities/trailhq.md)
 - [vastsa](entities/vastsa.md)
+- [Volcengine](entities/volcengine.md)
 
 ## Plataformas self-hosted de aplicações e interfaces de IA
 
@@ -393,12 +395,14 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Workers, com nove ferramentas de e-mail, isolamento por mailbox e servidor MCP.
+- [pizza-bot-app/pizza-bot](repos/github.com/pizza-bot-app/pizza-bot.md) — inbox local-first para trabalho de agentes de longa duração sobre DeepAgents/LangGraph, com filas Unread/Action, checkpoint e aprovações humanas.
 
 **Conceitos**
 - [Email para agentes](concepts/email-para-agentes.md)
 
 **Entidades**
 - [Cloudflare](entities/cloudflare.md)
+- [Pizza Bot (pizza-bot-app)](entities/pizza-bot-app.md)
 
 ## Trabalho, projetos e colaboração humano-agente
 
@@ -461,6 +465,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
+- [unslothai/unsloth](repos/github.com/unslothai/unsloth.md) — app desktop, UI web e biblioteca para treinar e rodar LLMs, diffusion, embedding e áudio localmente, com fine-tuning 2× mais rápido e 70% menos VRAM alegados pelo projeto.
 
 **Conceitos**
 - [Atenção esparsa para contexto longo](concepts/atencao-esparsa-para-contexto-longo.md)
@@ -470,6 +475,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Comfy Org](entities/comfy-org.md)
 - [OpenBMB](entities/openbmb.md)
+- [Unsloth AI (unslothai)](entities/unslothai.md)
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
 
 ## Modelos abertos e treinamento de LLMs
