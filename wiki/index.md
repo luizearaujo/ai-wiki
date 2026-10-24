@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-24 (3 repositórios: OpenViking, Unsloth, Pizza Bot)
+> Última atualização: 2026-10-24 (5 repositórios: OpenViking, Unsloth, Pizza Bot, ARTEMIS, Bonsai-demo)
 
 ## Repositórios
 
@@ -37,6 +37,7 @@
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — configuração de Claude Code com 23 especialistas e oito power tools que organizam o trabalho em um sprint de produto, de `/office-hours` a `/ship`.
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
+- [google/artemis](repos/github.com/google/artemis.md) — agente que converte linguagem natural em automação Android confiável, com servidor MCP nativo e 99%+ de conclusão declarada no benchmark AndroidWorld; criado pelo time Pixel Test Engineering (PTE) Fusion.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
 - [hesreallyhim/awesome-claude-code](repos/github.com/hesreallyhim/awesome-claude-code.md) — lista "awesome" canônica do ecossistema Claude Code, com mais de 270 recursos anotados em 24 categorias.
@@ -71,6 +72,7 @@
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [petergyang/no-ai-slop](repos/github.com/petergyang/no-ai-slop.md) — mais de 20 padrões de escrita por IA removidos preservando a voz do autor, com comando de detecção e modo satírico.
 - [pizza-bot-app/pizza-bot](repos/github.com/pizza-bot-app/pizza-bot.md) — inbox local-first para trabalho de agentes de longa duração sobre DeepAgents/LangGraph, com filas Unread/Action, checkpoint, aprovações humanas e skills como subagentes; desenvolvido na Amazon.
+- [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B) com pesos ternários (~1,75 bit/peso) e 98,2% de retenção declarada frente ao FP16.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [shareAI-lab/learn-claude-code](repos/github.com/shareai-lab/learn-claude-code.md) — curso de 17 lições que reconstrói mecanismos de agent harness do zero em Python runnable, usando o Claude Code como estudo de caso.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
@@ -211,6 +213,7 @@
 - [Fosowl](entities/fosowl.md) — Martin Legrand, engenheiro de ML/AI na França, criador do agenticSeek.
 - [garrytan](entities/garrytan.md) — Garry Tan, presidente e CEO da Y Combinator, autor do gstack e do GBrain.
 - [GitHub](entities/github.md) — organização oficial do GitHub, mantenedora do catálogo comunitário Awesome Copilot.
+- [Google](entities/google.md) — nesta wiki, mantenedora do ARTEMIS, agente de automação Android criado pelo time Pixel Test Engineering (PTE) Fusion.
 - [Google Labs Code](entities/google-labs-code.md) — organização que publica o formato DESIGN.md, as quatro skills de engenharia e bibliotecas de skills para Stitch e Jules.
 - [Google Research (google-research)](entities/google-research.md) — organização de pesquisa da Google, mantenedora do Harness², framework de refinamento recursivo de harness de agente.
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
@@ -249,6 +252,7 @@
 - [Paul Bakaus (pbakaus)](entities/pbakaus.md) — criador do Impeccable e, segundo a bio, do jQuery UI; tecnólogo criativo no Google.
 - [Peter Yang (petergyang)](entities/petergyang.md) — líder de produto e fundador da Behind the Craft, autor da skill No AI Slop.
 - [Pizza Bot (pizza-bot-app)](entities/pizza-bot-app.md) — organização que publica o Pizza Bot, inbox local-first para trabalho de agentes de IA, desenvolvido na Amazon.
+- [PrismML](entities/prismml.md) — empresa criadora da família Bonsai, modelos quantizados em ternário/1-bit para rodar LLMs de ~27B localmente.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
 - [Rohan Verma (MODSetter)](entities/modsetter.md) — autor do SurfSense, app desktop air-gapped alternativo ao Notebook LM.
 - [shareAI (shareAI-lab)](entities/shareai-lab.md) — organização de Singapura mantenedora do curso learn-claude-code e dos projetos irmãos Kode-CLI e claw0.
@@ -270,6 +274,7 @@
 - [Volcengine](entities/volcengine.md) — braço de cloud e IA da ByteDance, mantenedor do OpenViking, banco de contexto open-source para agentes.
 - [VoltAgent](entities/voltagent.md) — organização mantenedora do framework de agentes VoltAgent e da coleção awesome-claude-code-subagents.
 - [Wan (Wan-Video)](entities/wan-video.md) — organização da Alibaba Cloud responsável pelos modelos generativos de vídeo em larga escala Wan, incluindo o Wan2.1 open source.
+- [Z.ai (zai-org / Zhipu AI)](entities/zai-org.md) — empresa chinesa da família GLM/ChatGLM; documentada pontualmente pelo GLM-5.3-FlashX, variante de alta velocidade servida só via API.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
 ## Análises

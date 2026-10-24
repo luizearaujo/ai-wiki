@@ -3,7 +3,7 @@ type: concept
 aliases: [LLMs on-device, Modelos compactos, Small language models, SLM, On-device AI, Modelos de borda]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-24
 tags: [llm, on-device, edge, modelos-compactos, quantizacao, inferencia, privacidade, latencia]
 ---
 
@@ -39,6 +39,8 @@ O **raciocínio híbrido** aparece como padrão: o mesmo checkpoint alterna entr
 
 - [OpenBMB/MiniCPM](../repos/github.com/openbmb/minicpm.md) — MiniCPM5-2B com arquitetura padrão e contexto de 131K, o 1B da mesma geração com suporte nativo a contexto longo, modos Think/No Think, formatos GGUF/MLX/GPTQ e cookbooks distribuídos como Agent Skills; a família também inclui gerações de borda com atenção esparsa.
 - [JustVugg/colibri](../repos/github.com/justvugg/colibri.md) — contraste deliberado: em vez de reduzir o modelo, mantém um MoE enorme no disco e transmite só os experts roteados. Serve ao mesmo objetivo de rodar localmente, com outra troca (capacidade alta, latência alta).
+- [PrismML-Eng/Bonsai-demo](../repos/github.com/prismml-eng/bonsai-demo.md) — variante mais agressiva do mesmo princípio: em vez de treinar um modelo pequeno do zero, comprime um modelo de ~27B (Qwen3.8) para pesos ternários (~1,75 bit/peso), retendo 98,2% do desempenho FP16 segundo o projeto; ternário/1-bit é um ponto bem mais extremo na escala de quantização do que o BF16/GGUF/MLX/GPTQ já documentado via MiniCPM.
+- [unslothai/unsloth](../repos/github.com/unslothai/unsloth.md) — em vez de um modelo específico, é a ferramenta (app desktop + biblioteca) para treinar e rodar localmente modelos compactos e de tamanho completo, com exportação para GGUF e outros formatos de borda.
 - **Não documentados na wiki:** Phi, Gemma, Qwen small, Llama small e demais famílias compactas são referências do ecossistema, mas não têm página própria.
 
 ## Trade-offs
@@ -67,3 +69,5 @@ O **raciocínio híbrido** aparece como padrão: o mesmo checkpoint alterna entr
 
 - [OpenBMB/MiniCPM](../repos/github.com/openbmb/minicpm.md) — README no commit `316cfb1cea39f39cfa16b4f5703b77495c2340be` (consultado em 2026-10-19); apenas o README foi lido.
 - [JustVugg/colibri](../repos/github.com/justvugg/colibri.md) — README no commit `e0db083cdc9e563e0766cc6fc661ef23c32298e0` (consultado em 2026-10-19), usado como contraste.
+- [PrismML-Eng/Bonsai-demo](../repos/github.com/prismml-eng/bonsai-demo.md) — README no commit `ee6ee05ae01ed7483178a14d81530c5b4c4fa36f` (consultado em 2026-10-24).
+- [unslothai/unsloth](../repos/github.com/unslothai/unsloth.md) — README no commit `0edb8f511efd32654487af5c2f57a921c7dd63ef` (consultado em 2026-10-24).

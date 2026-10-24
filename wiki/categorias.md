@@ -465,6 +465,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
+- [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B), com pesos ternários (~1,75 bit/peso), visão, tool calling e cliente MCP.
 - [unslothai/unsloth](repos/github.com/unslothai/unsloth.md) — app desktop, UI web e biblioteca para treinar e rodar LLMs, diffusion, embedding e áudio localmente, com fine-tuning 2× mais rápido e 70% menos VRAM alegados pelo projeto.
 
 **Conceitos**
@@ -475,8 +476,10 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Comfy Org](entities/comfy-org.md)
 - [OpenBMB](entities/openbmb.md)
+- [PrismML](entities/prismml.md)
 - [Unsloth AI (unslothai)](entities/unslothai.md)
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
+- [Z.ai (zai-org / Zhipu AI)](entities/zai-org.md) — também nesta categoria por contraste: GLM-5.3-FlashX é servido só via API (cloud), não localmente, mas aparece como modelo suportado pelo Unsloth e é citado para contexto de nomenclatura/preço.
 
 ## Modelos abertos e treinamento de LLMs
 
@@ -498,6 +501,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser com snapshots de acessibilidade, refs estáveis, sessões isoladas e importação de cookies; anti-detecção declarada.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust nativa que controla o Chrome via CDP sem Node.js/Playwright, com snapshots de acessibilidade estáveis e servidor MCP.
 - [browser-use/browser-use](repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API open source com a classe `Agent`, modelo próprio BU2 para automação de navegador, navegador em nuvem com stealth e toolset oficial de 31 ações para o SDK da Anthropic.
+- [google/artemis](repos/github.com/google/artemis.md) — automação Android via linguagem natural, com servidor MCP nativo, perfis Flash (reativo) e Pro (planejamento multiagente com verificação) e 99%+ no benchmark AndroidWorld.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
@@ -525,6 +529,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [Browser Use](entities/browser-use.md)
 - [DietrichGebert](entities/dietrichgebert.md)
+- [Google](entities/google.md)
 - [Google Labs Code](entities/google-labs-code.md)
 - [jo-inc](entities/jo-inc.md)
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md)
@@ -551,6 +556,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — servidor MCP que expõe dados de SEO como ferramentas para agentes.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — ferramentas MCP dentro da automação do terminal.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — servidor MCP próprio e opção de se tornar o provedor web padrão de agentes suportados.
+- [google/artemis](repos/github.com/google/artemis.md) — servidor MCP nativo que conecta Antigravity, Claude Code, Codex e Windsurf a dispositivos Android reais para teste e reprodução de bugs.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — extra opcional `mcp`, além de Neo4j, FalkorDB e Postgres.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — 81 tools MCP expostas sem ferramentas de ordem.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — servidor MCP (`coli mcp`) para detectar hardware, recomendar, instalar, iniciar, parar e checar o modelo.
@@ -575,6 +581,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Every App (every-app)](entities/every-app.md)
 - [Fincept Corporation](entities/fincept-corporation.md)
 - [Firecrawl](entities/firecrawl.md)
+- [Google](entities/google.md)
 - [Graphify Labs](entities/graphify-labs.md)
 - [HKUDS](entities/hkuds.md)
 - [Luis Novo (lfnovo)](entities/lfnovo.md)
