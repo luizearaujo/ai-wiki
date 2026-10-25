@@ -3,7 +3,7 @@ type: concept
 aliases: [Streaming de experts em MoE, Expert streaming, Expert offloading, MoE expert offloading, Offload de experts]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-25
 tags: [inferencia, moe, modelos, memoria, disco, offload, runtime, hardware]
 ---
 
@@ -47,6 +47,7 @@ Há uma camada de aprendizado: o cache observa o roteamento real da máquina e p
 ## Onde aparece
 
 - [JustVugg/colibri](../repos/github.com/justvugg/colibri.md) — implementação em C puro, 13 engines, tiers VRAM/RAM/disco, cache aprendido (`.coli_usage`), prefetch por lookahead do roteador, múltiplos discos e dashboard que mostra cada expert disparando.
+- [Drumih/turbo-fieldfare](../repos/github.com/drumih/turbo-fieldfare.md) — implementação model-specific (Gemma 4 26B-A4B) em Swift + Metal para Apple Silicon: core denso residente, cache LFU de 16 slots por camada, `pread` paralelo limitado para misses, overlap de I/O e Metal compute, chunked prefill (128 tokens), servidor OpenAI-compatible em loopback. Distingue-se do colibri por ser nativo para macOS/Metal em vez de multiplataforma, por ser model-specific em vez de genérico, e por documentar 103 experimentos medidos.
 - **Referências citadas pelo projeto** (não documentadas na wiki): kTransformers, llama.cpp e vLLM aparecem como trabalhos de offload e comparabilidade; REAP, EASY-EP, SERE, ReMoE, MC-SMoE, MoBE, D²-MoE, HybriMoE, ScMoE e OD-MoE são citados como pesquisa sobre importância, compressão, roteamento e carregamento sob demanda de experts.
 
 ## Trade-offs
@@ -74,3 +75,4 @@ Há uma camada de aprendizado: o cache observa o roteamento real da máquina e p
 ## Fontes
 
 - [JustVugg/colibri](../repos/github.com/justvugg/colibri.md) — README no commit `e0db083cdc9e563e0766cc6fc661ef23c32298e0` (consultado em 2026-10-19). Somente o README foi lido.
+- [Drumih/turbo-fieldfare](../repos/github.com/drumih/turbo-fieldfare.md) — README no commit `2e9ea50e8c35a65d9170e3bff9d1063be8931ec0` (consultado em 2026-10-25). Somente o README foi lido.

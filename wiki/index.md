@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-25 (2 repositórios: trader-skill, trade-skills)
+> Última atualização: 2026-10-25 (1 repositório: turbo-fieldfare)
 
 ## Repositórios
 
@@ -27,6 +27,7 @@
 - [debpalash/VoiceStudio](repos/github.com/debpalash/voicestudio.md) — alternativa open source e local ao ElevenLabs: clonagem/design de voz, dublagem de vídeo, dictation, transcrição e audiobook em 646 idiomas, com API/MCP local.
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro que indexa bases de código em grafo de conhecimento persistente; 162 linguagens, Hybrid LSP, 17 ferramentas, ~120× menos tokens.
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
+- [Drumih/turbo-fieldfare](repos/github.com/drumih/turbo-fieldfare.md) — runtime Swift + Metal para Gemma 4 26B-A4B em ~2 GB de RAM em Apple Silicon: core residente, experts roteados via SSD com cache LFU, app nativo, CLI e servidor OpenAI-compatible.
 - [duixcom/Duix-Avatar](repos/github.com/duixcom/duix-avatar.md) — ferramenta offline de clonagem de aparência e voz que sintetiza vídeos de um avatar digital com lip-sync, a partir de texto ou fala.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
@@ -208,6 +209,7 @@
 - [Daniel Avila (davila7)](entities/davila7.md) — autor do claude-code-templates, catálogo e CLI de instalação de componentes para Claude Code.
 - [DeusData](entities/deusdata.md) — organização criadora do codebase-memory-mcp, servidor MCP local de análise e grafo de conhecimento de código.
 - [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
+- [Drumih](entities/drumih.md) — Andrey Mikhaylov, engenheiro iOS e Metal, autor do TurboFieldfare, runtime de inferência para Gemma 4 26B-A4B em Apple Silicon.
 - [Duix](entities/duixcom.md) — empresa de Singapura especializada em soluções de avatar digital, que abriu o código de sua tecnologia de clonagem e produção de vídeo.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [Every App (every-app)](entities/every-app.md) — organização mantenedora do OpenSEO, stack de SEO self-hosted com servidor MCP e Agent Skills.

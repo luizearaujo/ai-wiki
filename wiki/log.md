@@ -727,3 +727,10 @@
 - Atualizados `index.md`, `log.md`, `overview.md` e `concepts/analise-financeira-multiagente.md`.
 - Licença não detectada pela API do GitHub; MIT declarada no README.
 - Não lidos: `SKILL.md`, arquivos da base OKF (`references/`) e código-fonte.
+
+## [2026-10-25] ingest | Drumih/turbo-fieldfare
+- Criada `repos/github.com/drumih/turbo-fieldfare.md` a partir do README no commit `2e9ea50e8c35a65d9170e3bff9d1063be8931ec0`, sem clonar o repositório.
+- Criada `entities/drumih.md`.
+- Atualizado `concepts/streaming-de-experts-em-moe.md` com TurboFieldfare como segundo exemplo do conceito.
+- Atualizados `index.md`, `log.md` e `overview.md`.
+- Não lidos: `docs/SYSTEM_DESIGN.md`, `docs/OPTIMIZATION_JOURNEY.md`, `docs/experiments/`, kernels Metal e código-fonte.
