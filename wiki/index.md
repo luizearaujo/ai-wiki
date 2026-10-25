@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-24 (2 repositórios: LibreChat, Open-LLM-VTuber)
+> Última atualização: 2026-10-25 (2 repositórios: trader-skill, trade-skills)
 
 ## Repositórios
 
@@ -41,9 +41,11 @@
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
 - [hesreallyhim/awesome-claude-code](repos/github.com/hesreallyhim/awesome-claude-code.md) — lista "awesome" canônica do ecossistema Claude Code, com mais de 270 recursos anotados em 24 categorias.
+- [himself65/trade-skills](repos/github.com/himself65/trade-skills.md) — plugin e skill de opções multi-leg para Claude Code com base de conhecimento OKF de 37 armadilhas e estudos de caso reais.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — framework que renderiza MP4 determinístico a partir de HTML, CSS, mídia e animações seekable, com CLI e 21 skills para agentes.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 29 fontes de dados, backtest, 82 tools MCP e execução limitada por mandato.
 - [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus, tokenizador, pré-treino em Megatron-LM e avaliação pareada em pipeline Docker reproduzível.
+- [Jakeschincariol/trader-skill](repos/github.com/jakeschincariol/trader-skill.md) — 11 skills de trading para Claude: copycat de 13F, Pelosi tracker, dimensionamento de orçamento, risco e execução via Alpaca; nunca executa sem aprovação explícita.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
@@ -222,9 +224,11 @@
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
 - [hesreallyhim](entities/hesreallyhim.md) — mantenedor da lista "awesome" canônica do ecossistema Claude Code.
+- [himself65](entities/himself65.md) — autor de trade-skills e da convenção finance-skills para plugins de trading de opções no Claude Code.
 - [HeyGen](entities/heygen.md) — empresa de vídeo com avatares que publica o HyperFrames como motor de renderização open source para agentes.
 - [HKUDS](entities/hkuds.md) — Data Intelligence Lab @ HKU, laboratório que publica Vibe-Trading, OpenSpace, ClawTeam e outros projetos de agentes.
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md) — organização do LNCC que publica o Manacá-1B, LLM aberto para português do Brasil, em cooperação com o NII/LLM-jp.
+- [Jakeschincariol](entities/jakeschincariol.md) — Jake Schincariol, autor do trader-skill, coleção de 11 skills de trading baseadas em dados públicos do SEC e do Congresso.
 - [Jesse Vincent (obra)](entities/obra.md) — autor do superpowers, metodologia de desenvolvimento com skills que disparam automaticamente sobre mais de uma dezena de harnesses de agente.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.

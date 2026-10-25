@@ -714,3 +714,16 @@
 - `categorias.md`: `LibreChat-AI/LibreChat` e `entities/librechat-ai.md` adicionados a "Plataformas self-hosted de aplicações e interfaces de IA" (mais o conceito "Agent skills" à lista de conceitos dessa categoria); `Open-LLM-VTuber/Open-LLM-VTuber` e `entities/open-llm-vtuber.md` adicionados a "Síntese, clonagem e transcrição de voz", por contraste (ASR/TTS extensivos, mas o produto vai além da voz com avatar Live2D interativo).
 - Atualizados `index.md` (92 repositórios, 99 entidades) e `README.md` (mesmas contagens, mais listas).
 - Não lidos: código-fonte, docs internas e demais arquivos de nenhum dos dois repositórios; apenas o README foi consultado em cada um. Passos de instalação do LibreChat (Docker, variáveis de ambiente) estão só no site de documentação oficial, não no README — marcados como "A verificar" na página.
+
+## [2026-10-25] ingest | Jakeschincariol/trader-skill
+- Criada `repos/github.com/jakeschincariol/trader-skill.md` a partir do README no commit `5189e79b9a480755a3733ac9713f5353981dbe18`, sem clonar o repositório.
+- Criada `entities/jakeschincariol.md`.
+- Atualizados `index.md`, `log.md`, `overview.md` e `concepts/analise-financeira-multiagente.md`.
+- Não lidos: arquivos `SKILL.md` individuais (11), scripts Python e testes.
+
+## [2026-10-25] ingest | himself65/trade-skills
+- Criada `repos/github.com/himself65/trade-skills.md` a partir do README no commit `634c16f17e1314a77173a3593460e87e08c1b080`, sem clonar o repositório.
+- Criada `entities/himself65.md`.
+- Atualizados `index.md`, `log.md`, `overview.md` e `concepts/analise-financeira-multiagente.md`.
+- Licença não detectada pela API do GitHub; MIT declarada no README.
+- Não lidos: `SKILL.md`, arquivos da base OKF (`references/`) e código-fonte.

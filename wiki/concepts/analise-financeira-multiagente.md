@@ -3,7 +3,7 @@ type: concept
 aliases: [Análise financeira multiagente, Multi-agent financial analysis, LLM trading agents, Trading multiagente]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-25
 tags: [trading, financas, multiagente, llm, agentes, pesquisa]
 ---
 
@@ -44,6 +44,8 @@ Dentro do conceito, cabe distinguir quatro posturas observadas na wiki: **análi
 - [The-Swarm-Corporation/AutoHedge](../repos/github.com/the-swarm-corporation/autohedge.md) — variante orientada a execução: pipeline Director → Quant → Risk → Execution com ordens autônomas em Solana. O README não publica backtest nem política de risco verificável, então o projeto ilustra o padrão sem servir como evidência de desempenho.
 - [HKUDS/Vibe-Trading](../repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa com 30 presets de swarm (incluindo comitê de investimento), 90 skills financeiras, backtest cross-market e execução live limitada por mandato. O README explicita separação paper/live, limites por operação e kill switch.
 - [Fincept-Corporation/FinceptTerminal](../repos/github.com/fincept-corporation/finceptterminal.md) — terminal desktop nativo com 37 agentes (trader/investidor, economia, geopolítica), analytics institucional, 100+ conectores de dados, paper trading e 16 corretoras. A edição aberta usa a chave de LLM do usuário; os controles de execução não são detalhados no README.
+- [Jakeschincariol/trader-skill](../repos/github.com/jakeschincariol/trader-skill.md) — 11 skills de trading encadeadas para Claude Code: copycat de 13F, Pelosi tracker, dimensionamento de orçamento, risco e execução via Alpaca; paper trading por padrão; nenhuma ordem sem aprovação explícita do usuário.
+- [himself65/trade-skills](../repos/github.com/himself65/trade-skills.md) — skill de opções multi-leg com base de conhecimento OKF de 37 armadilhas e estudos de caso; lazy-loaded, vendor-neutral.
 
 ## Trade-offs
 
@@ -73,3 +75,5 @@ Dentro do conceito, cabe distinguir quatro posturas observadas na wiki: **análi
 - [HKUDS/Vibe-Trading](../repos/github.com/hkuds/vibe-trading.md) — README no commit `097b29feab9793e3c302e1a7a4f3c0dac6344904` (consultado em 2026-10-19). Somente o README foi lido.
 - [Fincept-Corporation/FinceptTerminal](../repos/github.com/fincept-corporation/finceptterminal.md) — README no commit `3d8617cae3f13c93874d4bee4fb0f2846e9c83bc` (consultado em 2026-10-19). Somente o README foi lido.
 - Paper citado pelo projeto: https://arxiv.org/abs/2412.20138 (não consultado diretamente nesta ingestão).
+- [Jakeschincariol/trader-skill](../repos/github.com/jakeschincariol/trader-skill.md) — README no commit `5189e79b9a480755a3733ac9713f5353981dbe18` (consultado em 2026-10-25). Somente o README foi lido.
+- [himself65/trade-skills](../repos/github.com/himself65/trade-skills.md) — README no commit `634c16f17e1314a77173a3593460e87e08c1b080` (consultado em 2026-10-25). Somente o README foi lido.
