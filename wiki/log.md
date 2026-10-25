@@ -734,3 +734,9 @@
 - Atualizado `concepts/streaming-de-experts-em-moe.md` com TurboFieldfare como segundo exemplo do conceito.
 - Atualizados `index.md`, `log.md` e `overview.md`.
 - Não lidos: `docs/SYSTEM_DESIGN.md`, `docs/OPTIMIZATION_JOURNEY.md`, `docs/experiments/`, kernels Metal e código-fonte.
+
+## [2026-10-25] fix | bookkeeping — trader-skill, trade-skills, turbo-fieldfare
+- Adicionados `repos/github.com/jakeschincariol/trader-skill.md`, `repos/github.com/himself65/trade-skills.md` e `repos/github.com/drumih/turbo-fieldfare.md` a `categorias.md` (seções "Análise financeira e trading" e "Inferência local e runtime de modelos").
+- Adicionadas entidades `himself65`, `jakeschincariol` e `Drumih (Andrey Mikhaylov)` a `categorias.md`.
+- Atualizados contagens e listas de `README.md` (Repositórios: 92 → 95, Entidades: 99 → 102).
+- Bookkeeping omitido nas ingestões originais foi concluído nesta entrada.

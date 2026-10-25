@@ -1,7 +1,7 @@
 ---
 type: category
 created: 2026-10-19
-updated: 2026-10-24
+updated: 2026-10-25
 tags: [navegacao, categorias, indice-tematico]
 ---
 
@@ -431,7 +431,9 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal desktop nativo com 37 agentes, 100+ conectores, analytics institucional, paper trading e 16 corretoras; edição aberta AGPL e Enterprise proprietária.
+- [himself65/trade-skills](repos/github.com/himself65/trade-skills.md) — skill de trading de opções multi-leg com base de conhecimento OKF de 37 armadilhas e estudos de caso reais; instalação por `npx`.
 - [HKUDS/Vibe-Trading](repos/github.com/hkuds/vibe-trading.md) — workspace de pesquisa financeira com 90 skills, 30 presets de swarm, backtest cross-market e execução live limitada por mandato.
+- [Jakeschincariol/trader-skill](repos/github.com/jakeschincariol/trader-skill.md) — 11 skills encadeadas (SEC EDGAR 13F, rastreamento de mandatos do Congresso, dimensionamento, corretora Alpaca, risco, imposto) com confirmação explícita antes de qualquer ordem; Python stdlib, paper trading por padrão.
 - [openbq-org/OpenBB](repos/github.com/openbq-org/openbb.md) — Open Data Platform que conecta fontes financeiras a Python, Excel, MCP e REST para analistas, quants e agentes de IA.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — firma de trading simulada em LangGraph, com quatro analistas, debate bullish/bearish, risco, gestor de portfólio, memory log e backtest.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — pipeline Director → Quant → Risk → Execution com execução autônoma em Solana; README curto, sem backtest publicado.
@@ -441,7 +443,9 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Entidades**
 - [Fincept Corporation](entities/fincept-corporation.md)
+- [himself65](entities/himself65.md)
 - [HKUDS](entities/hkuds.md)
+- [jakeschincariol](entities/jakeschincariol.md)
 - [openbq-org](entities/openbq-org.md)
 - [Tauric Research](entities/tauricresearch.md)
 - [The Swarm Corporation](entities/the-swarm-corporation.md)
@@ -468,6 +472,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — também nesta categoria pelos dois motores de inferência local do app desktop (sd.cpp bundled; Wan2GP via instalação própria ou servidor MCP remoto) para modelos de imagem/vídeo, em vez de LLMs.
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
+- [Drumih/turbo-fieldfare](repos/github.com/drumih/turbo-fieldfare.md) — runtime Swift + Metal model-specific para Gemma 4 26B-A4B no Apple Silicon: ~2 GB de RAM, core denso residente, cache LFU de 16 slots por camada e experts roteados lidos do SSD; 5–6 tok/s em 8 GB M2.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 - [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B), com pesos ternários (~1,75 bit/peso), visão, tool calling e cliente MCP.
@@ -480,6 +485,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Entidades**
 - [Comfy Org](entities/comfy-org.md)
+- [Drumih (Andrey Mikhaylov)](entities/drumih.md)
 - [OpenBMB](entities/openbmb.md)
 - [PrismML](entities/prismml.md)
 - [Unsloth AI (unslothai)](entities/unslothai.md)
