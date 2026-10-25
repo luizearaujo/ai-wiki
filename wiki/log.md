@@ -735,6 +735,27 @@
 - Atualizados `index.md`, `log.md` e `overview.md`.
 - Não lidos: `docs/SYSTEM_DESIGN.md`, `docs/OPTIMIZATION_JOURNEY.md`, `docs/experiments/`, kernels Metal e código-fonte.
 
+## [2026-10-25] ingest | camtrik/agent-trail
+- Criada `repos/github.com/camtrik/agent-trail.md` a partir do README no commit `6e53f21f292955974ac21a082edb4ac216e2ad92`, sem clonar o repositório.
+- Criada `entities/camtrik.md`.
+- Criado `concepts/observabilidade-de-agentes.md` com camtrik/agent-trail e sodiumsun/agenttrail como exemplos.
+- Atualizados `index.md`, `log.md`, `categorias.md`, `README.md` e `overview.md` (não — não altera o quadro geral substantivamente além de nomear a categoria).
+- Licença MIT declarada no README; não detectada pela API do GitHub.
+- Não lidos: código-fonte, `docs/GETTING-STARTED.md`, `.agents/skills/local-session-search/SKILL.md`.
+
+## [2026-10-25] ingest | sodiumsun/agenttrail
+- Criada `repos/github.com/sodiumsun/agenttrail.md` a partir do README no commit `e4ba2daa270abd7ecb51565bbfb12386f47ea418`, sem clonar o repositório.
+- Criada `entities/sodiumsun.md`.
+- Atualizado `concepts/observabilidade-de-agentes.md` (co-ingestão junto com camtrik/agent-trail).
+- Atualizados `index.md`, `log.md`, `categorias.md` e `README.md`.
+- 960 estrelas, MIT, JavaScript.
+- Não lidos: `docs/kitchen/README.md`, `packages/kitchen/`, código-fonte.
+
+## [2026-10-25] ingest | theresanaiforthat.com
+- Criada `entities/theresanaiforthat.md` a partir da página `/about/` do site (HTTP 403 na raiz; `/about/` retornou conteúdo).
+- Atualizados `index.md`, `log.md`, `categorias.md` (Protocolos, integrações e confiabilidade) e `README.md`.
+- Não verificado: URL do repositório do TAAFT MCP Server, número exato de ferramentas por categoria.
+
 ## [2026-10-25] fix | bookkeeping — trader-skill, trade-skills, turbo-fieldfare
 - Adicionados `repos/github.com/jakeschincariol/trader-skill.md`, `repos/github.com/himself65/trade-skills.md` e `repos/github.com/drumih/turbo-fieldfare.md` a `categorias.md` (seções "Análise financeira e trading" e "Inferência local e runtime de modelos").
 - Adicionadas entidades `himself65`, `jakeschincariol` e `Drumih (Andrey Mikhaylov)` a `categorias.md`.

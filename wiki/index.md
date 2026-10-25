@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-25 (1 repositório: turbo-fieldfare)
+> Última atualização: 2026-10-25 (2 repositórios: agent-trail, agenttrail; 1 conceito: observabilidade-de-agentes; 3 entidades: camtrik, sodiumsun, theresanaiforthat)
 
 ## Repositórios
 
@@ -16,6 +16,7 @@
 - [browser-use/browser-use](repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API open source que dá a um agente LLM controle de um navegador real ou em nuvem, com modelo próprio (BU2) e toolset oficial para o SDK da Anthropic.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, skills de carregamento progressivo, sandbox, memória DeerMem e browser agêntico.
 - [calesthio/OpenMontage](repos/github.com/calesthio/openmontage.md) — produção de vídeo agêntica em que o assistente de código orquestra pipelines YAML, skills de direção e validação sobre Remotion, HyperFrames e FFmpeg.
+- [camtrik/agent-trail](repos/github.com/camtrik/agent-trail.md) — dashboard local de observabilidade que agrega token usage, custo estimado, tool calls e árvores de subagentes de sessões JSONL/SQLite de Claude Code, OpenClaw, Codex, OpenCode e Qoder, com replay turno a turno.
 - [cjpais/Handy](repos/github.com/cjpais/handy.md) — app de desktop multiplataforma de transcrição de fala totalmente offline via Whisper/Parakeet, com colagem direta em qualquer campo de texto.
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Cloudflare Workers, com agente de IA, isolamento por mailbox e servidor MCP.
 - [cloudflare/skills](repos/github.com/cloudflare/skills.md) — 18 Agent Skills oficiais para a Cloudflare Developer Platform, empacotadas com o servidor MCP principal.
@@ -81,6 +82,7 @@
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [shareAI-lab/learn-claude-code](repos/github.com/shareai-lab/learn-claude-code.md) — curso de 17 lições que reconstrói mecanismos de agent harness do zero em Python runnable, usando o Claude Code como estudo de caso.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
+- [sodiumsun/agenttrail](repos/github.com/sodiumsun/agenttrail.md) — observabilidade local para agentes de código com duas vistas: Map (estrutura do projeto via PLAN.md e mudanças de arquivo) e Kitchen (visualização 3D com metáfora culinária de chefs, tickets e pratos).
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
@@ -172,6 +174,7 @@
 - [Memória de agente](concepts/memoria-de-agente.md) — formatos e mecanismos para persistir decisões e handoffs entre sessões, harnesses e agentes.
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md) — browser real controlado pelo agente em um loop de observação, ação e nova observação, com representação estruturada e isolamento de sessão.
+- [Observabilidade de agentes de código](concepts/observabilidade-de-agentes.md) — técnicas e ferramentas que transformam atividade interna de agentes (tool calls, tokens, subagentes, progresso de tarefas) em dados consultáveis sem modificar ou reexecutar os agentes.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
 - [Plugins de agente](concepts/plugins-de-agente.md) — unidades de extensão que adicionam ferramentas, UI, serviços e MCP a um agente sem alterar o núcleo.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
@@ -198,6 +201,7 @@
 - [Browser Use](entities/browser-use.md) — empresa americana mantenedora da biblioteca `browser-use`, do modelo próprio BU2 e de um navegador em nuvem pago para agentes.
 - [ByteDance](entities/bytedance.md) — organização mantenedora do DeerFlow, super agent harness open-source com serviços comerciais de modelos e busca.
 - [calesthio](entities/calesthio.md) — autor do OpenMontage, sistema de produção de vídeo agêntica baseado em pipelines e skills.
+- [camtrik](entities/camtrik.md) — autor do Agent Trail, dashboard local de observabilidade para agentes de código.
 - [cathrynlavery](entities/cathrynlavery.md) — autora da skill Diagram Design, que gera diagramas editoriais em HTML/SVG com sistema de design consistente.
 - [CJ Pais (cjpais)](entities/cjpais.md) — criador do Handy, app de speech-to-text offline, e da versão CLI original em Python do mesmo projeto.
 - [Cloudflare](entities/cloudflare.md) — empresa de infraestrutura de edge que publica o Agentic Inbox e a plataforma Workers usada por ele.
@@ -267,10 +271,12 @@
 - [Rohan Verma (MODSetter)](entities/modsetter.md) — autor do SurfSense, app desktop air-gapped alternativo ao Notebook LM.
 - [shareAI (shareAI-lab)](entities/shareai-lab.md) — organização de Singapura mantenedora do curso learn-claude-code e dos projetos irmãos Kode-CLI e claw0.
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md) — pesquisador de segurança de IA generativa, autor do `claude-red`, biblioteca de skills ofensivas para agentes.
+- [sodiumsun](entities/sodiumsun.md) — autor do Agenttrail, ferramenta de observabilidade local para agentes de código com vistas Map e Kitchen.
 - [Strix (usestrix)](entities/usestrix.md) — organização mantenedora do Strix, agentes de pentest autônomos de código aberto.
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
+- [There's An AI For That (theresanaiforthat)](entities/theresanaiforthat.md) — maior diretório curado de ferramentas de IA do mundo: 50 mil+ ferramentas, 11 mil+ tarefas, 5M visitantes mensais, curadoria manual e servidor MCP próprio.
 - [Trail (trailhq)](entities/trailhq.md) — organização mantenedora do Trail-Code (antes graft), grafo de contexto de código com memória de decisões para agentes.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.

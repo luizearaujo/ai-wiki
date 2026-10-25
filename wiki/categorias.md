@@ -53,6 +53,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — processo, 71 agentes, 311 skills e memória portátil sobre Claude Code, Codex e outros clientes.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, sandbox e memória DeerMem.
+- [camtrik/agent-trail](repos/github.com/camtrik/agent-trail.md) — dashboard local de observabilidade que agrega token usage, custo, tool calls e replay de sessões de Claude Code, Codex, OpenCode, OpenClaw e Qoder.
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento, sem depender de nuvem.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
@@ -61,6 +62,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [open-gsd/gsd-core](repos/github.com/open-gsd/gsd-core.md) — loop de cinco fases (Discuss, Plan, Execute, Verify, Ship) com subagentes de contexto limpo e estado persistente em `STATE.md`/`CONTEXT.md`, sobre Claude Code e outros runtimes.
 - [openai/codex-plugin-cc](repos/github.com/openai/codex-plugin-cc.md) — plugin oficial da OpenAI que traz review e delegação de tarefas ao Codex como slash commands dentro do Claude Code.
 - [OpenHands/OpenHands](repos/github.com/openhands/openhands.md) — Agent Canvas, control center self-hosted que conecta e automatiza múltiplos backends de agente (OpenHands, Claude Code, Codex, Gemini, Pi, OpenCode) via ACP.
+- [sodiumsun/agenttrail](repos/github.com/sodiumsun/agenttrail.md) — observabilidade local com vista Map (PLAN.md + mudanças de arquivo) e Kitchen (3D com chefs, tickets e pratos como metáfora de progresso do projeto).
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first com 12 agentes e fluxo PRD → histórias → execução.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: hooks de ciclo de vida, worker local e busca híbrida SQLite/Chroma em 3 camadas.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — também nesta categoria pelos "learnings": decisões e preferências salvas das conversas, versionadas em git em três escopos (pessoal, repositório, equipe).
@@ -74,6 +76,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [Agent harness](concepts/agent-harness.md)
 - [Memória de agente](concepts/memoria-de-agente.md)
+- [Observabilidade de agentes de código](concepts/observabilidade-de-agentes.md)
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md)
 - [Plugins de agente](concepts/plugins-de-agente.md)
 - [TDD para agentes](concepts/tdd-para-agentes.md)
@@ -83,6 +86,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Alex Newman (thedotmack)](entities/thedotmack.md)
 - [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [ByteDance](entities/bytedance.md)
+- [camtrik](entities/camtrik.md)
 - [Fosowl](entities/fosowl.md)
 - [garrytan](entities/garrytan.md)
 - [Google Research (google-research)](entities/google-research.md)
@@ -91,6 +95,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Open GSD (open-gsd)](entities/open-gsd.md)
 - [OpenAI (openai)](entities/openai.md)
 - [OpenHands](entities/openhands.md)
+- [sodiumsun](entities/sodiumsun.md)
 - [SynkraAI](entities/synkraai.md)
 - [Trail (trailhq)](entities/trailhq.md)
 - [vastsa](entities/vastsa.md)
@@ -600,6 +605,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [openbq-org](entities/openbq-org.md)
 - [Rohan Verma (MODSetter)](entities/modsetter.md)
 - [Strix (usestrix)](entities/usestrix.md)
+- [There's An AI For That (theresanaiforthat)](entities/theresanaiforthat.md)
 - [Trail (trailhq)](entities/trailhq.md)
 - [UncleCode](entities/unclecode.md)
 - [Upstash (upstash)](entities/upstash.md)
