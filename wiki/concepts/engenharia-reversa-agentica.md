@@ -3,7 +3,7 @@ type: concept
 aliases: [agentic reverse engineering, reverse engineering with agents, RE agêntica]
 status: draft
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-26
 tags: [agentes, engenharia-reversa, ferramentas]
 ---
 
@@ -28,8 +28,9 @@ A diferença em relação a um chatbot com acesso a código é o ciclo fechado: 
 
 ## Onde aparece
 
-- [morluto/rea](../repos/github.com/morluto/rea.md) — implementa esse padrão como um servidor MCP + CLI. Exemplos publicados incluem a reconstrução de um cálculo de áudio do DX-Ball (3.205 casos originais x86 e os 63 bytes da função compilada), o rastreamento da ponte de clipboard do Electron no Notion e a recuperação de um cálculo de bullet-ring do TH04 em DOS.
-- O REA também documenta o lado epistemológico do padrão: ferramentas retornam cobertura, limitações e desconhecidos, em vez de apresentar toda saída como completa.
+- [morluto/rea](../repos/github.com/morluto/rea.md) — implementa esse padrão como um servidor MCP + CLI para binários e aplicações (estático + runtime). Exemplos publicados incluem a reconstrução de um cálculo de áudio do DX-Ball, o rastreamento da ponte de clipboard do Electron no Notion e a recuperação de um cálculo de bullet-ring do TH04 em DOS. O REA também documenta o lado epistemológico do padrão: ferramentas retornam cobertura, limitações e desconhecidos.
+- [kalil0321/reverse-api-engineer](../repos/github.com/kalil0321/reverse-api-engineer.md) — aplica o padrão especificamente à camada de rede de websites: um agente (ou o usuário) navega no site, o tráfego HTTP é capturado em HAR, e um LLM gera um cliente tipado em até 10 linguagens. Distingue-se do REA por focar em APIs web (não binários), por produzir código de cliente (não apenas análise), e por integrar diretamente com Claude Code, Codex, Cursor e OpenCode.
+- [littledivy/mimic](../repos/github.com/littledivy/mimic.md) — abordagem anterior ao mesmo problema, mas voltada a apps iOS/web via mitmproxy: captura sessões autenticadas e usa Claude para gerar um cliente Python chamável como biblioteca. Menos modos de operação, mas cobre interceptação de HTTPS em apps móveis que não têm DevTools acessível.
 
 ## Trade-offs
 

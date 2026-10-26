@@ -255,6 +255,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
+- [kalil0321/reverse-api-engineer](repos/github.com/kalil0321/reverse-api-engineer.md) — captura tráfego HTTP de qualquer site em HAR (manual ou agente autônomo) e gera clientes tipados em 10 linguagens; modos manual, agent, engineer e collector.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego iOS/web e usa Claude para gerar um cliente Python a partir de sessões autenticadas.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para análise estática e em runtime de binários, apps e firmware.
 
@@ -263,6 +264,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Evidência e proveniência](concepts/evidencia-e-proveniencia.md)
 
 **Entidades**
+- [kalil0321](entities/kalil0321.md)
 - [littledivy](entities/littledivy.md)
 - [morluto](entities/morluto.md)
 

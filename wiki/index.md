@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-25 (2 repositórios: agent-trail, agenttrail; 1 conceito: observabilidade-de-agentes; 3 entidades: camtrik, sodiumsun, theresanaiforthat)
+> Última atualização: 2026-10-26 (1 repositório: reverse-api-engineer; 1 entidade: kalil0321)
 
 ## Repositórios
 
@@ -51,6 +51,7 @@
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
+- [kalil0321/reverse-api-engineer](repos/github.com/kalil0321/reverse-api-engineer.md) — CLI Python que captura tráfego HTTP de qualquer site via HAR (manual ou agente: Playwright MCP, Chrome MCP, Vercel agent-browser) e gera clientes tipados em 10 linguagens com Claude, Codex, Cursor ou OpenCode.
 - [langflow-ai/langflow](repos/github.com/langflow-ai/langflow.md) — plataforma visual para construir e implantar agentes e workflows de IA, publicáveis como API ou servidor MCP.
 - [langgenius/dify](repos/github.com/langgenius/dify.md) — plataforma open source de aplicações LLM com workflow, RAG, agentes autônomos com sandbox, LLMOps e marketplace de ferramentas.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
@@ -236,6 +237,7 @@
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md) — organização do LNCC que publica o Manacá-1B, LLM aberto para português do Brasil, em cooperação com o NII/LLM-jp.
 - [Jakeschincariol](entities/jakeschincariol.md) — Jake Schincariol, autor do trader-skill, coleção de 11 skills de trading baseadas em dados públicos do SEC e do Congresso.
 - [Jesse Vincent (obra)](entities/obra.md) — autor do superpowers, metodologia de desenvolvimento com skills que disparam automaticamente sobre mais de uma dezena de harnesses de agente.
+- [kalil0321](entities/kalil0321.md) — autor do Reverse API Engineer, ferramenta que converte qualquer site em um cliente de API tipado via captura de tráfego HAR e geração por LLM.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
 - [Langflow](entities/langflow-ai.md) — organização mantenedora do Langflow, builder visual de agentes/workflows publicáveis como API ou MCP.

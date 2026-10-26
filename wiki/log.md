@@ -756,6 +756,14 @@
 - Atualizados `index.md`, `log.md`, `categorias.md` (Protocolos, integrações e confiabilidade) e `README.md`.
 - Não verificado: URL do repositório do TAAFT MCP Server, número exato de ferramentas por categoria.
 
+## [2026-10-26] ingest | kalil0321/reverse-api-engineer
+- Criada `repos/github.com/kalil0321/reverse-api-engineer.md` a partir do README no commit `b9337039bb68aeb59e652aca00ce42d241d33211`, sem clonar o repositório.
+- Criada `entities/kalil0321.md`.
+- Atualizado `concepts/engenharia-reversa-agentica.md` com reverse-api-engineer e littledivy/mimic como exemplos adicionais (camada de rede/HTTP vs binários).
+- Atualizados `index.md`, `log.md`, `categorias.md` e `README.md` (Repositórios: 97 → 98, Entidades: 105 → 106).
+- 1.940 estrelas, MIT, Python.
+- Não lidos: código-fonte, configuração de exemplos.
+
 ## [2026-10-25] fix | bookkeeping — trader-skill, trade-skills, turbo-fieldfare
 - Adicionados `repos/github.com/jakeschincariol/trader-skill.md`, `repos/github.com/himself65/trade-skills.md` e `repos/github.com/drumih/turbo-fieldfare.md` a `categorias.md` (seções "Análise financeira e trading" e "Inferência local e runtime de modelos").
 - Adicionadas entidades `himself65`, `jakeschincariol` e `Drumih (Andrey Mikhaylov)` a `categorias.md`.
