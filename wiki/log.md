@@ -769,3 +769,11 @@
 - Adicionadas entidades `himself65`, `jakeschincariol` e `Drumih (Andrey Mikhaylov)` a `categorias.md`.
 - Atualizados contagens e listas de `README.md` (Repositórios: 92 → 95, Entidades: 99 → 102).
 - Bookkeeping omitido nas ingestões originais foi concluído nesta entrada.
+
+## [2026-10-27] ingest | unslothai/unsloth (reingestão)
+- Atualizado `repos/github.com/unslothai/unsloth.md`: commit `0edb8f5` → `7c65edb`, `ingested`/`updated` → 2026-10-27.
+- Novas integrações no Unsloth Start: OpenCode, OpenClaw, Hermes Agent, Pi, Mistral Vibe, DeepSeek Harness.
+- Novos canais de instalação: Winget, binários ARM64 (Windows/macOS/Linux deb/AppImage).
+- `audio.cpp` adicionado como extensão opcional integrada.
+- Contagens atualizadas (observadas em 2026-10-27): 78.616 stars, 7.295 forks, 402 issues abertas.
+- Nenhuma página de índice, categorias ou README alterada (nenhuma página nova criada).

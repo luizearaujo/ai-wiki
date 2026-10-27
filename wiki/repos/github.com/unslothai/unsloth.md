@@ -4,13 +4,13 @@ url: https://github.com/unslothai/unsloth
 host: github.com
 owner: unslothai
 repo: unsloth
-commit: 0edb8f511efd32654487af5c2f57a921c7dd63ef
+commit: 7c65edbddd7352b32460af8db798c5e7183a6b3f
 license: Apache-2.0
 language: Python
 status: active
 created: 2026-10-24
-ingested: 2026-10-24
-updated: 2026-10-24
+ingested: 2026-10-27
+updated: 2026-10-27
 tags: [llms-compactos-on-device, agent-skills, mcp]
 ---
 
@@ -24,7 +24,7 @@ Unsloth resolve o problema de treinar e servir modelos localmente sem montar man
 
 ## Como funciona
 
-O app roda e treina modelos (Qwen3.8, GLM-5.3-Flash, Kimi K3, Qwen-Image-2.1, MiniMax-H3, DeepSeek-V4, Gemma 4, entre outros), serve uma API compatível com OpenAI, permite acesso remoto via LAN ou Cloudflare HTTPS, e se conecta a agentes (Claude Code, Codex, MCP) com tool calling e execução de código. **Unsloth Start** liga agentes a modelos locais com um comando (`unsloth start claude`, `unsloth start codex` etc.). Para treino, oferece LoRA, QLoRA, full fine-tuning, pretraining, RL (GRPO, DPO) e FP8, com exportação para GGUF, NVFP4, FP8 e outros formatos; "Data Recipes" constrói datasets a partir de PDFs, CSVs e DOCX.
+O app roda e treina modelos (Qwen3.8, GLM-5.3-Flash, Kimi K3, Qwen-Image-2.1, MiniMax-H3, DeepSeek-V4, Gemma 4, entre outros), serve uma API compatível com OpenAI, permite acesso remoto via LAN ou Cloudflare HTTPS, e se conecta a agentes de código com tool calling e execução de código. **Unsloth Start** liga modelos locais a agentes com um único comando; suporta Claude Code, OpenAI Codex, VSCode, OpenCode, OpenClaw, Hermes Agent, Pi, Mistral Vibe e DeepSeek Harness, além de integração via MCP. Para treino, oferece LoRA, QLoRA, full fine-tuning, pretraining, RL (GRPO, DPO) e FP8, com exportação para GGUF, NVFP4, FP8 e outros formatos; "Data Recipes" constrói datasets a partir de PDFs, CSVs e DOCX. O componente `audio.cpp` está integrado como extensão opcional para síntese de voz.
 
 ## Instalação e uso rápido
 
@@ -35,7 +35,7 @@ curl -fsSL https://unsloth.ai/install.sh | sh
 irm https://unsloth.ai/install.ps1 | iex
 ```
 
-Também disponível via Docker (`unsloth/unsloth`, com tag `:core` só para notebooks, e `unsloth/unsloth-rocm` para AMD), Homebrew (`brew install --cask unsloth`) e Winget. Lançar a Studio: `unsloth studio` (ou `unsloth studio --secure` para HTTPS via Cloudflare). Unsloth Core (biblioteca) instala via `uv pip install unsloth --torch-backend=auto` em ambiente Python 3.13.
+Também disponível via Docker (`unsloth/unsloth`, com tag `:core` só para notebooks, e `unsloth/unsloth-rocm` para AMD), Homebrew (`brew install --cask unsloth`), Winget (`winget install --id UnslothAI.Unsloth`) e downloads diretos de executáveis pré-compilados para x64 e ARM64 (Windows, macOS Intel/Apple Silicon, Linux deb/AppImage). Lançar a Studio: `unsloth studio` (ou `unsloth studio --secure` para HTTPS via Cloudflare). Unsloth Core (biblioteca) instala via `uv pip install unsloth --torch-backend=auto` em ambiente Python 3.13.
 
 ## Exemplos de uso
 
@@ -61,6 +61,7 @@ Notebooks gratuitos no Colab para modelos como Gemma 4 (E2B), Qwen3.5 (4B), gpt-
 ## Estado e adoção
 
 - Observado em 2026-10-24: ~78.500 stars, 7.282 forks, 382 issues abertas, push mais recente em 2026-10-24.
+- Observado em 2026-10-27: ~78.616 stars, 7.295 forks, 402 issues abertas, push mais recente em 2026-10-27.
 - Licença: Apache-2.0 (core) + AGPL-3.0 (UI do Studio).
 
 ## Relações
@@ -77,5 +78,6 @@ Notebooks gratuitos no Colab para modelos como Gemma 4 (E2B), Qwen3.5 (4B), gpt-
 
 ## Fontes
 
-- README: https://raw.githubusercontent.com/unslothai/unsloth/0edb8f511efd32654487af5c2f57a921c7dd63ef/README.md (commit `0edb8f511efd32654487af5c2f57a921c7dd63ef`, consultado em 2026-10-24). Somente o README foi lido; os demais arquivos do repositório não foram consultados.
-- Metadados da API do GitHub, consultados em 2026-10-24.
+- README (ingestão inicial): https://raw.githubusercontent.com/unslothai/unsloth/0edb8f511efd32654487af5c2f57a921c7dd63ef/README.md (commit `0edb8f511efd32654487af5c2f57a921c7dd63ef`, consultado em 2026-10-24). Somente o README foi lido; os demais arquivos do repositório não foram consultados.
+- README (reingestão): https://raw.githubusercontent.com/unslothai/unsloth/7c65edbddd7352b32460af8db798c5e7183a6b3f/README.md (commit `7c65edbddd7352b32460af8db798c5e7183a6b3f`, consultado em 2026-10-27). Somente o README foi lido.
+- Metadados da API do GitHub, consultados em 2026-10-27.
