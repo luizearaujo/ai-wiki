@@ -246,6 +246,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Understand](skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases para gerar e validar um grafo de código com dashboard.
 
 **Análises**
+- [Indexação da ai-wiki: o que configurar neste repositório](analyses/indexacao-da-ai-wiki.md) — avalia Understand-Anything, Graphify e qmd como camada de busca/grafo sobre a própria wiki.
 - [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — separa o que é verificável no exportador Graphify→Obsidian do que é alegação de terceiro sem fonte rastreável.
 
 **Conceitos**
@@ -670,6 +671,7 @@ tags: [navegacao, categorias, indice-tematico]
 > Padrões para acumular fontes e sínteses de forma persistente — wikis mantidas por LLM, indexação, proveniência e manutenção — em contraste com a recuperação de trechos a cada consulta.
 
 **Análises**
+- [Indexação da ai-wiki: o que configurar neste repositório](analyses/indexacao-da-ai-wiki.md) — reaplica a arquitetura de três camadas e o limiar de escala do padrão-fonte para decidir entre busca (qmd) e grafo (Understand-Anything, Graphify).
 - [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — grafo de conhecimento exportado para um vault pessoal, com arquitetura de três camadas (fontes, conhecimento gerado, conhecimento curado).
 
 **Conceitos**

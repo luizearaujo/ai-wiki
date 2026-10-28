@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-28 (3 repositórios: claude-kit, claude-skins, terminal-browser; 1 skill: reflect-mod; 4 entidades: JohnnyVizz, hellosverre, BayramAnnakov, zenbu-labs)
+> Última atualização: 2026-10-28 (1 análise: indexação da ai-wiki)
 
 ## Repositórios
 
@@ -315,4 +315,5 @@
 
 ## Análises
 
+- [Indexação da ai-wiki: o que configurar neste repositório](analyses/indexacao-da-ai-wiki.md) — avalia Understand-Anything, Graphify e qmd (não ingerido) como camada de busca/grafo sobre as 303 páginas já acumuladas, acima do limiar de escala do padrão-fonte.
 - [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — separa o que é verificável (exportador Graphify→Obsidian, documentado só nos docs, não no README) do que é alegação de terceiro sem fonte rastreável (números de um carrossel de Instagram), e propõe uma arquitetura de três camadas.

@@ -3,7 +3,7 @@ type: concept
 aliases: [LLM Wiki, LLM-wiki, wiki mantida por LLM, personal knowledge wiki, wiki pessoal]
 status: draft
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-28
 tags: [conhecimento, wiki, agentes, curadoria, proveniencia, rag, obsidian]
 ---
 
@@ -72,6 +72,7 @@ O gist relaciona a ideia ao **Memex** de Vannevar Bush (1945): um acervo pessoal
 - [Grafo de conhecimento de código](grafo-de-conhecimento-de-codigo.md) — aplica a mesma lógica de representação persistente a código, em vez de documentos e conceitos.
 - [Andrej Karpathy](../entities/andrej-karpathy.md) — autor do gist que descreve o padrão.
 - [Workflow Claude Code + Graphify + Obsidian](../analyses/claude-code-graphify-obsidian.md) — uma variante de terceiros do mesmo padrão (Obsidian como camada de navegação, um pipeline como gerador de notas), analisada com as mesmas exigências de rastreabilidade desta wiki.
+- [Indexação da ai-wiki: o que configurar neste repositório](../analyses/indexacao-da-ai-wiki.md) — aplica o limiar de escala citado aqui ("~100 fontes, algumas centenas de páginas, sem infraestrutura de embeddings") à própria `ai-wiki`, já acima dele, e avalia `qmd`, Understand-Anything e Graphify como resposta.
 
 ## Trade-offs
 

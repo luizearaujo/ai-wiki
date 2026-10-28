@@ -10,7 +10,7 @@ language: TypeScript
 status: active
 created: 2026-10-19
 ingested: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-28
 tags: [grafos-de-conhecimento, codebase, agent-skills, plugins, visualizacao, tree-sitter, multiagente]
 ---
 
@@ -148,6 +148,7 @@ Exemplos derivados do README, não instruções oficiais além do que ele public
 - **Skill documentada:** [Understand](../../../skills/github.com/egonex-ai/understand-anything/understand.md) — a skill `understand` detalha o método em sete fases que este repositório empacota.
 - **Conceitos:** [Grafo de conhecimento de código](../../../concepts/grafo-de-conhecimento-de-codigo.md) — representação persistente de estrutura e relações; [Wiki pessoal com LLMs](../../../concepts/wiki-pessoal-com-llms.md) — `/understand-knowledge` consome wikis no padrão do gist de Karpathy; [Memória de agente](../../../concepts/memoria-de-agente.md) — o grafo commitado serve como contexto persistente; [Agent skills](../../../concepts/agent-skills.md) — distribuição como skill/plugin; [Engenharia reversa agêntica](../../../concepts/engenharia-reversa-agentica.md) — análise assistida de sistemas.
 - **Relacionado a:** [Graphify-Labs/graphify](../graphify-labs/graphify.md) — mesma categoria de grafo de código, com ênfase determinística e sem LLM nas arestas; [DeusData/codebase-memory-mcp](../deusdata/codebase-memory-mcp.md) — alternativa via servidor MCP.
+- **Análise:** [Indexação da ai-wiki](../../../analyses/indexacao-da-ai-wiki.md) — avalia `/understand-knowledge` como a opção de melhor fit para indexar esta própria wiki.
 
 ## Perguntas abertas
 

@@ -830,3 +830,9 @@
 - Atualizado `concepts/plugins-de-agente.md` (claude-kit, claude-skins e reflect-mod em "Onde aparece" e "Fontes") e `concepts/navegacao-web-agentica.md` (terminal-browser em "Onde aparece" e "Fontes").
 - Atualizados `index.md`, `categorias.md` (repositórios/skill/entidades em "Harnesses e orquestração de agentes" e "Engenharia e interfaces agent-first") e `README.md`.
 - Somente os READMEs de raiz (claude-kit, claude-skins, terminal-browser) e a página de catálogo (reflect-mod) foram lidos; demais arquivos dos repositórios não foram consultados.
+
+## [2026-10-28] query | Indexação da ai-wiki
+- Usuário perguntou o que configurar neste repositório para indexar melhor o conteúdo, pedindo avaliação das ferramentas já documentadas na wiki.
+- Criada `analyses/indexacao-da-ai-wiki.md`: contagem atual (106 repositórios, 115 entidades, 303 páginas Markdown, 3,1 MB) comparada ao limiar de escala citado em `concepts/wiki-pessoal-com-llms.md` ("~100 fontes, algumas centenas de páginas, sem infraestrutura de embeddings"); avaliadas Egonex-AI/Understand-Anything (melhor fit, mesmo padrão-fonte), Graphify-Labs/graphify (alternativa determinística/Obsidian), `tobi/qmd` (citada no concept, não ingerida nesta wiki), DeusData/codebase-memory-mcp, lfnovo/open-notebook e MODSetter/SurfSense (fit baixo para este caso específico).
+- Atualizados `concepts/wiki-pessoal-com-llms.md`, `repos/github.com/egonex-ai/understand-anything.md` e `repos/github.com/graphify-labs/graphify.md` (link bidirecional para a nova análise em "Onde aparece"/"Relações").
+- Atualizados `index.md`, `categorias.md` (análise em "Grafos de conhecimento e contexto de código" e "Conhecimento pessoal e curadoria") e `README.md`.

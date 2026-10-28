@@ -10,7 +10,7 @@ language: Python
 status: active
 created: 2026-10-19
 ingested: 2026-10-19
-updated: 2026-10-19
+updated: 2026-10-28
 tags: [agentes, grafo-de-conhecimento, code-intelligence, skills, tree-sitter, mcp]
 ---
 
@@ -132,6 +132,7 @@ Exemplos de uso, derivados do README:
 - Conceitos: [Grafo de conhecimento de código](../../../concepts/grafo-de-conhecimento-de-codigo.md), [Agent skills](../../../concepts/agent-skills.md), [Model Context Protocol](../../../concepts/model-context-protocol.md)
 - Relacionado: [DeusData/codebase-memory-mcp](../deusdata/codebase-memory-mcp.md) — servidor MCP de grafo de código em C, com foco em indexação local e 17 ferramentas; [skill understand](../../../skills/github.com/egonex-ai/understand-anything/understand.md) — outra abordagem de grafo de código via skill; [bytedance/deer-flow](../bytedance/deer-flow.md) — harness que usa skills e ferramentas para tarefas longas.
 - Integra com: [Obsidian](../../../entities/obsidian.md), via o exportador `graphify export obsidian` documentado em docs.graphify.com.
+- Análise: [Indexação da ai-wiki](../../../analyses/indexacao-da-ai-wiki.md) — avalia o Graphify como alternativa determinística ao Understand-Anything para indexar esta própria wiki.
 - Projetos citados: tree-sitter, Leiden/graspologic, faster-whisper, yt-dlp, Neo4j, FalkorDB, Ollama.
 
 ## Perguntas abertas
