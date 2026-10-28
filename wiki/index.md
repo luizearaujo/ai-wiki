@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-28 (1 análise: indexação da ai-wiki)
+> Última atualização: 2026-10-28 (1 repositório: tobi/qmd; 1 entidade: tobi)
 
 ## Repositórios
 
@@ -94,6 +94,7 @@
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: captura, comprime e reinjeta observações de sessão, com busca híbrida SQLite/Chroma em 3 camadas.
+- [tobi/qmd](repos/github.com/tobi/qmd.md) — CLI, servidor MCP e SDK de busca híbrida local (BM25 + vetorial + reranking por LLM) sobre notas e documentação em Markdown.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — camada de contexto autoaprendiz para agentes de código: grafo de código via tree-sitter mais "learnings" de decisões e preferências, versionados em git.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows como código e skills oficiais para agentes.
@@ -295,6 +296,7 @@
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
 - [Theo Browne (t3dotgg)](entities/t3dotgg.md) — CEO da Ping.gg, autor do tstack, pacote de skills de fluxo de pull request para Claude Code e Codex.
 - [There's An AI For That (theresanaiforthat)](entities/theresanaiforthat.md) — maior diretório curado de ferramentas de IA do mundo: 50 mil+ ferramentas, 11 mil+ tarefas, 5M visitantes mensais, curadoria manual e servidor MCP próprio.
+- [Tobias Lütke (tobi)](entities/tobi.md) — CEO da Shopify, autor do qmd, motor de busca híbrida local (BM25 + vetorial + reranking) para notas e documentação.
 - [Trail (trailhq)](entities/trailhq.md) — organização mantenedora do Trail-Code (antes graft), grafo de contexto de código com memória de decisões para agentes.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.
 - [twentyhq](entities/twentyhq.md) — organização mantenedora do Twenty, CRM open source com skills oficiais para agentes.

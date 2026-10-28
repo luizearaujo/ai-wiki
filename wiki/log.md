@@ -836,3 +836,12 @@
 - Criada `analyses/indexacao-da-ai-wiki.md`: contagem atual (106 repositórios, 115 entidades, 303 páginas Markdown, 3,1 MB) comparada ao limiar de escala citado em `concepts/wiki-pessoal-com-llms.md` ("~100 fontes, algumas centenas de páginas, sem infraestrutura de embeddings"); avaliadas Egonex-AI/Understand-Anything (melhor fit, mesmo padrão-fonte), Graphify-Labs/graphify (alternativa determinística/Obsidian), `tobi/qmd` (citada no concept, não ingerida nesta wiki), DeusData/codebase-memory-mcp, lfnovo/open-notebook e MODSetter/SurfSense (fit baixo para este caso específico).
 - Atualizados `concepts/wiki-pessoal-com-llms.md`, `repos/github.com/egonex-ai/understand-anything.md` e `repos/github.com/graphify-labs/graphify.md` (link bidirecional para a nova análise em "Onde aparece"/"Relações").
 - Atualizados `index.md`, `categorias.md` (análise em "Grafos de conhecimento e contexto de código" e "Conhecimento pessoal e curadoria") e `README.md`.
+
+## [2026-10-28] ingest | tobi/qmd
+- Usuário pediu para ingerir o `qmd`, candidato levantado na análise `indexacao-da-ai-wiki.md`.
+- Criada `repos/github.com/tobi/qmd.md` — CLI, servidor MCP e SDK de busca híbrida local (BM25 + vetorial + reranking por LLM, modelos GGUF via node-llama-cpp) sobre Markdown; MIT.
+- Criada `entities/tobi.md` (Tobias Lütke, CEO da Shopify).
+- Resolvida a lacuna "Avaliar qmd ou outra busca local quando o index.md deixar de ser suficiente" em `overview.md` (removida, endereçada pela ingestão + pela análise já arquivada).
+- Atualizados `analyses/indexacao-da-ai-wiki.md` (tabela, conclusão e perguntas abertas, de "qmd não ingerido" para avaliação com a página real) e `concepts/wiki-pessoal-com-llms.md` (link da citação ao repositório, nova entrada em "Onde aparece").
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Conhecimento pessoal e curadoria") e `README.md`.
+- Somente o `README.md` na raiz foi lido; código (`src/llm.ts`, chunking, bench), testes e `CHANGELOG.md` não foram consultados.

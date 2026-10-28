@@ -670,6 +670,9 @@ tags: [navegacao, categorias, indice-tematico]
 
 > Padrões para acumular fontes e sínteses de forma persistente — wikis mantidas por LLM, indexação, proveniência e manutenção — em contraste com a recuperação de trechos a cada consulta.
 
+**Repositórios**
+- [tobi/qmd](repos/github.com/tobi/qmd.md) — CLI, servidor MCP e SDK de busca híbrida local (BM25 + vetorial + reranking por LLM) sobre notas e documentação em Markdown; MIT.
+
 **Análises**
 - [Indexação da ai-wiki: o que configurar neste repositório](analyses/indexacao-da-ai-wiki.md) — reaplica a arquitetura de três camadas e o limiar de escala do padrão-fonte para decidir entre busca (qmd) e grafo (Understand-Anything, Graphify).
 - [Workflow Claude Code + Graphify + Obsidian](analyses/claude-code-graphify-obsidian.md) — grafo de conhecimento exportado para um vault pessoal, com arquitetura de três camadas (fontes, conhecimento gerado, conhecimento curado).
@@ -680,6 +683,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Andrej Karpathy (karpathy)](entities/andrej-karpathy.md)
 - [Obsidian](entities/obsidian.md)
+- [Tobias Lütke (tobi)](entities/tobi.md)
 
 ## Pesquisa e notas pessoais com IA
 

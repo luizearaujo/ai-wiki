@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-10-17
-updated: 2026-10-25
+updated: 2026-10-28
 tags: [overview]
 ---
 
@@ -308,7 +308,6 @@ tags: [overview]
 - [ ] Comparar o fluxo PI-Desktop + runtime `pi` com um CLI + worktrees em tarefas reais.
 - [ ] Auditar o marketplace de plugins do PI-Desktop quanto a curadoria, assinatura e revogação.
 - [ ] Medir esta wiki contra RAG em perguntas que exigem sintetizar várias fontes, registrando custo de tokens e tempo de manutenção.
-- [ ] Avaliar qmd ou outra busca local quando o `index.md` deixar de ser suficiente.
 - [ ] Reproduzir o benchmark do Ponytail em um repositório próprio, com o mesmo conjunto de tarefas e um modelo diferente do usado pelo projeto.
 - [ ] Verificar os números do Caveman com dados held-out e comparar a compressão de entrada com sumarização seletiva.
 - [ ] Medir se a escada de reuso do Ponytail reduz código sem aumentar retrabalho em tarefas de refatoração e migração.

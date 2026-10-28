@@ -54,7 +54,7 @@ O gist trata a implementação como modular:
 - **Download local de imagens** para que o agente possa consultá-las sem depender de URLs que quebram.
 - **Dataview** para gerar tabelas dinâmicas a partir do frontmatter YAML.
 - **Marp** para gerar apresentações a partir de páginas da wiki.
-- **qmd** (`tobi/qmd`) como busca local híbrida BM25/vector com re-ranking, disponível como CLI e servidor MCP; alternativamente, um script de busca próprio.
+- [**qmd**](../repos/github.com/tobi/qmd.md) como busca local híbrida BM25/vector com re-ranking, disponível como CLI, servidor MCP e SDK; alternativamente, um script de busca próprio.
 - **Git** como camada de versionamento, ramificação e colaboração — a wiki é apenas um repositório de Markdown.
 
 ### Por que funciona
@@ -73,6 +73,7 @@ O gist relaciona a ideia ao **Memex** de Vannevar Bush (1945): um acervo pessoal
 - [Andrej Karpathy](../entities/andrej-karpathy.md) — autor do gist que descreve o padrão.
 - [Workflow Claude Code + Graphify + Obsidian](../analyses/claude-code-graphify-obsidian.md) — uma variante de terceiros do mesmo padrão (Obsidian como camada de navegação, um pipeline como gerador de notas), analisada com as mesmas exigências de rastreabilidade desta wiki.
 - [Indexação da ai-wiki: o que configurar neste repositório](../analyses/indexacao-da-ai-wiki.md) — aplica o limiar de escala citado aqui ("~100 fontes, algumas centenas de páginas, sem infraestrutura de embeddings") à própria `ai-wiki`, já acima dele, e avalia `qmd`, Understand-Anything e Graphify como resposta.
+- [tobi/qmd](../repos/github.com/tobi/qmd.md) — a ferramenta citada acima, ingerida como página própria depois da análise de indexação: busca híbrida BM25/vetorial/rerank, CLI, servidor MCP e SDK.
 
 ## Trade-offs
 
