@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-28 (1 repositório: tstack; 1 entidade: t3dotgg)
+> Última atualização: 2026-10-28 (1 repositório: last30days-skill; 1 entidade: mvanhorn)
 
 ## Repositórios
 
@@ -66,6 +66,7 @@
 - [msitarzewski/agency-agents](repos/github.com/msitarzewski/agency-agents.md) — mais de 150 personalidades de agente de IA em Markdown, organizadas em divisões especializadas e instaláveis em Claude Code, Cursor, Codex e outros.
 - [mukul975/Anthropic-Cybersecurity-Skills](repos/github.com/mukul975/anthropic-cybersecurity-skills.md) — biblioteca de 818 skills de cibersegurança em 34 domínios, mapeadas a seis frameworks e distribuídas no padrão agentskills.io.
 - [multica-ai/andrej-karpathy-skills](repos/github.com/multica-ai/andrej-karpathy-skills.md) — diretrizes de comportamento para agentes em um único `CLAUDE.md`, derivadas das observações de Andrej Karpathy.
+- [mvanhorn/last30days-skill](repos/github.com/mvanhorn/last30days-skill.md) — skill `/last30days`: pesquisa Reddit, X, YouTube, TikTok, Hacker News, Polymarket e GitHub em paralelo, sintetizando um brief ranqueado por engajamento real.
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz zero-shot e cross-lingual, com controle de estilo; MIT desde a V2.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia de desenvolvimento com skills compostas que disparam automaticamente — design, plano, TDD por subagentes e revisão — em mais de uma dezena de harnesses de agente.
@@ -253,6 +254,7 @@
 - [Mads Lorentzen (MadsLorentzen)](entities/madslorentzen.md) — geofísico autor do ai-job-search, framework de candidatura a emprego sobre Claude Code.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.
 - [Matt Pocock (mattpocock)](entities/mattpocock.md) — Educador de TypeScript e criador do repositório `skills`, coleção de instruções de engenharia para agentes.
+- [Matt Van Horn (mvanhorn)](entities/mvanhorn.md) — cofundador de empresas anteriores (June, adquirida pela Weber Grills; a empresa que se tornou a Lyft), autor do last30days-skill.
 - [morluto](entities/morluto.md) — criador do REA e mantenedor de ferramentas de engenharia reversa para agentes.
 - [msitarzewski](entities/msitarzewski.md) — criador do Agency Agents, coleção de personalidades de agente organizadas em divisões especializadas.
 - [mukul975](entities/mukul975.md) — Mahipal Jangra, autor da biblioteca de skills de cibersegurança para agentes.

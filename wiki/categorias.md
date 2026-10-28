@@ -35,6 +35,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Escrita e comunicação](#escrita-e-comunicação)
 - [Conhecimento pessoal e curadoria](#conhecimento-pessoal-e-curadoria)
 - [Pesquisa e notas pessoais com IA](#pesquisa-e-notas-pessoais-com-ia)
+- [Pesquisa social e monitoramento de tendências](#pesquisa-social-e-monitoramento-de-tendências)
 - [OSINT geoespacial e agentes de voz](#osint-geoespacial-e-agentes-de-voz)
 - [Navegação e meta](#navegação-e-meta)
 - [Manutenção](#manutenção)
@@ -679,6 +680,16 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Luis Novo (lfnovo)](entities/lfnovo.md)
 - [Rohan Verma (MODSetter)](entities/modsetter.md)
+
+## Pesquisa social e monitoramento de tendências
+
+> Agentes que buscam em paralelo múltiplas plataformas sociais e de dados (Reddit, X, YouTube, TikTok, Polymarket, GitHub...) e sintetizam um brief ranqueado por engajamento real das pessoas, não por SEO ou curadoria editorial.
+
+**Repositórios**
+- [mvanhorn/last30days-skill](repos/github.com/mvanhorn/last30days-skill.md) — skill `/last30days`: ~28 fontes buscadas em paralelo, clusterizadas e sintetizadas em um brief citado por fonte; modo de descoberta sem tópico; MIT.
+
+**Entidades**
+- [Matt Van Horn (mvanhorn)](entities/mvanhorn.md)
 
 ## OSINT geoespacial e agentes de voz
 

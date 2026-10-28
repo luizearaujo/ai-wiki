@@ -805,3 +805,10 @@
 - Criada `entities/t3dotgg.md` (Theo Browne, CEO da Ping.gg).
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Skills, instruções e personalidades de agente") e `README.md`.
 - Somente o `README.md` na raiz foi lido; os arquivos em `skills/` (conteúdo de cada `SKILL.md`) não foram consultados nesta ingestão.
+
+## [2026-10-28] ingest | mvanhorn/last30days-skill
+- Criada `repos/github.com/mvanhorn/last30days-skill.md` — skill `/last30days`: pesquisa paralela em ~28 fontes (Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, etc.), clusterização e síntese em brief ranqueado por engajamento; MIT.
+- Criada `entities/mvanhorn.md` (Matt Van Horn).
+- Criada categoria nova `Pesquisa social e monitoramento de tendências` em `categorias.md` (nenhuma categoria existente cobria pesquisa social multiplataforma ranqueada por engajamento; `Pesquisa e notas pessoais com IA` é sobre documentos próprios do usuário, escopo diferente); sumário atualizado no mesmo commit.
+- Atualizados `index.md` e `README.md`.
+- Somente o `README.md` na raiz foi lido; `skills/last30days/SKILL.md` (citado como fonte da verdade de comando/setup), `CONFIGURATION.md`, `CHANGELOG.md` e o código-fonte não foram consultados nesta ingestão.
