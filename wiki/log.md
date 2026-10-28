@@ -799,3 +799,9 @@
 - O README documenta 16 IDs PCI Ada "experimentais" (AD102–AD107, incluindo três variantes de notebook: RTX 4090 Laptop, RTX 4060 Laptop ×2, RTX 4050 Laptop), cada um exigindo flag de opt-in própria; `targets=all` nunca os seleciona.
 - Licença GPL-2.0 confirmada pela API do GitHub (ao contrário do repositório-base, onde há divergência entre README e API).
 - Métricas da API do GitHub observadas em 2026-10-27: 4.284 estrelas, 557 forks, 43 issues abertas, criado em 2026-10-23 e último push em 2026-10-26; linguagem C, branch padrão `main`.
+
+## [2026-10-28] ingest | t3dotgg/tstack
+- Criada `repos/github.com/t3dotgg/tstack.md` — nove skills de fluxo de PR (`full-send`, `full-stop`, `council`, `sol-loop`, `file-pr`, `takeover`, `babysit-pr`, `modernize`, `leaving-pr-comments`) para Claude Code e Codex; MIT.
+- Criada `entities/t3dotgg.md` (Theo Browne, CEO da Ping.gg).
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Skills, instruções e personalidades de agente") e `README.md`.
+- Somente o `README.md` na raiz foi lido; os arquivos em `skills/` (conteúdo de cada `SKILL.md`) não foram consultados nesta ingestão.

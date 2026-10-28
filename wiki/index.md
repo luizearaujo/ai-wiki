@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-27 (1 repositório: gpu-unlock-ada; 1 entidade: JustAResearcher)
+> Última atualização: 2026-10-28 (1 repositório: tstack; 1 entidade: t3dotgg)
 
 ## Repositórios
 
@@ -86,6 +86,7 @@
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
 - [sodiumsun/agenttrail](repos/github.com/sodiumsun/agenttrail.md) — observabilidade local para agentes de código com duas vistas: Map (estrutura do projeto via PLAN.md e mudanças de arquivo) e Kitchen (visualização 3D com metáfora culinária de chefs, tickets e pratos).
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
+- [t3dotgg/tstack](repos/github.com/t3dotgg/tstack.md) — nove skills de fluxo de pull request (review multi-modelo, merge autônomo, takeover de PR de terceiros) para Claude Code e Codex.
 - [TauricResearch/TradingAgents](repos/github.com/tauricresearch/tradingagents.md) — framework multiagente em LangGraph que simula uma firma de trading, com analistas em paralelo, debate bullish/bearish, risco, memória de decisões e backtest com integridade temporal.
 - [The-Swarm-Corporation/AutoHedge](repos/github.com/the-swarm-corporation/autohedge.md) — hedge fund autônomo em Python/Swarms com pipeline Director → Quant → Risk → Execution e trading em Solana.
 - [thedotmack/claude-mem](repos/github.com/thedotmack/claude-mem.md) — memória persistente para Claude Code: captura, comprime e reinjeta observações de sessão, com busca híbrida SQLite/Chroma em 3 camadas.
@@ -281,6 +282,7 @@
 - [SynkraAI](entities/synkraai.md) — organização criadora do AIOX Squad, framework open-source CLI-first de orquestração de IA para equipes ágeis.
 - [Tauric Research](entities/tauricresearch.md) — organização de pesquisa em trading com IA, criadora do TradingAgents.
 - [The Swarm Corporation](entities/the-swarm-corporation.md) — organização mantenedora do framework Swarms e do AutoHedge, sistema autônomo de trading em Solana.
+- [Theo Browne (t3dotgg)](entities/t3dotgg.md) — CEO da Ping.gg, autor do tstack, pacote de skills de fluxo de pull request para Claude Code e Codex.
 - [There's An AI For That (theresanaiforthat)](entities/theresanaiforthat.md) — maior diretório curado de ferramentas de IA do mundo: 50 mil+ ferramentas, 11 mil+ tarefas, 5M visitantes mensais, curadoria manual e servidor MCP próprio.
 - [Trail (trailhq)](entities/trailhq.md) — organização mantenedora do Trail-Code (antes graft), grafo de contexto de código com memória de decisões para agentes.
 - [tt-a1i](entities/tt-a1i.md) — Autor do `archify`, skill que converte ideias, planos e código em diagramas interativos.

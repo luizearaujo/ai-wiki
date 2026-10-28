@@ -151,6 +151,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — skill de design com comandos e detector de regras.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — biblioteca de 78 skills de segurança ofensiva, organizada em 23 categorias e carregada por gatilho conversacional.
+- [t3dotgg/tstack](repos/github.com/t3dotgg/tstack.md) — nove skills de fluxo de pull request (review multi-modelo, merge autônomo, takeover, rebase) para Claude Code e Codex.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — skill de diagramas interativos em HTML.
 - [usestrix/strix](repos/github.com/usestrix/strix.md) — também nesta categoria pelas nove skills (`npx skills add usestrix/strix`) que dão a qualquer agente a capacidade de rodar pentests e configurar scanning em CI.
 - [vercel-labs/agent-skills](repos/github.com/vercel-labs/agent-skills.md) — oito skills oficiais da Vercel: auditoria de projeto, boas práticas React/Next.js/React Native, guidelines de design e escrita, e deploy "claimable".
@@ -193,6 +194,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Remotion (remotion-dev)](entities/remotion-dev.md)
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md)
 - [Strix (usestrix)](entities/usestrix.md)
+- [Theo Browne (t3dotgg)](entities/t3dotgg.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 - [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md)
 - [VoltAgent](entities/voltagent.md)
