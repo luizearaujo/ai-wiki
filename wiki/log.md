@@ -819,3 +819,14 @@
 - Criada `entities/nvidia.md` (organização GitHub `NVIDIA-NeMo`).
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Modelos abertos e treinamento de LLMs") e `README.md`.
 - Somente o `README.md` na raiz do repositório e a página de pesquisa do Nemotron 3 Ultra foram lidos; os guias individuais em `docs/nemotron/<modelo>/README.md`, `skills/nemotron-customize/SKILL.md`, o código-fonte e o relatório técnico em PDF não foram consultados.
+
+## [2026-10-28] ingest | JohnnyVizz/claude-kit, hellosverre/claude-skins, claudemods.dev/reflect-mod, zenbu-labs/terminal-browser
+- Mensagem do usuário trazia 5 URLs (regra inegociável 13): JohnnyVizz/claude-kit, hellosverre/claude-skins, claudemods.dev/reflect-mod, zenbu-labs/terminal-browser e raptusdev/FileTree. Apresentado resumo de uma linha por item antes de criar qualquer página; usuário confirmou os 4 primeiros e pediu para não ingerir `raptusdev/FileTree` (biblioteca Kotlin de explorador de arquivos para IDEs, sem relação clara com IA/agentes).
+- Criada `repos/github.com/johnnyvizz/claude-kit.md` — skill `savvy-flow` (planeja, delega a subagentes, revisa) e mods `savvy-progress`/`session-band`; MIT.
+- Criada `repos/github.com/hellosverre/claude-skins.md` — mod `/skin`: redesenha tool calls, diffs, tabelas e Mermaid do Claude Code em 16 temas; MIT.
+- Criada `skills/github.com/bayramannakov/claude-reflect/reflect-mod.md` — tratada como ingestão de skill (workflow 2) a partir da página de catálogo `claudemods.dev`, já que é um mod (hooks de função), não um `SKILL.md`; repositório-fonte `BayramAnnakov/claude-reflect` citado apenas por metadados via API, não clonado.
+- Criada `repos/github.com/zenbu-labs/terminal-browser.md` — Chromium real dentro do terminal via protocolo gráfico kitty, com CLI compatível com `agent-browser`; MIT.
+- Criadas `entities/johnnyvizz.md`, `entities/hellosverre.md`, `entities/bayramannakov.md`, `entities/zenbu-labs.md`.
+- Atualizado `concepts/plugins-de-agente.md` (claude-kit, claude-skins e reflect-mod em "Onde aparece" e "Fontes") e `concepts/navegacao-web-agentica.md` (terminal-browser em "Onde aparece" e "Fontes").
+- Atualizados `index.md`, `categorias.md` (repositórios/skill/entidades em "Harnesses e orquestração de agentes" e "Engenharia e interfaces agent-first") e `README.md`.
+- Somente os READMEs de raiz (claude-kit, claude-skins, terminal-browser) e a página de catálogo (reflect-mod) foram lidos; demais arquivos dos repositórios não foram consultados.

@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-28 (1 repositório: NVIDIA-NeMo/Nemotron; 1 entidade: NVIDIA)
+> Última atualização: 2026-10-28 (3 repositórios: claude-kit, claude-skins, terminal-browser; 1 skill: reflect-mod; 4 entidades: JohnnyVizz, hellosverre, BayramAnnakov, zenbu-labs)
 
 ## Repositórios
 
@@ -42,6 +42,7 @@
 - [google/artemis](repos/github.com/google/artemis.md) — agente que converte linguagem natural em automação Android confiável, com servidor MCP nativo e 99%+ de conclusão declarada no benchmark AndroidWorld; criado pelo time Pixel Test Engineering (PTE) Fusion.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
+- [hellosverre/claude-skins](repos/github.com/hellosverre/claude-skins.md) — mod `/skin`: redesenha tool calls, diffs, tabelas e Mermaid do Claude Code em dezesseis temas, repintáveis ou desenhados pelo próprio Claude.
 - [hesreallyhim/awesome-claude-code](repos/github.com/hesreallyhim/awesome-claude-code.md) — lista "awesome" canônica do ecossistema Claude Code, com mais de 270 recursos anotados em 24 categorias.
 - [himself65/trade-skills](repos/github.com/himself65/trade-skills.md) — plugin e skill de opções multi-leg para Claude Code com base de conhecimento OKF de 37 armadilhas e estudos de caso reais.
 - [heygen-com/hyperframes](repos/github.com/heygen-com/hyperframes.md) — framework que renderiza MP4 determinístico a partir de HTML, CSS, mídia e animações seekable, com CLI e 21 skills para agentes.
@@ -49,6 +50,7 @@
 - [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus, tokenizador, pré-treino em Megatron-LM e avaliação pareada em pipeline Docker reproduzível.
 - [Jakeschincariol/trader-skill](repos/github.com/jakeschincariol/trader-skill.md) — 11 skills de trading para Claude: copycat de 13F, Pelosi tracker, dimensionamento de orçamento, risco e execução via Alpaca; nunca executa sem aprovação explícita.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
+- [JohnnyVizz/claude-kit](repos/github.com/johnnyvizz/claude-kit.md) — skill `savvy-flow` (planeja, delega a subagentes, revisa) e dois mods de interface para o Claude Code.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [JustAResearcher/gpu-unlock-ada](repos/github.com/justaresearcher/gpu-unlock-ada.md) — fork do gpu-unlock que estende o desbloqueio de tensor cores à RTX 4090 e a uma lista crescente de GPUs Ada Lovelace experimentais, com opt-in por chip.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
@@ -109,6 +111,7 @@
 - [Zagitta/gpu-unlock](repos/github.com/zagitta/gpu-unlock.md) — módulo de kernel Linux que remove, antes do driver NVIDIA carregar, o limite de metade da taxa de tensor cores em FP16/BF16/TF32 de placas GeForce RTX 20/30/40.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
+- [zenbu-labs/terminal-browser](repos/github.com/zenbu-labs/terminal-browser.md) — Chromium real renderizado dentro do terminal via protocolo gráfico kitty, com CLI compatível com `agent-browser` para interação do agente.
 
 ## Skills
 
@@ -140,6 +143,7 @@
 - [Minimalist UI](skills/github.com/leonxlnx/taste-skill/minimalist-ui.md) — minimalismo utilitário editorial com monofonia quente, serifada de contraste e pastéis dessaturados.
 - [Random Number Generator](skills/github.com/zazencodes/skills/random-number-generator.md) — inteiros, floats, escolhas ponderadas, embaralhamentos e tokens/inteiros seguros via um script Python da biblioteca padrão.
 - [Redesign Existing Projects](skills/github.com/leonxlnx/taste-skill/redesign-existing-projects.md) — auditoria por área e upgrades pontuais em projetos existentes, sem trocar de stack.
+- [reflect-mod](skills/github.com/bayramannakov/claude-reflect/reflect-mod.md) — mod que revisa cada prompt curto no momento da correção e oferece salvar a regra aprendida direto no `CLAUDE.md`.
 - [Skill Creator](skills/github.com/anthropics/skills/skill-creator.md) — cria, testa e otimiza skills com evals, benchmark e ajuste de descrição por pontuação hold-out.
 - [Stitch Design Taste](skills/github.com/leonxlnx/taste-skill/stitch-design-taste.md) — geração de `DESIGN.md` semântico e anti-slop para o Google Stitch.
 - [Stop Slop](skills/github.com/hardikpandya/stop-slop/stop-slop.md) — oito regras centrais, lista de checagens e nota de 1–10 em cinco dimensões para revisar prosa gerada por IA.
@@ -202,6 +206,7 @@
 - [Anil Chandra Naidu Matcha (Anil-matcha)](entities/anil-matcha.md) — autor do Open-Generative-AI, estúdio self-hosted de geração de imagem/vídeo via MuAPI.
 - [Anthropic (anthropics)](entities/anthropics.md) — empresa de pesquisa em IA e criadora do Claude, mantenedora do repositório oficial de referência para Agent Skills.
 - [Ayoub Ghriss (ayghri)](entities/ayghri.md) — pesquisador de ML no grupo CLIMB research, Universidade do Colorado Boulder, autor da skill `i-have-adhd`.
+- [Bayram Annakov (BayramAnnakov)](entities/bayramannakov.md) — Founder & CEO da onsa.ai, autor do claude-reflect e do reflect-mod, que transformam correções de prompt em regras de CLAUDE.md.
 - [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md) — criador da série "God's Eye View" no YouTube e autor do repositório homônimo; cofundador da Halfpixel.
 - [blader](entities/blader.md) — Siqi Chen, autor da skill Humanizer, que remove sinais de escrita gerada por IA.
 - [Browser Use](entities/browser-use.md) — empresa americana mantenedora da biblioteca `browser-use`, do modelo próprio BU2 e de um navegador em nuvem pago para agentes.
@@ -235,6 +240,7 @@
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
+- [hellosverre](entities/hellosverre.md) — constrói software com IA; autor do claude-skins e de outros mods para Claude Code (redgreen, smart-compact, mod-store).
 - [hesreallyhim](entities/hesreallyhim.md) — mantenedor da lista "awesome" canônica do ecossistema Claude Code.
 - [himself65](entities/himself65.md) — autor de trade-skills e da convenção finance-skills para plugins de trading de opções no Claude Code.
 - [HeyGen](entities/heygen.md) — empresa de vídeo com avatares que publica o HyperFrames como motor de renderização open source para agentes.
@@ -244,6 +250,7 @@
 - [Jesse Vincent (obra)](entities/obra.md) — autor do superpowers, metodologia de desenvolvimento com skills que disparam automaticamente sobre mais de uma dezena de harnesses de agente.
 - [kalil0321](entities/kalil0321.md) — autor do Reverse API Engineer, ferramenta que converte qualquer site em um cliente de API tipado via captura de tráfego HAR e geração por LLM.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
+- [Johnny (JohnnyVizz)](entities/johnnyvizz.md) — autor do claude-kit, catálogo de skills e mods para Claude Code.
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
 - [JustAResearcher (Tim)](entities/justaresearcher.md) — autor do gpu-unlock-ada, fork do gpu-unlock que estende o desbloqueio de tensor cores para RTX 4090 e GPUs Ada Lovelace experimentais.
 - [Langflow](entities/langflow-ai.md) — organização mantenedora do Langflow, builder visual de agentes/workflows publicáveis como API ou MCP.
@@ -304,6 +311,7 @@
 - [Zagitta (Simon)](entities/zagitta.md) — autor do gpu-unlock, módulo de kernel Linux que remove o cap de velocidade de tensor cores em placas GeForce.
 - [Z.ai (zai-org / Zhipu AI)](entities/zai-org.md) — empresa chinesa da família GLM/ChatGLM; documentada pontualmente pelo GLM-5.3-FlashX, variante de alta velocidade servida só via API.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
+- [zenbu-labs](entities/zenbu-labs.md) — organização mantenedora do terminal-browser, navegador Chromium real renderizado dentro do terminal.
 
 ## Análises
 

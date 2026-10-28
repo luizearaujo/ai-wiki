@@ -59,6 +59,8 @@ tags: [navegacao, categorias, indice-tematico]
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
+- [hellosverre/claude-skins](repos/github.com/hellosverre/claude-skins.md) — mod `/skin`: redesenha tool calls, diffs, tabelas e Mermaid do Claude Code em dezesseis temas, repintáveis ou desenhados pelo próprio Claude.
+- [JohnnyVizz/claude-kit](repos/github.com/johnnyvizz/claude-kit.md) — skill `savvy-flow` (planeja, delega a subagentes, revisa) e dois mods de interface (`savvy-progress`, `session-band`) para o Claude Code.
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia design → plano → TDD por subagentes → revisão, imposta como skills que disparam automaticamente em mais de uma dezena de harnesses.
 - [open-gsd/gsd-core](repos/github.com/open-gsd/gsd-core.md) — loop de cinco fases (Discuss, Plan, Execute, Verify, Ship) com subagentes de contexto limpo e estado persistente em `STATE.md`/`CONTEXT.md`, sobre Claude Code e outros runtimes.
 - [openai/codex-plugin-cc](repos/github.com/openai/codex-plugin-cc.md) — plugin oficial da OpenAI que traz review e delegação de tarefas ao Codex como slash commands dentro do Claude Code.
@@ -73,6 +75,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Skills**
 - [Gemini Web Research](skills/github.com/zazencodes/skills/gemini-web-research.md) — orquestrador/trabalhador em que cada trabalhador é uma sessão `agy` em seu próprio painel de tmux.
+- [reflect-mod](skills/github.com/bayramannakov/claude-reflect/reflect-mod.md) — mod que revisa cada prompt curto no momento da correção e oferece salvar a regra aprendida direto no `CLAUDE.md`, numa faixa acima do prompt.
 
 **Conceitos**
 - [Agent harness](concepts/agent-harness.md)
@@ -86,13 +89,16 @@ tags: [navegacao, categorias, indice-tematico]
 - [affaan-m](entities/affaan-m.md)
 - [Alex Newman (thedotmack)](entities/thedotmack.md)
 - [Alexander Galea (zazencodes)](entities/zazencodes.md)
+- [Bayram Annakov (BayramAnnakov)](entities/bayramannakov.md)
 - [ByteDance](entities/bytedance.md)
 - [camtrik](entities/camtrik.md)
 - [Fosowl](entities/fosowl.md)
 - [garrytan](entities/garrytan.md)
 - [Google Research (google-research)](entities/google-research.md)
 - [HarnessMD](entities/harnessmd.md)
+- [hellosverre](entities/hellosverre.md)
 - [Jesse Vincent (obra)](entities/obra.md)
+- [Johnny (JohnnyVizz)](entities/johnnyvizz.md)
 - [Open GSD (open-gsd)](entities/open-gsd.md)
 - [OpenAI (openai)](entities/openai.md)
 - [OpenHands](entities/openhands.md)
@@ -533,6 +539,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.
 - [virgiliojr94/book-to-skill](repos/github.com/virgiliojr94/book-to-skill.md) — também nesta categoria pela economia de tokens: capítulos carregados sob demanda, 24×–51× menos tokens que despejar o livro no contexto.
+- [zenbu-labs/terminal-browser](repos/github.com/zenbu-labs/terminal-browser.md) — Chromium real renderizado dentro do terminal via protocolo gráfico kitty, com CLI compatível com `agent-browser` para interação do agente.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — também nesta categoria pelo demo do Jev (TypeSafe AI): decisão tipada e calibrada em uma única passada, sem geração, para roteamento e guardrails.
 
 **Skills**
@@ -563,6 +570,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Matt Pocock (mattpocock)](entities/mattpocock.md)
 - [Vercel Labs (vercel-labs)](entities/vercel-labs.md)
 - [Virgilio Junior (virgiliojr94)](entities/virgiliojr94.md)
+- [zenbu-labs](entities/zenbu-labs.md)
 
 ## Protocolos, integrações e confiabilidade
 

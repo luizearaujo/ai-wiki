@@ -3,7 +3,7 @@ type: concept
 aliases: [Navegação web agêntica, Agentic web browsing, Browser para agentes, Agentic browser]
 status: draft
 created: 2026-10-19
-updated: 2026-10-22
+updated: 2026-10-28
 tags: [browser, agentes, automacao, scraping, ferramentas, mcp]
 ---
 
@@ -50,6 +50,7 @@ A escolha estrutural é **o que o agente enxerga**. HTML bruto custa contexto e 
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — o comando `interact` faz scrape de uma página e abre sessão de browser viva controlada por linguagem natural ou código, sem gestão manual de sessão.
 - [vercel-labs/agent-browser](../repos/github.com/vercel-labs/agent-browser.md) — CLI Rust nativa sobre CDP, sem Node.js/Playwright, com snapshots de acessibilidade como superfície principal de interação e servidor MCP embutido.
 - [browser-use/browser-use](../repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API com a classe `Agent`, modelo próprio (BU2) otimizado para navegação, navegador em nuvem com stealth e resolução de CAPTCHA, e um toolset oficial de 31 ações de navegador para o SDK da Anthropic.
+- [zenbu-labs/terminal-browser](../repos/github.com/zenbu-labs/terminal-browser.md) — ângulo diferente dos demais: não é automação headless ou via CDP, mas um Chromium real renderizado graficamente dentro do terminal (protocolo kitty), com CLI compatível com `agent-browser` para que o próprio agente interaja com páginas abertas ao lado dele.
 
 ## Trade-offs
 
@@ -81,3 +82,4 @@ A escolha estrutural é **o que o agente enxerga**. HTML bruto custa contexto e 
 - [D4Vinci/Scrapling](../repos/github.com/d4vinci/scrapling.md) — README no commit `fd531313a499092d8471bf24a0e08dc5771f2b40` (consultado em 2026-10-19).
 - [firecrawl/cli](../repos/github.com/firecrawl/cli.md) — README no commit `84c82119a186bc50a27457f81e1d672ec8f28eaf` (consultado em 2026-10-19).
 - [browser-use/browser-use](../repos/github.com/browser-use/browser-use.md) — README no commit `aa093a843da5edbf323c0b4145c9b6a0db3ecde8` (consultado em 2026-10-22).
+- [zenbu-labs/terminal-browser](../repos/github.com/zenbu-labs/terminal-browser.md) — README no commit `e8ca7483af401672a377c45f931439fde5a67dfa` (consultado em 2026-10-28).

@@ -3,7 +3,7 @@ type: concept
 aliases: [Plugins de agente, Agent plugins, Plugin architecture, Extensões de agente, Extensibilidade por plugins]
 status: draft
 created: 2026-10-19
-updated: 2026-10-23
+updated: 2026-10-28
 tags: [agentes, plugins, extensibilidade, desktop, supply-chain]
 ---
 
@@ -54,6 +54,8 @@ Uma extensão pode combinar várias capacidades e virar um produto inteiro: um a
 - [Agent harness](agent-harness.md) — harnesses costumam ser instalados como plugin, pacote npm ou clone em um diretório de skills; a instalação é tratada como decisão de supply chain.
 - [openai/codex-plugin-cc](../repos/github.com/openai/codex-plugin-cc.md) — plugin do marketplace do Claude Code que adiciona slash commands (`/codex:*`) e um subagente (`codex:codex-rescue`) sem embarcar runtime próprio: chama o binário e o app server do Codex já instalados, reaproveitando a autenticação local — um caso de plugin como ponte entre harnesses de fornecedores diferentes.
 - [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — inclui um "Plugin Dashboard" (`--plugins`) para visualizar marketplaces, plugins instalados e permissões a partir de uma interface própria, além de instalar componentes individuais por `npx` sem passar pelo fluxo nativo de plugin.
+- [JohnnyVizz/claude-kit](../repos/github.com/johnnyvizz/claude-kit.md) e [hellosverre/claude-skins](../repos/github.com/hellosverre/claude-skins.md) — mods de interface do Claude Code (barra de progresso, faixa de sessão, redesenho completo da transcrição em dezesseis temas) construídos sobre `hooks/register.tsx`, uma API de hooks de função em early access — uma camada de extensão de UI distinta do contrato `.piplug` do PI-Desktop.
+- [reflect-mod](../skills/github.com/bayramannakov/claude-reflect/reflect-mod.md) — mesmo mecanismo de hooks de função, aplicado à captura de correções de prompt em tempo real, com reimplementação em formato de plugin Python mais antiga do mesmo autor para comparação direta de abordagens.
 - **Não documentado na wiki:** marketplaces e formatos de plugin de outros hosts. A comparação de contratos, versionamento e isolamento entre produtos ainda é uma lacuna.
 
 ## Trade-offs
@@ -83,3 +85,6 @@ Uma extensão pode combinar várias capacidades e virar um produto inteiro: um a
 - [Agent harness](agent-harness.md) — página existente da wiki, usada como contexto sobre instalação e supply chain.
 - [openai/codex-plugin-cc](../repos/github.com/openai/codex-plugin-cc.md) — README no commit `db52e28f4d9ded852ab3942cea316258ae4ef346` (consultado em 2026-10-23).
 - [davila7/claude-code-templates](../repos/github.com/davila7/claude-code-templates.md) — README no commit `7d85535533914ff0880945570a94fcbec4adc042` (consultado em 2026-10-23).
+- [JohnnyVizz/claude-kit](../repos/github.com/johnnyvizz/claude-kit.md) — README no commit `c871c153ead54ad9547cc717d0f3e5a676c73986` (consultado em 2026-10-28).
+- [hellosverre/claude-skins](../repos/github.com/hellosverre/claude-skins.md) — README no commit `985ad63fdb3483bbb98f61cf57955cac3f56a449` (consultado em 2026-10-28).
+- [reflect-mod](../skills/github.com/bayramannakov/claude-reflect/reflect-mod.md) — página de origem (consultada em 2026-10-28).
