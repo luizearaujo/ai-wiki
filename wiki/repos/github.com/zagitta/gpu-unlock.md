@@ -11,7 +11,7 @@ status: active
 created: 2026-10-27
 ingested: 2026-10-27
 updated: 2026-10-27
-tags: [gpu, tensor-cores, kernel-module, inferencia-local, treinamento-local, linux, geforce, nvidia]
+tags: [gpu, tensor-cores, kernel-module, inferencia-local, treinamento-local, linux, geforce, nvidia, ada-lovelace, rtx-40]
 ---
 
 # Zagitta/gpu-unlock
@@ -80,6 +80,7 @@ Exemplos derivados do README; não são instruções oficiais além do que ele p
 - Mantido por: [Zagitta (Simon)](../../../entities/zagitta.md).
 - Conceitos: nenhum conceito dedicado nesta wiki cobre "cap de hardware por segmentação de mercado" ou "unlock de tensor cores"; a página fica listada na categoria [Inferência local e runtime de modelos](../../../categorias.md#inferência-local-e-runtime-de-modelos).
 - Alternativas: nenhuma alternativa de software é citada no README; o próprio README é a única fonte "oficial", conforme sua seção de FAQ.
+- Fork: [JustAResearcher/gpu-unlock-ada](../justaresearcher/gpu-unlock-ada.md) estende este módulo com suporte à RTX 4090 e GPUs Ada Lovelace (RTX 40) experimentais, incluindo variantes de notebook não cobertas por este repositório.
 
 ## Perguntas abertas
 

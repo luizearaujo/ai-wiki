@@ -785,3 +785,17 @@
 - Não lidos: `kernel/gpu_unlock/recipes.c`, scripts de build, empacotamento Arch/Debian/RPM e demais arquivos do repositório. Somente o README foi consultado; a lista exata de IDs PCI suportados e o comportamento em kernels/drivers futuros são a verificar.
 - Divergência de licença: README e badge declaram GPL-2.0-only para o módulo de kernel e o empacotamento local, mas a API do GitHub retorna `license: null` (nenhum arquivo `LICENSE` detectado).
 - Métricas da API do GitHub observadas em 2026-10-27: 11.402 estrelas, 1.118 forks, 78 issues abertas, criado em 2026-10-18 e último push em 2026-10-27; linguagem C, branch padrão `main`. Crescimento muito rápido para ~9 dias de existência, registrado apenas como observação datada.
+
+## [2026-10-27] query | Zagitta/gpu-unlock — compatibilidade RTX 4060 Laptop/Max-Q (AD107M)
+- Consulta pontual às issues do GitHub (fora da wiki): issue #91 de `Zagitta/gpu-unlock`, relato de compatibilidade para o PCI ID `10de:28a0` (RTX 4060 Laptop/Max-Q), usando o fork `JustAResearcher/gpu-unlock-ada` em vez do `main` do repositório-base (GA10x-only).
+- Ganhos relatados por MHz: FP16 1,79–1,86×, BF16 1,85–1,88×, TF32 1,90×; FP32 SIMT e INT8 inalterados (controles). n = 1 placa; issue segue aberta, sem confirmação de mantenedor.
+- Não arquivado como análise (`wiki/analyses/`); motivou a ingestão subsequente do `gpu-unlock-ada`.
+
+## [2026-10-27] ingest | JustAResearcher/gpu-unlock-ada
+- Criada `repos/github.com/justaresearcher/gpu-unlock-ada.md` a partir do README no commit `d28c485418c3d9d034cd4bac19200bc33dd3453b`, sem clonar o repositório.
+- Criada `entities/justaresearcher.md`.
+- Atualizados `repos/github.com/zagitta/gpu-unlock.md` (link bidirecional para o fork em "Relações", tags), `categorias.md` (repositório e entidade em "Inferência local e runtime de modelos"), `index.md`, `log.md` e `README.md`.
+- Não lidos: relatórios individuais em `docs/` e `docs/evidence/`, scripts de build, diagnósticos (`diagnostics/peek`, `diagnostics/bench`) e demais arquivos do repositório. Somente o README foi consultado; a taxa de confirmação real por chip da tabela experimental e o processo de promoção "experimental" → suporte confirmado são a verificar.
+- O README documenta 16 IDs PCI Ada "experimentais" (AD102–AD107, incluindo três variantes de notebook: RTX 4090 Laptop, RTX 4060 Laptop ×2, RTX 4050 Laptop), cada um exigindo flag de opt-in própria; `targets=all` nunca os seleciona.
+- Licença GPL-2.0 confirmada pela API do GitHub (ao contrário do repositório-base, onde há divergência entre README e API).
+- Métricas da API do GitHub observadas em 2026-10-27: 4.284 estrelas, 557 forks, 43 issues abertas, criado em 2026-10-23 e último push em 2026-10-26; linguagem C, branch padrão `main`.

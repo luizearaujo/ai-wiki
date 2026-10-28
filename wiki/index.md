@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-27 (1 repositório: gpu-unlock; 1 entidade: Zagitta)
+> Última atualização: 2026-10-27 (1 repositório: gpu-unlock-ada; 1 entidade: JustAResearcher)
 
 ## Repositórios
 
@@ -50,6 +50,7 @@
 - [Jakeschincariol/trader-skill](repos/github.com/jakeschincariol/trader-skill.md) — 11 skills de trading para Claude: copycat de 13F, Pelosi tracker, dimensionamento de orçamento, risco e execução via Alpaca; nunca executa sem aprovação explícita.
 - [jo-inc/camofox-browser](repos/github.com/jo-inc/camofox-browser.md) — servidor REST de browser headless com anti-detecção, snapshots de acessibilidade, refs estáveis e sessões isoladas para agentes.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
+- [JustAResearcher/gpu-unlock-ada](repos/github.com/justaresearcher/gpu-unlock-ada.md) — fork do gpu-unlock que estende o desbloqueio de tensor cores à RTX 4090 e a uma lista crescente de GPUs Ada Lovelace experimentais, com opt-in por chip.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor de inferência em C puro para MoE: parte densa na RAM, experts roteados lidos do disco, tiers opcionais de GPU e servidor compatível com OpenAI, Anthropic e MCP.
 - [kalil0321/reverse-api-engineer](repos/github.com/kalil0321/reverse-api-engineer.md) — CLI Python que captura tráfego HTTP de qualquer site via HAR (manual ou agente: Playwright MCP, Chrome MCP, Vercel agent-browser) e gera clientes tipados em 10 linguagens com Claude, Codex, Cursor ou OpenCode.
 - [langflow-ai/langflow](repos/github.com/langflow-ai/langflow.md) — plataforma visual para construir e implantar agentes e workflows de IA, publicáveis como API ou servidor MCP.
@@ -241,6 +242,7 @@
 - [kalil0321](entities/kalil0321.md) — autor do Reverse API Engineer, ferramenta que converte qualquer site em um cliente de API tipado via captura de tráfego HAR e geração por LLM.
 - [jo-inc](entities/jo-inc.md) — organização por trás do agente pessoal jo (askjo.ai), mantenedora do Camofox Browser.
 - [Julius Brussee (juliusbrussee)](entities/juliusbrussee.md) — Desenvolvedor autor do `caveman`, skill e proxy que reduzem tokens comprimindo a comunicação do agente.
+- [JustAResearcher (Tim)](entities/justaresearcher.md) — autor do gpu-unlock-ada, fork do gpu-unlock que estende o desbloqueio de tensor cores para RTX 4090 e GPUs Ada Lovelace experimentais.
 - [Langflow](entities/langflow-ai.md) — organização mantenedora do Langflow, builder visual de agentes/workflows publicáveis como API ou MCP.
 - [LangGenius](entities/langgenius.md) — organização mantenedora do Dify, plataforma de apps LLM com workflow, RAG, agentes e LLMOps.
 - [Leon Lin (leonxlnx)](entities/leonxlnx.md) — autor do pacote `taste-skill`, com 16 skills de direção de arte, redesign e geração de imagens.

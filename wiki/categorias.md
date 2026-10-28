@@ -480,6 +480,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — também nesta categoria pelos dois motores de inferência local do app desktop (sd.cpp bundled; Wan2GP via instalação própria ou servidor MCP remoto) para modelos de imagem/vídeo, em vez de LLMs.
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
 - [Drumih/turbo-fieldfare](repos/github.com/drumih/turbo-fieldfare.md) — runtime Swift + Metal model-specific para Gemma 4 26B-A4B no Apple Silicon: ~2 GB de RAM, core denso residente, cache LFU de 16 slots por camada e experts roteados lidos do SSD; 5–6 tok/s em 8 GB M2.
+- [JustAResearcher/gpu-unlock-ada](repos/github.com/justaresearcher/gpu-unlock-ada.md) — fork do gpu-unlock que estende o desbloqueio de tensor cores a RTX 4090 e GPUs Ada Lovelace experimentais (AD102–AD107, incluindo variantes de notebook), com opt-in por chip.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 - [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B), com pesos ternários (~1,75 bit/peso), visão, tool calling e cliente MCP.
@@ -494,6 +495,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Comfy Org](entities/comfy-org.md)
 - [Drumih (Andrey Mikhaylov)](entities/drumih.md)
+- [JustAResearcher (Tim)](entities/justaresearcher.md)
 - [OpenBMB](entities/openbmb.md)
 - [PrismML](entities/prismml.md)
 - [Unsloth AI (unslothai)](entities/unslothai.md)
