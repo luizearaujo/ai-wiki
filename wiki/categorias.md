@@ -512,9 +512,11 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus de ~20,1B tokens, tokenizador próprio, pré-treino em Megatron-LM, conversão para HuggingFace e avaliação pareada em quatro benchmarks.
+- [NVIDIA-NeMo/Nemotron](repos/github.com/nvidia-nemo/nemotron.md) — hub de receitas de treinamento (pré-treino → SFT → RL) e cookbooks de uso para a família Nemotron, incluindo o Nemotron 3 Ultra (550B/55B, híbrido Mamba-Attention MoE, contexto de 1M).
 
 **Entidades**
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md)
+- [NVIDIA](entities/nvidia.md)
 
 ## Engenharia e interfaces agent-first
 

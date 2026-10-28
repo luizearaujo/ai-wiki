@@ -812,3 +812,10 @@
 - Criada categoria nova `Pesquisa social e monitoramento de tendências` em `categorias.md` (nenhuma categoria existente cobria pesquisa social multiplataforma ranqueada por engajamento; `Pesquisa e notas pessoais com IA` é sobre documentos próprios do usuário, escopo diferente); sumário atualizado no mesmo commit.
 - Atualizados `index.md` e `README.md`.
 - Somente o `README.md` na raiz foi lido; `skills/last30days/SKILL.md` (citado como fonte da verdade de comando/setup), `CONFIGURATION.md`, `CHANGELOG.md` e o código-fonte não foram consultados nesta ingestão.
+
+## [2026-10-28] ingest | NVIDIA-NeMo/Nemotron (via https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/)
+- URL original informada pelo usuário era a página de pesquisa do Nemotron 3 Ultra (`research.nvidia.com`), não um repositório GitHub nem uma página de skill — fora dos dois workflows definidos no schema. Perguntado ao usuário como proceder; confirmada a opção de ingerir como página de repositório, usando `https://github.com/NVIDIA-NeMo/Nemotron` (hub de desenvolvimento vinculado) como fonte principal e a página de pesquisa como fonte complementar para arquitetura/benchmarks do Ultra.
+- Criada `repos/github.com/nvidia-nemo/nemotron.md` — hub de receitas de treinamento (pré-treino → SFT → RL) e cookbooks para toda a família Nemotron (Ultra, Super, Nano, 3.5 Super, 3.5 Lightning, Nano Omni, Embed, Rerank), com seção dedicada ao Nemotron 3 Ultra (550B/55B); Apache-2.0 (código).
+- Criada `entities/nvidia.md` (organização GitHub `NVIDIA-NeMo`).
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Modelos abertos e treinamento de LLMs") e `README.md`.
+- Somente o `README.md` na raiz do repositório e a página de pesquisa do Nemotron 3 Ultra foram lidos; os guias individuais em `docs/nemotron/<modelo>/README.md`, `skills/nemotron-customize/SKILL.md`, o código-fonte e o relatório técnico em PDF não foram consultados.

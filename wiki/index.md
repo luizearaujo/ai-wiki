@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-28 (1 repositório: last30days-skill; 1 entidade: mvanhorn)
+> Última atualização: 2026-10-28 (1 repositório: NVIDIA-NeMo/Nemotron; 1 entidade: NVIDIA)
 
 ## Repositórios
 
@@ -69,6 +69,7 @@
 - [mvanhorn/last30days-skill](repos/github.com/mvanhorn/last30days-skill.md) — skill `/last30days`: pesquisa Reddit, X, YouTube, TikTok, Hacker News, Polymarket e GitHub em paralelo, sintetizando um brief ranqueado por engajamento real.
 - [myshell-ai/OpenVoice](repos/github.com/myshell-ai/openvoice.md) — modelo de clonagem instantânea de voz zero-shot e cross-lingual, com controle de estilo; MIT desde a V2.
 - [nextlevelbuilder/ui-ux-pro-max-skill](repos/github.com/nextlevelbuilder/ui-ux-pro-max-skill.md) — Skill, motor de busca em Python e CLI que geram design systems para UI/UX a partir de catálogos de estilos, paletas, tipografia, UX e 22 stacks, com persistência em MASTER.md.
+- [NVIDIA-NeMo/Nemotron](repos/github.com/nvidia-nemo/nemotron.md) — hub de receitas de treinamento e cookbooks de uso para a família Nemotron, incluindo o Nemotron 3 Ultra (550B/55B, híbrido Mamba-Attention MoE, contexto de 1M).
 - [obra/superpowers](repos/github.com/obra/superpowers.md) — metodologia de desenvolvimento com skills compostas que disparam automaticamente — design, plano, TDD por subagentes e revisão — em mais de uma dezena de harnesses de agente.
 - [open-gsd/gsd-core](repos/github.com/open-gsd/gsd-core.md) — "Git. Ship. Done": framework de engenharia de contexto e spec-driven development que conduz agentes de código por um loop de cinco fases com subagentes de contexto limpo; sucessor de glittercowboy/get-shit-done.
 - [Open-LLM-VTuber/Open-LLM-VTuber](repos/github.com/open-llm-vtuber/open-llm-vtuber.md) — companheiro de IA por voz com percepção visual e avatar Live2D, offline-capaz; v1 em manutenção enquanto a v2 (reescrita completa) está em planejamento.
@@ -261,6 +262,7 @@
 - [multica-ai](entities/multica-ai.md) — organização por trás do Multica e do repositório de diretrizes `andrej-karpathy-skills`.
 - [MyShell (myshell-ai)](entities/myshell-ai.md) — organização americana mantenedora do OpenVoice, modelo de clonagem de voz.
 - [Next Level Builder](entities/nextlevelbuilder.md) — organização autora da skill UI/UX Pro Max, base pesquisável de design para agentes.
+- [NVIDIA](entities/nvidia.md) — nesta wiki, documentada pela organização NVIDIA-NeMo, mantenedora do Nemotron, hub de receitas de treinamento para a família aberta de modelos Nemotron.
 - [Obsidian](entities/obsidian.md) — app de notas pessoais em Markdown local, com links bidirecionais e grafo visual; destino da exportação de grafos de conhecimento do Graphify.
 - [Open GSD (open-gsd)](entities/open-gsd.md) — organização mantenedora do GSD Core, framework de engenharia de contexto e spec-driven development para agentes de código.
 - [Open-LLM-VTuber](entities/open-llm-vtuber.md) — organização mantenedora do companheiro de IA por voz com avatar Live2D, com satélites web/Electron e Unity.
