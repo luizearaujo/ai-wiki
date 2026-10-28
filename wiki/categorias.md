@@ -484,6 +484,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 - [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B), com pesos ternários (~1,75 bit/peso), visão, tool calling e cliente MCP.
 - [unslothai/unsloth](repos/github.com/unslothai/unsloth.md) — app desktop, UI web e biblioteca para treinar e rodar LLMs, diffusion, embedding e áudio localmente, com fine-tuning 2× mais rápido e 70% menos VRAM alegados pelo projeto.
+- [Zagitta/gpu-unlock](repos/github.com/zagitta/gpu-unlock.md) — módulo de kernel Linux que remove o cap de metade da taxa de tensor cores em GeForce RTX 20/30/40 para FP16/BF16/TF32, elevando prefill, fine-tuning e geração de imagem/vídeo locais.
 
 **Conceitos**
 - [Atenção esparsa para contexto longo](concepts/atencao-esparsa-para-contexto-longo.md)
@@ -497,6 +498,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [PrismML](entities/prismml.md)
 - [Unsloth AI (unslothai)](entities/unslothai.md)
 - [Vincenzo Fornaro (JustVugg)](entities/vincenzo-fornaro.md)
+- [Zagitta (Simon)](entities/zagitta.md)
 - [Z.ai (zai-org / Zhipu AI)](entities/zai-org.md) — também nesta categoria por contraste: GLM-5.3-FlashX é servido só via API (cloud), não localmente, mas aparece como modelo suportado pelo Unsloth e é citado para contexto de nomenclatura/preço.
 
 ## Modelos abertos e treinamento de LLMs

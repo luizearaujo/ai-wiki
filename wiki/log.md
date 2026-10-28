@@ -777,3 +777,11 @@
 - `audio.cpp` adicionado como extensão opcional integrada.
 - Contagens atualizadas (observadas em 2026-10-27): 78.616 stars, 7.295 forks, 402 issues abertas.
 - Nenhuma página de índice, categorias ou README alterada (nenhuma página nova criada).
+
+## [2026-10-27] ingest | Zagitta/gpu-unlock
+- Criada `repos/github.com/zagitta/gpu-unlock.md` a partir do README no commit `1fc6d628c49c7fba34ef3a2e7f758700d35ce890`, sem clonar o repositório.
+- Criada `entities/zagitta.md`.
+- Atualizados `categorias.md` (repositório e entidade em "Inferência local e runtime de modelos"), `index.md`, `log.md` e `README.md`.
+- Não lidos: `kernel/gpu_unlock/recipes.c`, scripts de build, empacotamento Arch/Debian/RPM e demais arquivos do repositório. Somente o README foi consultado; a lista exata de IDs PCI suportados e o comportamento em kernels/drivers futuros são a verificar.
+- Divergência de licença: README e badge declaram GPL-2.0-only para o módulo de kernel e o empacotamento local, mas a API do GitHub retorna `license: null` (nenhum arquivo `LICENSE` detectado).
+- Métricas da API do GitHub observadas em 2026-10-27: 11.402 estrelas, 1.118 forks, 78 issues abertas, criado em 2026-10-18 e último push em 2026-10-27; linguagem C, branch padrão `main`. Crescimento muito rápido para ~9 dias de existência, registrado apenas como observação datada.

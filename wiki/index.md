@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-26 (1 repositório: reverse-api-engineer; 1 entidade: kalil0321)
+> Última atualização: 2026-10-27 (1 repositório: gpu-unlock; 1 entidade: Zagitta)
 
 ## Repositórios
 
@@ -102,6 +102,7 @@
 - [volcengine/OpenViking](repos/github.com/volcengine/openviking.md) — banco de contexto open-source que unifica memória, conhecimento e skills de agente num filesystem virtual `viking://`, da Volcano Engine (ByteDance).
 - [VoltAgent/awesome-claude-code-subagents](repos/github.com/voltagent/awesome-claude-code-subagents.md) — coleção curada de 161+ subagentes para Claude Code em 10 categorias, instaláveis individualmente ou como plugin por categoria.
 - [Wan-Video/Wan2.1](repos/github.com/wan-video/wan2.1.md) — suíte aberta de modelos de geração de vídeo e imagem (texto-para-vídeo, imagem-para-vídeo, edição) da Alibaba, com pesos Apache-2.0.
+- [Zagitta/gpu-unlock](repos/github.com/zagitta/gpu-unlock.md) — módulo de kernel Linux que remove, antes do driver NVIDIA carregar, o limite de metade da taxa de tensor cores em FP16/BF16/TF32 de placas GeForce RTX 20/30/40.
 - [zazencodes/skills](repos/github.com/zazencodes/skills.md) — catálogo versionado (MIT) de cinco skills de uso diário de Alexander Galea: geração de imagem via Codex, pesquisa web via Gemini/tmux, convenções de commit, `AGENTS.md` enxuto e números aleatórios.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — monorepo de código-companheiro da Temporada 3 do canal ZazenCodes: fábrica de software, orquestração hub-and-spoke com `pi`, harnesses sempre ativos, skills multiplataforma, MCP com UI/identidade delegada e decisão não generativa (System 1).
 
@@ -292,6 +293,7 @@
 - [Volcengine](entities/volcengine.md) — braço de cloud e IA da ByteDance, mantenedor do OpenViking, banco de contexto open-source para agentes.
 - [VoltAgent](entities/voltagent.md) — organização mantenedora do framework de agentes VoltAgent e da coleção awesome-claude-code-subagents.
 - [Wan (Wan-Video)](entities/wan-video.md) — organização da Alibaba Cloud responsável pelos modelos generativos de vídeo em larga escala Wan, incluindo o Wan2.1 open source.
+- [Zagitta (Simon)](entities/zagitta.md) — autor do gpu-unlock, módulo de kernel Linux que remove o cap de velocidade de tensor cores em placas GeForce.
 - [Z.ai (zai-org / Zhipu AI)](entities/zai-org.md) — empresa chinesa da família GLM/ChatGLM; documentada pontualmente pelo GLM-5.3-FlashX, variante de alta velocidade servida só via API.
 - [zarazhangrui](entities/zarazhangrui.md) — autor da skill Frontend Slides, que ensina agentes a criar apresentações HTML autocontidas.
 
