@@ -845,3 +845,7 @@
 - Atualizados `analyses/indexacao-da-ai-wiki.md` (tabela, conclusão e perguntas abertas, de "qmd não ingerido" para avaliação com a página real) e `concepts/wiki-pessoal-com-llms.md` (link da citação ao repositório, nova entrada em "Onde aparece").
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Conhecimento pessoal e curadoria") e `README.md`.
 - Somente o `README.md` na raiz foi lido; código (`src/llm.ts`, chunking, bench), testes e `CHANGELOG.md` não foram consultados.
+
+## [2026-10-29] ingest | drumih/turbo-fieldfare
+- Reingestão: commit atualizado de `2e9ea50` para `d994a65` (push de 2026-10-26); sem alterações de conteúdo identificadas no README.
+- Atualizado `repos/github.com/drumih/turbo-fieldfare.md` (commit, ingested, updated, data do último push e fonte).

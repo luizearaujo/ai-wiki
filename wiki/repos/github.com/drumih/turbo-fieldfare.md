@@ -4,13 +4,13 @@ url: https://github.com/Drumih/turbo-fieldfare
 host: github.com
 owner: drumih
 repo: turbo-fieldfare
-commit: 2e9ea50e8c35a65d9170e3bff9d1063be8931ec0
+commit: d994a65da9080f50d083ec22805e4f30702b5623
 license: Apache-2.0
 language: Swift
 status: active
 created: 2026-10-25
-ingested: 2026-10-25
-updated: 2026-10-25
+ingested: 2026-10-29
+updated: 2026-10-29
 tags: [inferencia, moe, metal, apple-silicon, gemma, on-device, swift, streaming-experts]
 ---
 
@@ -111,7 +111,7 @@ swift build -c release
 
 ## Estado e adoção
 
-- Último push: 2026-10-15.
+- Último push: 2026-10-26.
 - Observado em 2026-10-25: ~7.035 stars, ~454 forks, ~55 issues abertas.
 - Licença: Apache-2.0 (código e documentação); pesos do modelo sob termos do Gemma.
 
@@ -130,5 +130,6 @@ swift build -c release
 
 ## Fontes
 
-- README: https://raw.githubusercontent.com/Drumih/turbo-fieldfare/2e9ea50e8c35a65d9170e3bff9d1063be8931ec0/README.md (commit `2e9ea50e8c35a65d9170e3bff9d1063be8931ec0`, consultado em 2026-10-25). Somente o README foi lido.
-- Metadados: API do GitHub em 2026-10-25.
+- README: https://raw.githubusercontent.com/drumih/turbo-fieldfare/d994a65da9080f50d083ec22805e4f30702b5623/README.md (commit `d994a65da9080f50d083ec22805e4f30702b5623`, consultado em 2026-10-29). Somente o README foi lido.
+- Metadados: API do GitHub em 2026-10-29.
+- Ingestão anterior: commit `2e9ea50e8c35a65d9170e3bff9d1063be8931ec0`, 2026-10-25; sem alterações de conteúdo identificadas.
