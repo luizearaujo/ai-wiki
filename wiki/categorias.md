@@ -473,6 +473,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — auditoria de mídia paga em 12 plataformas, com conductor + workers, quatro estados de controle, cobertura de evidência e escrita read-only por padrão.
+- [AgriciDaniel/claude-seo](repos/github.com/agricidaniel/claude-seo.md) — auditoria de SEO e GEO em 10-15 minutos com 26 sub-skills e 19 agentes especialistas, só dentro do Claude Code, sem self-hosting.
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
 
 **Conceitos**

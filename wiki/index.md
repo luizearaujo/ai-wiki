@@ -2,13 +2,14 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-28 (1 repositório: tobi/qmd; 1 entidade: tobi)
+> Última atualização: 2026-10-30 (1 repositório: AgriciDaniel/claude-seo)
 
 ## Repositórios
 
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
+- [AgriciDaniel/claude-seo](repos/github.com/agricidaniel/claude-seo.md) — plugin gratuito de auditoria de SEO para Claude Code com 26 sub-skills e 19 agentes especialistas, cobrindo SEO técnico, E-E-A-T, schema, GEO, local e e-commerce.
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — estúdio self-hosted de geração de imagem/vídeo sobre 600+ modelos via MuAPI, com app desktop e dois motores de inferência local.
 - [anthropics/skills](repos/github.com/anthropics/skills.md) — Repositório oficial da Anthropic com exemplos de Agent Skills, a especificação do formato e as skills de documento que também alimentam o Claude.
 - [ayghri/i-have-adhd](repos/github.com/ayghri/i-have-adhd.md) — skill de dez regras de estilo de saída direto, sem rodeios, para agentes de código.

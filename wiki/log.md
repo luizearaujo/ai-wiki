@@ -849,3 +849,11 @@
 ## [2026-10-29] ingest | drumih/turbo-fieldfare
 - Reingestão: commit atualizado de `2e9ea50` para `d994a65` (push de 2026-10-26); sem alterações de conteúdo identificadas no README.
 - Atualizado `repos/github.com/drumih/turbo-fieldfare.md` (commit, ingested, updated, data do último push e fonte).
+
+## [2026-10-30] ingest | AgriciDaniel/claude-seo
+- Usuário informou a URL do repositório após perguntar sobre skills de SEO/ads para avaliar um site e planejar campanhas.
+- Criada `repos/github.com/agricidaniel/claude-seo.md` — plugin gratuito de auditoria de SEO/GEO para Claude Code, mesmo autor do claude-ads, com 26 sub-skills e 19 agentes especialistas (até 17 em paralelo); MIT.
+- Atualizado `entities/agricidaniel.md` (segundo projeto do autor, bio e relações).
+- Atualizado `repos/github.com/every-app/open-seo.md` (link bidirecional como alternativa que roda só dentro do Claude Code, sem self-hosting nem chave DataForSEO).
+- Atualizados `index.md`, `categorias.md` (repositório em "Marketing, mídia paga e conteúdo") e `README.md`.
+- Somente o `README.md` na raiz foi lido; código, as 26 sub-skills, os 19 agentes e os docs internos (`ARCHITECTURE.md`, `thinking-framework.md`, `PRIVACY.md`) não foram consultados.

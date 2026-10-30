@@ -10,7 +10,7 @@ language: TypeScript
 status: active
 created: 2026-10-21
 ingested: 2026-10-21
-updated: 2026-10-21
+updated: 2026-10-30
 tags: [mcp, agent-skills, seo, cloudflare]
 ---
 
@@ -64,6 +64,7 @@ npx skills add every-app/open-seo --skill simple-issue-description
 
 - Mantido por: [Every App (every-app)](../../../entities/every-app.md)
 - Conceitos: [Model Context Protocol (MCP)](../../../concepts/model-context-protocol.md), [Agent skills](../../../concepts/agent-skills.md).
+- Alternativas: [AgriciDaniel/claude-seo](../agricidaniel/claude-seo.md) — mesma área (palavra-chave, backlinks, auditoria de site), mas roda só dentro do Claude Code via Agent Skills, sem self-hosting nem chave DataForSEO paga; em troca, não tem servidor MCP próprio nem interface web/API fora do Claude Code.
 - Projetos relacionados da mesma organização, citados no README: SAM (servidor de inferência de LLM), o Every-App SDK e um repositório de skills de agente — nenhum documentado nesta wiki.
 
 ## Perguntas abertas
