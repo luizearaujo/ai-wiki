@@ -41,6 +41,7 @@ O grafo de conhecimento de código e o LSP são complementares: o grafo persiste
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — skill + CLI em Python, tree-sitter para ~40 linguagens e passo semântico opcional para docs e mídia; arestas `EXTRACTED`/`INFERRED`, comunidades de Leiden e **sem vector store**, com consulta, caminhos e explicação.
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — método em sete fases que grava `knowledge-graph.json` e o apresenta em um dashboard interativo, com atualização incremental e validação antes de publicar.
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — o "graft map": grafo de símbolos via tree-sitter em 23 linguagens, sem modelo, com camada opcional de resumos e cruxes por LLM (`--deep`) e revalidação da árvore de trabalho a cada consulta.
+- [haydenschmitty/floorplan](../repos/github.com/haydenschmitty/floorplan.md) — mapa de aplicação em cards de inglês simples (não grafo de símbolos), com atualização incremental e interface de pergunta em linguagem natural ("Ask the map"); inclui health check de segurança e blueprints a partir de PRD.
 - [Workflow Claude Code + Graphify + Obsidian](../analyses/claude-code-graphify-obsidian.md) — exporta o grafo do Graphify como notas interligadas em um vault do Obsidian, separando grafo estruturado (`graph.json`) de grafo visual de links (Obsidian).
 
 ## Lacunas
@@ -55,3 +56,4 @@ O grafo de conhecimento de código e o LSP são complementares: o grafo persiste
 - [Graphify-Labs/graphify](../repos/github.com/graphify-labs/graphify.md) — README no commit `86c57be8204673c2a1b9849a3292a7dd3ab373d8` (consultado em 2026-10-19).
 - [Skill understand](../skills/github.com/egonex-ai/understand-anything/understand.md) — página do skills.sh (consultada em 2026-10-19).
 - [trailhq/Trail-Code](../repos/github.com/trailhq/trail-code.md) — README no commit `b1211efd3eef0efa121b93800e5dd8e547aead77` (consultado em 2026-10-21).
+- [haydenschmitty/floorplan](../repos/github.com/haydenschmitty/floorplan.md) — README no commit `cec107540da3910c6d7a5fa6400fc9851bf4c15e` (consultado em 2026-11-01).

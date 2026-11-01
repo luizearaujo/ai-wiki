@@ -857,3 +857,12 @@
 - Atualizado `repos/github.com/every-app/open-seo.md` (link bidirecional como alternativa que roda só dentro do Claude Code, sem self-hosting nem chave DataForSEO).
 - Atualizados `index.md`, `categorias.md` (repositório em "Marketing, mídia paga e conteúdo") e `README.md`.
 - Somente o `README.md` na raiz foi lido; código, as 26 sub-skills, os 19 agentes e os docs internos (`ARCHITECTURE.md`, `thinking-framework.md`, `PRIVACY.md`) não foram consultados.
+
+## [2026-11-01] ingest | haydenschmitty/floorplan
+- Usuário informou a URL do repositório diretamente.
+- Criada `repos/github.com/haydenschmitty/floorplan.md` — plugin para Claude Code e Codex que lê a base de código e desenha um mapa interativo em inglês simples, com health check de segurança, "recent work" e blueprints a partir de PRD; MIT.
+- Criada `entities/haydenschmitty.md` (Hayden Smith, autor único identificado).
+- Atualizados `repos/github.com/tt-a1i/archify.md` e `repos/github.com/egonex-ai/understand-anything.md` (link bidirecional como alternativa — o próprio README do Floorplan compara os três diretamente).
+- Atualizado `concepts/grafo-de-conhecimento-de-codigo.md` (Floorplan adicionado como implementação, com a ressalva de ser organizado em cards, não grafo de símbolos).
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Grafos de conhecimento e contexto de código") e `README.md`.
+- Somente o `README.md` na raiz foi lido; `docs/*`, `CONTRIBUTING.md` e o código-fonte não foram consultados.

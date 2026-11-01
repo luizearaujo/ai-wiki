@@ -155,7 +155,7 @@ Exemplos derivados do README, não instruções oficiais além do que ele public
 
 - **Mantido por:** [tt-a1i](../../../entities/tt-a1i.md).
 - **Conceitos:** [Agent skills](../../../concepts/agent-skills.md) — modelo de distribuição e instalação; [Artefatos HTML autocontidos](../../../concepts/artefatos-html-autocontidos.md) — o entregável é um único HTML com interações embutidas; [Grafo de conhecimento de código](../../../concepts/grafo-de-conhecimento-de-codigo.md) — compartilha a ideia de mapear estrutura de código, mas para comunicação visual, não consulta.
-- **Alternativas:** [Graphify-Labs/graphify](../graphify-labs/graphify.md) — grafo consultável em vez de diagrama; [calesthio/OpenMontage](../calesthio/openmontage.md) — pipeline de mídia.
+- **Alternativas:** [Graphify-Labs/graphify](../graphify-labs/graphify.md) — grafo consultável em vez de diagrama; [calesthio/OpenMontage](../calesthio/openmontage.md) — pipeline de mídia; [haydenschmitty/floorplan](../haydenschmitty/floorplan.md) — mapa de um app construído com IA, com health check de segurança, e não um diagrama de apresentação.
 - **Distinto de:** Mermaid — Archify não faz parsing automático de Mermaid e usa um IR tipado próprio.
 
 ## Perguntas abertas

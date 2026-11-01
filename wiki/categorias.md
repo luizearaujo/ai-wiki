@@ -239,6 +239,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [DeusData/codebase-memory-mcp](repos/github.com/deusdata/codebase-memory-mcp.md) — servidor MCP local em C puro; 162 linguagens, Hybrid LSP e 17 ferramentas.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que gera grafo com arestas `EXTRACTED`/`INFERRED`, sem vector store.
+- [haydenschmitty/floorplan](repos/github.com/haydenschmitty/floorplan.md) — plugin para Claude Code e Codex que mapeia a app do usuário em cards de inglês simples, com health check de segurança e blueprints a partir de PRD.
 - [trailhq/Trail-Code](repos/github.com/trailhq/trail-code.md) — grafo de código via tree-sitter (o "graft map"), sem modelo, com camada opcional de resumos por LLM.
 - [tt-a1i/archify](repos/github.com/tt-a1i/archify.md) — Skill e CLI zero-dependency que converte ideia, plano ou repositório em diagrama interativo autocontido em HTML, com dez tipos, JSON IR tipado e validação antes da entrega.
 
@@ -256,6 +257,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [DeusData](entities/deusdata.md)
 - [Egonex-AI](entities/egonex-ai.md)
 - [Graphify Labs](entities/graphify-labs.md)
+- [Hayden Smith (haydenschmitty)](entities/haydenschmitty.md)
 - [Obsidian](entities/obsidian.md)
 - [Trail (trailhq)](entities/trailhq.md)
 

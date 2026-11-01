@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-10-30 (1 repositório: AgriciDaniel/claude-seo)
+> Última atualização: 2026-11-01 (1 repositório: haydenschmitty/floorplan)
 
 ## Repositórios
 
@@ -43,6 +43,7 @@
 - [google/artemis](repos/github.com/google/artemis.md) — agente que converte linguagem natural em automação Android confiável, com servidor MCP nativo e 99%+ de conclusão declarada no benchmark AndroidWorld; criado pelo time Pixel Test Engineering (PTE) Fusion.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
+- [haydenschmitty/floorplan](repos/github.com/haydenschmitty/floorplan.md) — plugin para Claude Code e Codex que lê a base de código e desenha um mapa interativo em inglês simples, com health check de segurança e blueprints a partir de PRD.
 - [hellosverre/claude-skins](repos/github.com/hellosverre/claude-skins.md) — mod `/skin`: redesenha tool calls, diffs, tabelas e Mermaid do Claude Code em dezesseis temas, repintáveis ou desenhados pelo próprio Claude.
 - [hesreallyhim/awesome-claude-code](repos/github.com/hesreallyhim/awesome-claude-code.md) — lista "awesome" canônica do ecossistema Claude Code, com mais de 270 recursos anotados em 24 categorias.
 - [himself65/trade-skills](repos/github.com/himself65/trade-skills.md) — plugin e skill de opções multi-leg para Claude Code com base de conhecimento OKF de 37 armadilhas e estudos de caso reais.
@@ -242,6 +243,7 @@
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
+- [Hayden Smith (haydenschmitty)](entities/haydenschmitty.md) — autor do Floorplan, plugin que mapeia aplicações construídas com IA para Claude Code e Codex.
 - [hellosverre](entities/hellosverre.md) — constrói software com IA; autor do claude-skins e de outros mods para Claude Code (redgreen, smart-compact, mod-store).
 - [hesreallyhim](entities/hesreallyhim.md) — mantenedor da lista "awesome" canônica do ecossistema Claude Code.
 - [himself65](entities/himself65.md) — autor de trade-skills e da convenção finance-skills para plugins de trading de opções no Claude Code.
