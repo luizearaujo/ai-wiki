@@ -2,12 +2,13 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-11-01 (1 repositório: haydenschmitty/floorplan)
+> Última atualização: 2026-11-02 (1 repositório: amosblomqvist/learnharness; 1 entidade: amosblomqvist)
 
 ## Repositórios
 
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
+- [amosblomqvist/learnharness](repos/github.com/amosblomqvist/learnharness.md) — harness de agente para aprendizado personalizado: avalia, mapeia dependências, ensina em etapas e reforça com exercícios adaptativos, com grafo de conhecimento local persistente.
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
 - [AgriciDaniel/claude-seo](repos/github.com/agricidaniel/claude-seo.md) — plugin gratuito de auditoria de SEO para Claude Code com 26 sub-skills e 19 agentes especialistas, cobrindo SEO técnico, E-E-A-T, schema, GEO, local e e-commerce.
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — estúdio self-hosted de geração de imagem/vídeo sobre 600+ modelos via MuAPI, com app desktop e dois motores de inferência local.
@@ -202,6 +203,7 @@
 
 - [Addy Osmani (addyosmani)](entities/addyosmani.md) — Engenheiro conhecido por performance web e autor do `agent-skills`, coleção de skills de engenharia de produção.
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
+- [amosblomqvist](entities/amosblomqvist.md) — Amos Blomqvist, autor do LearnHarness, harness de agente para aprendizado personalizado com grafo de conhecimento persistente.
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
 - [Alex Newman (thedotmack)](entities/thedotmack.md) — autor do claude-mem, sistema de memória persistente para Claude Code com busca híbrida em 3 camadas.
 - [Alexander Galea (zazencodes)](entities/zazencodes.md) — engenheiro de IA e fundador do ZazenCodes, publica o código-fonte dos próprios vídeos sobre agentes e ferramentas de desenvolvimento.

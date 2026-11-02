@@ -846,6 +846,11 @@
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Conhecimento pessoal e curadoria") e `README.md`.
 - Somente o `README.md` na raiz foi lido; código (`src/llm.ts`, chunking, bench), testes e `CHANGELOG.md` não foram consultados.
 
+## [2026-11-02] ingest | amosblomqvist/learnharness
+- Criada `repos/github.com/amosblomqvist/learnharness.md`.
+- Criada `entities/amosblomqvist.md`.
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Harnesses e orquestração de agentes") e `README.md` (108 repositórios, 117 entidades).
+
 ## [2026-10-29] ingest | drumih/turbo-fieldfare
 - Reingestão: commit atualizado de `2e9ea50` para `d994a65` (push de 2026-10-26); sem alterações de conteúdo identificadas no README.
 - Atualizado `repos/github.com/drumih/turbo-fieldfare.md` (commit, ingested, updated, data do último push e fonte).

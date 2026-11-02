@@ -53,6 +53,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — processo, 71 agentes, 311 skills e memória portátil sobre Claude Code, Codex e outros clientes.
+- [amosblomqvist/learnharness](repos/github.com/amosblomqvist/learnharness.md) — harness de agente educacional: avalia, mapeia dependências, ensina em etapas e reforça com exercícios adaptativos, com grafo de conhecimento local persistente.
 - [bytedance/deer-flow](repos/github.com/bytedance/deer-flow.md) — super agent harness em Python/LangGraph com agente líder, subagentes, sandbox e memória DeerMem.
 - [camtrik/agent-trail](repos/github.com/camtrik/agent-trail.md) — dashboard local de observabilidade que agrega token usage, custo, tool calls e replay de sessões de Claude Code, Codex, OpenCode, OpenClaw e Qoder.
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento, sem depender de nuvem.
@@ -88,6 +89,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [affaan-m](entities/affaan-m.md)
 - [Alex Newman (thedotmack)](entities/thedotmack.md)
+- [amosblomqvist](entities/amosblomqvist.md)
 - [Alexander Galea (zazencodes)](entities/zazencodes.md)
 - [Bayram Annakov (BayramAnnakov)](entities/bayramannakov.md)
 - [ByteDance](entities/bytedance.md)
