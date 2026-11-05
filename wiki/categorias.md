@@ -19,6 +19,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Grafos de conhecimento e contexto de código](#grafos-de-conhecimento-e-contexto-de-código)
 - [Engenharia reversa e análise de sistemas](#engenharia-reversa-e-análise-de-sistemas)
 - [Cibersegurança e operações de segurança](#cibersegurança-e-operações-de-segurança)
+- [Privacidade e conformidade regulatória](#privacidade-e-conformidade-regulatória)
 - [Geração de mídia e artefatos HTML](#geração-de-mídia-e-artefatos-html)
 - [Geração de imagem e vídeo com modelos de difusão](#geração-de-imagem-e-vídeo-com-modelos-de-difusão)
 - [Síntese, clonagem e transcrição de voz](#síntese-clonagem-e-transcrição-de-voz)
@@ -299,6 +300,19 @@ tags: [navegacao, categorias, indice-tematico]
 - [mukul975](entities/mukul975.md)
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md)
 - [Strix (usestrix)](entities/usestrix.md)
+
+## Privacidade e conformidade regulatória
+
+> Skills que conduzem a conformidade de um projeto com uma lei de proteção de dados ou regulação específica, citando artigo e norma, produzindo artefatos versionados e pausando em pontos que exigem decisão jurídica.
+
+**Repositórios**
+- [goul4rt/lgpd-skills](repos/github.com/goul4rt/lgpd-skills.md) — maestro (`lgpd-audit`) + 18 sub-skills para LGPD, resoluções da ANPD e ECA Digital, com quatro pipelines por cenário e artefatos versionados em `.lgpd/`.
+
+**Conceitos**
+- [Conformidade regulatória com agentes](concepts/conformidade-regulatoria-com-agentes.md)
+
+**Entidades**
+- [goul4rt ("O Polar")](entities/goul4rt.md)
 
 ## Geração de mídia e artefatos HTML
 

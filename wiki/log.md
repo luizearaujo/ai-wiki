@@ -880,3 +880,12 @@
 - Criada a categoria "Corpora de dados abertos" em `categorias.md`, com nota de escopo explicando a exceção.
 - Atualizados `index.md`, `categorias.md` (sumário e nova categoria) e `README.md`.
 - Somente o `README.md` na raiz foi lido; `scripts/*`, `PROGRESSO.md`, `COBERTURA.md` e o código dos coletores não foram consultados.
+
+## [2026-11-05] ingest | goul4rt/lgpd-skills
+- Usuário informou a URL do repositório diretamente.
+- Criada `repos/github.com/goul4rt/lgpd-skills.md` — maestro (`lgpd-audit`) + 18 sub-skills de conformidade com a LGPD, resoluções da ANPD e o ECA Digital, instaláveis em Claude Code, Codex, Gemini CLI, Cursor e OpenCode; MIT.
+- Criada `entities/goul4rt.md` (autor único identificado, bio suficiente para página própria).
+- Criado `concepts/conformidade-regulatoria-com-agentes.md` — primeira síntese do padrão "skill de conformidade legal com artefatos versionados e checkpoints", generalizando a partir deste repositório.
+- Criada a categoria "Privacidade e conformidade regulatória" em `categorias.md`.
+- Atualizados `index.md`, `categorias.md` (sumário e nova categoria) e `README.md`.
+- Somente o `README.md` na raiz foi lido; os 19 `SKILL.md` individuais e o `normative-reference.md` não foram consultados.

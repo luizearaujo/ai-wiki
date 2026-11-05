@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-11-05 (1 repositório: ctresb/leis)
+> Última atualização: 2026-11-05 (1 repositório: goul4rt/lgpd-skills; 1 entidade: goul4rt; 1 conceito: conformidade-regulatoria-com-agentes)
 
 ## Repositórios
 
@@ -43,6 +43,7 @@
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [google/artemis](repos/github.com/google/artemis.md) — agente que converte linguagem natural em automação Android confiável, com servidor MCP nativo e 99%+ de conclusão declarada no benchmark AndroidWorld; criado pelo time Pixel Test Engineering (PTE) Fusion.
+- [goul4rt/lgpd-skills](repos/github.com/goul4rt/lgpd-skills.md) — maestro + 18 sub-skills de conformidade com a LGPD, resoluções da ANPD e o ECA Digital, instaláveis em cinco agentes.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
 - [haydenschmitty/floorplan](repos/github.com/haydenschmitty/floorplan.md) — plugin para Claude Code e Codex que lê a base de código e desenha um mapa interativo em inglês simples, com health check de segurança e blueprints a partir de PRD.
@@ -173,6 +174,7 @@
 - [CLAUDE.md](concepts/claude-md.md) — arquivo de instruções persistentes que fixa convenções e comportamento do agente no projeto.
 - [CLI agent-first](concepts/cli-agent-first.md) — CLI desenhada para agentes: saída estruturada, payload cru, introspecção de schema, contexto disciplinado e defesa contra alucinação.
 - [Clonagem de voz](concepts/clonagem-de-voz.md) — TTS zero-shot que reproduz o timbre de um locutor a partir de amostra curta, com controle de estilo e geração cross-lingual.
+- [Conformidade regulatória com agentes](concepts/conformidade-regulatoria-com-agentes.md) — skills que conduzem conformidade com uma lei específica citando artigo e norma, com artefatos versionados e checkpoints de revisão humana.
 - [Contratos tipados de serviço](concepts/contratos-tipados-de-servico.md) — spec com schemas de entrada, saída e erro mais handler que devolve `Result` em vez de lançar exceção.
 - [Decisão não generativa para agentes (System 1)](concepts/decisao-nao-generativa-para-agentes.md) — modelo tipado e calibrado que responde em uma única passada paralela, sem gerar texto, para roteamento e guardrails de baixa latência.
 - [Design system com agentes](concepts/design-system-com-agentes.md) — identidade visual como artefato versionado (`DESIGN.md`, `PRODUCT.md`, `MASTER.md`) carregado entre sessões.
@@ -243,6 +245,7 @@
 - [Google](entities/google.md) — nesta wiki, mantenedora do ARTEMIS, agente de automação Android criado pelo time Pixel Test Engineering (PTE) Fusion.
 - [Google Labs Code](entities/google-labs-code.md) — organização que publica o formato DESIGN.md, as quatro skills de engenharia e bibliotecas de skills para Stitch e Jules.
 - [Google Research (google-research)](entities/google-research.md) — organização de pesquisa da Google, mantenedora do Harness², framework de refinamento recursivo de harness de agente.
+- [goul4rt ("O Polar")](entities/goul4rt.md) — autor do lgpd-skills, pacote de Agent Skills para auditoria de conformidade LGPD/ECA Digital.
 - [Graphify Labs](entities/graphify-labs.md) — organização Y Combinator S26 criadora do Graphify e do serviço Graphify Cloud.
 - [hardikpandya](entities/hardikpandya.md) — Hardik Pandya, Head of Design na Atlassian e autor da skill Stop Slop.
 - [HarnessMD](entities/harnessmd.md) — organização que mantém o Munder Difflin e o catálogo awesome-agent-capabilities.
