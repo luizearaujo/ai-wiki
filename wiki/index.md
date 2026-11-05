@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-11-02 (1 repositório: amosblomqvist/learnharness; 1 entidade: amosblomqvist)
+> Última atualização: 2026-11-05 (1 repositório: ctresb/leis)
 
 ## Repositórios
 
@@ -25,6 +25,7 @@
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — GUI, API e backend modular de nós para modelos de difusão, com weight streaming assíncrono para hardware de consumo local.
 - [ComposioHQ/awesome-claude-skills](repos/github.com/composiohq/awesome-claude-skills.md) — Lista curada de mais de mil skills e plugins para Claude e agentes de código, com integração própria via MCP Gateway e 78 automações SaaS.
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — alternativa self-hosted ao Linear/Jira onde agentes de IA são membros de projeto com permissões e issues no mesmo board que as pessoas.
+- [ctresb/leis](repos/github.com/ctresb/leis.md) — acervo de toda a legislação brasileira convertida para Markdown com OCR e proveniência por norma; fora do escopo de IA da wiki, ingerido como exceção confirmada.
 - [D4Vinci/Scrapling](repos/github.com/d4vinci/scrapling.md) — Framework Python de web scraping com fetchers stealth, spiders, parsing adaptativo, servidor MCP e Agent Skill para agentes de IA raspar dados.
 - [davila7/claude-code-templates](repos/github.com/davila7/claude-code-templates.md) — CLI e catálogo web de mais de 100 agentes, comandos, MCPs, settings, hooks e skills reempacotados de dezenas de fontes, com analytics, monitor de conversas e dashboard de plugins próprios.
 - [debpalash/VoiceStudio](repos/github.com/debpalash/voicestudio.md) — alternativa open source e local ao ElevenLabs: clonagem/design de voz, dublagem de vídeo, dictation, transcrição e audiobook em 646 idiomas, com API/MCP local.

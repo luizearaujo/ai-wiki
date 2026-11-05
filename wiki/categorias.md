@@ -37,6 +37,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Pesquisa e notas pessoais com IA](#pesquisa-e-notas-pessoais-com-ia)
 - [Pesquisa social e monitoramento de tendências](#pesquisa-social-e-monitoramento-de-tendências)
 - [OSINT geoespacial e agentes de voz](#osint-geoespacial-e-agentes-de-voz)
+- [Corpora de dados abertos](#corpora-de-dados-abertos)
 - [Navegação e meta](#navegação-e-meta)
 - [Manutenção](#manutenção)
 - [Fontes](#fontes)
@@ -721,6 +722,13 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Entidades**
 - [Bilawal Sidhu (bilawalsidhu)](entities/bilawalsidhu.md)
+
+## Corpora de dados abertos
+
+> Acervos de dados abertos digitalizados e estruturados para processamento por máquina — fora do escopo central de IA desta wiki, mas registrados como exceção confirmada quando o pipeline (OCR, normalização) ou o uso potencial como corpus para RAG/avaliação de LLMs justifica a entrada.
+
+**Repositórios**
+- [ctresb/leis](repos/github.com/ctresb/leis.md) — toda a legislação brasileira convertida para Markdown via OCR e raspagem de fontes oficiais, com cabeçalho estruturado, proveniência por norma e histórico de git como linha do tempo.
 
 ## Navegação e meta
 

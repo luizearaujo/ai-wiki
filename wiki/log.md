@@ -871,3 +871,12 @@
 - Atualizado `concepts/grafo-de-conhecimento-de-codigo.md` (Floorplan adicionado como implementação, com a ressalva de ser organizado em cards, não grafo de símbolos).
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Grafos de conhecimento e contexto de código") e `README.md`.
 - Somente o `README.md` na raiz foi lido; `docs/*`, `CONTRIBUTING.md` e o código-fonte não foram consultados.
+
+## [2026-11-05] ingest | ctresb/leis
+- Usuário informou a URL do repositório diretamente.
+- Repositório fora do escopo de IA do schema (corpus jurídico, não ferramenta/modelo/framework de IA); confirmado explicitamente pelo usuário antes da ingestão.
+- Criada `repos/github.com/ctresb/leis.md` — acervo de toda a legislação brasileira convertida para Markdown via OCR e raspagem de fontes oficiais, com proveniência por norma e histórico de git como linha do tempo cronológica; MIT (scripts) + textos sem proteção autoral.
+- Não foi criada página de entidade para `ctresb` (bio pública insuficiente para uma página útil).
+- Criada a categoria "Corpora de dados abertos" em `categorias.md`, com nota de escopo explicando a exceção.
+- Atualizados `index.md`, `categorias.md` (sumário e nova categoria) e `README.md`.
+- Somente o `README.md` na raiz foi lido; `scripts/*`, `PROGRESSO.md`, `COBERTURA.md` e o código dos coletores não foram consultados.
