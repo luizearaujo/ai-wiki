@@ -35,6 +35,7 @@
 - [duixcom/Duix-Avatar](repos/github.com/duixcom/duix-avatar.md) — ferramenta offline de clonagem de aparência e voz que sintetiza vídeos de um avatar digital com lip-sync, a partir de texto ou fala.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
+- [FareedKhan-dev/kimi-k3-in-c](repos/github.com/fareedkhan-dev/kimi-k3-in-c.md) — runtime de inferência em C99 puro que executa o Kimi K3 (2,78T parâmetros) com apenas 8 GB de RAM e sem GPU, via streaming de experts do disco e quantização MXFP4.
 - [Fincept-Corporation/FinceptTerminal](repos/github.com/fincept-corporation/finceptterminal.md) — terminal financeiro desktop nativo em C++20/Qt6 com 37 agentes, 100+ conectores, analytics institucional, node editor e paper/live trading.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — CLI de busca, scrape, crawl e extração autônoma por IA, com skills, servidor MCP e opção de virar o provedor web padrão de agentes.
 - [FlorianBruniaux/claude-code-ultimate-guide](repos/github.com/florianbruniaux/claude-code-ultimate-guide.md) — guia de referência extenso sobre arquitetura, harness, contexto, segurança e operação do Claude Code, publicado como site e servidor MCP próprio.
@@ -92,6 +93,7 @@
 - [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B) com pesos ternários (~1,75 bit/peso) e 98,2% de retenção declarada frente ao FP16.
 - [remotion-dev/skills](repos/github.com/remotion-dev/skills.md) — doze skills oficiais do Remotion para criação, markup, render, mapas animados e legendas em projetos de vídeo programático.
 - [shareAI-lab/learn-claude-code](repos/github.com/shareai-lab/learn-claude-code.md) — curso de 17 lições que reconstrói mecanismos de agent harness do zero em Python runnable, usando o Claude Code como estudo de caso.
+- [sandbox-quantum/switch](repos/github.com/sandbox-quantum/switch.md) — plataforma open-source que integra agentes de IA (Claude Code, Codex, Antigravity...) em Slack, Teams, Discord e outras mensagerias, com canais como salas de colaboração humano-agente via MCP.
 - [SnailSploit/Claude-Red](repos/github.com/snailsploit/claude-red.md) — 78 skills de segurança ofensiva em 23 categorias, carregadas sob demanda por gatilhos conversacionais.
 - [sodiumsun/agenttrail](repos/github.com/sodiumsun/agenttrail.md) — observabilidade local para agentes de código com duas vistas: Map (estrutura do projeto via PLAN.md e mudanças de arquivo) e Kitchen (visualização 3D com metáfora culinária de chefs, tickets e pratos).
 - [SynkraAI/aiox-core](repos/github.com/synkraai/aiox-core.md) — framework CLI-first de orquestração de IA com 12 agentes especializados (planejamento, dev, QA, DevOps) e ADE para desenvolvimento autônomo.
@@ -236,6 +238,7 @@
 - [Duix](entities/duixcom.md) — empresa de Singapura especializada em soluções de avatar digital, que abriu o código de sua tecnologia de clonagem e produção de vídeo.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [Every App (every-app)](entities/every-app.md) — organização mantenedora do OpenSEO, stack de SEO self-hosted com servidor MCP e Agent Skills.
+- [FareedKhan-dev (Fareed Khan)](entities/fareedkhan-dev.md) — autor do kimi-k3-in-c, runtime em C99 puro que roda o Kimi K3 com 8 GB de RAM e sem GPU.
 - [Fincept Corporation](entities/fincept-corporation.md) — empresa indiana do Fincept Terminal, com edição aberta AGPL e edição Enterprise proprietária, além da Data API e do Quantcept.
 - [Firecrawl](entities/firecrawl.md) — organização mantenedora do Firecrawl CLI, de servidores MCP e de skills para busca, scrape e extração web.
 - [Florian Bruniaux (FlorianBruniaux)](entities/florianbruniaux.md) — autor do Claude Code Ultimate Guide, guia de referência sobre Claude Code com servidor MCP próprio.
@@ -296,6 +299,7 @@
 - [PrismML](entities/prismml.md) — empresa criadora da família Bonsai, modelos quantizados em ternário/1-bit para rodar LLMs de ~27B localmente.
 - [Remotion (remotion-dev)](entities/remotion-dev.md) — organização mantenedora do framework Remotion e das suas Agent Skills oficiais.
 - [Rohan Verma (MODSetter)](entities/modsetter.md) — autor do SurfSense, app desktop air-gapped alternativo ao Notebook LM.
+- [sandbox-quantum](entities/sandbox-quantum.md) — organização por trás do Switch, plataforma de integração de agentes de IA em apps de mensageria corporativos.
 - [shareAI (shareAI-lab)](entities/shareai-lab.md) — organização de Singapura mantenedora do curso learn-claude-code e dos projetos irmãos Kode-CLI e claw0.
 - [SnailSploit (Kai Aizen)](entities/snailsploit.md) — pesquisador de segurança de IA generativa, autor do `claude-red`, biblioteca de skills ofensivas para agentes.
 - [sodiumsun](entities/sodiumsun.md) — autor do Agenttrail, ferramenta de observabilidade local para agentes de código com vistas Map e Kitchen.

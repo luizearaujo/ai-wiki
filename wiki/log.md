@@ -889,3 +889,15 @@
 - Criada a categoria "Privacidade e conformidade regulatória" em `categorias.md`.
 - Atualizados `index.md`, `categorias.md` (sumário e nova categoria) e `README.md`.
 - Somente o `README.md` na raiz foi lido; os 19 `SKILL.md` individuais e o `normative-reference.md` não foram consultados.
+
+## [2026-11-09] ingest | sandbox-quantum/switch
+- Criada `repos/github.com/sandbox-quantum/switch.md`.
+- Criada `entities/sandbox-quantum.md`.
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Comunicação e caixas de entrada agênticas", "Trabalho, projetos e colaboração humano-agente" e "Protocolos, integrações e confiabilidade") e `README.md`.
+- Somente o `README.md` foi lido.
+
+## [2026-11-09] ingest | FareedKhan-dev/kimi-k3-in-c
+- Criada `repos/github.com/fareedkhan-dev/kimi-k3-in-c.md`.
+- Criada `entities/fareedkhan-dev.md`.
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Inferência local e runtime de modelos") e `README.md`.
+- Somente o `README.md` foi lido.

@@ -437,6 +437,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Repositórios**
 - [cloudflare/agentic-inbox](repos/github.com/cloudflare/agentic-inbox.md) — cliente de e-mail self-hosted em Workers, com nove ferramentas de e-mail, isolamento por mailbox e servidor MCP.
 - [pizza-bot-app/pizza-bot](repos/github.com/pizza-bot-app/pizza-bot.md) — inbox local-first para trabalho de agentes de longa duração sobre DeepAgents/LangGraph, com filas Unread/Action, checkpoint e aprovações humanas.
+- [sandbox-quantum/switch](repos/github.com/sandbox-quantum/switch.md) — transforma canais de Slack, Teams, Discord e outros apps de mensageria em espaços de colaboração com agentes de IA com contexto persistente compartilhado.
 
 **Conceitos**
 - [Email para agentes](concepts/email-para-agentes.md)
@@ -444,6 +445,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Cloudflare](entities/cloudflare.md)
 - [Pizza Bot (pizza-bot-app)](entities/pizza-bot-app.md)
+- [sandbox-quantum](entities/sandbox-quantum.md)
 
 ## Trabalho, projetos e colaboração humano-agente
 
@@ -451,6 +453,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [croffasia/itsaplan](repos/github.com/croffasia/itsaplan.md) — issue tracker self-hosted em que agentes de IA são membros de projeto com permissões e issues no mesmo board.
+- [sandbox-quantum/switch](repos/github.com/sandbox-quantum/switch.md) — plataforma que coloca agentes de IA como participantes em canais de Slack, Teams, Discord e outras mensagerias, com contexto compartilhado entre pessoas e agentes.
 - [twentyhq/twenty](repos/github.com/twentyhq/twenty.md) — CRM open source "desenhado para IA" com objetos, views e workflows definidos como código e skills oficiais para agentes.
 
 **Conceitos**
@@ -459,6 +462,7 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Entidades**
 - [croffasia](entities/croffasia.md)
+- [sandbox-quantum](entities/sandbox-quantum.md)
 - [twentyhq](entities/twentyhq.md)
 
 ## Análise financeira e trading
@@ -510,6 +514,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — também nesta categoria pelos dois motores de inferência local do app desktop (sd.cpp bundled; Wan2GP via instalação própria ou servidor MCP remoto) para modelos de imagem/vídeo, em vez de LLMs.
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
 - [Drumih/turbo-fieldfare](repos/github.com/drumih/turbo-fieldfare.md) — runtime Swift + Metal model-specific para Gemma 4 26B-A4B no Apple Silicon: ~2 GB de RAM, core denso residente, cache LFU de 16 slots por camada e experts roteados lidos do SSD; 5–6 tok/s em 8 GB M2.
+- [FareedKhan-dev/kimi-k3-in-c](repos/github.com/fareedkhan-dev/kimi-k3-in-c.md) — runtime em C99 puro que executa o Kimi K3 (2,78T parâmetros) com 8 GB de RAM e sem GPU, via streaming de experts do disco, quantização MXFP4 e atenção recorrente KDA/MLA.
 - [JustAResearcher/gpu-unlock-ada](repos/github.com/justaresearcher/gpu-unlock-ada.md) — fork do gpu-unlock que estende o desbloqueio de tensor cores a RTX 4090 e GPUs Ada Lovelace experimentais (AD102–AD107, incluindo variantes de notebook), com opt-in por chip.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
@@ -525,6 +530,7 @@ tags: [navegacao, categorias, indice-tematico]
 **Entidades**
 - [Comfy Org](entities/comfy-org.md)
 - [Drumih (Andrey Mikhaylov)](entities/drumih.md)
+- [FareedKhan-dev (Fareed Khan)](entities/fareedkhan-dev.md)
 - [JustAResearcher (Tim)](entities/justaresearcher.md)
 - [OpenBMB](entities/openbmb.md)
 - [PrismML](entities/prismml.md)
@@ -625,6 +631,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [upstash/context7](repos/github.com/upstash/context7.md) — servidor MCP e CLI (`ctx7`) com duas ferramentas (`resolve-library-id`, `query-docs`) para documentação atual por biblioteca e versão.
 - [usestrix/strix](repos/github.com/usestrix/strix.md) — conecta-se a servidores MCP próprios do usuário durante um scan, e também aceita conexões MCP de entrada.
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — servidor MCP (`agent-browser mcp`) com perfis de ferramentas selecionáveis para automação de navegador.
+- [sandbox-quantum/switch](repos/github.com/sandbox-quantum/switch.md) — integra agentes via MCP em Slack, Teams, Discord e outros apps de mensageria; documentação servida via `claude mcp add`.
 - [zazencodes/zazencodes-season-3](repos/github.com/zazencodes/zazencodes-season-3.md) — três servidores/apps MCP distintos: `skybridge-dataset-visualizer` (MCP app com UI), `agent-identity-introduction` (MCP + identidade delegada via Descope) e `literature-review-consensus-mcp` (skill sobre o Consensus MCP).
 
 **Entidades**
