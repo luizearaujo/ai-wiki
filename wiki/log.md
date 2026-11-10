@@ -901,3 +901,10 @@
 - Criada `entities/fareedkhan-dev.md`.
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Inferência local e runtime de modelos") e `README.md`.
 - Somente o `README.md` foi lido.
+
+## [2026-11-10] ingest | google/elephant-goldfish-model
+- Criada `repos/github.com/google/elephant-goldfish-model.md`.
+- Criado `concepts/padrao-elephant-goldfish.md`.
+- Atualizada `entities/google.md` (adicionado EGM como segundo repositório documentado).
+- Atualizados `index.md`, `categorias.md` (repositório em "Harnesses e orquestração de agentes", "Skills, instruções e personalidades de agente" e "Engenharia e interfaces agent-first"; conceito em "Harnesses e orquestração de agentes") e `README.md`.
+- Somente o `README.md` foi lido.

@@ -3,13 +3,13 @@ type: entity
 kind: org
 url: https://github.com/google
 created: 2026-10-24
-updated: 2026-10-24
-tags: [navegacao-web-agentica, mcp]
+updated: 2026-11-10
+tags: [navegacao-web-agentica, mcp, agentes, design, spec]
 ---
 
 # Google
 
-> Nesta wiki, aparece pontualmente como mantenedora do ARTEMIS, agente de automação Android criado pelo time Pixel Test Engineering (PTE) Fusion.
+> Nesta wiki, mantenedora do ARTEMIS (automação Android) e do Elephant-Goldfish Model (plugin de design e revisão de software com agentes), ambos publicados como projetos Apache 2.0 não-oficialmente suportados.
 
 ## O que é
 
@@ -18,10 +18,11 @@ Google mantém uma organização ampla no GitHub; nesta wiki, o escopo documenta
 ## Repositórios e projetos
 
 - [google/artemis](../repos/github.com/google/artemis.md) — agente que converte instruções em linguagem natural em automação Android, com servidor MCP nativo e 99%+ de conclusão declarada no benchmark AndroidWorld.
+- [google/elephant-goldfish-model](../repos/github.com/google/elephant-goldfish-model.md) — plugin open-source de design e revisão de software: Elephant (contexto profundo) rascunha a spec; Goldfish (contexto limpo) a revisa expondo suposições ocultas.
 
 ## Relevância no ecossistema
 
-É outro exemplo, ao lado do ARTEMIS, de um time de testes/QA interno publicando uma ferramenta de automação como projeto Apache 2.0 com integração nativa a MCP — o mesmo padrão de "agente como camada de interface" já visto em navegação web, aqui aplicado a dispositivos Android reais.
+Publica ferramentas de agentes em dois eixos distintos: automação de interfaces (ARTEMIS) e engenharia de software com spec-driven development (EGM). Ambos são projetos Apache 2.0 não-oficialmente suportados — um padrão recorrente de times internos publicando ferramentas como open source.
 
 ## Relações
 
@@ -32,4 +33,5 @@ Google mantém uma organização ampla no GitHub; nesta wiki, o escopo documenta
 ## Fontes
 
 - README de [google/artemis](../repos/github.com/google/artemis.md), commit `351ca8422f7b5b54e80a9c1ce03a222e02415b6b` (consultado em 2026-10-24).
-- Metadados da API do GitHub, consultados em 2026-10-24.
+- README de [google/elephant-goldfish-model](../repos/github.com/google/elephant-goldfish-model.md), commit `bdcfe8cdaee99699c4b2cb7ad4e3b2c1a6b56a31` (consultado em 2026-11-10).
+- Metadados da API do GitHub, consultados em 2026-10-24 e 2026-11-10.

@@ -60,6 +60,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [camtrik/agent-trail](repos/github.com/camtrik/agent-trail.md) — dashboard local de observabilidade que agrega token usage, custo, tool calls e replay de sessões de Claude Code, Codex, OpenCode, OpenClaw e Qoder.
 - [Fosowl/agenticSeek](repos/github.com/fosowl/agenticseek.md) — assistente local com seleção automática entre agentes de navegação web, código e planejamento, sem depender de nuvem.
 - [garrytan/gstack](repos/github.com/garrytan/gstack.md) — 23 especialistas e oito power tools no ciclo Think → Plan → Build → Review → Test → Ship → Reflect.
+- [google/elephant-goldfish-model](repos/github.com/google/elephant-goldfish-model.md) — Elephant (contexto profundo) rascunha a spec; Goldfish (contexto limpo) a revisa com sete skills; requer subagentes frescos para a fase de revisão.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que orquestra 12 CLIs em um escritório virtual, com hive de memória e gates humanos.
 - [hellosverre/claude-skins](repos/github.com/hellosverre/claude-skins.md) — mod `/skin`: redesenha tool calls, diffs, tabelas e Mermaid do Claude Code em dezesseis temas, repintáveis ou desenhados pelo próprio Claude.
@@ -85,6 +86,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Memória de agente](concepts/memoria-de-agente.md)
 - [Observabilidade de agentes de código](concepts/observabilidade-de-agentes.md)
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md)
+- [Padrão Elephant-Goldfish](concepts/padrao-elephant-goldfish.md)
 - [Plugins de agente](concepts/plugins-de-agente.md)
 - [TDD para agentes](concepts/tdd-para-agentes.md)
 
@@ -149,6 +151,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [firecrawl/cli](repos/github.com/firecrawl/cli.md) — três famílias de skills (core, build, workflows) para busca, scrape e extração web, distribuídas por catálogo próprio e instaladas em todos os harnesses detectados.
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
+- [google/elephant-goldfish-model](repos/github.com/google/elephant-goldfish-model.md) — plugin com sete skills de design e revisão de software (brainstorm, draft, review, review loop, resolve, bootstrap, drift report) para Claude Code, Codex e Antigravity.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [Leonxlnx/taste-skill](repos/github.com/leonxlnx/taste-skill.md) — Família de Agent Skills anti-slop que sorteia direção de arte, usa imagens reais creditadas e inspeciona a página em navegador; a skill padrão também cobre dashboards e telas de app.
 - [MadsLorentzen/ai-job-search](repos/github.com/madslorentzen/ai-job-search.md) — skills de portal de vaga com contrato padronizado e auto-descoberta, dentro de um framework de candidatura sobre Claude Code.
@@ -562,6 +565,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [vercel-labs/agent-browser](repos/github.com/vercel-labs/agent-browser.md) — CLI Rust nativa que controla o Chrome via CDP sem Node.js/Playwright, com snapshots de acessibilidade estáveis e servidor MCP.
 - [browser-use/browser-use](repos/github.com/browser-use/browser-use.md) — biblioteca/CLI/API open source com a classe `Agent`, modelo próprio BU2 para automação de navegador, navegador em nuvem com stealth e toolset oficial de 31 ações para o SDK da Anthropic.
 - [google/artemis](repos/github.com/google/artemis.md) — automação Android via linguagem natural, com servidor MCP nativo, perfis Flash (reativo) e Pro (planejamento multiagente com verificação) e 99%+ no benchmark AndroidWorld.
+- [google/elephant-goldfish-model](repos/github.com/google/elephant-goldfish-model.md) — plugin de spec-driven development com sete skills; Elephant (contexto profundo) rascunha o design; Goldfish (contexto limpo) o revisa; requer subagentes frescos para garantir perspectiva genuína.
 - [JuliusBrussee/caveman](repos/github.com/juliusbrussee/caveman.md) — Skill e proxy que reduzem tokens de entrada e saída comprimindo a linguagem e o contexto, com roteamento de modelo, blocks reutilizáveis e compressão de logs, JSON e páginas.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [pbakaus/impeccable](repos/github.com/pbakaus/impeccable.md) — Linguagem de design para agentes de código com skill de 24 comandos, iteração visual no navegador e detector determinístico de 61 regras contra vícios do frontend gerado por IA.

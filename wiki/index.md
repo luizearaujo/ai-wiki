@@ -44,6 +44,7 @@
 - [github/awesome-copilot](repos/github.com/github/awesome-copilot.md) — Catálogo comunitário de agentes, instructions, skills e plugins para o GitHub Copilot, com site de busca e `llms.txt` para agentes.
 - [google-research/harness2](repos/github.com/google-research/harness2.md) — framework de pesquisa que otimiza automaticamente o harness de um agente por recursão Propose–Probe–Compose, com paper (arXiv:2610.14224) e três benchmarks profissionais.
 - [google/artemis](repos/github.com/google/artemis.md) — agente que converte linguagem natural em automação Android confiável, com servidor MCP nativo e 99%+ de conclusão declarada no benchmark AndroidWorld; criado pelo time Pixel Test Engineering (PTE) Fusion.
+- [google/elephant-goldfish-model](repos/github.com/google/elephant-goldfish-model.md) — plugin open-source de design e revisão de software com agentes: Elephant (contexto profundo) rascunha a spec; Goldfish (contexto limpo) a revisa expondo suposições ocultas; sete skills para Claude Code, Codex e Antigravity.
 - [goul4rt/lgpd-skills](repos/github.com/goul4rt/lgpd-skills.md) — maestro + 18 sub-skills de conformidade com a LGPD, resoluções da ANPD e o ECA Digital, instaláveis em cinco agentes.
 - [Graphify-Labs/graphify](repos/github.com/graphify-labs/graphify.md) — skill e CLI que transforma código e documentação em grafo de conhecimento com arestas extraídas/inferidas, sem vector store, e oferece um serviço Cloud.
 - [HarnessMD/munder-difflin](repos/github.com/harnessmd/munder-difflin.md) — app desktop que transforma CLIs de agentes em um escritório virtual, com orquestrador Michael, hive de memória/mailbox e edição Pro.
@@ -195,6 +196,7 @@
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md) — browser real controlado pelo agente em um loop de observação, ação e nova observação, com representação estruturada e isolamento de sessão.
 - [Observabilidade de agentes de código](concepts/observabilidade-de-agentes.md) — técnicas e ferramentas que transformam atividade interna de agentes (tool calls, tokens, subagentes, progresso de tarefas) em dados consultáveis sem modificar ou reexecutar os agentes.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
+- [Padrão Elephant-Goldfish](concepts/padrao-elephant-goldfish.md) — design de software com dois perfis de agente: Elephant (contexto profundo) rascunha a spec; Goldfish (contexto limpo) a revisa expondo suposições ocultas.
 - [Plugins de agente](concepts/plugins-de-agente.md) — unidades de extensão que adicionam ferramentas, UI, serviços e MCP a um agente sem alterar o núcleo.
 - [Produção de vídeo agêntica](concepts/producao-de-video-agentica.md) — pipelines declarados e skills de direção que levam um agente de pesquisa e roteiro à renderização e validação de vídeo.
 - [Raspagem web para agentes e LLMs](concepts/raspagem-web-para-agentes.md) — ferramentas que convertem sites em dados estruturados ou Markdown limpo, pensados para alimentar LLMs, RAG e agentes.
