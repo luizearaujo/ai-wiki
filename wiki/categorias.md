@@ -520,6 +520,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [FareedKhan-dev/kimi-k3-in-c](repos/github.com/fareedkhan-dev/kimi-k3-in-c.md) — runtime em C99 puro que executa o Kimi K3 (2,78T parâmetros) com 8 GB de RAM e sem GPU, via streaming de experts do disco, quantização MXFP4 e atenção recorrente KDA/MLA.
 - [JustAResearcher/gpu-unlock-ada](repos/github.com/justaresearcher/gpu-unlock-ada.md) — fork do gpu-unlock que estende o desbloqueio de tensor cores a RTX 4090 e GPUs Ada Lovelace experimentais (AD102–AD107, incluindo variantes de notebook), com opt-in por chip.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
+- [MakazhanAlpamys/Soup](repos/github.com/makazhanalpamys/soup.md) — CLI Python de fine-tuning com layer streaming (BETA): treina modelos 8B em GPUs laptop de 4 GB via streaming de camadas congeladas da RAM para a GPU uma de cada vez; também serve modelos via API OpenAI-compatible.
 - [OpenBMB/MiniCPM](repos/github.com/openbmb/minicpm.md) — família de LLMs compactos para dispositivos, com MiniCPM5 denso, SALA híbrido para 1M+ tokens, MiniCPM4/4.1 com atenção esparsa treinável e cookbooks de deploy/fine-tune.
 - [PrismML-Eng/Bonsai-demo](repos/github.com/prismml-eng/bonsai-demo.md) — demo para rodar localmente a família Bonsai 2 (2B–27B), com pesos ternários (~1,75 bit/peso), visão, tool calling e cliente MCP.
 - [unslothai/unsloth](repos/github.com/unslothai/unsloth.md) — app desktop, UI web e biblioteca para treinar e rodar LLMs, diffusion, embedding e áudio localmente, com fine-tuning 2× mais rápido e 70% menos VRAM alegados pelo projeto.
@@ -535,6 +536,7 @@ tags: [navegacao, categorias, indice-tematico]
 - [Drumih (Andrey Mikhaylov)](entities/drumih.md)
 - [FareedKhan-dev (Fareed Khan)](entities/fareedkhan-dev.md)
 - [JustAResearcher (Tim)](entities/justaresearcher.md)
+- [MakazhanAlpamys (Alpamys Makazhan)](entities/makazhanalpamys.md)
 - [OpenBMB](entities/openbmb.md)
 - [PrismML](entities/prismml.md)
 - [Unsloth AI (unslothai)](entities/unslothai.md)
@@ -548,10 +550,12 @@ tags: [navegacao, categorias, indice-tematico]
 
 **Repositórios**
 - [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus de ~20,1B tokens, tokenizador próprio, pré-treino em Megatron-LM, conversão para HuggingFace e avaliação pareada em quatro benchmarks.
+- [MakazhanAlpamys/Soup](repos/github.com/makazhanalpamys/soup.md) — CLI Python que fine-tuna qualquer modelo do HuggingFace a partir de um único YAML, com layer streaming para treinar modelos 8B em GPUs laptop de 4 GB de VRAM.
 - [NVIDIA-NeMo/Nemotron](repos/github.com/nvidia-nemo/nemotron.md) — hub de receitas de treinamento (pré-treino → SFT → RL) e cookbooks de uso para a família Nemotron, incluindo o Nemotron 3 Ultra (550B/55B, híbrido Mamba-Attention MoE, contexto de 1M).
 
 **Entidades**
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md)
+- [MakazhanAlpamys (Alpamys Makazhan)](entities/makazhanalpamys.md)
 - [NVIDIA](entities/nvidia.md)
 
 ## Engenharia e interfaces agent-first

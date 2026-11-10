@@ -2,7 +2,7 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-11-05 (1 repositório: goul4rt/lgpd-skills; 1 entidade: goul4rt; 1 conceito: conformidade-regulatoria-com-agentes)
+> Última atualização: 2026-11-10 (1 repositório: MakazhanAlpamys/Soup; 1 entidade: makazhanalpamys)
 
 ## Repositórios
 
@@ -69,6 +69,7 @@
 - [LibreChat-AI/LibreChat](repos/github.com/librechat-ai/librechat.md) — plataforma self-hosted de chat com IA que unifica todos os grandes provedores, com Agentes, MCP, Skills, Code Interpreter e Artifacts; antes `danny-avila/LibreChat`.
 - [littledivy/mimic](repos/github.com/littledivy/mimic.md) — captura tráfego de app iOS/web via mitmproxy, extrai auth e usa Claude para gerar um cliente Python chamável como biblioteca.
 - [MadsLorentzen/ai-job-search](repos/github.com/madslorentzen/ai-job-search.md) — framework de candidatura a emprego sobre Claude Code: avaliação de vaga, redação de CV/carta em LaTeX, revisão drafter-reviewer e preparo de entrevista.
+- [MakazhanAlpamys/Soup](repos/github.com/makazhanalpamys/soup.md) — CLI Python que fine-tuna qualquer modelo do HuggingFace a partir de um único YAML, com layer streaming para treinar modelos 8B em GPUs laptop de 4 GB de VRAM.
 - [mattpocock/skills](repos/github.com/mattpocock/skills.md) — Coleção de skills pequenas e compostas para engenharia com agentes — grilling, domínio compartilhado, TDD, design de módulos e produtividade — instaláveis em Claude Code, Codex, Copilot, Gemini CLI e outros.
 - [MODSetter/SurfSense](repos/github.com/modsetter/surfsense.md) — app desktop air-gapped alternativo ao Notebook LM, que pesquisa, transforma e edita documentos do usuário localmente.
 - [morluto/rea](repos/github.com/morluto/rea.md) — CLI e servidor MCP local para engenharia reversa de binários, aplicações e comportamento em execução com agentes.
@@ -275,6 +276,7 @@
 - [littledivy](entities/littledivy.md) — autor do mimic, ferramenta de captura de tráfego e geração de cliente Python via Claude.
 - [Luis Novo (lfnovo)](entities/lfnovo.md) — autor do Open Notebook, alternativa self-hosted ao Notebook LM, e da biblioteca Esperanto.
 - [Mads Lorentzen (MadsLorentzen)](entities/madslorentzen.md) — geofísico autor do ai-job-search, framework de candidatura a emprego sobre Claude Code.
+- [MakazhanAlpamys (Alpamys Makazhan)](entities/makazhanalpamys.md) — autor do Soup CLI e da técnica de layer streaming para fine-tuning de modelos 8B em GPUs laptop de 4 GB de VRAM.
 - [mastepanoski](entities/mastepanoski.md) — autor da coleção `claude-skills`, incluindo a skill de auditoria de UX.
 - [Matt Pocock (mattpocock)](entities/mattpocock.md) — Educador de TypeScript e criador do repositório `skills`, coleção de instruções de engenharia para agentes.
 - [Matt Van Horn (mvanhorn)](entities/mvanhorn.md) — cofundador de empresas anteriores (June, adquirida pela Weber Grills; a empresa que se tornou a Lyft), autor do last30days-skill.

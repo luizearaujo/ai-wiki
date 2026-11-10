@@ -908,3 +908,9 @@
 - Atualizada `entities/google.md` (adicionado EGM como segundo repositório documentado).
 - Atualizados `index.md`, `categorias.md` (repositório em "Harnesses e orquestração de agentes", "Skills, instruções e personalidades de agente" e "Engenharia e interfaces agent-first"; conceito em "Harnesses e orquestração de agentes") e `README.md`.
 - Somente o `README.md` foi lido.
+
+## [2026-11-10] ingest | MakazhanAlpamys/Soup
+- Criada `repos/github.com/makazhanalpamys/soup.md`.
+- Criada `entities/makazhanalpamys.md`.
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Modelos abertos e treinamento de LLMs" e "Inferência local e runtime de modelos") e `README.md`.
+- Somente o `README.md` foi lido.
