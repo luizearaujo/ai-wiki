@@ -514,9 +514,11 @@ tags: [navegacao, categorias, indice-tematico]
 > Execução de modelos de linguagem em hardware próprio, com decisões explícitas sobre onde os pesos residem e como o runtime troca capacidade por latência.
 
 **Repositórios**
+- [AlexsJones/llmfit](repos/github.com/alexsjones/llmfit.md) — CLI/TUI em Rust que detecta CPU, RAM, GPU e VRAM e recomenda, por scoring multidimensional, quais modelos open-source (GGUF, AWQ, GPTQ, EXL2) rodam bem no hardware, com benchmarks comunitários e API REST.
 - [Anil-matcha/Open-Generative-AI](repos/github.com/anil-matcha/open-generative-ai.md) — também nesta categoria pelos dois motores de inferência local do app desktop (sd.cpp bundled; Wan2GP via instalação própria ou servidor MCP remoto) para modelos de imagem/vídeo, em vez de LLMs.
 - [Comfy-Org/ComfyUI](repos/github.com/comfy-org/comfyui.md) — também nesta categoria pelo weight streaming assíncrono que roda modelos de difusão grandes com apenas 4GB de VRAM, mesmo princípio de troca memória↔latência do colibri aplicado a imagem/vídeo em vez de MoE de texto.
 - [Drumih/turbo-fieldfare](repos/github.com/drumih/turbo-fieldfare.md) — runtime Swift + Metal model-specific para Gemma 4 26B-A4B no Apple Silicon: ~2 GB de RAM, core denso residente, cache LFU de 16 slots por camada e experts roteados lidos do SSD; 5–6 tok/s em 8 GB M2.
+- [Edge0-AI/Edge0](repos/github.com/edge0-ai/edge0.md) — framework C++ de inferência MoE com streaming de especialistas do SSD, Latent MoE e router preditivo; inclui modelos fundação 145B/120B treinados nativamente em 4 bits para laptops NVIDIA.
 - [FareedKhan-dev/kimi-k3-in-c](repos/github.com/fareedkhan-dev/kimi-k3-in-c.md) — runtime em C99 puro que executa o Kimi K3 (2,78T parâmetros) com 8 GB de RAM e sem GPU, via streaming de experts do disco, quantização MXFP4 e atenção recorrente KDA/MLA.
 - [JustAResearcher/gpu-unlock-ada](repos/github.com/justaresearcher/gpu-unlock-ada.md) — fork do gpu-unlock que estende o desbloqueio de tensor cores a RTX 4090 e GPUs Ada Lovelace experimentais (AD102–AD107, incluindo variantes de notebook), com opt-in por chip.
 - [JustVugg/colibri](repos/github.com/justvugg/colibri.md) — motor em C puro para MoE com experts transmitidos do disco, tiers opcionais de Vulkan/CUDA/Metal, servidor compatível com OpenAI/Anthropic e modo de decisão System One.
@@ -529,11 +531,14 @@ tags: [navegacao, categorias, indice-tematico]
 **Conceitos**
 - [Atenção esparsa para contexto longo](concepts/atencao-esparsa-para-contexto-longo.md)
 - [LLMs compactos on-device](concepts/llms-compactos-on-device.md)
+- [MoE latente](concepts/moe-latente.md)
 - [Streaming de experts em MoE](concepts/streaming-de-experts-em-moe.md)
 
 **Entidades**
+- [AlexsJones (Alex Jones)](entities/alexsjones.md)
 - [Comfy Org](entities/comfy-org.md)
 - [Drumih (Andrey Mikhaylov)](entities/drumih.md)
+- [Edge0-AI](entities/edge0-ai.md)
 - [FareedKhan-dev (Fareed Khan)](entities/fareedkhan-dev.md)
 - [JustAResearcher (Tim)](entities/justaresearcher.md)
 - [MakazhanAlpamys (Alpamys Makazhan)](entities/makazhanalpamys.md)
@@ -549,11 +554,13 @@ tags: [navegacao, categorias, indice-tematico]
 > Treinamento de modelos do zero, corpus, tokenizador, dinâmica de treino e avaliação — com reprodutibilidade e proveniência como critério de publicação.
 
 **Repositórios**
+- [Edge0-AI/Edge0](repos/github.com/edge0-ai/edge0.md) — família de modelos fundação com 145B/120B parâmetros treinados nativamente em 4 bits com arquitetura Latent MoE, derivados de Qwen3.8-Flash-Next; inclui benchmarks de qualidade e detalhes de arquitetura.
 - [Instituto-IA-LNCC/manaca-1b-base](repos/github.com/instituto-ia-lncc/manaca-1b-base.md) — modelo base de ~1,72B treinado do zero para português do Brasil, com corpus de ~20,1B tokens, tokenizador próprio, pré-treino em Megatron-LM, conversão para HuggingFace e avaliação pareada em quatro benchmarks.
 - [MakazhanAlpamys/Soup](repos/github.com/makazhanalpamys/soup.md) — CLI Python que fine-tuna qualquer modelo do HuggingFace a partir de um único YAML, com layer streaming para treinar modelos 8B em GPUs laptop de 4 GB de VRAM.
 - [NVIDIA-NeMo/Nemotron](repos/github.com/nvidia-nemo/nemotron.md) — hub de receitas de treinamento (pré-treino → SFT → RL) e cookbooks de uso para a família Nemotron, incluindo o Nemotron 3 Ultra (550B/55B, híbrido Mamba-Attention MoE, contexto de 1M).
 
 **Entidades**
+- [Edge0-AI](entities/edge0-ai.md)
 - [Instituto de IA do LNCC (Instituto-IA-LNCC)](entities/instituto-ia-lncc.md)
 - [MakazhanAlpamys (Alpamys Makazhan)](entities/makazhanalpamys.md)
 - [NVIDIA](entities/nvidia.md)

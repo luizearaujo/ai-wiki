@@ -2,12 +2,13 @@
 
 > Catálogo de todas as páginas da wiki. Atualize a cada ingestão, consulta arquivada ou remoção.
 > Para navegação por assunto, veja o [catálogo de categorias](categorias.md).
-> Última atualização: 2026-11-10 (1 repositório: MakazhanAlpamys/Soup; 1 entidade: makazhanalpamys)
+> Última atualização: 2026-11-13 (2 repositórios: AlexsJones/llmfit, Edge0-AI/Edge0; 2 entidades: alexsjones, edge0-ai; 1 conceito: moe-latente)
 
 ## Repositórios
 
 - [addyosmani/agent-skills](repos/github.com/addyosmani/agent-skills.md) — Pacote de 25 skills de engenharia de produção que codifica spec, plano, build, teste, revisão e lançamento como workflows com gates de verificação para agentes.
 - [affaan-m/ECC](repos/github.com/affaan-m/ecc.md) — harness de agente com 71 agentes, 311 skills, memória portátil e AgentShield; processo de engenharia sobre Claude Code, Codex e outros clientes.
+- [AlexsJones/llmfit](repos/github.com/alexsjones/llmfit.md) — CLI/TUI em Rust que detecta hardware (CPU, RAM, GPU, VRAM) e recomenda, por scoring multidimensional, quais modelos open-source rodam bem no hardware detectado.
 - [amosblomqvist/learnharness](repos/github.com/amosblomqvist/learnharness.md) — harness de agente para aprendizado personalizado: avalia, mapeia dependências, ensina em etapas e reforça com exercícios adaptativos, com grafo de conhecimento local persistente.
 - [AgriciDaniel/claude-ads](repos/github.com/agricidaniel/claude-ads.md) — skill de mídia paga que audita contas em 12 plataformas com achado, evidência, cobertura e escrita gated por capacidade.
 - [AgriciDaniel/claude-seo](repos/github.com/agricidaniel/claude-seo.md) — plugin gratuito de auditoria de SEO para Claude Code com 26 sub-skills e 19 agentes especialistas, cobrindo SEO técnico, E-E-A-T, schema, GEO, local e e-commerce.
@@ -33,6 +34,7 @@
 - [dietrichgebert/ponytail](repos/github.com/dietrichgebert/ponytail.md) — Skill e plugin que faz o agente escrever só o código necessário — escada YAGNI em sete degraus, revisão e auditoria de risco, testes preservados e painel de custo e tokens no Claude Code.
 - [Drumih/turbo-fieldfare](repos/github.com/drumih/turbo-fieldfare.md) — runtime Swift + Metal para Gemma 4 26B-A4B em ~2 GB de RAM em Apple Silicon: core residente, experts roteados via SSD com cache LFU, app nativo, CLI e servidor OpenAI-compatible.
 - [duixcom/Duix-Avatar](repos/github.com/duixcom/duix-avatar.md) — ferramenta offline de clonagem de aparência e voz que sintetiza vídeos de um avatar digital com lip-sync, a partir de texto ou fala.
+- [Edge0-AI/Edge0](repos/github.com/edge0-ai/edge0.md) — framework de inferência MoE em streaming e família de modelos fundação com até 145B parâmetros para laptops e celulares, via Latent MoE, offload de especialistas no SSD e router preditivo.
 - [Egonex-AI/Understand-Anything](repos/github.com/egonex-ai/understand-anything.md) — Plugin e skill que transformam código, domínios de negócio ou wikis em grafo de conhecimento interativo com pipeline híbrido tree-sitter/LLM, dashboard, busca, tours e análise de impacto.
 - [every-app/open-seo](repos/github.com/every-app/open-seo.md) — stack de SEO self-hosted com servidor MCP e Agent Skills para pesquisa de palavra-chave, rastreamento de posição, backlinks e auditoria de site.
 - [FareedKhan-dev/kimi-k3-in-c](repos/github.com/fareedkhan-dev/kimi-k3-in-c.md) — runtime de inferência em C99 puro que executa o Kimi K3 (2,78T parâmetros) com apenas 8 GB de RAM e sem GPU, via streaming de experts do disco e quantização MXFP4.
@@ -194,6 +196,7 @@
 - [LLMs compactos on-device](concepts/llms-compactos-on-device.md) — modelos pequenos executados no dispositivo, com arquitetura padrão, quantização e runtimes locais em troca de privacidade e latência.
 - [Memória de agente](concepts/memoria-de-agente.md) — formatos e mecanismos para persistir decisões e handoffs entre sessões, harnesses e agentes.
 - [Model Context Protocol (MCP)](concepts/model-context-protocol.md) — protocolo que conecta agentes a ferramentas e fontes externas.
+- [MoE latente](concepts/moe-latente.md) — variante de MoE em que as entradas dos especialistas são comprimidas para um espaço latente antes do roteamento, mantendo atenção em largura completa.
 - [Navegação web agêntica](concepts/navegacao-web-agentica.md) — browser real controlado pelo agente em um loop de observação, ação e nova observação, com representação estruturada e isolamento de sessão.
 - [Observabilidade de agentes de código](concepts/observabilidade-de-agentes.md) — técnicas e ferramentas que transformam atividade interna de agentes (tool calls, tokens, subagentes, progresso de tarefas) em dados consultáveis sem modificar ou reexecutar os agentes.
 - [Orquestração multiagente](concepts/orquestracao-multiagente.md) — coordenação de vários agentes com papéis, estado compartilhado, handoffs e supervisão.
@@ -211,6 +214,7 @@
 
 - [Addy Osmani (addyosmani)](entities/addyosmani.md) — Engenheiro conhecido por performance web e autor do `agent-skills`, coleção de skills de engenharia de produção.
 - [affaan-m](entities/affaan-m.md) — Affaan Mustafa, autor do ECC, harness de agente com foco em processo, memória e segurança.
+- [AlexsJones (Alex Jones)](entities/alexsjones.md) — engenheiro de software e autor do llmfit, CLI em Rust para detecção de hardware e recomendação de modelos open-source compatíveis.
 - [amosblomqvist](entities/amosblomqvist.md) — Amos Blomqvist, autor do LearnHarness, harness de agente para aprendizado personalizado com grafo de conhecimento persistente.
 - [Agrici Daniel (AgriciDaniel)](entities/agricidaniel.md) — autor do Claude Ads e de skills abertas de marketing para Claude e Codex.
 - [Alex Newman (thedotmack)](entities/thedotmack.md) — autor do claude-mem, sistema de memória persistente para Claude Code com busca híbrida em 3 camadas.
@@ -239,6 +243,7 @@
 - [DietrichGebert](entities/dietrichgebert.md) — Autor do `ponytail`, skill que orienta agentes a aplicar YAGNI e escrever o mínimo necessário.
 - [Drumih](entities/drumih.md) — Andrey Mikhaylov, engenheiro iOS e Metal, autor do TurboFieldfare, runtime de inferência para Gemma 4 26B-A4B em Apple Silicon.
 - [Duix](entities/duixcom.md) — empresa de Singapura especializada em soluções de avatar digital, que abriu o código de sua tecnologia de clonagem e produção de vídeo.
+- [Edge0-AI](entities/edge0-ai.md) — organização criadora do motor de inferência Edge0 e dos modelos fundação nativos de dispositivo com até 145B parâmetros via Latent MoE e streaming de pesos.
 - [Egonex-AI](entities/egonex-ai.md) — organização que mantém o Understand Anything, plugin de skills que gera grafos de conhecimento de código com dashboard.
 - [Every App (every-app)](entities/every-app.md) — organização mantenedora do OpenSEO, stack de SEO self-hosted com servidor MCP e Agent Skills.
 - [FareedKhan-dev (Fareed Khan)](entities/fareedkhan-dev.md) — autor do kimi-k3-in-c, runtime em C99 puro que roda o Kimi K3 com 8 GB de RAM e sem GPU.

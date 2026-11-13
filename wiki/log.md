@@ -914,3 +914,16 @@
 - Criada `entities/makazhanalpamys.md`.
 - Atualizados `index.md`, `categorias.md` (repositório e entidade em "Modelos abertos e treinamento de LLMs" e "Inferência local e runtime de modelos") e `README.md`.
 - Somente o `README.md` foi lido.
+
+## [2026-11-13] ingest | AlexsJones/llmfit
+- Criada `repos/github.com/alexsjones/llmfit.md`.
+- Criada `entities/alexsjones.md`.
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Inferência local e runtime de modelos") e `README.md`.
+- Somente o `README.md` foi lido.
+
+## [2026-11-13] ingest | Edge0-AI/Edge0
+- Criada `repos/github.com/edge0-ai/edge0.md`.
+- Criada `entities/edge0-ai.md`.
+- Criado `concepts/moe-latente.md`.
+- Atualizados `index.md`, `categorias.md` (repositório e entidade em "Inferência local e runtime de modelos" e "Modelos abertos e treinamento de LLMs"; conceito em "Inferência local e runtime de modelos") e `README.md`.
+- Lidos `README.md` e `docs/models/edge0-145b.md` com autorização explícita do usuário.
